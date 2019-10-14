@@ -1,0 +1,714 @@
+{
+  "name": "Rowan",
+  "rarity": "Epic",
+  "element": "Void",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "S",
+    "campaign": "C",
+    "arena_offense": "S",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "SS",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "SS",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 130,
+    "campaign": 4.1,
+    "arena_offense": 4.3,
+    "arena_defense": 3.6,
+    "clan_boss": 4.6,
+    "ice_guardian": 4.2,
+    "dragon": 4.3,
+    "spider": 3.2,
+    "fire_knight": 4.2,
+    "minotaur": 4.3,
+    "force_dungeon": 4.3,
+    "magic_dungeon": 4.1,
+    "spirit_dungeon": 4.3,
+    "void_dungeon": 4.1
+  },
+  "slug": "rowan",
+  "characteristics": {
+    "60": {
+      "hp": 16845,
+      "attack": 1487,
+      "defense": 694,
+      "speed": 108,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Slash",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 100% [Heal Reduction] debuff for 2 turns. Damage increases according to SPD.\n\nDamage based on: [ATK] [SPD]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Buff/Debuff Chance +5%",
+      "slug": "slash",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/debuffs/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "SPD"
+      ],
+      "giid": "180_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "spd"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "spd"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.55,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "spd"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.55,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "spd"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.6,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "spd"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        }
+      ],
+      "image_slug": "0c42703846ecae748ab79eab9c5a37ed",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Scourge",
+      "raw_description": "Attacks 3 times at random. Each hit has a 30% chance of placing a [Stun] debuff for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Damage +10%\n\nLvl. 4 Buff/Debuff Chance +10%\n\nLvl. 5 Buff/Debuff Chance +10%",
+      "slug": "scourge",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuffs/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "180_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "73c4831af3fa619f8f7fd436de73345c",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Blade Surge",
+      "raw_description": "Attacks 1 enemy 4 times. Each hit has a 50% chance of placing a 5% [Poison] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Buff/Debuff Chance +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "blade-surge",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/debuffs/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "180_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 4,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 4,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 4,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.55,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 4,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.65,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 4,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.65,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "786f19c447b20e811cc1b99611b4e991",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Banner Lords",
+    "slug": "banner lords",
+    "website_link": "/factions/banner lords/",
+    "image_slug": "image-faction-banner lords",
+    "number_of_champions": 36,
+    "default_description": "Banner Lords is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner Lords",
+        "banner lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll."
+  },
+  "faction_slug": "banner lords",
+  "website_link": "/champions/rowan/",
+  "image_slug": "image-champion-rowan",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Rowan is a epic attack champion from the faction Banner Lords doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Rowan",
+      "rowan"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner Lords"
+        },
+        "description": "Member of the faction Banner Lords, Rowan is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-rowan.jpg",
+        "name": "Rowan",
+        "url": "https://raid-codex.com/champions/rowan/"
+      }
+    ]
+  },
+  "default_description": "Rowan is a epic attack champion from the faction Banner Lords doing void damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "180",
+  "synergy": [],
+  "thumbnail": "045117b0e0a11a242b9765e79cbf113f",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

@@ -1,0 +1,15 @@
+{
+  "effect_type": "buff",
+  "type": "Block Debuffs",
+  "value": 0,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-buff-block-debuffs",
+  "slug": "block-debuffs",
+  "website_link": "/buffs/block-debuffs",
+  "extra": false,
+  "raw_description": "While this buff is active, the Champion is immune to all debuffs. Instant negative effect such as Decrease Turn Meter are not affected and work as normal.",
+  "places_if": "",
+  "amount": 0
+}

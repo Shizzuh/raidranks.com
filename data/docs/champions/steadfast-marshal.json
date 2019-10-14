@@ -1,0 +1,243 @@
+{
+  "name": "Steadfast Marshal",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "steadfast-marshal",
+  "characteristics": {
+    "60": {
+      "hp": 20640,
+      "attack": 870,
+      "defense": 782,
+      "speed": 90,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Thunderous Whallop",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Provoke] debuff for 1 turn if the target's MAX HP is lower than this Champions. Damage based on HP\n\nLvl. 2 Chance +5%.\n\nLvl. 3 Chance +5%.\n\nLvl. 4 Chance +5%.\n\nLvl. 5 Chance +10%.",
+      "slug": "thunderous-whallop",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3950_s1",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "4217393ceeddad83de8ff8c43f907831",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Hold Fast",
+      "raw_description": "Places a 60% [increase DEF] buff on this Champion for 2 turns. Grants an Extra Turn.\n\nLvl. 2 Cooldown -1.",
+      "slug": "hold-fast",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/buffs/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3950_s2",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "ad55063863b25ed767f29c5d27039273",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Covered Retreat",
+      "raw_description": "Places a [Veil] buff on all allies except this Champion for 2 turns.\n\nLvl. 2 Cooldown -1.",
+      "slug": "covered-retreat",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-veil",
+          "slug": "veil",
+          "website_link": "/buffs/veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3950_s3",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "4575fb7db68f8cbe587ad1dad057556f",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Banner Lords",
+    "slug": "banner lords",
+    "website_link": "/factions/banner lords/",
+    "image_slug": "image-faction-banner lords",
+    "number_of_champions": 36,
+    "default_description": "Banner Lords is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner Lords",
+        "banner lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll."
+  },
+  "faction_slug": "banner lords",
+  "website_link": "/champions/steadfast-marshal/",
+  "image_slug": "image-champion-steadfast-marshal",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Steadfast Marshal is a rare hp champion from the faction Banner Lords doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Steadfast Marshal",
+      "steadfast-marshal"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner Lords"
+        },
+        "description": "Member of the faction Banner Lords, Steadfast Marshal is a champion of Rare rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-steadfast-marshal.jpg",
+        "name": "Steadfast Marshal",
+        "url": "https://raid-codex.com/champions/steadfast-marshal/"
+      }
+    ]
+  },
+  "default_description": "Steadfast Marshal is a rare hp champion from the faction Banner Lords doing void damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3950",
+  "synergy": [],
+  "thumbnail": "bb702465f3c3141263ddd046c9585b27",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

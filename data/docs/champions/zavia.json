@@ -1,0 +1,779 @@
+{
+  "name": "Zavia",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "S",
+    "campaign": "SS",
+    "arena_offense": "SS",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "SS",
+    "ice_guardian": "SS",
+    "dragon": "A",
+    "spider": "SS",
+    "fire_knight": "SS",
+    "minotaur": "S",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "SS",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 624,
+    "campaign": 4.9,
+    "arena_offense": 4.9,
+    "arena_defense": 4.8,
+    "clan_boss": 4.9,
+    "ice_guardian": 4.9,
+    "dragon": 4.9,
+    "spider": 4.9,
+    "fire_knight": 4.9,
+    "minotaur": 4.9,
+    "force_dungeon": 4.9,
+    "magic_dungeon": 4.9,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.9
+  },
+  "slug": "zavia",
+  "characteristics": {
+    "60": {
+      "hp": 18660,
+      "attack": 1586,
+      "defense": 749,
+      "speed": 105,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in all Battles by 33%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Transfix",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 40% chance of placing a 5% [Poison] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%",
+      "slug": "transfix",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/debuffs/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3480_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "5d4061a484355687fae5de4c7a68f72c",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Poison Rain",
+      "raw_description": "Attacks all enemies 2 times. Each hit has a 50% chance of placing a 5% [Poison] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Buff/Debuff Chance +10%\n\nLvl. 5 Buff/Debuff Chance +10%",
+      "slug": "poison-rain",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/debuffs/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3480_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.55,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.65,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "5f7447e12a8d9afe5df7b0cb3d52cf60",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Deadly Catalyst",
+      "raw_description": "Attacks all enemies. Enemies killed by this skill cannot be revived. Deals damage from all [Poison] debuffs on the target instantly. [Poison] debuffs will only deal half of the standard damage when this Skill hits Bosses.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%",
+      "slug": "deadly-catalyst",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
+          "website_link": "/debuffs/poison",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3480_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Deal all poison DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-deal-all-poison-dmg",
+              "slug": "deal-all-poison-dmg",
+              "website_link": "/battle_enhancements/deal-all-poison-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Block Revive",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-block-revive",
+              "slug": "block-revive",
+              "website_link": "/battle_enhancements/block-revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Deal all poison DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-deal-all-poison-dmg",
+              "slug": "deal-all-poison-dmg",
+              "website_link": "/battle_enhancements/deal-all-poison-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Block Revive",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-block-revive",
+              "slug": "block-revive",
+              "website_link": "/battle_enhancements/block-revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Deal all poison DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-deal-all-poison-dmg",
+              "slug": "deal-all-poison-dmg",
+              "website_link": "/battle_enhancements/deal-all-poison-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Block Revive",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-block-revive",
+              "slug": "block-revive",
+              "website_link": "/battle_enhancements/block-revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Deal all poison DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-deal-all-poison-dmg",
+              "slug": "deal-all-poison-dmg",
+              "website_link": "/battle_enhancements/deal-all-poison-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Block Revive",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-block-revive",
+              "slug": "block-revive",
+              "website_link": "/battle_enhancements/block-revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "993082485608d601a36289fdfbd6b205",
+      "skill_number": "A3"
+    },
+    {
+      "passive": false,
+      "name": "Calamitous Partner",
+      "raw_description": "Attacks 1 enemy. Applies a Debuff Spread effect, taking 4 random debuffs from the target and placing them on all enemies.\n\nDamage based on: [ATK] 7 T -",
+      "slug": "calamitous-partner",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3480_s4",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Spread 4 Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-spread-4-debuffs",
+              "slug": "spread-4-debuffs",
+              "website_link": "/battle_enhancements/spread-4-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Belanor on Team",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "16499c0426af9a57e6d5ecfae95e4613",
+      "skill_number": "A4"
+    }
+  ],
+  "faction": {
+    "name": "Dark Elves",
+    "slug": "dark-elves",
+    "website_link": "/factions/dark-elves/",
+    "image_slug": "image-faction-dark-elves",
+    "number_of_champions": 33,
+    "default_description": "Dark Elves is a faction from RAID Shadow Legends composed of 33 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dark Elves is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dark Elves",
+        "dark-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Fallen from grace in their homelands of Aravia, the Dark Elves inhabit the forests that border the realms of Teleria. They see persecutions in Kaerok rather as a boon than a bane supplying them with a stream of silver. They have set up tolls for those anxious to pass safely, but woe betide those who cannot pay."
+  },
+  "faction_slug": "dark-elves",
+  "website_link": "/champions/zavia/",
+  "image_slug": "image-champion-zavia",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Zavia is a legendary attack champion from the faction Dark Elves doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Zavia",
+      "zavia"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dark Elves"
+        },
+        "description": "Member of the faction Dark Elves, Zavia is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-zavia.jpg",
+        "name": "Zavia",
+        "url": "https://raid-codex.com/champions/zavia/"
+      }
+    ]
+  },
+  "default_description": "Zavia is a legendary attack champion from the faction Dark Elves doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>Hatred is a powerful thing, one that is, perhaps, as hard as death to overcome. Yet even here love finds a way, the story of Belanor and Zavia. Cruel fate had them fight on different sides of one of the many conflicts between the High Elves of Aravia and the exiles known as Dark Elves. Still, even though the bloody fog of war, through hate, and through fury, these two souls were united.</p><p>As stragglers of a battle between the warring Elven factions, they were initially forced to survive an unwelcoming orc-infested desert together. The sheer adversity and the dangers they faced allowed them to see a person behind the mask of an enemy. The passion that was sparked then survived far beyond a temporary alliance of convenience. And, in the end, both Belanor and Zavia chose to escape together rather than continue the feud. Now seen as traitors and deserters by their former allies, the two of them had no choice but to live on the run.</p><p>They faced persecution, poverty, and mortal danger together. Finally, they were captured and sentenced to death for their crimes. Yet when the first light of dawn broke and the jailors arrived to take the fugitives to the scaffold, they were taken aback. The cell was locked and secured, not a single hint at how the captives escaped. The only thing they found were two feathers on the stone floor, one black as night, the other - white as Lumaya???s light. To this day no one knows what transpired on that night, though some, as they often do, attribute the miraculous escape to the Arbiter.</p>",
+  "giid": "3480",
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "valkyrie",
+        "jizoh",
+        "skullcrusher",
+        "martyr"
+      ]
+    }
+  ],
+  "thumbnail": "e8e0dd181e4ee545195120626098bfba",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

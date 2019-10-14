@@ -1,0 +1,37 @@
+<div class="teams">
+  <div class="team-card">
+    <div class="new-team">
+      <h2>New Team</h2>
+      <hr>
+      <input
+        type="text"
+        placeholder="Team Name"
+        (keydown.enter)="createNewTeam()"
+        [(ngModel)]="teamName">
+      <button
+        class="btn btn-outline-primary btn-block"
+        (click)="createNewTeam()">Create New Team</button>
+    </div>
+  </div>
+  <ng-container *ngIf="teams">
+    <div class="team-card" *ngFor="let team of teams">
+      <div class="team-actions">
+        <button class="team-share" (click)="deleteTeam(team)"><fa-icon [icon]="faShare"></fa-icon></button>
+        <button class="team-delete" (click)="deleteTeam(team)"><fa-icon [icon]="faTrashAlt"></fa-icon></button>
+      </div>
+      <h2>{{team.name}}</h2>
+      <ng-container *ngIf="team.champions.length > 0">
+        <div class="champions">
+          <champion-card
+            (refreshTeams)="refreshTeams()"
+            [source]="'team'"
+            [champ]="champ"
+            *ngFor="let champ of team.champions"
+            [attr.data-champ-name]="champ.name.toLowerCase()"></champion-card>
+        </div>
+      </ng-container>
+      <button *ngIf="team.champions.length < 5" class="btn btn-outline-primary btn-block"
+        (click)="activateBuilder(team)">Add Champion{{team.champions.length <= 3 ? 's' : ''}}</button>
+    </div>
+  </ng-container>
+</div>

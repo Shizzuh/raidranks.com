@@ -1,0 +1,725 @@
+{
+  "name": "Jotun",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "A",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "A",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 159,
+    "campaign": 3.5,
+    "arena_offense": 3.3,
+    "arena_defense": 2.9,
+    "clan_boss": 4.5,
+    "ice_guardian": 3.6,
+    "dragon": 3.6,
+    "spider": 2.7,
+    "fire_knight": 3.1,
+    "minotaur": 3.7,
+    "force_dungeon": 3.5,
+    "magic_dungeon": 3.5,
+    "spirit_dungeon": 3.6,
+    "void_dungeon": 3.4
+  },
+  "slug": "jotun",
+  "characteristics": {
+    "60": {
+      "hp": 16680,
+      "attack": 991,
+      "defense": 1200,
+      "speed": 93,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Brute Strength",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [Decrease DEF] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +5'\n\nLvl. 5 Buff/Debuff Chance +5",
+      "slug": "brute-strength",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/debuffs/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2580_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0,
+              "chance": 0.35,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        }
+      ],
+      "image_slug": "d7320c399e39a75c4ddef772d1228b74",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Burning Blade",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [HP Burn] debuff for 4 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +109\n\nLvl. 5 Buff/Debuff Chance +15\n\nLvl. 6 Cooldown -1",
+      "slug": "burning-blade",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/debuffs/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2580_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 4,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 4,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 4,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.85,
+              "turns": 4,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 1,
+              "turns": 4,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +15%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 1,
+              "turns": 4,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "7be4ee1b0f9033c5e052a53e1c141223",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Sear Away",
+      "raw_description": "Attacks 1 enemy. Decreases the target's MAX HP by 30% of the damage dealt.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "sear-away",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2580_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease MAX HP",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-max-hp",
+              "slug": "decrease-max-hp",
+              "website_link": "/battle_enhancements/decrease-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease MAX HP",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-max-hp",
+              "slug": "decrease-max-hp",
+              "website_link": "/battle_enhancements/decrease-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease MAX HP",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-max-hp",
+              "slug": "decrease-max-hp",
+              "website_link": "/battle_enhancements/decrease-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease MAX HP",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-max-hp",
+              "slug": "decrease-max-hp",
+              "website_link": "/battle_enhancements/decrease-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease MAX HP",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-max-hp",
+              "slug": "decrease-max-hp",
+              "website_link": "/battle_enhancements/decrease-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "3ce055ec57c1e8250a1a3ff9d848aeb3",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 32,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 32 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands."
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/jotun/",
+  "image_slug": "image-champion-jotun",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Jotun is a epic hp champion from the faction Barbarians doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Jotun",
+      "jotun"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Jotun is a champion of Epic rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-jotun.jpg",
+        "name": "Jotun",
+        "url": "https://raid-codex.com/champions/jotun/"
+      }
+    ]
+  },
+  "default_description": "Jotun is a epic hp champion from the faction Barbarians doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>Jotuns are a race of strong and proud warriors that hail from the frozen North of Teleria. Larger and stronger than a typical human or elf, they are easily distinguishable by the horns that crown their heads. Though they have a long-standing tradition of martial prowess, the once mighty Jotuns have been in decline for centuries. Most tribes have been forced to leave their homeland and band together with other exiles, adding their strength to Barbarian groups or mercenary bands.</p><p>Though they all share an affinity with powers from beyond the material realm, some Jotuns can manifest these powers and add them to their already impressive arsenal. This Champion, in particular, has been marked by primordial fire - or so he believes - which marks him by the bright red colour of his hair, and the ability to summon flames that engulf the blade of his sword.</p>",
+  "giid": "2580",
+  "synergy": [],
+  "thumbnail": "17b3c7061788dbe82de5abe9f6fe22b3",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

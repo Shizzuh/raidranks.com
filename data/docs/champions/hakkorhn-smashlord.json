@@ -1,0 +1,672 @@
+{
+  "name": "Hakkorhn Smashlord",
+  "rarity": "Legendary",
+  "element": "Magic",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 73,
+    "campaign": 4.8,
+    "arena_offense": 4.8,
+    "arena_defense": 4.8,
+    "clan_boss": 4.8,
+    "ice_guardian": 4.9,
+    "dragon": 4.9,
+    "spider": 4.6,
+    "fire_knight": 4.5,
+    "minotaur": 4.8,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.8,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.8
+  },
+  "slug": "hakkorhn-smashlord",
+  "characteristics": {
+    "60": {
+      "hp": 23790,
+      "attack": 848,
+      "defense": 1145,
+      "speed": 99,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 50,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in Dungeons by 33%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Inhuman Force",
+      "raw_description": "",
+      "slug": "inhuman-force",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "2720_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "HP"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "HP"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0.45,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "HP"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0.45,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "HP"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0.55,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "HP"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "00faa4c78ee1b8c7be8f07111c6a9d15",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Rallying Bellow",
+      "raw_description": "",
+      "slug": "rallying-bellow",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "2720_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-debuffs",
+              "slug": "block-debuffs",
+              "website_link": "/debuffs/block-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.1,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-debuffs",
+              "slug": "block-debuffs",
+              "website_link": "/debuffs/block-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Heal +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-debuffs",
+              "slug": "block-debuffs",
+              "website_link": "/debuffs/block-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Heal +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-debuffs",
+              "slug": "block-debuffs",
+              "website_link": "/debuffs/block-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Heal +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-debuffs",
+              "slug": "block-debuffs",
+              "website_link": "/debuffs/block-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Heal +5%"
+        }
+      ],
+      "image_slug": "a0616ad8eb8eff01d1ca289727c34075",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Blood Offering",
+      "raw_description": "",
+      "slug": "blood-offering",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "2720_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Self DMG",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-self-dmg",
+              "slug": "self-dmg",
+              "website_link": "/battle_enhancements/self-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "DMG per HP",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-dmg-per-hp",
+              "slug": "dmg-per-hp",
+              "website_link": "/battle_enhancements/dmg-per-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Self DMG",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-self-dmg",
+              "slug": "self-dmg",
+              "website_link": "/battle_enhancements/self-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "DMG per HP",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-dmg-per-hp",
+              "slug": "dmg-per-hp",
+              "website_link": "/battle_enhancements/dmg-per-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "585117d5f27b0056f1cdf39ae70baf2c",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Skinwalkers",
+    "slug": "skinwalkers",
+    "website_link": "/factions/skinwalkers/",
+    "image_slug": "image-faction-skinwalkers",
+    "number_of_champions": 19,
+    "default_description": "Skinwalkers is a faction from RAID Shadow Legends composed of 19 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalkers is a faction from RAID Shadow Legends composed of 18 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalkers",
+        "skinwalkers"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "As told by the tragic legend of Ch'arocah, Skinwalkers once had the power to cast themselves in the form of any man or beast. But after centuries of overuse, these shamans found themselves entrapped as something less than human, but more than animal. Though wild and dangerous, they can sense evil and may act to prevent it"
+  },
+  "faction_slug": "skinwalkers",
+  "website_link": "/champions/hakkorhn-smashlord/",
+  "image_slug": "image-champion-hakkorhn-smashlord",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Hakkorhn Smashlord is a legendary hp champion from the faction Skinwalkers doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Hakkorhn Smashlord",
+      "hakkorhn-smashlord"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalkers"
+        },
+        "description": "Member of the faction Skinwalkers, Hakkorhn Smashlord is a champion of Legendary rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-hakkorhn-smashlord.jpg",
+        "name": "Hakkorhn Smashlord",
+        "url": "https://raid-codex.com/champions/hakkorhn-smashlord/"
+      }
+    ]
+  },
+  "default_description": "Hakkorhn Smashlord is a legendary hp champion from the faction Skinwalkers doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>Skinwalkers, prized for their natural resilience and strength, often become the target of slavers from all across Teleria. The Dark Elves, though often allied with certain tribes, are particularly fond of capturing the creatures they see as little more than beasts and using them for back-breaking labour or bloody gladiator battles for their own twisted amusement. Sometimes, the unfortunate few become the unwilling subjects for magicians seeking to unlock further mysteries of the Dark Arts.</p><p>Such was the fate of a minotaur known only as Hakkorhn Smashlord today. Whatever his former life used to be, it was burned to ashes. Everything stripped from him. Horrific experiments conducted by a Dark Elf witch coven infused the poor creature with a fiery rage that could not be quenched. Thus strengthened beyond even his beastly physique, the Smashlord was unleashed upon one of the slave-fighter arenas. The results were far more spectacular than his new masters could imagine, and for years the Hakkorhn reigned as the undisputed champion. But despite the various enchantments and hexes, the minotaur's will still simmered underneath. Slowly, he started regaining his former self until one fateful day where, in the midst of combat, the Smashlord turned on his captors and cut a bloody swathe through the guards with the help of his fellow slaves. Such was the carnage, that the stunned Dark Elves did not give pursuit until reinforcements arrived from a neighboring hold. And by that point, Hakkorhn and the other rebels were long gone.</p><p>Though still tortured by dark spells that once bound his will, the Hakkorhn roams the land as an errant warrior in search of a worthy cause to lend his strength to.</p>",
+  "giid": "2720",
+  "synergy": [],
+  "thumbnail": "fa2e8c4385712f9a1d24c363a2cbe5b8",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

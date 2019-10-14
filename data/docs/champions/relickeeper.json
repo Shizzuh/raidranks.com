@@ -1,0 +1,608 @@
+{
+  "name": "Relickeeper",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Attack",
+  "guide_video_id": "xpfGZMvoBrg",
+  "rating": {
+    "overall": "A",
+    "campaign": "S",
+    "arena_offense": "A",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 1856,
+    "campaign": 4.9,
+    "arena_offense": 4.4,
+    "arena_defense": 3.5,
+    "clan_boss": 3.4,
+    "ice_guardian": 4.5,
+    "dragon": 4.4,
+    "spider": 2.1,
+    "fire_knight": 2.5,
+    "minotaur": 4.4,
+    "force_dungeon": 4.3,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 3.8,
+    "void_dungeon": 4.3
+  },
+  "slug": "relickeeper",
+  "characteristics": {
+    "60": {
+      "hp": 14370,
+      "attack": 1365,
+      "defense": 980,
+      "speed": 90,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Campaign Battles by 40%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Crusade",
+      "raw_description": "Attacks 1 enemy. Grants an Extra Turn if the target is killed.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%",
+      "slug": "crusade",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2910_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "52f6c3d8f7ef918c37f43e5ddbbe9518",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Surging Strength",
+      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 4 turns. Grants an Extra Turn.\n\nLvl. 2 Cooldown -1\n\nLvl. 3 Cooldown -1",
+      "slug": "surging-strength",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk-2",
+          "website_link": "/buffs/increase-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2910_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 4,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 6,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 4,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 4,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "d5d8ea233ce1f79c55dd7d0d7fe36dd4",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Ageless Endurance",
+      "raw_description": "When hit by an enemy, places a 15% [Continuous Heal] buff on this Champion for 2 turns.\n\nLvl. 2 Cooldown -1\n\nLvl. 3 Cooldown -1",
+      "slug": "ageless-endurance",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/buffs/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2910_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "hit",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "hit",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "hit",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "5d59a3aa5f78ef6f061bbf4ea1d37a8d",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "The Sacred Order",
+    "slug": "the sacred order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 52,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends composed of 52 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends composed of 47 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "The Sacred Order",
+        "the sacred order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "For centuries the Knights of the Sacred Order were charged with cleansing Teleria of evil in all its guises. But since the declaration of war, they have sworn allegiance to the Queen of Aravia. In league with the Queen's Necromancer, these once-holy knights now enforce her Majesty's will and guard her chattel."
+  },
+  "faction_slug": "the sacred order",
+  "website_link": "/champions/relickeeper/",
+  "image_slug": "image-champion-relickeeper",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Relickeeper is a epic attack champion from the faction Sacred Order doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Relickeeper",
+      "relickeeper"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "The Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Relickeeper is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-relickeeper.jpg",
+        "name": "Relickeeper",
+        "url": "https://raid-codex.com/champions/relickeeper/"
+      }
+    ]
+  },
+  "default_description": "Relickeeper is a epic attack champion from the faction Sacred Order doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2910",
+  "synergy": [],
+  "thumbnail": "dba31bb5c75992690f20c2d3b370ec7c",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-relickeeper",
+      "fusion_type": "fused"
+    }
+  ]
+}

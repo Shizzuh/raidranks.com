@@ -1,0 +1,148 @@
+{
+  "name": "Skinner",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "skinner",
+  "characteristics": {
+    "60": {
+      "hp": 12885,
+      "attack": 1255,
+      "defense": 639,
+      "speed": 89,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Sharpened Bone",
+      "raw_description": "Attacks 1 enemy 3 times.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%",
+      "slug": "sharpened-bone",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1080_s1",
+      "upgrades": [],
+      "image_slug": "e3f95963a2ff9449e0c8278ee86e15c4",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Skinning Slice",
+      "raw_description": "Attacks 1 enemy. Removes 2 random buffs from the target.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%\n\nLvl. 6 Cooldown -1",
+      "slug": "skinning-slice",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1080_s2",
+      "upgrades": [],
+      "image_slug": "c27b7a3e1389c1499543e4d239b688b4",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Lizardmen",
+    "slug": "lizardmen",
+    "website_link": "/factions/lizardmen/",
+    "image_slug": "image-faction-lizardmen",
+    "number_of_champions": 24,
+    "default_description": "Lizardmen is a faction from RAID Shadow Legends composed of 24 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Lizardmen is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Lizardmen",
+        "lizardmen"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Lizardmen evolved from the brackish waters of Teleria longbefore modern humanoid races emerged with more powerfulbrains. These fearsome amphibious bipeds have been deemeduntouchable but are tolerated in swamps and city sewers. Theytrade through messengers to get sustenance, or ransom for theircaptives."
+  },
+  "faction_slug": "lizardmen",
+  "website_link": "/champions/skinner/",
+  "image_slug": "image-champion-skinner",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Skinner is a uncommon attack champion from the faction Lizardmen. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Skinner",
+      "skinner"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Lizardmen"
+        },
+        "description": "Member of the faction Lizardmen, Skinner is a champion of Uncommon rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-skinner.jpg",
+        "name": "Skinner",
+        "url": "https://raid-codex.com/champions/skinner/"
+      }
+    ]
+  },
+  "default_description": "Skinner is a uncommon attack champion from the faction Lizardmen",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1080",
+  "synergy": [],
+  "thumbnail": "731c83db8d2ff01bdc000083fd3c3740",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

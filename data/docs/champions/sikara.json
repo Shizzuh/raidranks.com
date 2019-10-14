@@ -1,0 +1,197 @@
+{
+  "name": "Sikara",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "A",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "sikara",
+  "characteristics": {
+    "60": {
+      "hp": 19485,
+      "attack": 804,
+      "defense": 1200,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 15
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Followup Volley",
+      "raw_description": "Attacks 1 enemy. Fills this Champion's Turn Meter by 25% if this attack is critical.\n\nDamage based on: [ATK]",
+      "slug": "followup-volley",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3260_s1",
+      "upgrades": [],
+      "image_slug": "5e8d94210d684337e5a60d7b4a614600",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Aura Puncture",
+      "raw_description": "Attacks all enemies 3 times. Each hit has a 40% chance of removing 1 random buff from the target.\n\nDamage based on: [ATK]",
+      "slug": "aura-puncture",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3260_s2",
+      "upgrades": [],
+      "image_slug": "c2057a53d841ed2d7cd780d9ffc0319d",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Enfeebing Tips",
+      "raw_description": "Attacks all enemies. Has a 60% chance of placing a 25% [Weaken] debuff for 2 turns.\n\nDamage based on: [ATK]",
+      "slug": "enfeebing-tips",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken-2",
+          "website_link": "/debuffs/weaken",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3260_s3",
+      "upgrades": [],
+      "image_slug": "14d4e49400daf1bcf11514a250030eb2",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Devoted Sister",
+      "raw_description": "Revives this Champion with 75% HP when killed. Only available when Alika is on the same team",
+      "slug": "devoted-sister",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3260_s4",
+      "upgrades": [],
+      "image_slug": "7a0234d88b2d66411bee23ecf5194bfb",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 32,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 32 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands."
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/sikara/",
+  "image_slug": "image-champion-sikara",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Sikara is a epic assist champion from the faction Barbarians doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Sikara",
+      "sikara"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Sikara is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-sikara.jpg",
+        "name": "Sikara",
+        "url": "https://raid-codex.com/champions/sikara/"
+      }
+    ]
+  },
+  "default_description": "Sikara is a epic assist champion from the faction Barbarians doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3260",
+  "synergy": [],
+  "thumbnail": "d54ce9de9df77c579775a7b6b1a4bdc0",
+  "tags": [
+    "NEW_CHAMPION_20190726"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-sikara",
+      "fusion_type": "fused"
+    }
+  ]
+}

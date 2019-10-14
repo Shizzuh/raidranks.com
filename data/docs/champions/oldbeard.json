@@ -1,0 +1,180 @@
+{
+  "name": "Oldbeard",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Def",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "oldbeard",
+  "characteristics": {
+    "60": {
+      "hp": 14040,
+      "attack": 716,
+      "defense": 1101,
+      "speed": 91,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Gut Punch",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 25% [Decrease ATK] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Damage +10%",
+      "slug": "gut-punch",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2840_s1",
+      "upgrades": [],
+      "image_slug": "0512a1e405e14ce483e190ba0fe2d201",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Outlast",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Leech] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Buff/Debuff Chance +10%",
+      "slug": "outlast",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Leech",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-leech",
+          "slug": "leech",
+          "website_link": "/debuffs/leech",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2840_s2",
+      "upgrades": [],
+      "image_slug": "dad6cf57e6702a6f931e23163a35e37f",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Ogryn Tribes",
+    "slug": "ogryn tribes",
+    "website_link": "/factions/ogryn tribes/",
+    "image_slug": "image-faction-ogryn tribes",
+    "number_of_champions": 27,
+    "default_description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 27 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Ogryn Tribes",
+        "ogryn tribes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Subhuman giants with prodigious bellies and brawn, Ogryns arenonetheless sluggish, dumb brutes prone to servitude. Yet theseterrifying great oafs often prove that brute force and ignorancewill often win the day. Together with the Skinwalkers they controlFelwin's Gate, entry to the Kingdom of Aravia."
+  },
+  "faction_slug": "ogryn tribes",
+  "website_link": "/champions/oldbeard/",
+  "image_slug": "image-champion-oldbeard",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Oldbeard is a uncommon def champion from the faction Ogryn Tribes. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Oldbeard",
+      "oldbeard"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Ogryn Tribes"
+        },
+        "description": "Member of the faction Ogryn Tribes, Oldbeard is a champion of Uncommon rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-oldbeard.jpg",
+        "name": "Oldbeard",
+        "url": "https://raid-codex.com/champions/oldbeard/"
+      }
+    ]
+  },
+  "default_description": "Oldbeard is a uncommon def champion from the faction Ogryn Tribes",
+  "recommended_builds": [],
+  "lore": "<p>Oldbeards can live for hundreds of years, something that has given them their name. But while their bodies continue to grow even in extreme old age, their intellect stops developing early on in their adolescence. Though what they lack in wits, they readily make up for in sheer toughness.</p>",
+  "giid": "2840",
+  "synergy": [],
+  "thumbnail": "a78482ce76496fcf49085f2190e675b4",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

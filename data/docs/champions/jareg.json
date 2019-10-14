@@ -1,0 +1,224 @@
+{
+  "name": "Jareg",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "A",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "jareg",
+  "characteristics": {
+    "60": {
+      "hp": 23460,
+      "attack": 683,
+      "defense": 1057,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in all Battles by 33%",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Rending Claws",
+      "raw_description": "Attacks 1 enemy. Has a 35% chance of placing a [Decrease ATK] debuff for 2 turns",
+      "slug": "rending-claws",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2990_s1",
+      "upgrades": [],
+      "image_slug": "5aa066a960d3da3f159f38fd9f7bcfb7",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Pack Leader",
+      "raw_description": "Places a 50% [Ally Protection] and a 60% [Decrease DEF] buff on all allies for 2 turns",
+      "slug": "pack-leader",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-ally-protection-2",
+          "slug": "ally-protection-2",
+          "website_link": "/buffs/ally-protection",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/debuffs/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2990_s2",
+      "upgrades": [],
+      "image_slug": "3be27e7d4ab1fc2d0b8ef6c885b71e38",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Sheltering Scales",
+      "raw_description": "Places a 15% [Continuous Heal] buff on an ally for 1 turn whenever an ally loses 20% of their MAX HP in one hit",
+      "slug": "sheltering-scales",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/buffs/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2990_s3",
+      "upgrades": [],
+      "image_slug": "653882262a664bd2942cc5ee4e3c16fb",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Lizardmen",
+    "slug": "lizardmen",
+    "website_link": "/factions/lizardmen/",
+    "image_slug": "image-faction-lizardmen",
+    "number_of_champions": 24,
+    "default_description": "Lizardmen is a faction from RAID Shadow Legends composed of 24 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Lizardmen is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Lizardmen",
+        "lizardmen"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Lizardmen evolved from the brackish waters of Teleria longbefore modern humanoid races emerged with more powerfulbrains. These fearsome amphibious bipeds have been deemeduntouchable but are tolerated in swamps and city sewers. Theytrade through messengers to get sustenance, or ransom for theircaptives."
+  },
+  "faction_slug": "lizardmen",
+  "website_link": "/champions/jareg/",
+  "image_slug": "image-champion-jareg",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Jareg is a epic hp champion from the faction Lizardmen doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Jareg",
+      "jareg"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Lizardmen"
+        },
+        "description": "Member of the faction Lizardmen, Jareg is a champion of Epic rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-jareg.jpg",
+        "name": "Jareg",
+        "url": "https://raid-codex.com/champions/jareg/"
+      }
+    ]
+  },
+  "default_description": "Jareg is a epic hp champion from the faction Lizardmen doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>The Lizardmen society is hardly homogenous. While some tribes live nearly as humans and elves of old did, building settlements and crafting tools, others are little more than intelligence predators that live and hunt in packs. Jareg is the leader of one such “family”, having guided it for many decades. He may not be a peerless strategist or a weaponmaster, but there are two qualities forged by the hardships he had to endure that are invaluable - tenacity and instinct.\n\nAs pack leader, it is Jareg’s duty to defend his kin from whatever danger they might face as well as lead them in hunts and battle for more territory. Over decades of constant strife, he learned to protect those who depend on him, even if it means placing himself in harm’s way. And, surprisingly, his knowledge of herms and their properties allows Jareg to provide basic but efficient relief to wounds and injuries that his allies might suffer.</p>",
+  "giid": "2990",
+  "synergy": [],
+  "thumbnail": "f6b5f8c32c65fee991049a55dc97d1ce",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

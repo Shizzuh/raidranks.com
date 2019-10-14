@@ -1,0 +1,813 @@
+{
+  "name": "Bellower",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "Assist",
+  "guide_video_id": "FnN_abblWnQ",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "S",
+    "fire_knight": "C",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 488,
+    "campaign": 4.9,
+    "arena_offense": 4.5,
+    "arena_defense": 4.1,
+    "clan_boss": 2.3,
+    "ice_guardian": 4.5,
+    "dragon": 3.5,
+    "spider": 4.9,
+    "fire_knight": 2.1,
+    "minotaur": 4.5,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.5
+  },
+  "slug": "bellower",
+  "characteristics": {
+    "60": {
+      "hp": 16515,
+      "attack": 1013,
+      "defense": 914,
+      "speed": 99,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 15
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Frazzle",
+      "raw_description": "Attacks all enemies. Has a 20% chance of placing a [Block Cooldown Skills] debuff for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +10%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Buff/Debuff Chance +5%",
+      "slug": "frazzle",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Cooldown Skills",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/debuffs/block-cooldown-skills",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2810_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0,
+              "chance": 0.25,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        }
+      ],
+      "image_slug": "57de6f0f615965ee91b3f67ea68a475d",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Mighty Bellow",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 15% [Decrease SPD] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Buff/Debuff Chance +5%\n\nLvl. 3 Buff/Debuff Chance +10%\n\nLvl. 4 Buff/Debuff Chance +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "mighty-bellow",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd",
+          "slug": "decrease-spd",
+          "website_link": "/debuffs/decrease-spd",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2810_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease SPD",
+              "value": 0.15,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-spd",
+              "slug": "decrease-spd",
+              "website_link": "/debuffs/decrease-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease SPD",
+              "value": 0.15,
+              "chance": 0.55,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-spd",
+              "slug": "decrease-spd",
+              "website_link": "/debuffs/decrease-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease SPD",
+              "value": 0.15,
+              "chance": 0.65,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-spd",
+              "slug": "decrease-spd",
+              "website_link": "/debuffs/decrease-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease SPD",
+              "value": 0.15,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-spd",
+              "slug": "decrease-spd",
+              "website_link": "/debuffs/decrease-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease SPD",
+              "value": 0.15,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-spd",
+              "slug": "decrease-spd",
+              "website_link": "/debuffs/decrease-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "d91d636e349c0cb395b97f58950cd3e5",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Bowl Over",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 25% [Decrease ATK] debuff for 2 turns. Has a 75% chance of placing a 30% [Decrease DEF] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Buff/Debuff Chance +10%\n\nLvl. 4 Buff/Debuff Chance +15%\n\nLvl. 5 Cooldown -1",
+      "slug": "bowl-over",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/debuffs/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2810_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 0.85,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +15%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "91500c4a0b1ac8cb78fd5173562dd0b4",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Ogryn Tribes",
+    "slug": "ogryn tribes",
+    "website_link": "/factions/ogryn tribes/",
+    "image_slug": "image-faction-ogryn tribes",
+    "number_of_champions": 27,
+    "default_description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 27 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Ogryn Tribes",
+        "ogryn tribes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Subhuman giants with prodigious bellies and brawn, Ogryns arenonetheless sluggish, dumb brutes prone to servitude. Yet theseterrifying great oafs often prove that brute force and ignorancewill often win the day. Together with the Skinwalkers they controlFelwin's Gate, entry to the Kingdom of Aravia."
+  },
+  "faction_slug": "ogryn tribes",
+  "website_link": "/champions/bellower/",
+  "image_slug": "image-champion-bellower",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Bellower is a rare assist champion from the faction Ogryn Tribes doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Bellower",
+      "bellower"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Ogryn Tribes"
+        },
+        "description": "Member of the faction Ogryn Tribes, Bellower is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-bellower.jpg",
+        "name": "Bellower",
+        "url": "https://raid-codex.com/champions/bellower/"
+      }
+    ]
+  },
+  "default_description": "Bellower is a rare assist champion from the faction Ogryn Tribes doing void damage",
+  "recommended_builds": [],
+  "lore": "<p>The ordinary ogre is not a very smart creature. In his natural state, an ogre is supremely incapable of learning magic or communing with spirits.</p><p>However, once every few generations, the ogryn race is blessed with the birth of a horned shaman. Bellower may be one of the last of these living in Teleria, capable of drawing upon the power of natural spirits to give bestial strength and cunning in battles against the many enemies of his kind.</p>",
+  "giid": "2810",
+  "synergy": [],
+  "thumbnail": "663772ea088360f95bac3dc7ffb841be",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

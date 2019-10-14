@@ -1,0 +1,587 @@
+{
+  "name": "Flesheater",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 8,
+    "campaign": 4.1,
+    "arena_offense": 4.1,
+    "arena_defense": 3.7,
+    "clan_boss": 4,
+    "ice_guardian": 3.7,
+    "dragon": 3.7,
+    "spider": 3.7,
+    "fire_knight": 3.7,
+    "minotaur": 3.7,
+    "force_dungeon": 3.7,
+    "magic_dungeon": 3.7,
+    "spirit_dungeon": 3.7,
+    "void_dungeon": 4
+  },
+  "slug": "flesheater",
+  "characteristics": {
+    "60": {
+      "hp": 14535,
+      "attack": 1024,
+      "defense": 1035,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Freeze the Blood",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Freeze] debuff on the target for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Buff/Debuff Chance +5%",
+      "slug": "freeze-the-blood",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/debuffs/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2410_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.25,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        }
+      ],
+      "image_slug": "4922e31288000ad71c0323ea29a8c861",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Tenderize",
+      "raw_description": "Attacks 1 enemy 2 times. On each critical hit decreases the target's Turn Meter by 15%.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "tenderize",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2410_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "1d137b840217d7c6632f6fc188c74dc2",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Gruesome Nourishment",
+      "raw_description": "Places a 50% [Increase ATK] buff on all allies for 2 turns.\n\nLvl. 2 Cooldown -1",
+      "slug": "gruesome-nourishment",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk-2",
+          "website_link": "/buffs/increase-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2410_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 0,
+          "target": {
+            "who": "-",
+            "targets": "-"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "41ecfd0cf4836e2ff39624c28be61c40",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Ogryn Tribes",
+    "slug": "ogryn tribes",
+    "website_link": "/factions/ogryn tribes/",
+    "image_slug": "image-faction-ogryn tribes",
+    "number_of_champions": 27,
+    "default_description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 27 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Ogryn Tribes",
+        "ogryn tribes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Subhuman giants with prodigious bellies and brawn, Ogryns arenonetheless sluggish, dumb brutes prone to servitude. Yet theseterrifying great oafs often prove that brute force and ignorancewill often win the day. Together with the Skinwalkers they controlFelwin's Gate, entry to the Kingdom of Aravia."
+  },
+  "faction_slug": "ogryn tribes",
+  "website_link": "/champions/flesheater/",
+  "image_slug": "image-champion-flesheater",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Flesheater is a rare assist champion from the faction Ogryn Tribes doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Flesheater",
+      "flesheater"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Ogryn Tribes"
+        },
+        "description": "Member of the faction Ogryn Tribes, Flesheater is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-flesheater.jpg",
+        "name": "Flesheater",
+        "url": "https://raid-codex.com/champions/flesheater/"
+      }
+    ]
+  },
+  "default_description": "Flesheater is a rare assist champion from the faction Ogryn Tribes doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2410",
+  "synergy": [],
+  "thumbnail": "a6ea8471c120fe8cc35a2954c9b9c595",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

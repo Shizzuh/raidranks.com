@@ -1,0 +1,164 @@
+{
+  "name": "Stalker",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "stalker",
+  "characteristics": {
+    "60": {
+      "hp": 16185,
+      "attack": 749,
+      "defense": 925,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Bloody Claws",
+      "raw_description": "Attacks 1 enemy. Heals this Champion by 10% of the damage dealt.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%",
+      "slug": "bloody-claws",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1690_s1",
+      "upgrades": [],
+      "image_slug": "556fb012278c10669f09975345c12391",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Tear Apart",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 15% chance of placing a 25% [Decrease ATK] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Cooldown -1",
+      "slug": "tear-apart",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1690_s2",
+      "upgrades": [],
+      "image_slug": "b51b08fda5f7f4ae9c0d35b45101737a",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Lizardmen",
+    "slug": "lizardmen",
+    "website_link": "/factions/lizardmen/",
+    "image_slug": "image-faction-lizardmen",
+    "number_of_champions": 24,
+    "default_description": "Lizardmen is a faction from RAID Shadow Legends composed of 24 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Lizardmen is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Lizardmen",
+        "lizardmen"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Lizardmen evolved from the brackish waters of Teleria longbefore modern humanoid races emerged with more powerfulbrains. These fearsome amphibious bipeds have been deemeduntouchable but are tolerated in swamps and city sewers. Theytrade through messengers to get sustenance, or ransom for theircaptives."
+  },
+  "faction_slug": "lizardmen",
+  "website_link": "/champions/stalker/",
+  "image_slug": "image-champion-stalker",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Stalker is a uncommon hp champion from the faction Lizardmen. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Stalker",
+      "stalker"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Lizardmen"
+        },
+        "description": "Member of the faction Lizardmen, Stalker is a champion of Uncommon rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-stalker.jpg",
+        "name": "Stalker",
+        "url": "https://raid-codex.com/champions/stalker/"
+      }
+    ]
+  },
+  "default_description": "Stalker is a uncommon hp champion from the faction Lizardmen",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1690",
+  "synergy": [],
+  "thumbnail": "d43ab110ab2489d6b9b2caa394bf920f",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

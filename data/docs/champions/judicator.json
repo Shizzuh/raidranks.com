@@ -1,0 +1,742 @@
+{
+  "name": "Judicator",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "B",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 16,
+    "campaign": 3.4,
+    "arena_offense": 3.2,
+    "arena_defense": 3,
+    "clan_boss": 3.2,
+    "ice_guardian": 3,
+    "dragon": 2.7,
+    "spider": 1.9,
+    "fire_knight": 2.3,
+    "minotaur": 2.7,
+    "force_dungeon": 3.1,
+    "magic_dungeon": 2.8,
+    "spirit_dungeon": 2.7,
+    "void_dungeon": 3
+  },
+  "slug": "judicator",
+  "characteristics": {
+    "60": {
+      "hp": 11895,
+      "attack": 1398,
+      "defense": 837,
+      "speed": 104,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Bright Fury",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of decreasing the target's Turn Meter by 15%.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%",
+      "slug": "bright-fury",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2200_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.15,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.15,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.15,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.15,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.15,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "a2f97ceb97c39892b81d08f65ecc0f1d",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Undermine",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 30% [Decrease DEF] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +5°\n\nLvl. 4 Damage +5%\n\nLvl. 5 Buff/Debuff Chance +10%\n\nLvl. 6 Buff/Debuff Chance +10°\n\nLvl. 7 Cooldown -1",
+      "slug": "undermine",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/debuffs/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2200_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.5,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.5,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.55,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.55,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.65,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.75,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.75,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "1666ff2af63132afc1812632b53d82a0",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Execution",
+      "raw_description": "Attacks 1 enemy. This attack deals 30% extra C. DMG.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5\n\nLvl. 3 Damage +5\n\nLvl. 4 Damage +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "execution",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2200_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Crit DMG",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-crit-dmg",
+              "slug": "extra-crit-dmg",
+              "website_link": "/battle_enhancements/extra-crit-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Crit DMG",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-crit-dmg",
+              "slug": "extra-crit-dmg",
+              "website_link": "/battle_enhancements/extra-crit-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Crit DMG",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-crit-dmg",
+              "slug": "extra-crit-dmg",
+              "website_link": "/battle_enhancements/extra-crit-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Crit DMG",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-crit-dmg",
+              "slug": "extra-crit-dmg",
+              "website_link": "/battle_enhancements/extra-crit-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Crit DMG",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-crit-dmg",
+              "slug": "extra-crit-dmg",
+              "website_link": "/battle_enhancements/extra-crit-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "d69827712a863d64021c4b97ca39dd32",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "The Sacred Order",
+    "slug": "the sacred order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 52,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends composed of 52 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends composed of 47 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "The Sacred Order",
+        "the sacred order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "For centuries the Knights of the Sacred Order were charged with cleansing Teleria of evil in all its guises. But since the declaration of war, they have sworn allegiance to the Queen of Aravia. In league with the Queen's Necromancer, these once-holy knights now enforce her Majesty's will and guard her chattel."
+  },
+  "faction_slug": "the sacred order",
+  "website_link": "/champions/judicator/",
+  "image_slug": "image-champion-judicator",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Judicator is a rare attack champion from the faction Sacred Order doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Judicator",
+      "judicator"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "The Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Judicator is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-judicator.jpg",
+        "name": "Judicator",
+        "url": "https://raid-codex.com/champions/judicator/"
+      }
+    ]
+  },
+  "default_description": "Judicator is a rare attack champion from the faction Sacred Order doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2200",
+  "synergy": [],
+  "thumbnail": "5249ee8e0cff02ad6b4cc0ee0e50b7d1",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

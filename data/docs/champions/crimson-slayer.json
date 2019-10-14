@@ -1,0 +1,196 @@
+{
+  "name": "Crimson Slayer",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "C",
+    "dragon": "B",
+    "spider": "B",
+    "fire_knight": "B",
+    "minotaur": "C",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "crimson-slayer",
+  "characteristics": {
+    "60": {
+      "hp": 13710,
+      "attack": 1134,
+      "defense": 980,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Bring Silence",
+      "raw_description": "Attacks 3 times at random. Each hit has a 30% chance of placing a [Sleep] debuff for 1 turn.\n\nDamage based on: [ATK]",
+      "slug": "bring-silence",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuffs/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3120_s1",
+      "upgrades": [],
+      "image_slug": "bc1d77eced3d7fb2cdec62aaeb5cb5c0",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Flowing Sword",
+      "raw_description": "Attacks 1 enemy. Has a 70% chance of decreasing the target's Turn Meter by 50%. Fills this Champion's Turn Meter equal to the amount the target loses.\n\nDamage based on: [ATK]",
+      "slug": "flowing-sword",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3120_s2",
+      "upgrades": [],
+      "image_slug": "53a3059cf43d324f9b3264695ecdc389",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Copious Bleed",
+      "raw_description": "Attacks all enemies. Has an 80% chance of placing a 50% [Heal Reduction] debuff for 1 turn.\n\nDamage based on: [ATK]",
+      "slug": "copious-bleed",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction",
+          "slug": "heal-reduction",
+          "website_link": "/debuffs/heal-reduction",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3120_s3",
+      "upgrades": [],
+      "image_slug": "a4f8981995b1a79d92c169d10a387137",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 29,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 29 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors."
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/crimson-slayer/",
+  "image_slug": "image-champion-crimson-slayer",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Crimson Slayer is a rare attack champion from the faction Knight Revenant doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Crimson Slayer",
+      "crimson-slayer"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Crimson Slayer is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-crimson-slayer.jpg",
+        "name": "Crimson Slayer",
+        "url": "https://raid-codex.com/champions/crimson-slayer/"
+      }
+    ]
+  },
+  "default_description": "Crimson Slayer is a rare attack champion from the faction Knight Revenant doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3120",
+  "synergy": [],
+  "thumbnail": "f231f2107df69eab0a3862d50018a9b2",
+  "tags": [
+    "NEW_CHAMPION_20190726"
+  ],
+  "masteries": [],
+  "fusion_data": []
+}

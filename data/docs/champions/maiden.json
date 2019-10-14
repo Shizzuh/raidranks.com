@@ -1,0 +1,725 @@
+{
+  "name": "Maiden",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "B",
+    "minotaur": "B",
+    "force_dungeon": "A",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 13,
+    "campaign": 2.4,
+    "arena_offense": 3,
+    "arena_defense": 1.4,
+    "clan_boss": 3,
+    "ice_guardian": 3.1,
+    "dragon": 2,
+    "spider": 1.6,
+    "fire_knight": 1.3,
+    "minotaur": 2,
+    "force_dungeon": 1.6,
+    "magic_dungeon": 1.6,
+    "spirit_dungeon": 3.5,
+    "void_dungeon": 1.6
+  },
+  "slug": "maiden",
+  "characteristics": {
+    "60": {
+      "hp": 11730,
+      "attack": 1343,
+      "defense": 903,
+      "speed": 87,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Icy Temper",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a [Freeze] debuff for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%",
+      "slug": "icy-temper",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/debuffs/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2460_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.25,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.25,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.25,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.25,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.25,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "c5222080daa5d307d3d29f6eddbb01ee",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Diminish",
+      "raw_description": "Attacks 1 enemy. Decreases the target's MAX HP by 25% of the damage inflicted.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%\n\nLvl. 6 Cooldown -1",
+      "slug": "diminish",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2460_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease MAX HP",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-max-hp",
+              "slug": "decrease-max-hp",
+              "website_link": "/battle_enhancements/decrease-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease MAX HP",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-max-hp",
+              "slug": "decrease-max-hp",
+              "website_link": "/battle_enhancements/decrease-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease MAX HP",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-max-hp",
+              "slug": "decrease-max-hp",
+              "website_link": "/battle_enhancements/decrease-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease MAX HP",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-max-hp",
+              "slug": "decrease-max-hp",
+              "website_link": "/battle_enhancements/decrease-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease MAX HP",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-max-hp",
+              "slug": "decrease-max-hp",
+              "website_link": "/battle_enhancements/decrease-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease MAX HP",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-max-hp",
+              "slug": "decrease-max-hp",
+              "website_link": "/battle_enhancements/decrease-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "ef5f7e05c8eec463a2ae09d338d3f233",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Sow Confusion",
+      "raw_description": "Attacks 1 enemy. Places a 30% [Decrease DEF] debuff for 2 turns. Places a 30% [Decrease DEF] debuff on all enemies for 2 turns if this attack is critical.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "sow-confusion",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/debuffs/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2460_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "4b63359123824b4dd07440c8ff021f01",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "The Sacred Order",
+    "slug": "the sacred order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 52,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends composed of 52 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends composed of 47 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "The Sacred Order",
+        "the sacred order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "For centuries the Knights of the Sacred Order were charged with cleansing Teleria of evil in all its guises. But since the declaration of war, they have sworn allegiance to the Queen of Aravia. In league with the Queen's Necromancer, these once-holy knights now enforce her Majesty's will and guard her chattel."
+  },
+  "faction_slug": "the sacred order",
+  "website_link": "/champions/maiden/",
+  "image_slug": "image-champion-maiden",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Maiden is a rare attack champion from the faction Sacred Order doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Maiden",
+      "maiden"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "The Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Maiden is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-maiden.jpg",
+        "name": "Maiden",
+        "url": "https://raid-codex.com/champions/maiden/"
+      }
+    ]
+  },
+  "default_description": "Maiden is a rare attack champion from the faction Sacred Order doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2460",
+  "synergy": [],
+  "thumbnail": "e9412ee564384b987d086df32d4ce6b7",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

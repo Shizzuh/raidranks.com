@@ -1,0 +1,770 @@
+{
+  "name": "Chopper",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "C",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "A",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 9,
+    "campaign": 4.5,
+    "arena_offense": 4.4,
+    "arena_defense": 4,
+    "clan_boss": 2.2,
+    "ice_guardian": 3.7,
+    "dragon": 4,
+    "spider": 2.5,
+    "fire_knight": 3,
+    "minotaur": 4.2,
+    "force_dungeon": 3.8,
+    "magic_dungeon": 3.7,
+    "spirit_dungeon": 4.2,
+    "void_dungeon": 3.7
+  },
+  "slug": "chopper",
+  "characteristics": {
+    "60": {
+      "hp": 15855,
+      "attack": 1046,
+      "defense": 925,
+      "speed": 99,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ACC in the Arena by 40.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Staggering Hit",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a 30% [Decrease DEF] debuff for 2 turns.\n\nDamage based on: [SPD] [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Buff/Debuff Chance +5%",
+      "slug": "staggering-hit",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/debuffs/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "SPD"
+      ],
+      "giid": "1320_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.2,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "SPD",
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.2,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "SPD",
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.2,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "SPD",
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.2,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "SPD",
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.25,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "SPD",
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.3,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "SPD",
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        }
+      ],
+      "image_slug": "ea744aa1f52e09cc17b837009b8d7526",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Grapple",
+      "raw_description": "Attacks 1 enemy. Places a [Stun] debuff for 1 turn if the target's current HP is lower than this Champion's current HP.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Cooldown -1\n\nLvl. 6 Cooldown -1",
+      "slug": "grapple",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuffs/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1320_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Target HP% Lower",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Target HP% Lower",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Target HP% Lower",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Target HP% Lower",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Target HP% Lower",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Target HP% Lower",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 2,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "c65acdab91d1f73a4ac9c60d6b9bdb1b",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Incapacitate",
+      "raw_description": "Attacks 1 enemy. Removes 2 random buffs from the target.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +10%\n\nLvl. 4 Cooldown -1\n\nLvl. 5 Cooldown -1",
+      "slug": "incapacitate",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1320_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 2 Buffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-2-buffs",
+              "slug": "remove-2-buffs",
+              "website_link": "/battle_enhancements/remove-2-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 2 Buffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-2-buffs",
+              "slug": "remove-2-buffs",
+              "website_link": "/battle_enhancements/remove-2-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 2 Buffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-2-buffs",
+              "slug": "remove-2-buffs",
+              "website_link": "/battle_enhancements/remove-2-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 2 Buffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-2-buffs",
+              "slug": "remove-2-buffs",
+              "website_link": "/battle_enhancements/remove-2-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 2 Buffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-2-buffs",
+              "slug": "remove-2-buffs",
+              "website_link": "/battle_enhancements/remove-2-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "d8e9ed3fa089a59ea1e17247803797cf",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Orcs",
+    "slug": "orcs",
+    "website_link": "/factions/orcs/",
+    "image_slug": "image-faction-orcs",
+    "number_of_champions": 26,
+    "default_description": "Orcs is a faction from RAID Shadow Legends composed of 26 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Orcs is a faction from RAID Shadow Legends composed of 24 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Orcs",
+        "orcs"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Orcish tribes maintain a tenuous hold in pockets from Durham Forest to the Deadlands. Initially bred as warrior slaves, Orcs do what they must to ensure their survival, and will pick off unwitting travelers for their coin, blood and bones. Fearful of persecution by the men of Kaerok, they have sided with the Queen of Aravia."
+  },
+  "faction_slug": "orcs",
+  "website_link": "/champions/chopper/",
+  "image_slug": "image-champion-chopper",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Chopper is a rare attack champion from the faction Orcs doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Chopper",
+      "chopper"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Orcs"
+        },
+        "description": "Member of the faction Orcs, Chopper is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-chopper.jpg",
+        "name": "Chopper",
+        "url": "https://raid-codex.com/champions/chopper/"
+      }
+    ]
+  },
+  "default_description": "Chopper is a rare attack champion from the faction Orcs doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1320",
+  "synergy": [],
+  "thumbnail": "2a50e9c2d6b89b95bcb416d6857f8b45",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

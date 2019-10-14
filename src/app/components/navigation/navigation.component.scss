@@ -1,0 +1,75 @@
+@import 'variables';
+
+navigation:host {
+  width:100%;
+  color:$color-primary;
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  height:auto;
+  position:fixed;
+  left:0;
+  bottom:0;
+  background:$background-gradient-secondary;
+  transition: all 200ms ease-in-out;
+  z-index:1;
+  .nav-links {
+    display: flex;
+  }
+  .ng-fa-icon {
+    color: $color-primary;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 8vw;
+    transition: all 200ms ease-in-out;
+  }
+  a {
+    display:flex;
+    width:100 / 5 + 0%;
+    transition: all 200ms ease-in-out;
+    text-align:center;
+    padding:15px 0;
+    color:$color-primary;
+    span {
+      display:none;
+    }
+  }
+}
+@media all and (min-width:$mobile) {
+  navigation:host {
+    width:430px;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+    position:relative;
+    height:100%;
+    background:$background-gradient-primary;
+    .nav-links {
+      flex-direction: column;
+    }
+    a {
+      width:100%;
+      border-radius:0;
+      height:auto;
+      padding:25px;
+      font-size:16px;
+      box-shadow:none;
+      text-align:left;
+      align-items: center;
+      border-bottom:1px solid rgba($color-primary, .2);
+      span {
+        display:inline-block;
+        height:20px;
+      }
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    .ng-fa-icon {
+      height:20px;
+      width:35px;
+      font-size:18px;
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "name": "Satyr",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "satyr",
+  "characteristics": {
+    "60": {
+      "hp": 15195,
+      "attack": 892,
+      "defense": 848,
+      "speed": 83,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Deep Cut",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 15% [Decrease SPD] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Damage +10%\n\nLvl. 7 Buff/Debuff Chance +10%",
+      "slug": "deep-cut",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd",
+          "slug": "decrease-spd",
+          "website_link": "/debuffs/decrease-spd",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "770_s1",
+      "upgrades": [],
+      "image_slug": "1e1169575888cf0ab37c0c34a28181ad",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Catch",
+      "raw_description": "Attacks 4 times at random. Decreases the Turn Meter by 15% if this attack is critical.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Cooldown -1\n\nLvl. 6 Damage +10%",
+      "slug": "catch",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "770_s2",
+      "upgrades": [],
+      "image_slug": "9f05836d6365ebe1e6ee67bd9b468391",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Skinwalkers",
+    "slug": "skinwalkers",
+    "website_link": "/factions/skinwalkers/",
+    "image_slug": "image-faction-skinwalkers",
+    "number_of_champions": 19,
+    "default_description": "Skinwalkers is a faction from RAID Shadow Legends composed of 19 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalkers is a faction from RAID Shadow Legends composed of 18 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalkers",
+        "skinwalkers"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "As told by the tragic legend of Ch'arocah, Skinwalkers once had the power to cast themselves in the form of any man or beast. But after centuries of overuse, these shamans found themselves entrapped as something less than human, but more than animal. Though wild and dangerous, they can sense evil and may act to prevent it"
+  },
+  "faction_slug": "skinwalkers",
+  "website_link": "/champions/satyr/",
+  "image_slug": "image-champion-satyr",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Satyr is a uncommon hp champion from the faction Skinwalkers. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Satyr",
+      "satyr"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalkers"
+        },
+        "description": "Member of the faction Skinwalkers, Satyr is a champion of Uncommon rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-satyr.jpg",
+        "name": "Satyr",
+        "url": "https://raid-codex.com/champions/satyr/"
+      }
+    ]
+  },
+  "default_description": "Satyr is a uncommon hp champion from the faction Skinwalkers",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "770",
+  "synergy": [],
+  "thumbnail": "4ea06fbc83cdd0a06020c35d50e1e89a",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-broadmaw-arbalester",
+      "fusion_type": "ingredient"
+    }
+  ]
+}

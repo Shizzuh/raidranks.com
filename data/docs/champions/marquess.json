@@ -1,0 +1,915 @@
+{
+  "name": "Marquess",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Def",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "B",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 44,
+    "campaign": 4.7,
+    "arena_offense": 4.5,
+    "arena_defense": 4.6,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.8,
+    "dragon": 4.8,
+    "spider": 4.8,
+    "fire_knight": 4.1,
+    "minotaur": 4.8,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.9
+  },
+  "slug": "marquess",
+  "characteristics": {
+    "60": {
+      "hp": 17175,
+      "attack": 870,
+      "defense": 1013,
+      "speed": 89,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Disdainful Swipe",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 25% [Decrease ATK] debuff for 2 turns.\n\nDamage based on: [DEF]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +5%",
+      "slug": "disdainful-swipe",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "2940_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 0.25,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 0.25,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 0.25,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        }
+      ],
+      "image_slug": "351ca25614e6a88ec31ad3d82789d5d2",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Crush the Weak",
+      "raw_description": "Attacks all enemies. Has a 35% chance of placing a 15% [Weaken] debuff for 2 turns. Deals extra damage to enemies with the [Weaken] debuff.\n\nDamage based on: [DEF]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Buff/Debuff Chance +5%",
+      "slug": "crush-the-weak",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken",
+          "slug": "weaken",
+          "website_link": "/debuffs/weaken",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "2940_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Weaken",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.15,
+              "chance": 0.35,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 3,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Weaken",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.15,
+              "chance": 0.35,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Weaken",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.15,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Weaken",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.15,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Weaken",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.15,
+              "chance": 0.45,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Weaken",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.15,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Chance +5%"
+        }
+      ],
+      "image_slug": "4ab34df95aa05c36f6fc83d3e1e246fe",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Freeze Solid",
+      "raw_description": "Attacks 1 enemy. Has a 75% chance of placing a [Freeze] debuff for 1 turn.\n\nDamage based on: [DEF]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Cooldown -1\n\nLvl. 7 Damage +10%\n\nLvl. 8 Buff/Debuff Chance +10%",
+      "slug": "freeze-solid",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/debuffs/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "2940_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.8,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.85,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.9,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.9,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.9,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 8",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 1,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "b33742a235ed41b4764dc242c0f092d0",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 28,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Beyond the dark portal lies a realm of fire and darkness. It is thehome of ancient beings born of darkness. Forbidden fromsetting foot in the fair lands of Teleria, these foul entities haveconspired with Necromancers to breed Demonspawn - unholyunions of Demon and mortal"
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/marquess/",
+  "image_slug": "image-champion-marquess",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Marquess is a rare def champion from the faction Demonspawn doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Marquess",
+      "marquess"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Marquess is a champion of Rare rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-marquess.jpg",
+        "name": "Marquess",
+        "url": "https://raid-codex.com/champions/marquess/"
+      }
+    ]
+  },
+  "default_description": "Marquess is a rare def champion from the faction Demonspawn doing spirit damage",
+  "recommended_builds": [],
+  "lore": "<p>The profane hierarchy of Siroth???s legions is not unlike that of the mortal nobility in Teleria. There is protocol, a certain twisted propriety in demonic dealings, there are ranks and titles. The Marquis and Marquesses stand high in this hierarchy, serving as tacticians and commanders of the Demonspawn hosts.</p><p>Some they there were mortals once, before Siroth???s servants came to Teleria. Driven by fear or ambition, a terrible pact has been made by the nobles to retain their status, yet at a dear price - their very souls. Servants of Lumaya say that any mortal to be foolish enough to sign such a pact lives on in torment, their consciousness entrapped in suffocating, eternal darkness. Survive they will, though most will - in time - beg for the release of death.</p><p>And yet there is never a lack of those who are willing to test these tales for the promise of power.</p>",
+  "giid": "2940",
+  "synergy": [],
+  "thumbnail": "8e930496927757aac0dbd2438cb3f4f6",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

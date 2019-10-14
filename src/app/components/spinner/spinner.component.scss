@@ -1,0 +1,60 @@
+@import 'variables';
+
+@mixin loaderDivMixin {
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px solid transparent;
+  animation: rotate2 2s -2s ease-in-out infinite;
+}
+
+@keyframes rotate2 {
+  0% {
+    transform: rotate(0deg);
+    border-top-color: $color-primary;
+  }
+
+  50% {
+    transform: rotate(180deg);
+    border-top-color: lighten($color-primary, 20%);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    border-top-color: $color-primary;
+  }
+}
+
+.overlay {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position:fixed;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:1;
+  background-color:$color-background;
+  &.absolute {
+    position:absolute;
+  }
+}
+
+.loader {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: block;
+  overflow: hidden;
+
+  div {
+    height: 100%;
+  }
+}
+
+.loader4,
+.loader4 div {
+  @include loaderDivMixin;
+  padding: 4px;
+  animation: rotate2 2s -2s ease-in-out infinite;
+}

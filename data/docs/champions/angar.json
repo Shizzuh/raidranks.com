@@ -1,0 +1,771 @@
+{
+  "name": "Angar",
+  "rarity": "Legendary",
+  "element": "Void",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 48,
+    "campaign": 4.3,
+    "arena_offense": 4.2,
+    "arena_defense": 4.3,
+    "clan_boss": 4.1,
+    "ice_guardian": 4.1,
+    "dragon": 4.1,
+    "spider": 3.8,
+    "fire_knight": 4.5,
+    "minotaur": 4.2,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 4,
+    "spirit_dungeon": 4,
+    "void_dungeon": 4
+  },
+  "slug": "angar",
+  "characteristics": {
+    "60": {
+      "hp": 21975,
+      "attack": 826,
+      "defense": 1288,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 10
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Exacerbate",
+      "raw_description": "Attacks 1 enemy 2 times. Places an extra hit if an enemy has a [Provoke] debuff.\n\nDamage based on: [ATK] [HP]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%",
+      "slug": "exacerbate",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
+      "giid": "2270_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Provoke",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Provoke",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Provoke",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Provoke",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "98af676a66629b0d53abb02e3b74f94b",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Infuriate",
+      "raw_description": "Attacks 2 times at random. Places a [Provoke] debuff for 1 turn. Places a 30% [Reflect Damage] buff on all allies for 2 turns.\n\nDamage based on: [ATK] [HP] mh Reflect Damage\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "infuriate",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Reflect Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-reflect-damage-2",
+          "slug": "reflect-damage-2",
+          "website_link": "/buffs/reflect-damage",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
+      "giid": "2270_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Reflect Damage",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-reflect-damage",
+              "slug": "reflect-damage",
+              "website_link": "/debuffs/reflect-damage",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Reflect Damage",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-reflect-damage",
+              "slug": "reflect-damage",
+              "website_link": "/debuffs/reflect-damage",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Reflect Damage",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-reflect-damage",
+              "slug": "reflect-damage",
+              "website_link": "/debuffs/reflect-damage",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Reflect Damage",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-reflect-damage",
+              "slug": "reflect-damage",
+              "website_link": "/debuffs/reflect-damage",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Reflect Damage",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-reflect-damage",
+              "slug": "reflect-damage",
+              "website_link": "/debuffs/reflect-damage",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "be869cd8cb80d767e0af0767ed60c2b1",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Bravado",
+      "raw_description": "If an enemy with a [Provoke] debuff attacks, has a 40% chance of placing a [Provoke] debuff on them for 1 turn. Each hit taken will reduce damage taken by 2% (up to 10% in one round).\n\nLvl. 2 Buff/Debuff Chance +5%\n\nLvl. 3 Buff/Debuff Chance +5%",
+      "slug": "bravado",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2270_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 0,
+          "target": {
+            "who": "-",
+            "targets": "-"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "DMG Reduction",
+              "value": 0.02,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-dmg-reduction",
+              "slug": "dmg-reduction",
+              "website_link": "/battle_enhancements/dmg-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Hit",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "provoke attacks",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 0,
+          "target": {
+            "who": "-",
+            "targets": "-"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "DMG Reduction",
+              "value": 0.02,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-dmg-reduction",
+              "slug": "dmg-reduction",
+              "website_link": "/battle_enhancements/dmg-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Hit",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.45,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "provoke attacks",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 0,
+          "target": {
+            "who": "-",
+            "targets": "-"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "DMG Reduction",
+              "value": 0.02,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-dmg-reduction",
+              "slug": "dmg-reduction",
+              "website_link": "/battle_enhancements/dmg-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Hit",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "provoke attacks",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        }
+      ],
+      "image_slug": "908ae1395b8db6e782f643b57ebd5184",
+      "skill_number": "P2"
+    }
+  ],
+  "faction": {
+    "name": "Orcs",
+    "slug": "orcs",
+    "website_link": "/factions/orcs/",
+    "image_slug": "image-faction-orcs",
+    "number_of_champions": 26,
+    "default_description": "Orcs is a faction from RAID Shadow Legends composed of 26 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Orcs is a faction from RAID Shadow Legends composed of 24 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Orcs",
+        "orcs"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Orcish tribes maintain a tenuous hold in pockets from Durham Forest to the Deadlands. Initially bred as warrior slaves, Orcs do what they must to ensure their survival, and will pick off unwitting travelers for their coin, blood and bones. Fearful of persecution by the men of Kaerok, they have sided with the Queen of Aravia."
+  },
+  "faction_slug": "orcs",
+  "website_link": "/champions/angar/",
+  "image_slug": "image-champion-angar",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Angar is a legendary hp champion from the faction Orcs doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Angar",
+      "angar"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Orcs"
+        },
+        "description": "Member of the faction Orcs, Angar is a champion of Legendary rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-angar.jpg",
+        "name": "Angar",
+        "url": "https://raid-codex.com/champions/angar/"
+      }
+    ]
+  },
+  "default_description": "Angar is a legendary hp champion from the faction Orcs doing void damage",
+  "recommended_builds": [],
+  "lore": "<p>A living legend, Angar is not only a warrior of great strength and courage but is also known for his sharp tongue. Perhaps a bit uncommon for an orc, he values victory in the battle of words just as much as victory in the contest of arms.</p><p>Provoking his foes into mindless rage with barbed insults, Angar can easily make them forget about their tactics. While Angar himself prefers to keep a cool head in battle. He is known to gather grisly trophies such as skulls and bones of the slain. Some say it helps him to always remember the cost of men's folly and blind fury.</p>",
+  "giid": "2270",
+  "synergy": [],
+  "thumbnail": "cd0f74b5955dc87fd0605745c4b49ee8",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

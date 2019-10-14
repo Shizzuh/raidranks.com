@@ -1,0 +1,15 @@
+{
+  "effect_type": "debuff",
+  "type": "Decrease ATK",
+  "value": 0.25,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-debuff-decrease-atk",
+  "slug": "decrease-atk",
+  "website_link": "/debuffs/decrease-atk",
+  "extra": false,
+  "raw_description": "Decreases the Champion’s Battle ATK by 25%",
+  "places_if": "",
+  "amount": 0
+}

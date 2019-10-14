@@ -1,0 +1,689 @@
+{
+  "name": "Dracomorph",
+  "rarity": "Legendary",
+  "element": "Magic",
+  "type": "Attack",
+  "guide_video_id": "m411VDbUCtI",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "SS",
+    "clan_boss_with_giant_slayer": "SS",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "A",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 268,
+    "campaign": 3.5,
+    "arena_offense": 3.4,
+    "arena_defense": 2.9,
+    "clan_boss": 4.3,
+    "ice_guardian": 3.4,
+    "dragon": 3.4,
+    "spider": 2.8,
+    "fire_knight": 3.2,
+    "minotaur": 3.3,
+    "force_dungeon": 3.1,
+    "magic_dungeon": 3.2,
+    "spirit_dungeon": 3.3,
+    "void_dungeon": 3.2
+  },
+  "slug": "dracomorph",
+  "characteristics": {
+    "60": {
+      "hp": 15195,
+      "attack": 1520,
+      "defense": 1046,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Seeping Pain",
+      "raw_description": "Attacks 1 enemy. Damage increases by 10% for each debuff on the target. Will attack 1 random enemy with any surplus damage if the target is killed. Damage infliected is equal to 3 times the surplus damage.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%",
+      "slug": "seeping-pain",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1360_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK with Surplus DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "random enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk-with-surplus-dmg",
+              "slug": "atk-with-surplus-dmg",
+              "website_link": "/battle_enhancements/atk-with-surplus-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK with Surplus DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "random enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk-with-surplus-dmg",
+              "slug": "atk-with-surplus-dmg",
+              "website_link": "/battle_enhancements/atk-with-surplus-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK with Surplus DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "random enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk-with-surplus-dmg",
+              "slug": "atk-with-surplus-dmg",
+              "website_link": "/battle_enhancements/atk-with-surplus-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK with Surplus DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "random enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk-with-surplus-dmg",
+              "slug": "atk-with-surplus-dmg",
+              "website_link": "/battle_enhancements/atk-with-surplus-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK with Surplus DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "random enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk-with-surplus-dmg",
+              "slug": "atk-with-surplus-dmg",
+              "website_link": "/battle_enhancements/atk-with-surplus-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "d3f63f829be05da5b10f6d5d7c93df1b",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Poison Jaws",
+      "raw_description": "Attacks 4 times at random. Each hit places a 5% [Poison] debuff for 3 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Buff/Debuff Chance +10%\n\nLvl. 4 Buff/Debuff Chance +15%\n\nLvl. 5 Cooldown -1",
+      "slug": "poison-jaws",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/debuffs/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1360_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 4,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 1,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 4,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 1,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 4,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 1,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 4,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 1,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +15%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 4,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 1,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "fc00b992daa49ade02ad31a0ba271320",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Baleful Eye",
+      "raw_description": "Places a 25% [Weaken] debuff and a 36% [Decrease DEF] debuff on all enemies for 2 turns. * Weaken\n\nLvl. 2 Cooldown -1\n\nLvl. 3 Cooldown -1",
+      "slug": "baleful-eye",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/debuffs/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken-2",
+          "website_link": "/debuffs/weaken",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "1360_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.6,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def-2",
+              "slug": "decrease-def-2",
+              "website_link": "/debuffs/decrease-def",
+              "extra": true,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.6,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def-2",
+              "slug": "decrease-def-2",
+              "website_link": "/debuffs/decrease-def",
+              "extra": true,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.6,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def-2",
+              "slug": "decrease-def-2",
+              "website_link": "/debuffs/decrease-def",
+              "extra": true,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "b4058baf272079033564855fc341c0aa",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Lizardmen",
+    "slug": "lizardmen",
+    "website_link": "/factions/lizardmen/",
+    "image_slug": "image-faction-lizardmen",
+    "number_of_champions": 24,
+    "default_description": "Lizardmen is a faction from RAID Shadow Legends composed of 24 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Lizardmen is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Lizardmen",
+        "lizardmen"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Lizardmen evolved from the brackish waters of Teleria longbefore modern humanoid races emerged with more powerfulbrains. These fearsome amphibious bipeds have been deemeduntouchable but are tolerated in swamps and city sewers. Theytrade through messengers to get sustenance, or ransom for theircaptives."
+  },
+  "faction_slug": "lizardmen",
+  "website_link": "/champions/dracomorph/",
+  "image_slug": "image-champion-dracomorph",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Dracomorph is a legendary attack champion from the faction Lizardmen doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Dracomorph",
+      "dracomorph"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Lizardmen"
+        },
+        "description": "Member of the faction Lizardmen, Dracomorph is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-dracomorph.jpg",
+        "name": "Dracomorph",
+        "url": "https://raid-codex.com/champions/dracomorph/"
+      }
+    ]
+  },
+  "default_description": "Dracomorph is a legendary attack champion from the faction Lizardmen doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1360",
+  "synergy": [],
+  "thumbnail": "fb508ef074ee78a0e58c68be06d8a2eb",
+  "tags": [
+    "CHAMPION_UPDATED_20190808"
+  ],
+  "masteries": [],
+  "fusion_data": []
+}

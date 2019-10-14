@@ -1,0 +1,910 @@
+{
+  "name": "Tallia",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "S",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 406,
+    "campaign": 4.8,
+    "arena_offense": 4.8,
+    "arena_defense": 4.6,
+    "clan_boss": 4.6,
+    "ice_guardian": 4.8,
+    "dragon": 4.9,
+    "spider": 4.8,
+    "fire_knight": 4.9,
+    "minotaur": 4.9,
+    "force_dungeon": 4.6,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.8
+  },
+  "slug": "tallia",
+  "characteristics": {
+    "60": {
+      "hp": 12390,
+      "attack": 1343,
+      "defense": 1134,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally C. RATE in Dungeons by 15%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Hack and Slash",
+      "raw_description": "Attacks 1 enemy 3 times.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%",
+      "slug": "hack-and-slash",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3420_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "85791afde2223fd0b84e57233499c47b",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Rise to Duty",
+      "raw_description": "Places a 25% [Increase ATK] buff and a 30% [Increase C. RATE] buff on this Champion for 2 turns, then attacks all enemies. After 3 turns when Fenax is on the same team.]\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%\n\nLvl. 6 Cooldown -1",
+      "slug": "rise-to-duty",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk",
+          "slug": "increase-atk",
+          "website_link": "/buffs/increase-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate-2",
+          "website_link": "/buffs/increase-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3420_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Bomb",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 3,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-bomb",
+              "slug": "bomb",
+              "website_link": "/debuffs/bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Fenax on Team",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Bomb",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 3,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-bomb",
+              "slug": "bomb",
+              "website_link": "/debuffs/bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Fenax on Team",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Bomb",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 3,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-bomb",
+              "slug": "bomb",
+              "website_link": "/debuffs/bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Fenax on Team",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Bomb",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 3,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-bomb",
+              "slug": "bomb",
+              "website_link": "/debuffs/bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Fenax on Team",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Bomb",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 3,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-bomb",
+              "slug": "bomb",
+              "website_link": "/debuffs/bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Fenax on Team",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Bomb",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 3,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-bomb",
+              "slug": "bomb",
+              "website_link": "/debuffs/bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Fenax on Team",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "2f263fd465f77899c64ea91fcb6f0f1f",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Awesome Presence",
+      "raw_description": "Places a [Counterattack] buff on this Champion for 2 turns. Has a 75% chance of placing a 25% [Weaken] debuff on enemies for 2 turns.\n\nLvl. 3 Buff/Debuff Chance +15% Lvl\n\nLvl. 4 Cooldown -1",
+      "slug": "awesome-presence",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Counterattack",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-counterattack",
+          "slug": "counterattack",
+          "website_link": "/buffs/counterattack",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken-2",
+          "website_link": "/debuffs/weaken",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3420_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Counterattack",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-counterattack",
+              "slug": "counterattack",
+              "website_link": "/debuffs/counterattack",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 6,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Counterattack",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-counterattack",
+              "slug": "counterattack",
+              "website_link": "/debuffs/counterattack",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 6,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Counterattack",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-counterattack",
+              "slug": "counterattack",
+              "website_link": "/debuffs/counterattack",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 6,
+          "raw_detail": "Chance +15%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Counterattack",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-counterattack",
+              "slug": "counterattack",
+              "website_link": "/debuffs/counterattack",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "8b8ad97435394bbb9f476c8b0886f541",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "The Sacred Order",
+    "slug": "the sacred order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 52,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends composed of 52 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends composed of 47 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "The Sacred Order",
+        "the sacred order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "For centuries the Knights of the Sacred Order were charged with cleansing Teleria of evil in all its guises. But since the declaration of war, they have sworn allegiance to the Queen of Aravia. In league with the Queen's Necromancer, these once-holy knights now enforce her Majesty's will and guard her chattel."
+  },
+  "faction_slug": "the sacred order",
+  "website_link": "/champions/tallia/",
+  "image_slug": "image-champion-tallia",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Tallia is a epic attack champion from the faction Sacred Order doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Tallia",
+      "tallia"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "The Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Tallia is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-tallia.jpg",
+        "name": "Tallia",
+        "url": "https://raid-codex.com/champions/tallia/"
+      }
+    ]
+  },
+  "default_description": "Tallia is a epic attack champion from the faction Sacred Order doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>Sometimes love blossoms early, and remains in the hearts of those touched by its warmth for the rest of their lives. Such is the tale of Fenax and Tallia. He was the son of a destitute noble, serving in the household of Tallia???s father. She - a cherished heiress. Though they have sworn to marry one another as children, no one had taken that vow seriously. And by the time Tallia???s father realized that this was more than childish games, that their love was not fading, it was far too late. The girl was far too headstrong and wild to be cowed into obedience, and the aging Lord had come up with a cunning and dark plot.</p><p>Fenax, then a squire, was sent with an ???important message??? to a neighboring bannerman. Alone with no escort, of course, as messengers had to travel light and swift. By the Lord???s design, a group of orc raiders was meant to ambush and slay Fenax - a tragedy to be sure, but one that his daughter would forget in time. Unfortunately for the Lord, he failed to take Fenax???s wit into account. Though indeed ambushed and brought low, he managed to convince his captors that he was, in fact, the heir of an important baron who would pay the savages handsomely. The greedy brigands were quick to drag him off to the camp instead, hoping to fool the Lord and gain both rewards.</p><p>And when the searching party that went after Fenax upon him ???suddenly??? going missing on the road, Tallia???s father became concerned. He ignored his daughter???s pleas to send a group of men-at-arms to rescue her beloved from the orcs, who left plenty of traces to be identified. The Lord refused in anger, yet once more he had miscalculated. Furious, Tallia escaped the castle to mount a rescue on her own.</p><p>A dangerous venture, to be sure. But fate was not always cruel. A Sacred Order patrol came across the young Lady, their Sergeant a man of honour and piety that did not shrink away from his duty to protect the innocent. With their help, Tallia managed to find and free Fenax from the raiders after a vicious battle in which she too was baptised by fire.</p><p>Though after a loving embrace was shared and words of comfort were spoken, the Tallia could not help but wonder what was so important that her beloved had to risk his life to deliver. She unsealed the letter only to devoid of a single drop of ink. But it was not needed, the empty parchment spoke of her father???s betrayal louder than any words could. Hurt and furious, the two young lovers did not, however, let themselves be broken. Unwilling to return to the man that would see them separated so cruelly, they both swore an oath to join the Order and dedicate their lives to Lumaya, an oath that they have carried out with honour against servants of darkness beyond counting - together.</p>",
+  "giid": "3420",
+  "synergy": [],
+  "thumbnail": "643de7cf7ba769c7466ccbc4adfd7fac",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

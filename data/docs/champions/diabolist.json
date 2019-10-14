@@ -1,0 +1,677 @@
+{
+  "name": "Diabolist",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 55,
+    "campaign": 4.7,
+    "arena_offense": 4.6,
+    "arena_defense": 4.4,
+    "clan_boss": 4.6,
+    "ice_guardian": 4.6,
+    "dragon": 4.6,
+    "spider": 4.4,
+    "fire_knight": 4.4,
+    "minotaur": 4.5,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.6
+  },
+  "slug": "diabolist",
+  "characteristics": {
+    "60": {
+      "hp": 18660,
+      "attack": 1002,
+      "defense": 782,
+      "speed": 110,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Torment",
+      "raw_description": "Attacks 1 enemy. Has a 10% chance of placing a [Sleep] debuff for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Buff/Debuff Chance +5%",
+      "slug": "torment",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuffs/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1630_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.1,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.1,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.1,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.1,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.15,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        }
+      ],
+      "image_slug": "9090fe4739f676c270c5229e327b1fce",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Electric Storm",
+      "raw_description": "Attacks all enemies. Places a 30% [Increase SPD] buff on all allies for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Cooldown -1",
+      "slug": "electric-storm",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-spd-2",
+          "slug": "increase-spd-2",
+          "website_link": "/buffs/increase-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1630_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase SPD",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-spd",
+              "slug": "increase-spd",
+              "website_link": "/debuffs/increase-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase SPD",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-spd",
+              "slug": "increase-spd",
+              "website_link": "/debuffs/increase-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase SPD",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-spd",
+              "slug": "increase-spd",
+              "website_link": "/debuffs/increase-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase SPD",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-spd",
+              "slug": "increase-spd",
+              "website_link": "/debuffs/increase-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "d20fef9be9eaa3115c3bf526d42fc6a9",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Positive Charge",
+      "raw_description": "Fills the Turn Meter of all allies by 15%. Decreases the Turn Meter of all enemies by 15%.\n\nLvl. 2 Cooldown -1\n\nLvl. 3 Cooldown -1",
+      "slug": "positive-charge",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "1630_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase Turn Meter",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-turn-meter",
+              "slug": "increase-turn-meter",
+              "website_link": "/battle_enhancements/increase-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 6,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase Turn Meter",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-turn-meter",
+              "slug": "increase-turn-meter",
+              "website_link": "/battle_enhancements/increase-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase Turn Meter",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-turn-meter",
+              "slug": "increase-turn-meter",
+              "website_link": "/battle_enhancements/increase-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "21ee2faca4fa41d796e78d77442892e1",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 28,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Beyond the dark portal lies a realm of fire and darkness. It is thehome of ancient beings born of darkness. Forbidden fromsetting foot in the fair lands of Teleria, these foul entities haveconspired with Necromancers to breed Demonspawn - unholyunions of Demon and mortal"
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/diabolist/",
+  "image_slug": "image-champion-diabolist",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Diabolist is a rare assist champion from the faction Demonspawn doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Diabolist",
+      "diabolist"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Diabolist is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-diabolist.jpg",
+        "name": "Diabolist",
+        "url": "https://raid-codex.com/champions/diabolist/"
+      }
+    ]
+  },
+  "default_description": "Diabolist is a rare assist champion from the faction Demonspawn doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1630",
+  "synergy": [],
+  "thumbnail": "46031b3d04dc90994ca317a7c55c4289",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-relickeeper-justiciar",
+      "fusion_type": "ingredient"
+    }
+  ]
+}

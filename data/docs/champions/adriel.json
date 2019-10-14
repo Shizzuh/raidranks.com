@@ -1,0 +1,824 @@
+{
+  "name": "Adriel",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 169,
+    "campaign": 4.8,
+    "arena_offense": 4.6,
+    "arena_defense": 4.5,
+    "clan_boss": 4.6,
+    "ice_guardian": 4.7,
+    "dragon": 4.7,
+    "spider": 4.7,
+    "fire_knight": 4.6,
+    "minotaur": 4.8,
+    "force_dungeon": 4.6,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.7,
+    "void_dungeon": 4.7
+  },
+  "slug": "adriel",
+  "characteristics": {
+    "60": {
+      "hp": 18330,
+      "attack": 1101,
+      "defense": 980,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 15
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Magic Ally SPD in all Battles by 21%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Humiliate",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Decrease ACC] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +59\n\nLvl. 5 Buff/Debuff Chance +10",
+      "slug": "humiliate",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-acc",
+          "slug": "decrease-acc",
+          "website_link": "/debuffs/decrease-acc",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2570_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0,
+              "chance": 0.25,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0,
+              "chance": 0.35,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "0e7fdcdf87d347c3fa8e3ce84385aafe",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Curtain of Light",
+      "raw_description": "Heals all allies by 20% of their MAX HP and places a 30% [Reflect Damage]\n\nLvl. 2 Heal +5 Lvl\n\nLvl. 4 Heal +10\n\nLvl. 5 Cooldown -1",
+      "slug": "curtain-of-light",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Reflect Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-reflect-damage-2",
+          "slug": "reflect-damage-2",
+          "website_link": "/buffs/reflect-damage",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2570_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Reflect Damage",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-reflect-damage",
+              "slug": "reflect-damage",
+              "website_link": "/debuffs/reflect-damage",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Reflect Damage",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-reflect-damage",
+              "slug": "reflect-damage",
+              "website_link": "/debuffs/reflect-damage",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Heal +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Reflect Damage",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-reflect-damage",
+              "slug": "reflect-damage",
+              "website_link": "/debuffs/reflect-damage",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Heal +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Reflect Damage",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-reflect-damage",
+              "slug": "reflect-damage",
+              "website_link": "/debuffs/reflect-damage",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.35,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Heal +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Reflect Damage",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-reflect-damage",
+              "slug": "reflect-damage",
+              "website_link": "/debuffs/reflect-damage",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "bce5ea72acc1ea163fa2b2b70322bb64",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Blinding Flash",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Has a 100% chance if this attack is critical.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Damage +10%\n\nLvl. 6 Cooldown -1",
+      "slug": "blinding-flash",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2570_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "bd5c1fc07c133a4676e3ac76a362b5c3",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "The Sacred Order",
+    "slug": "the sacred order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 52,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends composed of 52 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends composed of 47 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "The Sacred Order",
+        "the sacred order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "For centuries the Knights of the Sacred Order were charged with cleansing Teleria of evil in all its guises. But since the declaration of war, they have sworn allegiance to the Queen of Aravia. In league with the Queen's Necromancer, these once-holy knights now enforce her Majesty's will and guard her chattel."
+  },
+  "faction_slug": "the sacred order",
+  "website_link": "/champions/adriel/",
+  "image_slug": "image-champion-adriel",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Adriel is a epic assist champion from the faction Sacred Order doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Adriel",
+      "adriel"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "The Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Adriel is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-adriel.jpg",
+        "name": "Adriel",
+        "url": "https://raid-codex.com/champions/adriel/"
+      }
+    ]
+  },
+  "default_description": "Adriel is a epic assist champion from the faction Sacred Order doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>Even among the ranks of Chaplains of the Sacred Order, Adriel is known for her ardent faith and unflinching resolve. Where some priests prefer to tend to the spiritual wellbeing of their own warriors, Adriel can always be counted upon to join the vanguard. Her loud proclamations of contempt and promises of damnation have been known to demoralize many a foe, paving the way to easy victory for her allies.</p><p>But charisma is not Adriel???s only weapon. By Lumaya???s light, she can blind the enemy, sowing confusion and weakening their attacks. The same grace allows her to close wounds with but a touch and enchant her allies??? armour to reflect attacks back at those would seek to harm them.</p>",
+  "giid": "2570",
+  "synergy": [],
+  "thumbnail": "852c44ddce7e0c7e4c64d86147300831",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

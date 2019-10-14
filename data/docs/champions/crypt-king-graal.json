@@ -1,0 +1,230 @@
+{
+  "name": "Crypt-King Graal",
+  "rarity": "Legendary",
+  "element": "Magic",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "SS",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "A",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "crypt-king-graal",
+  "characteristics": {
+    "60": {
+      "hp": 19320,
+      "attack": 1145,
+      "defense": 1145,
+      "speed": 107,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in all Battles by 33%",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Brittleness Bane",
+      "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns.\n\nDamage based on: [ATK]",
+      "slug": "brittleness-bane",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3190_s1",
+      "upgrades": [],
+      "image_slug": "66e944d3c0c3cf3c29377bd5f0b06455",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Death Fires",
+      "raw_description": "Attacks 3 times at random. Has a 50% chance of placing a [HP Burn] debuff for 2 turns.\n\nDamage based on: [ATK]",
+      "slug": "death-fires",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/debuffs/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3190_s2",
+      "upgrades": [],
+      "image_slug": "7ced3c82f9f599ec38fa6d904db80424",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Elemental Unity",
+      "raw_description": "Attacks all enemies. Places a [Freeze] debuff on each target for 1 turn if they are under a [HP Burn] debuff. Extends the duration of any [HP Burn] debuffs to 3 turns. This effect cannot be resisted",
+      "slug": "elemental-unity",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/debuffs/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/debuffs/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3190_s3",
+      "upgrades": [],
+      "image_slug": "5125093fb84de0d70e5c8486e2900ab0",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 36,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time."
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/crypt-king-graal/",
+  "image_slug": "image-champion-crypt-king-graal",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Crypt-King Graal is a legendary assist champion from the faction Undead Hordes doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Crypt-King Graal",
+      "crypt-king-graal"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Crypt-King Graal is a champion of Legendary rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-crypt-king-graal.jpg",
+        "name": "Crypt-King Graal",
+        "url": "https://raid-codex.com/champions/crypt-king-graal/"
+      }
+    ]
+  },
+  "default_description": "Crypt-King Graal is a legendary assist champion from the faction Undead Hordes doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3190",
+  "synergy": [],
+  "thumbnail": "07c4b1fdd1ef8da2d7e9393071204b71",
+  "tags": [
+    "NEW_CHAMPION_20190726"
+  ],
+  "masteries": [],
+  "fusion_data": []
+}

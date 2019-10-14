@@ -1,0 +1,820 @@
+{
+  "name": "Grinner",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 57,
+    "campaign": 4.8,
+    "arena_offense": 4.5,
+    "arena_defense": 4.6,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.8,
+    "dragon": 4.7,
+    "spider": 4.7,
+    "fire_knight": 4.6,
+    "minotaur": 4.7,
+    "force_dungeon": 4.7,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.6
+  },
+  "slug": "grinner",
+  "characteristics": {
+    "60": {
+      "hp": 14370,
+      "attack": 936,
+      "defense": 1134,
+      "speed": 110,
+      "critical_rate": 0.15,
+      "critical_damage": 0.3,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Bile",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 50% [Increase ATK] buff on all allies for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%",
+      "slug": "bile",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk-2",
+          "website_link": "/buffs/increase-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1200_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0.25,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0.25,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0.25,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0.25,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0.25,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "8fb8e2c033362b1066236f1b17341199",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Shock",
+      "raw_description": "Attacks all enemies. Has a 20% chance of removing 1 random buff from each target.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +10%\n\nLvl. 5 Buff/Debuff Chance +10%\n\nLvl. 6 Cooldown -1\n\nLvl. 7 Buff/Debuff Chance +10%\n\nLvl. 8 Cooldown -1",
+      "slug": "shock",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1200_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 8",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "756679e13a2de8ecdfccca512ccf75a4",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Unbury",
+      "raw_description": "Revives an ally with 50% HP. Places a [Shield] buff on the revived Champion for 2 turns equal to 20% of their MAX HP.\n\nLvl. 2 Cooldown -1\n\nLvl. 3 Cooldown -1\n\nLvl. 4 Cooldown -1",
+      "slug": "unbury",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buffs/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "1200_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "revived ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Revive",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-revive",
+              "slug": "revive",
+              "website_link": "/battle_enhancements/revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 7,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "revived ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Revive",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-revive",
+              "slug": "revive",
+              "website_link": "/battle_enhancements/revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 6,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "revived ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Revive",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-revive",
+              "slug": "revive",
+              "website_link": "/battle_enhancements/revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "revived ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Revive",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-revive",
+              "slug": "revive",
+              "website_link": "/battle_enhancements/revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "c62e3686ddd1f42549c358a5a307a26a",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 36,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time."
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/grinner/",
+  "image_slug": "image-champion-grinner",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Grinner is a rare assist champion from the faction Undead Hordes doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Grinner",
+      "grinner"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Grinner is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-grinner.jpg",
+        "name": "Grinner",
+        "url": "https://raid-codex.com/champions/grinner/"
+      }
+    ]
+  },
+  "default_description": "Grinner is a rare assist champion from the faction Undead Hordes doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1200",
+  "synergy": [],
+  "thumbnail": "fe2d010308a6b3799a3d9c728ee74244",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

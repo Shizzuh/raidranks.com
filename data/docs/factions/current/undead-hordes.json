@@ -1,0 +1,23 @@
+{
+  "name": "Undead Hordes",
+  "slug": "undead-hordes",
+  "website_link": "/factions/undead-hordes/",
+  "image_slug": "image-faction-undead-hordes",
+  "number_of_champions": 36,
+  "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 33 champions",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "factions",
+      "Undead Hordes",
+      "undead-hordes"
+    ],
+    "structured_data": null
+  },
+  "giid": "",
+  "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time."
+}

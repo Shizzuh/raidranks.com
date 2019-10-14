@@ -1,0 +1,318 @@
+{
+  "name": "Vizier Ovelis",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "vizier-ovelis",
+  "characteristics": {
+    "60": {
+      "hp": 16350,
+      "attack": 1476,
+      "defense": 1013,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally Attack in Dungeons by 34%",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Accursed Blades",
+      "raw_description": "Attacks 1 enemy 3 times. Each hit has a 35% chance of increasing the duration of all debuffs by 1 turn. Damage based on ATK\n\nLvl. 2 Damage +5%.\n\nLvl. 3 Chance +5%.\n\nLvl. 4 Damage +10%.\n\nLvl. 5 Chance +10%.",
+      "slug": "accursed-blades",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3980_s1",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "ca76ecb25c4e289300a7d17a1f054cb6",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Master of Misery",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a [Block Buffs] debuff, a 50% [Decrease ATK] debuff, and a 100% [Heal Reduction] debuff for 2 turns. Damage based on ATK\n\nLvl. 2 Damage +10%.\n\nLvl. 3 Damage +10%.\n\nLvl. 4 Damage +10%.\n\nLvl. 5 Chance +10%.\n\nLvl. 6 Chance +15%.",
+      "slug": "master-of-misery",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/debuffs/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/debuffs/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3980_s2",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "5ab7e72b5145c86d033fd61ba9aef7bc",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Vizier of Poisons",
+      "raw_description": "Attacks 1 enemy. Applies a [Debuff Spread] effect, taking 2 random debuffs from the target and placing them on all enemies. Places a [Perfect Veil] buff on this Champion for 3 turns if the target is under 2 or more debuffs. Damage based on ATK\n\nLvl. 2 Damage +5%.\n\nLvl. 3 Damage +5%.\n\nLvl. 4 Cooldown -1.",
+      "slug": "vizier-of-poisons",
+      "effects": [
+        {
+          "effect_type": "battle_enhancement",
+          "type": "Debuff Spread",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-battle-enhancement-debuff-spread",
+          "slug": "debuff-spread",
+          "website_link": "/battle_enhancements/debuff-spread",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Perfect Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/buffs/perfect-veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3980_s3",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "0d1f11b3ac720c1251f2b98002dbe75b",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Unseen Assassin",
+      "raw_description": "Places a [Perfect Veil] buff on this champion for 2 turns at the start of each round.",
+      "slug": "unseen-assassin",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Perfect Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-perfect-veil",
+          "slug": "perfect-veil",
+          "website_link": "/buffs/perfect-veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3980_s4",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "59673613009ba2aac063baf1f88bc424",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Dark Elves",
+    "slug": "dark-elves",
+    "website_link": "/factions/dark-elves/",
+    "image_slug": "image-faction-dark-elves",
+    "number_of_champions": 33,
+    "default_description": "Dark Elves is a faction from RAID Shadow Legends composed of 33 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dark Elves is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dark Elves",
+        "dark-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Fallen from grace in their homelands of Aravia, the Dark Elves inhabit the forests that border the realms of Teleria. They see persecutions in Kaerok rather as a boon than a bane supplying them with a stream of silver. They have set up tolls for those anxious to pass safely, but woe betide those who cannot pay."
+  },
+  "faction_slug": "dark-elves",
+  "website_link": "/champions/vizier-ovelis/",
+  "image_slug": "image-champion-vizier-ovelis",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Vizier Ovelis is a legendary attack champion from the faction Dark Elves doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Vizier Ovelis",
+      "vizier-ovelis"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dark Elves"
+        },
+        "description": "Member of the faction Dark Elves, Vizier Ovelis is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-vizier-ovelis.jpg",
+        "name": "Vizier Ovelis",
+        "url": "https://raid-codex.com/champions/vizier-ovelis/"
+      }
+    ]
+  },
+  "default_description": "Vizier Ovelis is a legendary attack champion from the faction Dark Elves doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3980",
+  "synergy": [],
+  "thumbnail": "9425be43ba92c2b4454ca7bf602efad8",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

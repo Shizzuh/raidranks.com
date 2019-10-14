@@ -1,0 +1,44 @@
+{
+  "time_start": "2019-07-05T00:00:00Z",
+  "time_end": "2019-07-27T00:00:00Z",
+  "active": false,
+  "limit": null,
+  "champion_slug": "missionary",
+  "name": "Foli - Missionary",
+  "slug": "fusion-foli-missionary",
+  "ingredients": [
+    {
+      "champion_slug": "eviscerator",
+      "level": 40,
+      "stars": 4,
+      "ascended_stars": 4,
+      "fusion": null,
+      "fusion_slug": null
+    },
+    {
+      "champion_slug": "centurion",
+      "level": 40,
+      "stars": 4,
+      "ascended_stars": 4,
+      "fusion": null,
+      "fusion_slug": null
+    },
+    {
+      "champion_slug": "treefeller",
+      "level": 40,
+      "stars": 4,
+      "ascended_stars": 4,
+      "fusion": null,
+      "fusion_slug": null
+    },
+    {
+      "champion_slug": "zephyr-sniper",
+      "level": 40,
+      "stars": 4,
+      "ascended_stars": 4,
+      "fusion": null,
+      "fusion_slug": null
+    }
+  ],
+  "parent_fusion_slug": "fusion-foli"
+}

@@ -1,0 +1,847 @@
+{
+  "name": "Metalshaper",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 21,
+    "campaign": 4.4,
+    "arena_offense": 4.1,
+    "arena_defense": 4.2,
+    "clan_boss": 4,
+    "ice_guardian": 4.4,
+    "dragon": 4,
+    "spider": 4.1,
+    "fire_knight": 3.7,
+    "minotaur": 3.8,
+    "force_dungeon": 4.1,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 4.5,
+    "void_dungeon": 4.1
+  },
+  "slug": "metalshaper",
+  "characteristics": {
+    "60": {
+      "hp": 16350,
+      "attack": 859,
+      "defense": 1079,
+      "speed": 90,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Transference Bolt",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of stealing 1 random buff from the target.\n\nDamage based on: [DEF]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Damage +5%\n\nLvl. 7 Buff/Debuff Chance +5%",
+      "slug": "transference-bolt",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "2300_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Steal 1 Buff",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-steal-1-buff",
+              "slug": "steal-1-buff",
+              "website_link": "/battle_enhancements/steal-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Steal 1 Buff",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-steal-1-buff",
+              "slug": "steal-1-buff",
+              "website_link": "/battle_enhancements/steal-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Steal 1 Buff",
+              "value": 0,
+              "chance": 0.35,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-steal-1-buff",
+              "slug": "steal-1-buff",
+              "website_link": "/battle_enhancements/steal-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Steal 1 Buff",
+              "value": 0,
+              "chance": 0.35,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-steal-1-buff",
+              "slug": "steal-1-buff",
+              "website_link": "/battle_enhancements/steal-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Steal 1 Buff",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-steal-1-buff",
+              "slug": "steal-1-buff",
+              "website_link": "/battle_enhancements/steal-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Steal 1 Buff",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-steal-1-buff",
+              "slug": "steal-1-buff",
+              "website_link": "/battle_enhancements/steal-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Steal 1 Buff",
+              "value": 0,
+              "chance": 0.45,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-steal-1-buff",
+              "slug": "steal-1-buff",
+              "website_link": "/battle_enhancements/steal-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        }
+      ],
+      "image_slug": "ed06161313c8a802b1cfb2fea1356fd7",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Fortified Steel",
+      "raw_description": "Places a [Shield] buff on all allies for 2 turns. The value of [Shield] is proportional to this Champion Level.\n\nLvl. 2 Shield +5%\n\nLvl. 3 Shield +5%\n\nLvl. 4 Shield +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "fortified-steel",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buffs/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2300_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Shield +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Shield +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Shield +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 2,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "466ffe292797c094f9bdf988dbed6065",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Rescue",
+      "raw_description": "Removes all debuffs from an ally with the lowest HP, then heals this ally by 20% of this Champion MAX HP. Places a 25% [Increase DEF] buff on the target for 3 turns.\n\nLvl. 2 Heal +10%\n\nLvl. 3 Heal +10%\n\nLvl. 4 Cooldown -1",
+      "slug": "rescue",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def",
+          "slug": "increase-def",
+          "website_link": "/buffs/increase-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2300_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "lowest hp ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "lowest hp ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove ALL Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "lowest hp ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-all-debuffs",
+              "slug": "remove-all-debuffs",
+              "website_link": "/battle_enhancements/remove-all-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "lowest hp ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "lowest hp ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove ALL Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "lowest hp ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-all-debuffs",
+              "slug": "remove-all-debuffs",
+              "website_link": "/battle_enhancements/remove-all-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Heal +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "lowest hp ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.4,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "lowest hp ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove ALL Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "lowest hp ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-all-debuffs",
+              "slug": "remove-all-debuffs",
+              "website_link": "/battle_enhancements/remove-all-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Heal +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "lowest hp ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.4,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "lowest hp ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove ALL Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "lowest hp ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-all-debuffs",
+              "slug": "remove-all-debuffs",
+              "website_link": "/battle_enhancements/remove-all-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "21a6b3f40a613c0ec9fbe2c6e8aee0d2",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Lizardmen",
+    "slug": "lizardmen",
+    "website_link": "/factions/lizardmen/",
+    "image_slug": "image-faction-lizardmen",
+    "number_of_champions": 24,
+    "default_description": "Lizardmen is a faction from RAID Shadow Legends composed of 24 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Lizardmen is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Lizardmen",
+        "lizardmen"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Lizardmen evolved from the brackish waters of Teleria longbefore modern humanoid races emerged with more powerfulbrains. These fearsome amphibious bipeds have been deemeduntouchable but are tolerated in swamps and city sewers. Theytrade through messengers to get sustenance, or ransom for theircaptives."
+  },
+  "faction_slug": "lizardmen",
+  "website_link": "/champions/metalshaper/",
+  "image_slug": "image-champion-metalshaper",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Metalshaper is a rare assist champion from the faction Lizardmen doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Metalshaper",
+      "metalshaper"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Lizardmen"
+        },
+        "description": "Member of the faction Lizardmen, Metalshaper is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-metalshaper.jpg",
+        "name": "Metalshaper",
+        "url": "https://raid-codex.com/champions/metalshaper/"
+      }
+    ]
+  },
+  "default_description": "Metalshaper is a rare assist champion from the faction Lizardmen doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2300",
+  "synergy": [],
+  "thumbnail": "46a558d97954d0692411c861cf78ef79",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

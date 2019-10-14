@@ -1,0 +1,208 @@
+{
+  "name": "Interceptor",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "Def",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "C",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "C",
+    "dragon": "C",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "C",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "C"
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "interceptor",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Leg Pierce",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 15% [Decrease SPD] debuff for 2 turns",
+      "slug": "leg-pierce",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd",
+          "slug": "decrease-spd",
+          "website_link": "/debuffs/decrease-spd",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3050_s1",
+      "upgrades": [],
+      "image_slug": "3565cb49d5a873cfa5f3b421a4c225da",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Somnolent Toxin",
+      "raw_description": "Attacks 1 enemy. Has a 45% chance of placing a [Sleep] debuff for 1 turn. Places a 15% [Weaken] debuff for 2 turns if this Skill does not place a [Sleep] debuff",
+      "slug": "somnolent-toxin",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuffs/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken",
+          "slug": "weaken",
+          "website_link": "/debuffs/weaken",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3050_s2",
+      "upgrades": [],
+      "image_slug": "034ac53ba22fcddf1c996be0db29a974",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Ward Off",
+      "raw_description": "Decreases the Turn Meter of all enemies by 15%",
+      "slug": "ward-off",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3050_s3",
+      "upgrades": [],
+      "image_slug": "abf8e4ae24ce9cfa273913aab43bfde9",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 28,
+    "default_description": "High Elves is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "High Elves originate from Aravia where they have built a wondrous, shimmering city. Living in these lands of plenty has enabled them to evolve their society to the highest degree of physical, intellectual, and spiritual achievement. High-principled, they welcome exiles and offer them new homes further east."
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/interceptor/",
+  "image_slug": "image-champion-interceptor",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Interceptor is a rare def champion from the faction High Elves doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Interceptor",
+      "interceptor"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Interceptor is a champion of Rare rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-interceptor.jpg",
+        "name": "Interceptor",
+        "url": "https://raid-codex.com/champions/interceptor/"
+      }
+    ]
+  },
+  "default_description": "Interceptor is a rare def champion from the faction High Elves doing void damage",
+  "recommended_builds": [],
+  "lore": "<p>The Palace of Aravia attracts many thieves, spies, and even would-be assassins. The Queen’s Royal Guard have their job cut out for them and number in the hundreds, a number that is just enough to cover the gargantuan complex.\n\nAmong the Guard, Interceptors play a special role. Their duty is to capture the perpetrators alive, if at all possible. To that end, they are trained in techniques to incapacitate and force their target to surrender. They are even given a special alchemical solution that would put a troll to sleep, if properly delivered.</p>",
+  "giid": "3050",
+  "synergy": [],
+  "thumbnail": "ef72d53990bc4805684c9b61fa64a102",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-foli-kytis",
+      "fusion_type": "ingredient"
+    }
+  ]
+}

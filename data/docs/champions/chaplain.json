@@ -1,0 +1,482 @@
+{
+  "name": "Chaplain",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "A",
+    "arena_offense": "B",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 20,
+    "campaign": 4.1,
+    "arena_offense": 3.7,
+    "arena_defense": 3.8,
+    "clan_boss": 3.3,
+    "ice_guardian": 4,
+    "dragon": 3.6,
+    "spider": 4,
+    "fire_knight": 3.2,
+    "minotaur": 3.9,
+    "force_dungeon": 3.6,
+    "magic_dungeon": 3.6,
+    "spirit_dungeon": 3.4,
+    "void_dungeon": 3.8
+  },
+  "slug": "chaplain",
+  "characteristics": {
+    "60": {
+      "hp": 13710,
+      "attack": 1035,
+      "defense": 804,
+      "speed": 102,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Holy Bolt",
+      "raw_description": "Attacks 1 enemy.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5\n\nLvl. 4 Damage +10%",
+      "slug": "holy-bolt",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2180_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "663285d9a4c23699d5c1e29a80d29eed",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Benediction",
+      "raw_description": "Removes all debuffs from a target ally, then heals the target. The heal amount is proportional to this Champion's ATK.\n\nLvl. 4 Cooldown -1",
+      "slug": "benediction",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "2180_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove ALL Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-all-debuffs",
+              "slug": "remove-all-debuffs",
+              "website_link": "/battle_enhancements/remove-all-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove ALL Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-all-debuffs",
+              "slug": "remove-all-debuffs",
+              "website_link": "/battle_enhancements/remove-all-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "795883057fed543e4c081e65db29c74b",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Radiance",
+      "raw_description": "Attacks all enemies. Heals all allies by 25% of the damage inflicted.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "radiance",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2180_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/battle_enhancements/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/battle_enhancements/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/battle_enhancements/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/battle_enhancements/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/battle_enhancements/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "439f9ec4cbe8a03530b4ebe29653401b",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "The Sacred Order",
+    "slug": "the sacred order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 52,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends composed of 52 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends composed of 47 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "The Sacred Order",
+        "the sacred order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "For centuries the Knights of the Sacred Order were charged with cleansing Teleria of evil in all its guises. But since the declaration of war, they have sworn allegiance to the Queen of Aravia. In league with the Queen's Necromancer, these once-holy knights now enforce her Majesty's will and guard her chattel."
+  },
+  "faction_slug": "the sacred order",
+  "website_link": "/champions/chaplain/",
+  "image_slug": "image-champion-chaplain",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Chaplain is a rare assist champion from the faction Sacred Order doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Chaplain",
+      "chaplain"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "The Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Chaplain is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-chaplain.jpg",
+        "name": "Chaplain",
+        "url": "https://raid-codex.com/champions/chaplain/"
+      }
+    ]
+  },
+  "default_description": "Chaplain is a rare assist champion from the faction Sacred Order doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2180",
+  "synergy": [],
+  "thumbnail": "3a1dd98341fafc1dfe9bcf36360e6b84",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

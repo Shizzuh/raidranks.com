@@ -1,0 +1,177 @@
+{
+  "name": "Centurion",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "Def",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "C",
+    "campaign": "B",
+    "arena_offense": "C",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "C",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "centurion",
+  "characteristics": {
+    "60": {
+      "hp": 15690,
+      "attack": 793,
+      "defense": 1189,
+      "speed": 93,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Feed on Suffering",
+      "raw_description": "Attacks 1 enemy. Heals this Champion by 15% of the damage inflicted",
+      "slug": "feed-on-suffering",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3110_s1",
+      "upgrades": [],
+      "image_slug": "efd1a645fb2ba2cc3d36d9cf6e0ba949",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Freakish Resiliance",
+      "raw_description": "Heals this Champion by 30% of their MAX HP and places a 30% [Increase DEF] buff on this Champion for 2 turns",
+      "slug": "freakish-resiliance",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def",
+          "slug": "increase-def",
+          "website_link": "/buffs/increase-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3110_s2",
+      "upgrades": [],
+      "image_slug": "a0d3b8ef8737d9100a53985aee6153ce",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Soul Possession",
+      "raw_description": "Exchanges remaining HP levels with a target enemy, then equalizes the HP of all allies",
+      "slug": "soul-possession",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3110_s3",
+      "upgrades": [],
+      "image_slug": "a042e9ddad430cc7bdba75ec499efa06",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 29,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 29 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors."
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/centurion/",
+  "image_slug": "image-champion-centurion",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Centurion is a rare def champion from the faction Knight Revenant doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Centurion",
+      "centurion"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Centurion is a champion of Rare rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-centurion.jpg",
+        "name": "Centurion",
+        "url": "https://raid-codex.com/champions/centurion/"
+      }
+    ]
+  },
+  "default_description": "Centurion is a rare defense champion from the faction Knight Revenant doing void damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3110",
+  "synergy": [],
+  "thumbnail": "e9fb2eda3d9c55a0d89c98d6c54b5b3e",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-foli-missionary",
+      "fusion_type": "ingredient"
+    }
+  ]
+}

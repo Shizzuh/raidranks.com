@@ -1,0 +1,180 @@
+{
+  "name": "Dervish",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "dervish",
+  "characteristics": {
+    "60": {
+      "hp": 10080,
+      "attack": 1112,
+      "defense": 969,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Flurry",
+      "raw_description": "Attacks 2 times at random. Has a 25% chance of placing a 30% [Decrease DEF] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance",
+      "slug": "flurry",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/debuffs/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2480_s1",
+      "upgrades": [],
+      "image_slug": "9796585fb98dd63bd441ffeab82f173e",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Sealing Arrow",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 50% [Heal Reduction] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Buff/Debuff Chance +109\n\nLvl. 3 Buff/Debuff Chance +10\n\nLvl. 4 Buff/Debuff Chance +109\n\nLvl. 5 Buff/Debuff Chance +20'\n\nLvl. 6 Cooldown -1",
+      "slug": "sealing-arrow",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction",
+          "slug": "heal-reduction",
+          "website_link": "/debuffs/heal-reduction",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2480_s2",
+      "upgrades": [],
+      "image_slug": "c3cd5be9a1402d3ac0c08c57dda88add",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 32,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 32 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands."
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/dervish/",
+  "image_slug": "image-champion-dervish",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Dervish is a uncommon attack champion from the faction Barbarians. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Dervish",
+      "dervish"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Dervish is a champion of Uncommon rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-dervish.jpg",
+        "name": "Dervish",
+        "url": "https://raid-codex.com/champions/dervish/"
+      }
+    ]
+  },
+  "default_description": "Dervish is a uncommon attack champion from the faction Barbarians",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2480",
+  "synergy": [],
+  "thumbnail": "b06b5541a62ed438f956b662b4e1ec28",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

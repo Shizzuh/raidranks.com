@@ -1,0 +1,15 @@
+{
+  "effect_type": "buff",
+  "type": "Increase DEF",
+  "value": 0.6,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-buff-increase-def-2",
+  "slug": "increase-def-2",
+  "website_link": "/buffs/increase-def",
+  "extra": true,
+  "raw_description": "Increases the Champion’s Battle DEF by 60%",
+  "places_if": "",
+  "amount": 0
+}

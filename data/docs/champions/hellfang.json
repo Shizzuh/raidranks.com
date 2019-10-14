@@ -1,0 +1,862 @@
+{
+  "name": "Hellfang",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 6,
+    "campaign": 3.7,
+    "arena_offense": 3.5,
+    "arena_defense": 3.2,
+    "clan_boss": 3,
+    "ice_guardian": 3.5,
+    "dragon": 3.5,
+    "spider": 4,
+    "fire_knight": 4,
+    "minotaur": 3.5,
+    "force_dungeon": 3.7,
+    "magic_dungeon": 3.7,
+    "spirit_dungeon": 4,
+    "void_dungeon": 3.5
+  },
+  "slug": "hellfang",
+  "characteristics": {
+    "60": {
+      "hp": 14370,
+      "attack": 1222,
+      "defense": 837,
+      "speed": 99,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in Dungeons by 21%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Tear",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of putting the target's skills on cooldown.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%\n\nLvl. 6 Buff/Debuff Chance +5%",
+      "slug": "tear",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1470_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0,
+              "chance": 0.15,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0,
+              "chance": 0.15,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0,
+              "chance": 0.15,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0,
+              "chance": 0.15,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0,
+              "chance": 0.15,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        }
+      ],
+      "image_slug": "6386407ebad291be4cafbc4b338be4d7",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Hunter's Mark",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Weaken] debuff for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +10%\n\nLvl. 5 Damage +10%\n\nLvl. 6 Buff/Debuff Chance +15%\n\nLvl. 7 Cooldown -1",
+      "slug": "hunter-s-mark",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken-2",
+          "website_link": "/debuffs/weaken",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1470_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0.55,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0.55,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0.7,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +15%"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.25,
+              "chance": 0.7,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "0ac29048889d66355b042585183e4643",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Chilling Howl",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a [Freeze] debuff for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Buff/Debuff Chance +10%\n\nLvl. 5 Buff/Debuff Chance +15%\n\nLvl. 6 Cooldown -1\n\nLvl. 7 Cooldown -1",
+      "slug": "chilling-howl",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/debuffs/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1470_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Houndspawn on Team",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Houndspawn on Team",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Houndspawn on Team",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Houndspawn on Team",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Houndspawn on Team",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Chance +15%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Houndspawn on Team",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Freeze",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-freeze",
+              "slug": "freeze",
+              "website_link": "/debuffs/freeze",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Houndspawn on Team",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "c9777183924df7866b7ee8eef707b229",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 28,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Beyond the dark portal lies a realm of fire and darkness. It is thehome of ancient beings born of darkness. Forbidden fromsetting foot in the fair lands of Teleria, these foul entities haveconspired with Necromancers to breed Demonspawn - unholyunions of Demon and mortal"
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/hellfang/",
+  "image_slug": "image-champion-hellfang",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Hellfang is a rare attack champion from the faction Demonspawn doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Hellfang",
+      "hellfang"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Hellfang is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-hellfang.jpg",
+        "name": "Hellfang",
+        "url": "https://raid-codex.com/champions/hellfang/"
+      }
+    ]
+  },
+  "default_description": "Hellfang is a rare attack champion from the faction Demonspawn doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1470",
+  "synergy": [],
+  "thumbnail": "42ffcf057e133f94c1b7b5cf543ef3bd",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

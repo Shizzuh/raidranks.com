@@ -1,0 +1,215 @@
+{
+  "name": "Honor Guard",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Def",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "honor-guard",
+  "characteristics": {
+    "60": {
+      "hp": 15525,
+      "attack": 760,
+      "defense": 1233,
+      "speed": 99,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Force Ally DEF in all Battles by 25%",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Bell Ringer",
+      "raw_description": "Attacks 1 enemy.\n\nHas a 50% chance of placing a 25% [Decrease ACC] debuff for 2 turns if the target has no active buffs.\n\nDamage based on: [DEF]",
+      "slug": "bell-ringer",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-acc-2",
+          "slug": "decrease-acc-2",
+          "website_link": "/debuffs/decrease-acc",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4320_s1",
+      "upgrades": [],
+      "image_slug": "f1ddcb63d32ddb74cda7357086e34f70",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Fate Transfer",
+      "raw_description": "Attacks 1 enemy.\n\nHas a 50% chance of stealing 2 random buffs from the target.\n\nDamage based on: [DEF]",
+      "slug": "fate-transfer",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4320_s2",
+      "upgrades": [],
+      "image_slug": "17dacaaa8ab47da185ff2c69c91f9ffa",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Astral Chain",
+      "raw_description": "Attacks 1 enemy.\n\nHas a 75% chance of placing a [Block Buffs] debuff for 2 turns.\n\nDamage based on: [DEF]",
+      "slug": "astral-chain",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/debuffs/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4320_s3",
+      "upgrades": [],
+      "image_slug": "a94b463ecace38782fd89458c37a7f15",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Dwarves",
+    "slug": "dwarves",
+    "website_link": "/factions/dwarves/",
+    "image_slug": "image-faction-dwarves",
+    "number_of_champions": 10,
+    "default_description": "Dwarves is a faction from RAID Shadow Legends composed of 10 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dwarves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dwarves",
+        "dwarves"
+      ],
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-dwarves.jpg",
+          "name": "Dwarves",
+          "url": "https://raid-codex.com/factions/dwarves/"
+        }
+      ]
+    },
+    "giid": "",
+    "raw_description": "Proud and suspicious of outsiders, the Dwarves have long clung to tradition and isolationism. They were once known across Teleria as peerless craftsmen and steadfast warriors, and although these skills have never waned, the hubris of Dwarven royalty ensured that contact with the outside world gradually stopped. Were if not for the occasional mercenary or merchant, their very existence might have been forgotten.\n\nIt was only the recent invasion by the demonic legions of Siroth and their undead minions that has opened the eyes of the Dwarven King to grim reality. Through courage, determination, and sacrifice, the unholy horde has eventually been repelled. But the devastation that it wrought was too great to ignore. Now, driven forth by the calls for justice, Dwarves send their greatest heroes to the surface to bring the battle to their hated foe."
+  },
+  "faction_slug": "dwarves",
+  "website_link": "/champions/honor-guard/",
+  "image_slug": "image-champion-honor-guard",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Honor Guard is a rare def champion from the faction Dwarves doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Honor Guard",
+      "honor-guard"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dwarves"
+        },
+        "description": "Member of the faction Dwarves, Honor Guard is a champion of Rare rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-honor-guard.jpg",
+        "name": "Honor Guard",
+        "url": "https://raid-codex.com/champions/honor-guard/"
+      }
+    ]
+  },
+  "default_description": "Honor Guard is a rare def champion from the faction Dwarves doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "4320",
+  "synergy": [],
+  "thumbnail": "e0640c93b05097a9380870aa06aa0df4",
+  "tags": [
+    "NEW_CHAMPION_20190808"
+  ],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-sikara",
+      "fusion_type": "ingredient"
+    }
+  ]
+}

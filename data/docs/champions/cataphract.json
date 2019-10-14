@@ -1,0 +1,649 @@
+{
+  "name": "Cataphract",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "B",
+    "fire_knight": "B",
+    "minotaur": "B",
+    "force_dungeon": "A",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 9,
+    "campaign": 4.3,
+    "arena_offense": 3.9,
+    "arena_defense": 4.4,
+    "clan_boss": 3.7,
+    "ice_guardian": 4.2,
+    "dragon": 4.1,
+    "spider": 3,
+    "fire_knight": 3.2,
+    "minotaur": 3.7,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 3.7,
+    "spirit_dungeon": 3.7,
+    "void_dungeon": 3.5
+  },
+  "slug": "cataphract",
+  "characteristics": {
+    "60": {
+      "hp": 18330,
+      "attack": 991,
+      "defense": 815,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in the Arena by 25%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Sure Strike",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a 50% [Decrease ACC] debuff on the target for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Buff/Debuff Chance +10%",
+      "slug": "sure-strike",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-acc-2",
+          "slug": "decrease-acc-2",
+          "website_link": "/debuffs/decrease-acc",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "140_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.5,
+              "chance": 0.2,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.5,
+              "chance": 0.2,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.5,
+              "chance": 0.25,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.5,
+              "chance": 0.3,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.5,
+              "chance": 0.4,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "076bf38630636e57a13ad80dd9e06268",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Fortify",
+      "raw_description": "Places a [Block Debuffs] buff and a 60% [Increase DEF] buff on this Champion for 2 turns. \n\nLvl. 2 Cooldown -1",
+      "slug": "fortify",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Debuffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-debuffs",
+          "slug": "block-debuffs",
+          "website_link": "/buffs/block-debuffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Increase DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-def-2",
+          "slug": "increase-def-2",
+          "website_link": "/buffs/increase-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "140_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.6,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Block Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-debuffs",
+              "slug": "block-debuffs",
+              "website_link": "/debuffs/block-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.6,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Block Debuffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-debuffs",
+              "slug": "block-debuffs",
+              "website_link": "/debuffs/block-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "8b580997a114eebfaa574a81f80fba80",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Helmcleaver",
+      "raw_description": "Attacks 1 enemy. Will Ignore DEF if the target has less than 50% HP. Damage increases according to this Champion's MAX HP.\n\nDamage based on: [ATK] [HP]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%",
+      "slug": "helmcleaver",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
+      "giid": "140_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Less than 50%",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "hp"
+          ],
+          "cooldown": 6,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Less than 50%",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "hp"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Less than 50%",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "hp"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Less than 50%",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "hp"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Less than 50%",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "hp"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "22e6ebd3c2cba5a09365613bd2ff762a",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Banner Lords",
+    "slug": "banner lords",
+    "website_link": "/factions/banner lords/",
+    "image_slug": "image-faction-banner lords",
+    "number_of_champions": 36,
+    "default_description": "Banner Lords is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner Lords",
+        "banner lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll."
+  },
+  "faction_slug": "banner lords",
+  "website_link": "/champions/cataphract/",
+  "image_slug": "image-champion-cataphract",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Cataphract is a rare hp champion from the faction Banner Lords doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Cataphract",
+      "cataphract"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner Lords"
+        },
+        "description": "Member of the faction Banner Lords, Cataphract is a champion of Rare rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-cataphract.jpg",
+        "name": "Cataphract",
+        "url": "https://raid-codex.com/champions/cataphract/"
+      }
+    ]
+  },
+  "default_description": "Cataphract is a rare hp champion from the faction Banner Lords doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "140",
+  "synergy": [],
+  "thumbnail": "1385974ed5904a438616ff7bdb3f7439",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

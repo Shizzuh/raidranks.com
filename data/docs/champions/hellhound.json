@@ -1,0 +1,151 @@
+{
+  "name": "Hellhound",
+  "rarity": "Common",
+  "element": "",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "hellhound",
+  "characteristics": {
+    "60": {
+      "hp": 10245,
+      "attack": 760,
+      "defense": 760,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Paralyzing Bite",
+      "raw_description": "Attacks 1 enemy. Places a [Sleep] debuff on the target for 1 turn when hit with a critical hit.\n\nDamage based on: [ATK] [DEF]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%\n\nLvl. 6 Damage +10%",
+      "slug": "paralyzing-bite",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuffs/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "DEF"
+      ],
+      "giid": "2290_s1",
+      "upgrades": [],
+      "image_slug": "b370152efde0ffb460c7a6de6a98fde0",
+      "skill_number": "A1"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 36,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time."
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/hellhound/",
+  "image_slug": "image-champion-hellhound",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Hellhound is a common attack champion from the faction Undead Hordes. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Hellhound",
+      "hellhound"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Hellhound is a champion of Common rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-hellhound.jpg",
+        "name": "Hellhound",
+        "url": "https://raid-codex.com/champions/hellhound/"
+      }
+    ]
+  },
+  "default_description": "Hellhound is a common attack champion from the faction Undead Hordes",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2290",
+  "synergy": [],
+  "thumbnail": "1177967c7957072da3dc1db4ceb30e7a",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

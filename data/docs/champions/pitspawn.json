@@ -1,0 +1,164 @@
+{
+  "name": "Pitspawn",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Def",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "pitspawn",
+  "characteristics": {
+    "60": {
+      "hp": 13545,
+      "attack": 881,
+      "defense": 969,
+      "speed": 86,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Evil Touch",
+      "raw_description": "Attacks 1 enemy.\n\nDamage based on: [DEF]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%",
+      "slug": "evil-touch",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "2540_s1",
+      "upgrades": [],
+      "image_slug": "14d2d74255115f60623b7e9251dcfe22",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Darkness",
+      "raw_description": "Attacks all enemies. Has a 25% chance of placing a 25% [Decrease ATK] debuff for 2 turns.\n\nDamage based on: [DEF]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +10%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Buff/Debuff Chance +10%\n\nLvl. 6 Cooldown -1",
+      "slug": "darkness",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "2540_s2",
+      "upgrades": [],
+      "image_slug": "044494af4f2691a0f08bd1e13c20c90b",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 28,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Beyond the dark portal lies a realm of fire and darkness. It is thehome of ancient beings born of darkness. Forbidden fromsetting foot in the fair lands of Teleria, these foul entities haveconspired with Necromancers to breed Demonspawn - unholyunions of Demon and mortal"
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/pitspawn/",
+  "image_slug": "image-champion-pitspawn",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Pitspawn is a uncommon def champion from the faction Demonspawn. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Pitspawn",
+      "pitspawn"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Pitspawn is a champion of Uncommon rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-pitspawn.jpg",
+        "name": "Pitspawn",
+        "url": "https://raid-codex.com/champions/pitspawn/"
+      }
+    ]
+  },
+  "default_description": "Pitspawn is a uncommon def champion from the faction Demonspawn",
+  "recommended_builds": [],
+  "lore": "<p>In life once honored defenders of Teleria and knights of The Sacred Order, these fearsome Demonspawn were reborn in darkness to arise in their present form. In ages past, the former mortals pledged their loyaly to Siroth for for high demonic titles and privileges. But they were deceived… upon death, they were condemned to the lowest levels of the Pit, enslaved as footsoldiers in the armies of darkness, and cruelly granted the title “Little Lords of the Lie”.</p>",
+  "giid": "2540",
+  "synergy": [],
+  "thumbnail": "9657c1fffd38824e5ab0472e022e577e",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

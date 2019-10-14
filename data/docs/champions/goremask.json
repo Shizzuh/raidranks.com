@@ -1,0 +1,878 @@
+{
+  "name": "Goremask",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "A",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 21,
+    "campaign": 4.6,
+    "arena_offense": 4.4,
+    "arena_defense": 4.1,
+    "clan_boss": 4.1,
+    "ice_guardian": 4.2,
+    "dragon": 4.2,
+    "spider": 3.3,
+    "fire_knight": 4.3,
+    "minotaur": 4.3,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4.2,
+    "void_dungeon": 3.5
+  },
+  "slug": "goremask",
+  "characteristics": {
+    "60": {
+      "hp": 12225,
+      "attack": 1509,
+      "defense": 705,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally HP in the Arena by 25%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Snap",
+      "raw_description": "Attacks 1 enemy 2 times.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%\n\nLvl. 6 Damage +10%",
+      "slug": "snap",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1260_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "100df5f00f560695c6c82f9ab745985d",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Go for the Throat",
+      "raw_description": "Attacks 1 enemy. Damage increases by 20% if this attack is critical.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%\n\nLvl. 6 Damage +10%\n\nLvl. 7 Cooldown -1",
+      "slug": "go-for-the-throat",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1260_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "c51a3af694a6fb0358e6e2247650c297",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Tearing Jaws",
+      "raw_description": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%\n\nLvl. 6 Cooldown -1",
+      "slug": "tearing-jaws",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/buffs/block-damage",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buffs/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1260_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Block DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "-",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-block-dmg",
+              "slug": "ignore-block-dmg",
+              "website_link": "/battle_enhancements/ignore-block-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-shield",
+              "slug": "ignore-shield",
+              "website_link": "/battle_enhancements/ignore-shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Block DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "-",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-block-dmg",
+              "slug": "ignore-block-dmg",
+              "website_link": "/battle_enhancements/ignore-block-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-shield",
+              "slug": "ignore-shield",
+              "website_link": "/battle_enhancements/ignore-shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Block DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "-",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-block-dmg",
+              "slug": "ignore-block-dmg",
+              "website_link": "/battle_enhancements/ignore-block-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-shield",
+              "slug": "ignore-shield",
+              "website_link": "/battle_enhancements/ignore-shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Block DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "-",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-block-dmg",
+              "slug": "ignore-block-dmg",
+              "website_link": "/battle_enhancements/ignore-block-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-shield",
+              "slug": "ignore-shield",
+              "website_link": "/battle_enhancements/ignore-shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Block DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "-",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-block-dmg",
+              "slug": "ignore-block-dmg",
+              "website_link": "/battle_enhancements/ignore-block-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-shield",
+              "slug": "ignore-shield",
+              "website_link": "/battle_enhancements/ignore-shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Block DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "-",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-block-dmg",
+              "slug": "ignore-block-dmg",
+              "website_link": "/battle_enhancements/ignore-block-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-shield",
+              "slug": "ignore-shield",
+              "website_link": "/battle_enhancements/ignore-shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Block DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "-",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-block-dmg",
+              "slug": "ignore-block-dmg",
+              "website_link": "/battle_enhancements/ignore-block-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-shield",
+              "slug": "ignore-shield",
+              "website_link": "/battle_enhancements/ignore-shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "485f79753e99f6a0c283a3bfa1205a03",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Orcs",
+    "slug": "orcs",
+    "website_link": "/factions/orcs/",
+    "image_slug": "image-faction-orcs",
+    "number_of_champions": 26,
+    "default_description": "Orcs is a faction from RAID Shadow Legends composed of 26 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Orcs is a faction from RAID Shadow Legends composed of 24 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Orcs",
+        "orcs"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Orcish tribes maintain a tenuous hold in pockets from Durham Forest to the Deadlands. Initially bred as warrior slaves, Orcs do what they must to ensure their survival, and will pick off unwitting travelers for their coin, blood and bones. Fearful of persecution by the men of Kaerok, they have sided with the Queen of Aravia."
+  },
+  "faction_slug": "orcs",
+  "website_link": "/champions/goremask/",
+  "image_slug": "image-champion-goremask",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Goremask is a rare attack champion from the faction Orcs doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Goremask",
+      "goremask"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Orcs"
+        },
+        "description": "Member of the faction Orcs, Goremask is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-goremask.jpg",
+        "name": "Goremask",
+        "url": "https://raid-codex.com/champions/goremask/"
+      }
+    ]
+  },
+  "default_description": "Goremask is a rare attack champion from the faction Orcs doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1260",
+  "synergy": [],
+  "thumbnail": "f4573fc71c731d5c362f0d7860945b88",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-rhazin-scarhide-bloodfeather",
+      "fusion_type": "ingredient"
+    }
+  ]
+}

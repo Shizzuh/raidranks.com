@@ -1,0 +1,164 @@
+{
+  "name": "Cultist",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "cultist",
+  "characteristics": {
+    "60": {
+      "hp": 12390,
+      "attack": 1167,
+      "defense": 760,
+      "speed": 84,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Sickle",
+      "raw_description": "Attacks 1 enemy 2 times.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%",
+      "slug": "sickle",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1370_s1",
+      "upgrades": [],
+      "image_slug": "240ef5ee608f4ab4a7e58fc668b828a5",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Toxic Miasma",
+      "raw_description": "Attacks all enemies. Has a 25% chance of placing a 2.5% [Poison] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +10%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Buff/Debuff Chance +10%\n\nLvl. 6 Cooldown -1",
+      "slug": "toxic-miasma",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/debuffs/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1370_s2",
+      "upgrades": [],
+      "image_slug": "0496c2252dfeac0996ef438a78fc5854",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 29,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 29 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors."
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/cultist/",
+  "image_slug": "image-champion-cultist",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Cultist is a uncommon attack champion from the faction Knight Revenant. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Cultist",
+      "cultist"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Cultist is a champion of Uncommon rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-cultist.jpg",
+        "name": "Cultist",
+        "url": "https://raid-codex.com/champions/cultist/"
+      }
+    ]
+  },
+  "default_description": "Cultist is a uncommon attack champion from the faction Knight Revenant",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1370",
+  "synergy": [],
+  "thumbnail": "d1ee59e20ad01cedc15f5118a7626099",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

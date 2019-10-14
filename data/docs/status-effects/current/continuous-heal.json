@@ -1,0 +1,15 @@
+{
+  "effect_type": "buff",
+  "type": "Continuous Heal",
+  "value": 0.075,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-buff-continuous-heal",
+  "slug": "continuous-heal",
+  "website_link": "/buffs/continuous-heal",
+  "extra": false,
+  "raw_description": "Heals the target Champion by 7,5% of their MAX HP at the beginning of their Turn.",
+  "places_if": "",
+  "amount": 0
+}

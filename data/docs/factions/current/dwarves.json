@@ -1,0 +1,32 @@
+{
+  "name": "Dwarves",
+  "slug": "dwarves",
+  "website_link": "/factions/dwarves/",
+  "image_slug": "image-faction-dwarves",
+  "number_of_champions": 10,
+  "default_description": "Dwarves is a faction from RAID Shadow Legends composed of 10 champions",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Dwarves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "factions",
+      "Dwarves",
+      "dwarves"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Organization",
+        "description": "",
+        "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-dwarves.jpg",
+        "name": "Dwarves",
+        "url": "https://raid-codex.com/factions/dwarves/"
+      }
+    ]
+  },
+  "giid": "",
+  "raw_description": "Proud and suspicious of outsiders, the Dwarves have long clung to tradition and isolationism. They were once known across Teleria as peerless craftsmen and steadfast warriors, and although these skills have never waned, the hubris of Dwarven royalty ensured that contact with the outside world gradually stopped. Were if not for the occasional mercenary or merchant, their very existence might have been forgotten.<br>It was only the recent invasion by the demonic legions of Siroth and their undead minions that has opened the eyes of the Dwarven King to grim reality. Through courage, determination, and sacrifice, the unholy horde has eventually been repelled. But the devastation that it wrought was too great to ignore. Now, driven forth by the calls for justice, Dwarves send their greatest heroes to the surface to bring the battle to their hated foe."
+}

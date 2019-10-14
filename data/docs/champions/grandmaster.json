@@ -1,0 +1,621 @@
+{
+  "name": "Grandmaster",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "B",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 18,
+    "campaign": 4.5,
+    "arena_offense": 4.4,
+    "arena_defense": 4.5,
+    "clan_boss": 4.7,
+    "ice_guardian": 4.3,
+    "dragon": 4.2,
+    "spider": 4,
+    "fire_knight": 4.8,
+    "minotaur": 4.3,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4.3,
+    "void_dungeon": 4.3
+  },
+  "slug": "grandmaster",
+  "characteristics": {
+    "60": {
+      "hp": 16185,
+      "attack": 892,
+      "defense": 1057,
+      "speed": 100,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Magic Ally HP in all Battles by 17%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Hammerblows",
+      "raw_description": "Attacks 1 enemy 3 times.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%",
+      "slug": "hammerblows",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2510_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "d8888033de991b3d20ea873a72b2c28b",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Steel Crusher",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 25% [Decrease ATK] debuff on the target for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +10%\n\nLvl. 4 Buff/Debuff Chance +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "steel-crusher",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2510_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 0.6,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.25,
+              "chance": 0.6,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "1e48d909ae30e5c2776ee84f79107b03",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Demoralizing Display",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Provoke] debuff on the target for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +10%\n\nLvl. 4 Buff/Debuff Chance +10%\n\nLvl. 5 Buff/Debuff Chance +15%\n\nLvl. 6 Cooldown -1",
+      "slug": "demoralizing-display",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2510_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.6,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +15%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "671d4dec6d9a88036bbcab404d50397b",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Banner Lords",
+    "slug": "banner lords",
+    "website_link": "/factions/banner lords/",
+    "image_slug": "image-faction-banner lords",
+    "number_of_champions": 36,
+    "default_description": "Banner Lords is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner Lords",
+        "banner lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll."
+  },
+  "faction_slug": "banner lords",
+  "website_link": "/champions/grandmaster/",
+  "image_slug": "image-champion-grandmaster",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Grandmaster is a rare hp champion from the faction Banner Lords doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Grandmaster",
+      "grandmaster"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner Lords"
+        },
+        "description": "Member of the faction Banner Lords, Grandmaster is a champion of Rare rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-grandmaster.jpg",
+        "name": "Grandmaster",
+        "url": "https://raid-codex.com/champions/grandmaster/"
+      }
+    ]
+  },
+  "default_description": "Grandmaster is a rare hp champion from the faction Banner Lords doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2510",
+  "synergy": [],
+  "thumbnail": "4e0223a87610176ef0d24ef6d2dcde3a",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

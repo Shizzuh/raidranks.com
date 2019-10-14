@@ -1,0 +1,503 @@
+{
+  "name": "Bloodhorn",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "C",
+    "campaign": "C",
+    "arena_offense": "C",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "C",
+    "dragon": "C",
+    "spider": "D",
+    "fire_knight": "D",
+    "minotaur": "C",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "C"
+  },
+  "reviews": {
+    "amount": 7,
+    "campaign": 3.4,
+    "arena_offense": 3.4,
+    "arena_defense": 3.7,
+    "clan_boss": 3.6,
+    "ice_guardian": 3.4,
+    "dragon": 3.4,
+    "spider": 3.6,
+    "fire_knight": 3.4,
+    "minotaur": 3.4,
+    "force_dungeon": 3.4,
+    "magic_dungeon": 3.4,
+    "spirit_dungeon": 3.4,
+    "void_dungeon": 3.4
+  },
+  "slug": "bloodhorn",
+  "characteristics": {
+    "60": {
+      "hp": 17505,
+      "attack": 870,
+      "defense": 991,
+      "speed": 89,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Killer Crescent",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a 25% [Decrease ACC] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Buff/Debuff Chance +10%",
+      "slug": "killer-crescent",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-acc",
+          "slug": "decrease-acc",
+          "website_link": "/debuffs/decrease-acc",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2700_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.25,
+              "chance": 0.15,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.25,
+              "chance": 0.15,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.25,
+              "chance": 0.2,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.25,
+              "chance": 0.2,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.25,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "d0db213ec2037572a7fbe3c18a90adc0",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Intervene",
+      "raw_description": "Places a 50% [Ally Protection] buff on 2 random allies for 2 turns.\n\nLvl. 2 Cooldown -1\n\nLvl. 3 Cooldown -1",
+      "slug": "intervene",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-ally-protection-2",
+          "slug": "ally-protection-2",
+          "website_link": "/buffs/ally-protection",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2700_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "2"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Ally Protection",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "2 ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-ally-protection",
+              "slug": "ally-protection",
+              "website_link": "/debuffs/ally-protection",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "2"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Ally Protection",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "2 ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-ally-protection",
+              "slug": "ally-protection",
+              "website_link": "/debuffs/ally-protection",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "2"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Ally Protection",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "2 ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-ally-protection",
+              "slug": "ally-protection",
+              "website_link": "/debuffs/ally-protection",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "c106812e6229fea1d1bdc375c2a8c4b9",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Deep Defense",
+      "raw_description": "If an ally is hit with a critical hit, places a 15% [Continuous Heal] buff on them for 1 turn.",
+      "slug": "deep-defense",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/buffs/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "2700_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Ally Hit Crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 1,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "4dffbf6a92c055d37666d1ef4ca50400",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Skinwalkers",
+    "slug": "skinwalkers",
+    "website_link": "/factions/skinwalkers/",
+    "image_slug": "image-faction-skinwalkers",
+    "number_of_champions": 19,
+    "default_description": "Skinwalkers is a faction from RAID Shadow Legends composed of 19 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalkers is a faction from RAID Shadow Legends composed of 18 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalkers",
+        "skinwalkers"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "As told by the tragic legend of Ch'arocah, Skinwalkers once had the power to cast themselves in the form of any man or beast. But after centuries of overuse, these shamans found themselves entrapped as something less than human, but more than animal. Though wild and dangerous, they can sense evil and may act to prevent it"
+  },
+  "faction_slug": "skinwalkers",
+  "website_link": "/champions/bloodhorn/",
+  "image_slug": "image-champion-bloodhorn",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Bloodhorn is a rare hp champion from the faction Skinwalkers doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Bloodhorn",
+      "bloodhorn"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalkers"
+        },
+        "description": "Member of the faction Skinwalkers, Bloodhorn is a champion of Rare rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-bloodhorn.jpg",
+        "name": "Bloodhorn",
+        "url": "https://raid-codex.com/champions/bloodhorn/"
+      }
+    ]
+  },
+  "default_description": "Bloodhorn is a rare hp champion from the faction Skinwalkers doing void damage",
+  "recommended_builds": [],
+  "lore": "<p>Elven scholars have documented the sad truth that Skinwalkers have are becoming increasingly wild and feral with the march of time. Having lost almost all their magical abilities over the ages, more and more of this once glorious race have chosen the way of brute strength. Losing their human side, they are slowly becoming animals.</p><p>Bloodhorn exemplifies this trend in the latest generation of Skinwalkers. He is ruthless and brutal. He often loses his weapon on battlefields. But it doesn't bother him much ??? his raw animal strength carries the day, and he walks away from each battle with his enormous horns covered in fresh blood.</p>",
+  "giid": "2700",
+  "synergy": [],
+  "thumbnail": "f1b0775946bc0329b35b823b86eeb5f5",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-broadmaw",
+      "fusion_type": "ingredient"
+    }
+  ]
+}

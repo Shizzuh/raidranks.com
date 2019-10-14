@@ -1,0 +1,741 @@
+{
+  "name": "Bone Knight",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "C",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "A",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 18,
+    "campaign": 4.1,
+    "arena_offense": 3.9,
+    "arena_defense": 3.4,
+    "clan_boss": 3.9,
+    "ice_guardian": 3.9,
+    "dragon": 3.9,
+    "spider": 4.2,
+    "fire_knight": 3.6,
+    "minotaur": 4,
+    "force_dungeon": 3.8,
+    "magic_dungeon": 3.6,
+    "spirit_dungeon": 4.9,
+    "void_dungeon": 3.6
+  },
+  "slug": "bone-knight",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Mutilate",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 15% chance of placing a 15% [Weaken] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Damage +10%",
+      "slug": "mutilate",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken",
+          "slug": "weaken",
+          "website_link": "/debuffs/weaken",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.15,
+              "chance": 0.15,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.15,
+              "chance": 0.15,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.15,
+              "chance": 0.2,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.15,
+              "chance": 0.2,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.15,
+              "chance": 0.25,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Weaken",
+              "value": 0.15,
+              "chance": 0.25,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-weaken",
+              "slug": "weaken",
+              "website_link": "/debuffs/weaken",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Ancient Seal",
+      "raw_description": "Attacks 1 enemy. Has an 80% chance of placing a 100% [Heal Reduction] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Buff/Debuff Chance +10%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Buff/Debuff Chance +10%\n\nLvl. 6 Cooldown -1",
+      "slug": "ancient-seal",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/debuffs/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.8,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.8,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.9,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.9,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 2,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Death's Vigor",
+      "raw_description": "Attacks all enemies. Places a 15% [Increase C. RATE] buff on all allies for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Damage +10%\n\nLvl. 4 Cooldown -1",
+      "slug": "death-s-vigor",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate",
+          "slug": "increase-c-rate",
+          "website_link": "/buffs/increase-c-rate",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 36,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time."
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/bone-knight/",
+  "image_slug": "image-champion-bone-knight",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Bone Knight is a rare attack champion from the faction Undead Hordes doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Bone Knight",
+      "bone-knight"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Bone Knight is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-bone-knight.jpg",
+        "name": "Bone Knight",
+        "url": "https://raid-codex.com/champions/bone-knight/"
+      }
+    ]
+  },
+  "default_description": "Bone Knight is a rare attack champion from the faction Undead Hordes doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "",
+  "synergy": [],
+  "thumbnail": "image-champion-bone-knight",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

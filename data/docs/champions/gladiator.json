@@ -1,0 +1,738 @@
+{
+  "name": "Gladiator",
+  "rarity": "Rare",
+  "element": "Force",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "B",
+    "fire_knight": "B",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 68,
+    "campaign": 4.6,
+    "arena_offense": 4.7,
+    "arena_defense": 4.4,
+    "clan_boss": 3.8,
+    "ice_guardian": 4.2,
+    "dragon": 4.5,
+    "spider": 4.4,
+    "fire_knight": 4.2,
+    "minotaur": 4.5,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4,
+    "void_dungeon": 4.3
+  },
+  "slug": "gladiator",
+  "characteristics": {
+    "60": {
+      "hp": 14040,
+      "attack": 1156,
+      "defense": 936,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Cleaving Axe",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns if the target's Turn Meter is more than or exactly 50% full. turns if the target's Turn Meter is less than 50% full.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Buff/Debuff Chance +10%",
+      "slug": "cleaving-axe",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1580_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease SPD",
+              "value": 0.3,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-spd",
+              "slug": "decrease-spd",
+              "website_link": "/debuffs/decrease-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy Meter <50%",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy Meter 50%+",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease SPD",
+              "value": 0.3,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-spd",
+              "slug": "decrease-spd",
+              "website_link": "/debuffs/decrease-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy Meter <50%",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy Meter 50%+",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease SPD",
+              "value": 0.3,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-spd",
+              "slug": "decrease-spd",
+              "website_link": "/debuffs/decrease-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy Meter <50%",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy Meter 50%+",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease SPD",
+              "value": 0.3,
+              "chance": 0.35,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-spd",
+              "slug": "decrease-spd",
+              "website_link": "/debuffs/decrease-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy Meter <50%",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 0.35,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy Meter 50%+",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease SPD",
+              "value": 0.3,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-spd",
+              "slug": "decrease-spd",
+              "website_link": "/debuffs/decrease-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy Meter <50%",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy Meter 50%+",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease SPD",
+              "value": 0.3,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-spd",
+              "slug": "decrease-spd",
+              "website_link": "/debuffs/decrease-spd",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy Meter <50%",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy Meter 50%+",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "7351b8c21880c4551feccd33ea41beae",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Capital Punishment",
+      "raw_description": "Attacks 2 times at random. Has an 80% chance of placing a [Stun] debuff if the target's Turn Meter is above or equal 75%.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +1%\n\nLvl. 3 Buff/Debuff Chance +10%\n\nLvl. 4 Buff/Debuff Chance +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "capital-punishment",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuffs/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1580_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0.8,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Meter 75%+",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0.8,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Meter 75%+",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0.9,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Meter 75%+",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 1,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Meter 75%+",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 1,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Meter 75%+",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "1d3740a13d1d279b0f80f2f03a1ea6ae",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Torture",
+      "raw_description": "Attacks all enemies.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +10%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "torture",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1580_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 4,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 5,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "774ea0e0dc85554cd83e4e3b62a46bcc",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 29,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 29 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors."
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/gladiator/",
+  "image_slug": "image-champion-gladiator",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Gladiator is a rare attack champion from the faction Knight Revenant doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Gladiator",
+      "gladiator"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Gladiator is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-gladiator.jpg",
+        "name": "Gladiator",
+        "url": "https://raid-codex.com/champions/gladiator/"
+      }
+    ]
+  },
+  "default_description": "Gladiator is a rare attack champion from the faction Knight Revenant doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1580",
+  "synergy": [],
+  "thumbnail": "dc5c768b5dc76a084531934b34601977",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

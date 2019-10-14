@@ -1,0 +1,763 @@
+{
+  "name": "Rocktooth",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "S",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "S",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 27,
+    "campaign": 4.3,
+    "arena_offense": 4.6,
+    "arena_defense": 4.2,
+    "clan_boss": 4.7,
+    "ice_guardian": 4.4,
+    "dragon": 4.4,
+    "spider": 4.8,
+    "fire_knight": 4.5,
+    "minotaur": 4.6,
+    "force_dungeon": 3.5,
+    "magic_dungeon": 4.4,
+    "spirit_dungeon": 4.7,
+    "void_dungeon": 4.5
+  },
+  "slug": "rocktooth",
+  "characteristics": {
+    "60": {
+      "hp": 15525,
+      "attack": 1211,
+      "defense": 782,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Grab",
+      "raw_description": "Attacks 1 enemy. Places an extra hit if this attack is critical.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%",
+      "slug": "grab",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1000_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Hit",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-hit",
+              "slug": "extra-hit",
+              "website_link": "/battle_enhancements/extra-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Hit",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-hit",
+              "slug": "extra-hit",
+              "website_link": "/battle_enhancements/extra-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Hit",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-hit",
+              "slug": "extra-hit",
+              "website_link": "/battle_enhancements/extra-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Hit",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-hit",
+              "slug": "extra-hit",
+              "website_link": "/battle_enhancements/extra-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Hit",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-hit",
+              "slug": "extra-hit",
+              "website_link": "/battle_enhancements/extra-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "c9ab693092f71b3ca15af0b9fb364ed3",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Stomp",
+      "raw_description": "Attacks all enemies. Places a 15% [Increase C. RATE] buff on all allies for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%",
+      "slug": "stomp",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate",
+          "slug": "increase-c-rate",
+          "website_link": "/buffs/increase-c-rate",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1000_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "de88bd876f78215f32bba21017715575",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Rabble",
+      "raw_description": "Attacks 1 enemy. Places a 100% [Heal Reduction] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%\n\nLvl. 6 Cooldown -1\n\nLvl. 7 Cooldown -1",
+      "slug": "rabble",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/debuffs/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1000_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "2450b32f0f2827a1f8e167b27ceac547",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Ogryn Tribes",
+    "slug": "ogryn tribes",
+    "website_link": "/factions/ogryn tribes/",
+    "image_slug": "image-faction-ogryn tribes",
+    "number_of_champions": 27,
+    "default_description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 27 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Ogryn Tribes",
+        "ogryn tribes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Subhuman giants with prodigious bellies and brawn, Ogryns arenonetheless sluggish, dumb brutes prone to servitude. Yet theseterrifying great oafs often prove that brute force and ignorancewill often win the day. Together with the Skinwalkers they controlFelwin's Gate, entry to the Kingdom of Aravia."
+  },
+  "faction_slug": "ogryn tribes",
+  "website_link": "/champions/rocktooth/",
+  "image_slug": "image-champion-rocktooth",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Rocktooth is a rare attack champion from the faction Ogryn Tribes doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Rocktooth",
+      "rocktooth"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Ogryn Tribes"
+        },
+        "description": "Member of the faction Ogryn Tribes, Rocktooth is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-rocktooth.jpg",
+        "name": "Rocktooth",
+        "url": "https://raid-codex.com/champions/rocktooth/"
+      }
+    ]
+  },
+  "default_description": "Rocktooth is a rare attack champion from the faction Ogryn Tribes doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1000",
+  "synergy": [],
+  "thumbnail": "a9b7ba70783b617e9998dc4dd82eb3c5",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-rhazin-scarhide-lich",
+      "fusion_type": "ingredient"
+    }
+  ]
+}

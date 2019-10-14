@@ -1,0 +1,164 @@
+{
+  "name": "Archer",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "archer",
+  "characteristics": {
+    "60": {
+      "hp": 13050,
+      "attack": 1156,
+      "defense": 727,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Double Shot",
+      "raw_description": "Attacks 1 enemy 2 times. Has an extra 15% chance of inflicting a critical hit. Fills this Champion's Turn Meter by 15% if this attack is critical.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%",
+      "slug": "double-shot",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "790_s1",
+      "upgrades": [],
+      "image_slug": "ed5773b9a1d889d2f634bf6e4bcc3080",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Rain of Arrows",
+      "raw_description": "Attacks all enemies 2 times. Has a 10% chance to place a 15% [Decrease SPD] debuff for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Cooldown -1\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Damage +10%\n\nLvl. 6 Buff/Debuff Chance +5%\n\nLvl. 7 Damage +15%\n\nLvl. 8 Buff/Debuff Chance +5%",
+      "slug": "rain-of-arrows",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd",
+          "slug": "decrease-spd",
+          "website_link": "/debuffs/decrease-spd",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "790_s2",
+      "upgrades": [],
+      "image_slug": "261856b64430bf9af8001424ff412b9c",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Banner Lords",
+    "slug": "banner lords",
+    "website_link": "/factions/banner lords/",
+    "image_slug": "image-faction-banner lords",
+    "number_of_champions": 36,
+    "default_description": "Banner Lords is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner Lords",
+        "banner lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll."
+  },
+  "faction_slug": "banner lords",
+  "website_link": "/champions/archer/",
+  "image_slug": "image-champion-archer",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Archer is a uncommon attack champion from the faction Banner Lords. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Archer",
+      "archer"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner Lords"
+        },
+        "description": "Member of the faction Banner Lords, Archer is a champion of Uncommon rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-archer.jpg",
+        "name": "Archer",
+        "url": "https://raid-codex.com/champions/archer/"
+      }
+    ]
+  },
+  "default_description": "Archer is a uncommon attack champion from the faction Banner Lords",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "790",
+  "synergy": [],
+  "thumbnail": "2dace78f80bc92e6d7493423d729448e",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

@@ -1,0 +1,613 @@
+{
+  "name": "Justiciar",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "Def",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "C",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "D",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 36,
+    "campaign": 2.6,
+    "arena_offense": 2.6,
+    "arena_defense": 2.6,
+    "clan_boss": 2.4,
+    "ice_guardian": 2.7,
+    "dragon": 2.9,
+    "spider": 1.9,
+    "fire_knight": 2,
+    "minotaur": 2.4,
+    "force_dungeon": 2.6,
+    "magic_dungeon": 2.6,
+    "spirit_dungeon": 2.2,
+    "void_dungeon": 2.2
+  },
+  "slug": "justiciar",
+  "characteristics": {
+    "60": {
+      "hp": 14700,
+      "attack": 914,
+      "defense": 1134,
+      "speed": 93,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Hold the Line",
+      "raw_description": "Attacks 1 enemy. Increases this Champion's DEF by 3% (up to 10 times in one round).\n\nDamage based on: [ATK] [DEF]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%",
+      "slug": "hold-the-line",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK",
+        "DEF"
+      ],
+      "giid": "2220_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.03,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "def"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.03,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "def"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.03,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "def"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.03,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "def"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "c3650feffb8399af7f3fc59b27477d63",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Contemptuous Blow",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Provoke] debuff on the target for 1 turn.\n\nDamage based on: [DEF] [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Buff/Debuff Chance +10'\n\nLvl. 6 Buff/Debuff Chance +10\n\nLvl. 7 Cooldown -1",
+      "slug": "contemptuous-blow",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "DEF"
+      ],
+      "giid": "2220_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF",
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF",
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.55,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF",
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.55,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF",
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.65,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF",
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF",
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF",
+            "ATK"
+          ],
+          "cooldown": 2,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "49b971816df1ec48e9492e177f68115b",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Comeback",
+      "raw_description": "When this Champion is hit with a critical hit, counterattacks using their default skill and decreases the buffs duration on the target by 1 turn.",
+      "slug": "comeback",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "2220_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Buff",
+              "value": 0.01,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "attacker",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-buff",
+              "slug": "decrease-buff",
+              "website_link": "/battle_enhancements/decrease-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Hit Crit",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Counterattack",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "attacker",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-counterattack",
+              "slug": "counterattack",
+              "website_link": "/debuffs/counterattack",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Hit with Crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "928a4f66408b1f429d636cbd33666cc7",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "The Sacred Order",
+    "slug": "the sacred order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 52,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends composed of 52 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends composed of 47 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "The Sacred Order",
+        "the sacred order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "For centuries the Knights of the Sacred Order were charged with cleansing Teleria of evil in all its guises. But since the declaration of war, they have sworn allegiance to the Queen of Aravia. In league with the Queen's Necromancer, these once-holy knights now enforce her Majesty's will and guard her chattel."
+  },
+  "faction_slug": "the sacred order",
+  "website_link": "/champions/justiciar/",
+  "image_slug": "image-champion-justiciar",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Justiciar is a rare def champion from the faction Sacred Order doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Justiciar",
+      "justiciar"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "The Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Justiciar is a champion of Rare rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-justiciar.jpg",
+        "name": "Justiciar",
+        "url": "https://raid-codex.com/champions/justiciar/"
+      }
+    ]
+  },
+  "default_description": "Justiciar is a rare def champion from the faction Sacred Order doing void damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2220",
+  "synergy": [],
+  "thumbnail": "d2a27e83d429f0dcae6b937cf440aeb1",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-relickeeper",
+      "fusion_type": "ingredient"
+    },
+    {
+      "fusion_slug": "fusion-relickeeper-justiciar",
+      "fusion_type": "fused"
+    }
+  ]
+}

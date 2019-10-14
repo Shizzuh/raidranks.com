@@ -1,0 +1,180 @@
+{
+  "name": "Crusher",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Def",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "crusher",
+  "characteristics": {
+    "60": {
+      "hp": 14370,
+      "attack": 870,
+      "defense": 925,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Scythe",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 25% [Decrease ATK] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +5)\n\nLvl. 5 Buff/Debuff Chance +5)",
+      "slug": "scythe",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2420_s1",
+      "upgrades": [],
+      "image_slug": "c082222c96e72f0ae035ae743e9d2f52",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Savage Swipe",
+      "raw_description": "Attacks 1 enemy. Places a [Counterattack] buff on this Champion for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Cooldown -1",
+      "slug": "savage-swipe",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Counterattack",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-counterattack",
+          "slug": "counterattack",
+          "website_link": "/buffs/counterattack",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2420_s2",
+      "upgrades": [],
+      "image_slug": "088b13442a6d9870631497649d5f0e25",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 32,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 32 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands."
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/crusher/",
+  "image_slug": "image-champion-crusher",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Crusher is a uncommon def champion from the faction Barbarians. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Crusher",
+      "crusher"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Crusher is a champion of Uncommon rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-crusher.jpg",
+        "name": "Crusher",
+        "url": "https://raid-codex.com/champions/crusher/"
+      }
+    ]
+  },
+  "default_description": "Crusher is a uncommon def champion from the faction Barbarians",
+  "recommended_builds": [],
+  "lore": "<p>Hailing from the deep vine forests of the Southmost Realms, she comes from a tribe of master trackers who viciously defend their territory from trespassers with carefully placed traps and deft spear thrusts. Those caught violating the borders of their domain are ritually crippled during the Ordeal of Stone - a practice of much amusement to her Barbarian brothers and sisters in the North. After her first time demonstrating the punishment after a battle, the name “Crusher” has since stuck...</p>",
+  "giid": "2420",
+  "synergy": [],
+  "thumbnail": "7993e11204b215b27694b6f139e34ce8",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

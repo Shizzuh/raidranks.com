@@ -1,0 +1,23 @@
+{
+  "name": "Lizardmen",
+  "slug": "lizardmen",
+  "website_link": "/factions/lizardmen/",
+  "image_slug": "image-faction-lizardmen",
+  "number_of_champions": 24,
+  "default_description": "Lizardmen is a faction from RAID Shadow Legends composed of 24 champions",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Lizardmen is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "factions",
+      "Lizardmen",
+      "lizardmen"
+    ],
+    "structured_data": null
+  },
+  "giid": "",
+  "raw_description": "The Lizardmen evolved from the brackish waters of Teleria longbefore modern humanoid races emerged with more powerfulbrains. These fearsome amphibious bipeds have been deemeduntouchable but are tolerated in swamps and city sewers. Theytrade through messengers to get sustenance, or ransom for theircaptives."
+}

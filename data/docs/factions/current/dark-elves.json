@@ -1,0 +1,23 @@
+{
+  "name": "Dark Elves",
+  "slug": "dark-elves",
+  "website_link": "/factions/dark-elves/",
+  "image_slug": "image-faction-dark-elves",
+  "number_of_champions": 33,
+  "default_description": "Dark Elves is a faction from RAID Shadow Legends composed of 32 champions",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Dark Elves is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "factions",
+      "Dark Elves",
+      "dark-elves"
+    ],
+    "structured_data": null
+  },
+  "giid": "",
+  "raw_description": "Fallen from grace in their homelands of Aravia, the Dark Elves inhabit the forests that border the realms of Teleria. They see persecutions in Kaerok rather as a boon than a bane supplying them with a stream of silver. They have set up tolls for those anxious to pass safely, but woe betide those who cannot pay."
+}

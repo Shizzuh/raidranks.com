@@ -10,9 +10,9 @@
           "style": "scss"
         }
       },
-      "root": "",
+      "root": "src",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -28,8 +28,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/app/styles/"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -95,6 +101,11 @@
             "styles": [
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/app/styles/"
+              ]
+            },
             "scripts": []
           }
         },

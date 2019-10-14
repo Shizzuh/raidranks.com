@@ -1,0 +1,956 @@
+{
+  "name": "Jizoh",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "Def",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 656,
+    "campaign": 4.7,
+    "arena_offense": 4.4,
+    "arena_defense": 4.6,
+    "clan_boss": 4.1,
+    "ice_guardian": 4.4,
+    "dragon": 4.3,
+    "spider": 3.2,
+    "fire_knight": 4.2,
+    "minotaur": 4.6,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 3.6,
+    "spirit_dungeon": 3.9,
+    "void_dungeon": 4.2
+  },
+  "slug": "jizoh",
+  "characteristics": {
+    "60": {
+      "hp": 16185,
+      "attack": 815,
+      "defense": 1376,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in all Battles by 18%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Reaping Blows",
+      "raw_description": "Attacks 1 enemy 2 times.\n\nDamage based on: [DEF]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%",
+      "slug": "reaping-blows",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "3240_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "218db21deb7c612b3d9cfc7b4fcb5e8b",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Fierce Protector",
+      "raw_description": "Places a [Shield] buff for 3 turns and a [Counterattack] buff for 2 turns on one ally. Grants an extra turn. 5 Counterattack\n\nLvl. 2 Shield +5%\n\nLvl. 3 Shield +5%\n\nLvl. 4 Shield +5%\n\nLvl. 5 Shield +5%",
+      "slug": "fierce-protector",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Counterattack",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-counterattack",
+          "slug": "counterattack",
+          "website_link": "/buffs/counterattack",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buffs/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3240_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Counterattack",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-counterattack",
+              "slug": "counterattack",
+              "website_link": "/debuffs/counterattack",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Counterattack",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-counterattack",
+              "slug": "counterattack",
+              "website_link": "/debuffs/counterattack",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Shield +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Counterattack",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-counterattack",
+              "slug": "counterattack",
+              "website_link": "/debuffs/counterattack",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Shield +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Counterattack",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-counterattack",
+              "slug": "counterattack",
+              "website_link": "/debuffs/counterattack",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Shield +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Turn",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-turn",
+              "slug": "extra-turn",
+              "website_link": "/battle_enhancements/extra-turn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Counterattack",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-counterattack",
+              "slug": "counterattack",
+              "website_link": "/debuffs/counterattack",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-shield",
+              "slug": "shield",
+              "website_link": "/debuffs/shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Shield +5%"
+        }
+      ],
+      "image_slug": "058d6bc23ae338619cd5b304e79a2f9b",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Rile",
+      "raw_description": "Attacks 1 enemy. Has an 80% chance of placing a [Provoke] debuff for 2 turns. Places a 15% [Continuous Heal] buff on this Champion for 2 turns.\n\nDamage based on: [DEF]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +10%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Buff/Debuff Chance +10%\n\nLvl. 6 Cooldown -1",
+      "slug": "rile",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/buffs/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "3240_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.8,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.8,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.9,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.9,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "4dd50b440d0416425d0c5cac43f9e124",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Lizardmen",
+    "slug": "lizardmen",
+    "website_link": "/factions/lizardmen/",
+    "image_slug": "image-faction-lizardmen",
+    "number_of_champions": 24,
+    "default_description": "Lizardmen is a faction from RAID Shadow Legends composed of 24 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Lizardmen is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Lizardmen",
+        "lizardmen"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Lizardmen evolved from the brackish waters of Teleria longbefore modern humanoid races emerged with more powerfulbrains. These fearsome amphibious bipeds have been deemeduntouchable but are tolerated in swamps and city sewers. Theytrade through messengers to get sustenance, or ransom for theircaptives."
+  },
+  "faction_slug": "lizardmen",
+  "website_link": "/champions/jizoh/",
+  "image_slug": "image-champion-jizoh",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Jizoh is a epic def champion from the faction Lizardmen doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Jizoh",
+      "jizoh"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Lizardmen"
+        },
+        "description": "Member of the faction Lizardmen, Jizoh is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-jizoh.jpg",
+        "name": "Jizoh",
+        "url": "https://raid-codex.com/champions/jizoh/"
+      }
+    ]
+  },
+  "default_description": "Jizoh is a epic def champion from the faction Lizardmen doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3240",
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "warmaiden",
+        "zavia",
+        "kael",
+        "eviscerator",
+        "prince-kymar",
+        "erinyes",
+        "luthiea",
+        "marksman",
+        "occult-brawler",
+        "brute",
+        "totem",
+        "tracker",
+        "venus",
+        "cardinal",
+        "steelskull",
+        "yaga-the-insatiable",
+        "taurus",
+        "bloodpainter",
+        "nethril",
+        "karam",
+        "hollow"
+      ]
+    }
+  ],
+  "thumbnail": "d15426b9c324676610fbb01360473ed8",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

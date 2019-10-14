@@ -1,0 +1,783 @@
+{
+  "name": "Souldrinker",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "A",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "A",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 237,
+    "campaign": 4.7,
+    "arena_offense": 4.7,
+    "arena_defense": 4.4,
+    "clan_boss": 4.4,
+    "ice_guardian": 4.6,
+    "dragon": 4.6,
+    "spider": 4.4,
+    "fire_knight": 4.2,
+    "minotaur": 4.6,
+    "force_dungeon": 4.5,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 4.5
+  },
+  "slug": "souldrinker",
+  "characteristics": {
+    "60": {
+      "hp": 17340,
+      "attack": 1299,
+      "defense": 848,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Razing Hand",
+      "raw_description": "Attacks 1 enemy. Decreases [Bomb] debuff detonation countdowns by 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%",
+      "slug": "razing-hand",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Bomb",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-bomb",
+          "slug": "bomb",
+          "website_link": "/debuffs/bomb",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1620_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Bomb",
+              "value": 0.01,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-bomb",
+              "slug": "decrease-bomb",
+              "website_link": "/battle_enhancements/decrease-bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Bomb",
+              "value": 0.01,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-bomb",
+              "slug": "decrease-bomb",
+              "website_link": "/battle_enhancements/decrease-bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Bomb",
+              "value": 0.01,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-bomb",
+              "slug": "decrease-bomb",
+              "website_link": "/battle_enhancements/decrease-bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Bomb",
+              "value": 0.01,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-bomb",
+              "slug": "decrease-bomb",
+              "website_link": "/battle_enhancements/decrease-bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Bomb",
+              "value": 0.01,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-bomb",
+              "slug": "decrease-bomb",
+              "website_link": "/battle_enhancements/decrease-bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "2c2910e3650da021a5b368ef4fcd5cc5",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Raining Fire",
+      "raw_description": "Attacks 3 times at random. Decreases [Bomb] debuff detonation countdowns by 1 turn if the target has a [Poison] debuff.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%",
+      "slug": "raining-fire",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Bomb",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-bomb",
+          "slug": "bomb",
+          "website_link": "/debuffs/bomb",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison",
+          "slug": "poison",
+          "website_link": "/debuffs/poison",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1620_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Bomb",
+              "value": 0.01,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-bomb",
+              "slug": "decrease-bomb",
+              "website_link": "/battle_enhancements/decrease-bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Poison",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Bomb",
+              "value": 0.01,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-bomb",
+              "slug": "decrease-bomb",
+              "website_link": "/battle_enhancements/decrease-bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Poison",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Bomb",
+              "value": 0.01,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-bomb",
+              "slug": "decrease-bomb",
+              "website_link": "/battle_enhancements/decrease-bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Poison",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Bomb",
+              "value": 0.01,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-bomb",
+              "slug": "decrease-bomb",
+              "website_link": "/battle_enhancements/decrease-bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Poison",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Bomb",
+              "value": 0.01,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-bomb",
+              "slug": "decrease-bomb",
+              "website_link": "/battle_enhancements/decrease-bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Poison",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "43a90ed460d83294318fc27de667bad2",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Magma Blast",
+      "raw_description": "Attacks all enemies 2 times. Each hit has a 50% chance of placing a [Bomb] that detonates after 3 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Buff/Debuff Chance +10%\n\nLvl. 4 Buff/Debuff Chance +15%\n\nLvl. 5 Cooldown -1",
+      "slug": "magma-blast",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Bomb",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-bomb",
+          "slug": "bomb",
+          "website_link": "/debuffs/bomb",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1620_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Bomb",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 3,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-bomb",
+              "slug": "bomb",
+              "website_link": "/debuffs/bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Bomb",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 3,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-bomb",
+              "slug": "bomb",
+              "website_link": "/debuffs/bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Bomb",
+              "value": 0,
+              "chance": 0.6,
+              "turns": 3,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-bomb",
+              "slug": "bomb",
+              "website_link": "/debuffs/bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Bomb",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 3,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-bomb",
+              "slug": "bomb",
+              "website_link": "/debuffs/bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Chance +15%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Bomb",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 3,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-bomb",
+              "slug": "bomb",
+              "website_link": "/debuffs/bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "d49b58c2c80f77a6fde9486aa317a717",
+      "skill_number": "A3"
+    },
+    {
+      "passive": true,
+      "name": "Set Ablaze",
+      "raw_description": "Has an 80% chance of placing two [Bomb] debuffs on each enemy that detonate after 2 turns when this Champion dies.",
+      "slug": "set-ablaze",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Bomb",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-bomb",
+          "slug": "bomb",
+          "website_link": "/debuffs/bomb",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "1620_s4",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Bomb",
+              "value": 0,
+              "chance": 0.8,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-bomb",
+              "slug": "bomb",
+              "website_link": "/debuffs/bomb",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "After Death",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "54c74fc4713d5c5e7f216bf881d09c29",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 28,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Beyond the dark portal lies a realm of fire and darkness. It is thehome of ancient beings born of darkness. Forbidden fromsetting foot in the fair lands of Teleria, these foul entities haveconspired with Necromancers to breed Demonspawn - unholyunions of Demon and mortal"
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/souldrinker/",
+  "image_slug": "image-champion-souldrinker",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Souldrinker is a epic attack champion from the faction Demonspawn doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Souldrinker",
+      "souldrinker"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Souldrinker is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-souldrinker.jpg",
+        "name": "Souldrinker",
+        "url": "https://raid-codex.com/champions/souldrinker/"
+      }
+    ]
+  },
+  "default_description": "Souldrinker is a epic attack champion from the faction Demonspawn doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1620",
+  "synergy": [],
+  "thumbnail": "806beafe154032a5b818e97b4420ad98",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

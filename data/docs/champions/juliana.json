@@ -1,0 +1,1033 @@
+{
+  "name": "Juliana",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Attack",
+  "guide_video_id": "e0l6lKCfhGo",
+  "rating": {
+    "overall": "S",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "SS",
+    "clan_boss_with_giant_slayer": "SS",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 1233,
+    "campaign": 4.1,
+    "arena_offense": 4.3,
+    "arena_defense": 3.6,
+    "clan_boss": 5,
+    "ice_guardian": 4.5,
+    "dragon": 4.7,
+    "spider": 3.2,
+    "fire_knight": 4.2,
+    "minotaur": 4.7,
+    "force_dungeon": 4.2,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.6,
+    "void_dungeon": 4.6
+  },
+  "slug": "juliana",
+  "characteristics": {
+    "60": {
+      "hp": 15360,
+      "attack": 1398,
+      "defense": 881,
+      "speed": 103,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally C. RATE in the Arena by 20%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Battledance",
+      "raw_description": "Attacks 1 enemy 2 times. Each critical hit fills this Champion's Turn Meter by 10%.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%",
+      "slug": "battledance",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3440_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase Turn Meter",
+              "value": 0.1,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-turn-meter",
+              "slug": "increase-turn-meter",
+              "website_link": "/battle_enhancements/increase-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase Turn Meter",
+              "value": 0.1,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-turn-meter",
+              "slug": "increase-turn-meter",
+              "website_link": "/battle_enhancements/increase-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase Turn Meter",
+              "value": 0.1,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-turn-meter",
+              "slug": "increase-turn-meter",
+              "website_link": "/battle_enhancements/increase-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase Turn Meter",
+              "value": 0.1,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-turn-meter",
+              "slug": "increase-turn-meter",
+              "website_link": "/battle_enhancements/increase-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "crit",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "1b17b0c83c1c4f366ffa9f36d99bd3f0",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Lethal Partner",
+      "raw_description": "Places a 30% [Increase C. RATE] buff on this Champion, then attacks 1 enemy 2 times. Places a 5% [Poison] debuff on the target for 3 turns if this attack is critical.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%",
+      "slug": "lethal-partner",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase C. RATE",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-c-rate-2",
+          "slug": "increase-c-rate-2",
+          "website_link": "/buffs/increase-c-rate",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/debuffs/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3440_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Romero on Team",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Romero on Team",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Romero on Team",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Romero on Team",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase C. RATE",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-c-rate",
+              "slug": "increase-c-rate",
+              "website_link": "/debuffs/increase-c-rate",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "1d81b1e78d75370e477f7c6ef769d617",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Fire of Purgation",
+      "raw_description": "Attacks 1 enemy. Removes 1 random buff from the target. Has a 75% chance of placing a [HP Burn] debuff for 3 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Damage +10%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Buff/Debuff Chance +5%\n\nLvl. 7 Buff/Debuff Chance +5%\n\nLvl. 8 Buff/Debuff Chance +5%",
+      "slug": "fire-of-purgation",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/debuffs/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3440_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.8,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.85,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.9,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.95,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 8",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 1,
+              "turns": 3,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Remove 1 Buff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-remove-1-buff",
+              "slug": "remove-1-buff",
+              "website_link": "/battle_enhancements/remove-1-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +5%"
+        }
+      ],
+      "image_slug": "06dde7ae0d607cb6f7735f6380e619f9",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "The Sacred Order",
+    "slug": "the sacred order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 52,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends composed of 52 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends composed of 47 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "The Sacred Order",
+        "the sacred order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "For centuries the Knights of the Sacred Order were charged with cleansing Teleria of evil in all its guises. But since the declaration of war, they have sworn allegiance to the Queen of Aravia. In league with the Queen's Necromancer, these once-holy knights now enforce her Majesty's will and guard her chattel."
+  },
+  "faction_slug": "the sacred order",
+  "website_link": "/champions/juliana/",
+  "image_slug": "image-champion-juliana",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Juliana is a epic attack champion from the faction Sacred Order doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Juliana",
+      "juliana"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "The Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Juliana is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-juliana.jpg",
+        "name": "Juliana",
+        "url": "https://raid-codex.com/champions/juliana/"
+      }
+    ]
+  },
+  "default_description": "Juliana is a epic attack champion from the faction Sacred Order doing magic damage",
+  "recommended_builds": [],
+  "lore": "<p>But, of course, it is not just love that is marked by divine intervention or tragedy that is worthy of the minstrel???s attention. Those are merely good for the dramatic flair that those knights of the lute do so enjoy. More often than not, love overcomes obstacles that are less grand on a cosmic scale, yet no less difficult for the mortals who find themselves entwined.</p><p>The Sacred Order as a whole, while not necessarily enforcing a Vow of Chastity, does forbid its members from having families and heirs - a precaution to make certain positions of power within the Order pass on by right of virtue, not that of blood. Undue attachment is heavily frowned upon as well, outright forbidden in some of the stricter Divisions of the Order.</p><p>It is no surprise then, that the Knights Romero and Juliana had never thought of themselves falling in love. Romero, ever coolheaded and pious found himself at odds with the young and brash Juliana, whose skill with the blade and fiery zeal led her to many mortal perils that she, to the young Knight???s credit, honourably overcame. But a life full of battles does tend to make emotions run wild. In time, the two warmed up to one another???s ???quirks???, learned to appreciate them even. Their eventual union, though it may never be formalized by marriage, remains true and tested. Neither did that union affect their relationship as comrades-in-arms, if anything it allowed the two Knights to fight as one. Where Romero???s natural cautiousness may lead to him losing momentum, Juliana???s brazen but no less skillful tactics ensure that their forces control the initiative. And where Juliana may begin losing herself in the heat of battle, Romero is always there to serve as an anchor of reason. To this day, they remain among the Order???s prominent warriors and are ready to bring Lumaya???s light wherever it is needed most.</p>",
+  "giid": "3440",
+  "synergy": [],
+  "thumbnail": "7de32147a4f1055bed9e4faf3485a84d",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

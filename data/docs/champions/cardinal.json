@@ -1,0 +1,697 @@
+{
+  "name": "Cardinal",
+  "rarity": "Epic",
+  "element": "Void",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 22,
+    "campaign": 4.3,
+    "arena_offense": 4,
+    "arena_defense": 4.1,
+    "clan_boss": 3.7,
+    "ice_guardian": 3.6,
+    "dragon": 4.1,
+    "spider": 3.1,
+    "fire_knight": 3.4,
+    "minotaur": 4.1,
+    "force_dungeon": 4.1,
+    "magic_dungeon": 4.1,
+    "spirit_dungeon": 4.1,
+    "void_dungeon": 4.1
+  },
+  "slug": "cardinal",
+  "characteristics": {
+    "60": {
+      "hp": 17340,
+      "attack": 1002,
+      "defense": 1145,
+      "speed": 104,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Evaporation",
+      "raw_description": "Has a 10% chance of placing a 5% [Poison] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Buff/Debuff Chance +5%",
+      "slug": "evaporation",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/debuffs/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2000_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.1,
+              "turns": 2,
+              "target": {
+                "who": "-",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.1,
+              "turns": 2,
+              "target": {
+                "who": "-",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.1,
+              "turns": 2,
+              "target": {
+                "who": "-",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.15,
+              "turns": 2,
+              "target": {
+                "who": "-",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Poison",
+              "value": 0.05,
+              "chance": 0.2,
+              "turns": 2,
+              "target": {
+                "who": "-",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-poison",
+              "slug": "poison",
+              "website_link": "/debuffs/poison",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        }
+      ],
+      "image_slug": "0671a86c36a44fdeff0dae0f160ab010",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Mending Touch",
+      "raw_description": "Heals a target ally by 30% of their MAX HP.\n\nLvl. 4 Cooldown -1",
+      "slug": "mending-touch",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "2000_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.6,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.65,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Heal +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.7,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Heal +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.7,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal",
+              "slug": "heal",
+              "website_link": "/battle_enhancements/heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "ced6fd72f84acbeacdeeb4af7e7dbb59",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Redemption",
+      "raw_description": "Revives a dead ally and heals them by 25% of their MAX HP. The revived ally takes a turn.\n\nLvl. 2 Cooldown -1\n\nLvl. 3 Cooldown -1",
+      "slug": "redemption",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "2000_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase Turn Meter",
+              "value": 1,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-turn-meter",
+              "slug": "increase-turn-meter",
+              "website_link": "/battle_enhancements/increase-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Revive",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-revive",
+              "slug": "revive",
+              "website_link": "/battle_enhancements/revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 7,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase Turn Meter",
+              "value": 1,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-turn-meter",
+              "slug": "increase-turn-meter",
+              "website_link": "/battle_enhancements/increase-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Revive",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-revive",
+              "slug": "revive",
+              "website_link": "/battle_enhancements/revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 6,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase Turn Meter",
+              "value": 1,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-turn-meter",
+              "slug": "increase-turn-meter",
+              "website_link": "/battle_enhancements/increase-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Revive",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-revive",
+              "slug": "revive",
+              "website_link": "/battle_enhancements/revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "f43330b6da340b7ac4a361f332475d2f",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "The Sacred Order",
+    "slug": "the sacred order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 52,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends composed of 52 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends composed of 47 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "The Sacred Order",
+        "the sacred order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "For centuries the Knights of the Sacred Order were charged with cleansing Teleria of evil in all its guises. But since the declaration of war, they have sworn allegiance to the Queen of Aravia. In league with the Queen's Necromancer, these once-holy knights now enforce her Majesty's will and guard her chattel."
+  },
+  "faction_slug": "the sacred order",
+  "website_link": "/champions/cardinal/",
+  "image_slug": "image-champion-cardinal",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Cardinal is a epic assist champion from the faction Sacred Order doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Cardinal",
+      "cardinal"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "The Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Cardinal is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-cardinal.jpg",
+        "name": "Cardinal",
+        "url": "https://raid-codex.com/champions/cardinal/"
+      }
+    ]
+  },
+  "default_description": "Cardinal is a epic assist champion from the faction Sacred Order doing void damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2000",
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "valkyrie",
+        "jizoh",
+        "skullcrusher",
+        "martyr"
+      ]
+    }
+  ],
+  "thumbnail": "08f90c1a417155361a5c4b8d297e0d78",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

@@ -1,0 +1,686 @@
+{
+  "name": "Muckstalker",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "C",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "C",
+    "dragon": "C",
+    "spider": "D",
+    "fire_knight": "D",
+    "minotaur": "C",
+    "force_dungeon": "C",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "C",
+    "void_dungeon": "C"
+  },
+  "reviews": {
+    "amount": 13,
+    "campaign": 3.5,
+    "arena_offense": 4.2,
+    "arena_defense": 3.6,
+    "clan_boss": 3.9,
+    "ice_guardian": 3.8,
+    "dragon": 3.2,
+    "spider": 3.7,
+    "fire_knight": 4.1,
+    "minotaur": 3.8,
+    "force_dungeon": 3.6,
+    "magic_dungeon": 3.9,
+    "spirit_dungeon": 4.4,
+    "void_dungeon": 3.7
+  },
+  "slug": "muckstalker",
+  "characteristics": {
+    "60": {
+      "hp": 20475,
+      "attack": 903,
+      "defense": 760,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Pounce",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of placing a [Block Buffs] debuff for 2 turns.\n\nDamage based on: [ATK] [HP]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Damage +10%\n\nLvl. 7 Buff/Debuff Chance +10%",
+      "slug": "pounce",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/debuffs/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
+      "giid": "880_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Buffs",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-buffs",
+              "slug": "block-buffs",
+              "website_link": "/debuffs/block-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "hp"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Buffs",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-buffs",
+              "slug": "block-buffs",
+              "website_link": "/debuffs/block-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "hp"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Buffs",
+              "value": 0,
+              "chance": 0.35,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-buffs",
+              "slug": "block-buffs",
+              "website_link": "/debuffs/block-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "hp"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Buffs",
+              "value": 0,
+              "chance": 0.35,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-buffs",
+              "slug": "block-buffs",
+              "website_link": "/debuffs/block-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "hp"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Buffs",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-buffs",
+              "slug": "block-buffs",
+              "website_link": "/debuffs/block-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "hp"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Buffs",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-buffs",
+              "slug": "block-buffs",
+              "website_link": "/debuffs/block-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "hp"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Buffs",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-buffs",
+              "slug": "block-buffs",
+              "website_link": "/debuffs/block-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "atk",
+            "hp"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "d33cdefb64241821fa58acc92a611152",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Strangle",
+      "raw_description": "Attacks 1 enemy. Places a [Sleep] debuff for 2 turns if the target has no active buffs.\n\nDamage based on: [ATK] [HP]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%\n\nLvl. 6 Cooldown -1",
+      "slug": "strangle",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuffs/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
+      "giid": "880_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "No Buffs",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 3,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "No Buffs",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "No Buffs",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "No Buffs",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "No Buffs",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "No Buffs",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 2,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "8362c77598ad19a2163521db8d787ddf",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Herbal Balm",
+      "raw_description": "Places a 15% [Continuous Heal] buff on this Champion for 2 turns if incoming damage exceeds 20% HP in one attack.",
+      "slug": "herbal-balm",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/buffs/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "880_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "20%+ ATK",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 2,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "4bfd9078c17c71f726f7aea2ad9aef50",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Lizardmen",
+    "slug": "lizardmen",
+    "website_link": "/factions/lizardmen/",
+    "image_slug": "image-faction-lizardmen",
+    "number_of_champions": 24,
+    "default_description": "Lizardmen is a faction from RAID Shadow Legends composed of 24 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Lizardmen is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Lizardmen",
+        "lizardmen"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Lizardmen evolved from the brackish waters of Teleria longbefore modern humanoid races emerged with more powerfulbrains. These fearsome amphibious bipeds have been deemeduntouchable but are tolerated in swamps and city sewers. Theytrade through messengers to get sustenance, or ransom for theircaptives."
+  },
+  "faction_slug": "lizardmen",
+  "website_link": "/champions/muckstalker/",
+  "image_slug": "image-champion-muckstalker",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Muckstalker is a rare hp champion from the faction Lizardmen doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Muckstalker",
+      "muckstalker"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Lizardmen"
+        },
+        "description": "Member of the faction Lizardmen, Muckstalker is a champion of Rare rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-muckstalker.jpg",
+        "name": "Muckstalker",
+        "url": "https://raid-codex.com/champions/muckstalker/"
+      }
+    ]
+  },
+  "default_description": "Muckstalker is a rare hp champion from the faction Lizardmen doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "880",
+  "synergy": [],
+  "thumbnail": "1f50893f80d6830d62765ffad7721742",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

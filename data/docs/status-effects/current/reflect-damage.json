@@ -1,0 +1,15 @@
+{
+  "effect_type": "buff",
+  "type": "Reflect Damage",
+  "value": 0.15,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-buff-reflect-damage",
+  "slug": "reflect-damage",
+  "website_link": "/buffs/reflect-damage",
+  "extra": false,
+  "raw_description": "Any Champion attack a target with this buff will sustain 15% of the damage they inflicted with the attack.",
+  "places_if": "",
+  "amount": 0
+}

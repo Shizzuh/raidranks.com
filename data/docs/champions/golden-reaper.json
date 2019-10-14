@@ -1,0 +1,194 @@
+{
+  "name": "Golden Reaper",
+  "rarity": "Epic",
+  "element": "Void",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "S",
+    "campaign": "B",
+    "arena_offense": "SS",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "A",
+    "dragon": "S",
+    "spider": "A",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "golden-reaper",
+  "characteristics": {
+    "60": {
+      "hp": 18495,
+      "attack": 1134,
+      "defense": 936,
+      "speed": 111,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Harvest of Blood",
+      "raw_description": "Attacks 1 enemy. Has a 30% chance of decreasing the cooldown of one of a random ally's Skills by 1 turn.\n\nDamage based on: [ATK]",
+      "slug": "harvest-of-blood",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3280_s1",
+      "upgrades": [],
+      "image_slug": "68fb6ddc34b83f39137e7f5706f25534",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Maelstrom",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Decreases the Turn Meter of each target by 20% if they are not under a [Decrease ATK] debuff.\n\nDamage based on: [ATK]",
+      "slug": "maelstrom",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3280_s2",
+      "upgrades": [],
+      "image_slug": "e9f1ec848e01b3d134339a1b0a42c85e",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Alacrity",
+      "raw_description": "Places a 30% [Increase SPD] buff on all allies for 2 turns and boosts their Turn Meter by 20%",
+      "slug": "alacrity",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-spd-2",
+          "slug": "increase-spd-2",
+          "website_link": "/buffs/increase-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3280_s3",
+      "upgrades": [],
+      "image_slug": "f5ee2e7bab8dc8ef690b7cf9ffcc785b",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Knight Revenant",
+    "slug": "knight-revenant",
+    "website_link": "/factions/knight-revenant/",
+    "image_slug": "image-faction-knight-revenant",
+    "number_of_champions": 29,
+    "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 29 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Knight Revenant",
+        "knight-revenant"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors."
+  },
+  "faction_slug": "knight-revenant",
+  "website_link": "/champions/golden-reaper/",
+  "image_slug": "image-champion-golden-reaper",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Golden Reaper is a epic assist champion from the faction Knight Revenant doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Golden Reaper",
+      "golden-reaper"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Knight Revenant"
+        },
+        "description": "Member of the faction Knight Revenant, Golden Reaper is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-golden-reaper.jpg",
+        "name": "Golden Reaper",
+        "url": "https://raid-codex.com/champions/golden-reaper/"
+      }
+    ]
+  },
+  "default_description": "Golden Reaper is a epic assist champion from the faction Knight Revenant doing void damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3280",
+  "synergy": [],
+  "thumbnail": "cc9657884708170e160c8372d92f3535",
+  "tags": [
+    "NEW_CHAMPION_20190726"
+  ],
+  "masteries": [],
+  "fusion_data": []
+}

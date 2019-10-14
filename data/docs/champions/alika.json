@@ -1,0 +1,962 @@
+{
+  "name": "Alika",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "S",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "S",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 48,
+    "campaign": 4.7,
+    "arena_offense": 4.9,
+    "arena_defense": 4.4,
+    "clan_boss": 4.8,
+    "ice_guardian": 4.9,
+    "dragon": 4.9,
+    "spider": 4.8,
+    "fire_knight": 4.6,
+    "minotaur": 4.8,
+    "force_dungeon": 4.9,
+    "magic_dungeon": 4.9,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 5
+  },
+  "slug": "alika",
+  "characteristics": {
+    "60": {
+      "hp": 15855,
+      "attack": 1354,
+      "defense": 892,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Gap Shot",
+      "raw_description": "",
+      "slug": "gap-shot",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3250_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Crit Hit",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-crit-hit",
+              "slug": "extra-crit-hit",
+              "website_link": "/battle_enhancements/extra-crit-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Crit Hit",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-crit-hit",
+              "slug": "extra-crit-hit",
+              "website_link": "/battle_enhancements/extra-crit-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Crit Hit",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-crit-hit",
+              "slug": "extra-crit-hit",
+              "website_link": "/battle_enhancements/extra-crit-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Crit Hit",
+              "value": 0,
+              "chance": 0.35,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-crit-hit",
+              "slug": "extra-crit-hit",
+              "website_link": "/battle_enhancements/extra-crit-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Crit Hit",
+              "value": 0,
+              "chance": 0.35,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-crit-hit",
+              "slug": "extra-crit-hit",
+              "website_link": "/battle_enhancements/extra-crit-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Crit Hit",
+              "value": 0,
+              "chance": 0.35,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-crit-hit",
+              "slug": "extra-crit-hit",
+              "website_link": "/battle_enhancements/extra-crit-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Crit Hit",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-crit-hit",
+              "slug": "extra-crit-hit",
+              "website_link": "/battle_enhancements/extra-crit-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 8",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Crit Hit",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-crit-hit",
+              "slug": "extra-crit-hit",
+              "website_link": "/battle_enhancements/extra-crit-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "f5ae36e75fa19fc44f38f5353633ed08",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "High Value Target",
+      "raw_description": "",
+      "slug": "high-value-target",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3250_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy MAX HP Higher",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy MAX HP Higher",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy MAX HP Higher",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy MAX HP Higher",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy MAX HP Higher",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy MAX HP Higher",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Enemy MAX HP Higher",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 2,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "1f076a27cfd59cbbc2726e24c3c8dd70",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Disorient",
+      "raw_description": "",
+      "slug": "disorient",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3250_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0.01,
+              "chance": 0.35,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0.01,
+              "chance": 0.35,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0.01,
+              "chance": 0.35,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0.01,
+              "chance": 0.4,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0.01,
+              "chance": 0.45,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0.01,
+              "chance": 0.45,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 7",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0.01,
+              "chance": 0.6,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Chance +15%"
+        },
+        {
+          "level": "Level 8",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Cooldown Skills",
+              "value": 0.01,
+              "chance": 0.6,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-cooldown-skills",
+              "slug": "block-cooldown-skills",
+              "website_link": "/debuffs/block-cooldown-skills",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "b22b53190328b5744710486fab1af942",
+      "skill_number": "A3"
+    },
+    {
+      "passive": false,
+      "name": "Devoted Sister (P)",
+      "raw_description": "",
+      "slug": "devoted-sister--",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3250_s4",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Revive",
+              "value": 0.75,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-revive",
+              "slug": "revive",
+              "website_link": "/battle_enhancements/revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Sikara on Team",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 7,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "d52d289993e47f9a0289a1356c4cb90f",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 32,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 32 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands."
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/alika/",
+  "image_slug": "image-champion-alika",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Alika is a epic attack champion from the faction Barbarians doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Alika",
+      "alika"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Alika is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-alika.jpg",
+        "name": "Alika",
+        "url": "https://raid-codex.com/champions/alika/"
+      }
+    ]
+  },
+  "default_description": "Alika is a epic attack champion from the faction Barbarians doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>Personifying the tactics of many nomadic Barbarian tribes, Alika comes from the ranks of Ambushers - a somewhat basic, but very apt name - are an elite cadre of warriors that specialize in hit-and-run tactics both on horseback and on foot. These usually come from the ranks of tribal nobility, or warriors that have been granted the trust of the chieftain for their deed on the battlefield. Granted with some of the best armour the nomads can create - both sturdy and richly adorned to display status - and state-of-the-art bows, they can make any invasion into a hellish experience.</p><p>Alika is a master archer, capable of identifying priority targets at a moment's notice and taking advantage of even the smallest weaknesses her hawk-like eyes spot. The only thing that can match her skill with the bow is her fierce loyalty to her blood kin, Sikara, for whom she will face the direst of foes and survive against all odds.</p>",
+  "giid": "3250",
+  "synergy": [],
+  "thumbnail": "326fb04c3abf030fe3f4e341f39b573f",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

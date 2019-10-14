@@ -1,0 +1,15 @@
+{
+  "effect_type": "buff",
+  "type": "Increase SPD",
+  "value": 0.3,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-buff-increase-spd-2",
+  "slug": "increase-spd-2",
+  "website_link": "/buffs/increase-spd",
+  "extra": true,
+  "raw_description": "Increases the Champion’s Battle SPD by 30%",
+  "places_if": "",
+  "amount": 0
+}

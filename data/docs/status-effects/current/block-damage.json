@@ -1,0 +1,15 @@
+{
+  "effect_type": "buff",
+  "type": "Block Damage",
+  "value": 0,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-buff-block-damage",
+  "slug": "block-damage",
+  "website_link": "/buffs/block-damage",
+  "extra": false,
+  "raw_description": "Makes the Champion immune to all forms of damage.",
+  "places_if": "",
+  "amount": 0
+}

@@ -1,0 +1,149 @@
+{
+  "name": "Armiger",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Def",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "armiger",
+  "characteristics": {
+    "60": {
+      "hp": 15195,
+      "attack": 793,
+      "defense": 947,
+      "speed": 92,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Riposte",
+      "raw_description": "Attacks 1 enemy. Decreases the Turn Meter by 30% if this attack is critical. Damage inflicted is proportional to DEF.\n\nDamage based on: [DEF]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%",
+      "slug": "riposte",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "1050_s1",
+      "upgrades": [],
+      "image_slug": "154fcd9d4507a8e3bf26e24326600b00",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Lay to Rest",
+      "raw_description": "Attacks 1 enemy. Damage inflicted is proportional to DEF and increases according to enemy MAX HP. Enemies killed by this skill cannot be revived.\n\nDamage based on: [DEF] [Enemy MAX HP]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%\n\nLvl. 6 Cooldown -1",
+      "slug": "lay-to-rest",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF",
+        "Enemy MAX HP"
+      ],
+      "giid": "1050_s2",
+      "upgrades": [],
+      "image_slug": "fbb87c0f4636684814b42f0a663e4ca0",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "The Sacred Order",
+    "slug": "the sacred order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 52,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends composed of 52 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends composed of 47 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "The Sacred Order",
+        "the sacred order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "For centuries the Knights of the Sacred Order were charged with cleansing Teleria of evil in all its guises. But since the declaration of war, they have sworn allegiance to the Queen of Aravia. In league with the Queen's Necromancer, these once-holy knights now enforce her Majesty's will and guard her chattel."
+  },
+  "faction_slug": "the sacred order",
+  "website_link": "/champions/armiger/",
+  "image_slug": "image-champion-armiger",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Armiger is a uncommon def champion from the faction Sacred Order. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Armiger",
+      "armiger"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "The Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Armiger is a champion of Uncommon rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-armiger.jpg",
+        "name": "Armiger",
+        "url": "https://raid-codex.com/champions/armiger/"
+      }
+    ]
+  },
+  "default_description": "Armiger is a uncommon def champion from the faction Sacred Order",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1050",
+  "synergy": [],
+  "thumbnail": "5055cbf43fac3f7e2336b27310f0b9ef",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

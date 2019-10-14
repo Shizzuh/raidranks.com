@@ -1,0 +1,180 @@
+{
+  "name": "Stalwart",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "stalwart",
+  "characteristics": {
+    "60": {
+      "hp": 18000,
+      "attack": 738,
+      "defense": 815,
+      "speed": 87,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Rattle",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a [Block Cooldown Skills] debuff for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%",
+      "slug": "rattle",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Cooldown Skills",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-cooldown-skills",
+          "slug": "block-cooldown-skills",
+          "website_link": "/debuffs/block-cooldown-skills",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2020_s1",
+      "upgrades": [],
+      "image_slug": "f8e6727cf25ff2e8c1b3478650f674a8",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Headbutt",
+      "raw_description": "Attacks 1 enemy 2 times. Has a 25% chance of placing a [Stun] debuff for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Damage +10%",
+      "slug": "headbutt",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuffs/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2020_s2",
+      "upgrades": [],
+      "image_slug": "a4701c890715744e239df9ba0de7cddf",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Banner Lords",
+    "slug": "banner lords",
+    "website_link": "/factions/banner lords/",
+    "image_slug": "image-faction-banner lords",
+    "number_of_champions": 36,
+    "default_description": "Banner Lords is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner Lords",
+        "banner lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll."
+  },
+  "faction_slug": "banner lords",
+  "website_link": "/champions/stalwart/",
+  "image_slug": "image-champion-stalwart",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Stalwart is a uncommon hp champion from the faction Banner Lords. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Stalwart",
+      "stalwart"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner Lords"
+        },
+        "description": "Member of the faction Banner Lords, Stalwart is a champion of Uncommon rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-stalwart.jpg",
+        "name": "Stalwart",
+        "url": "https://raid-codex.com/champions/stalwart/"
+      }
+    ]
+  },
+  "default_description": "Stalwart is a uncommon hp champion from the faction Banner Lords",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2020",
+  "synergy": [],
+  "thumbnail": "7b7a53e239400a13bd6be6c91c4f6c4e",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

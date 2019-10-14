@@ -1,0 +1,162 @@
+{
+  "name": "Deathknight",
+  "rarity": "Common",
+  "element": "",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "deathknight",
+  "characteristics": {
+    "60": {
+      "hp": 13545,
+      "attack": 551,
+      "defense": 749,
+      "speed": 99,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Rusty Sword",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a [Sleep] debuff for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Damage +5%\n\nLvl. 7 Buff/Debuff Chance +10%\n\nLvl. 8 Damage +10%",
+      "slug": "rusty-sword",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuffs/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "200_s1",
+      "upgrades": [],
+      "image_slug": "c52a28aed0f50ad65a37ad101a47545f",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Payback",
+      "raw_description": "Has a 30% chance of counterattacking when hit.",
+      "slug": "payback",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "200_s2",
+      "upgrades": [],
+      "image_slug": "8eeb9b65bda6740110ae27eea62fafb1",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 36,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time."
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/deathknight/",
+  "image_slug": "image-champion-deathknight",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Deathknight is a common hp champion from the faction Undead Hordes. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Deathknight",
+      "deathknight"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Deathknight is a champion of Common rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-deathknight.jpg",
+        "name": "Deathknight",
+        "url": "https://raid-codex.com/champions/deathknight/"
+      }
+    ]
+  },
+  "default_description": "Deathknight is a common hp champion from the faction Undead Hordes",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "200",
+  "synergy": [],
+  "thumbnail": "3644a684f98ea8fe223c713b77189a77",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

@@ -1,0 +1,872 @@
+﻿{
+  "name": "Zelotah",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "A",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "A",
+    "fire_knight": "A",
+    "minotaur": "A",
+    "force_dungeon": "A",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 366,
+    "campaign": 4.8,
+    "arena_offense": 4.5,
+    "arena_defense": 4.9,
+    "clan_boss": 4.7,
+    "ice_guardian": 4.8,
+    "dragon": 4.9,
+    "spider": 3.9,
+    "fire_knight": 3.7,
+    "minotaur": 4.8,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.7,
+    "void_dungeon": 4.7
+  },
+  "slug": "zelotah",
+  "characteristics": {
+    "60": {
+      "hp": 20640,
+      "attack": 826,
+      "defense": 1101,
+      "speed": 95,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 15
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally RESIST in the Arena by 70.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Hypnotic Gaze",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a [Sleep] debuff for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Buff/Debuff Chance +10%\n\nLvl. 6 Buff/Debuff Chance +10% Ios. ‘a ™ Y, ‘",
+      "slug": "hypnotic-gaze",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuffs/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "610_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.15,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.15,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 1,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "2a909d92932c46ee82f26ad647f8642f",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Armored Scales",
+      "raw_description": "Places a [Shield] buff on all allies equal to 20% of this Champion's MAX HP for 3 turns. Places a 15% [Continuous Heal] buff on all allies for 2 turns.\n\nLvl. 2 Shield +5%\n\nLvl. 3 Shield +5%\n\nLvl. 4 Shield +5%\n\nLvl. 5 Shield +5%",
+      "slug": "armored-scales",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal-2",
+          "slug": "continuous-heal-2",
+          "website_link": "/buffs/continuous-heal",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buffs/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "610_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Shield per Champ Max HP",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-shield-per-champ-max-hp",
+              "slug": "shield-per-champ-max-hp",
+              "website_link": "/battle_enhancements/shield-per-champ-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Shield per Champ Max HP",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-shield-per-champ-max-hp",
+              "slug": "shield-per-champ-max-hp",
+              "website_link": "/battle_enhancements/shield-per-champ-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Shield +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Shield per Champ Max HP",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-shield-per-champ-max-hp",
+              "slug": "shield-per-champ-max-hp",
+              "website_link": "/battle_enhancements/shield-per-champ-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Shield +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Shield per Champ Max HP",
+              "value": 0.35,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-shield-per-champ-max-hp",
+              "slug": "shield-per-champ-max-hp",
+              "website_link": "/battle_enhancements/shield-per-champ-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Shield +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Continuous Heal",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-continuous-heal",
+              "slug": "continuous-heal",
+              "website_link": "/debuffs/continuous-heal",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Shield per Champ Max HP",
+              "value": 0.4,
+              "chance": 0,
+              "turns": 3,
+              "target": {
+                "who": "all ally",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-shield-per-champ-max-hp",
+              "slug": "shield-per-champ-max-hp",
+              "website_link": "/battle_enhancements/shield-per-champ-max-hp",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Shield +5%"
+        }
+      ],
+      "image_slug": "9102c74c92ceaba7a7190a3e826da210",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Horrid Dreams",
+      "raw_description": "Attacks all enemies. Has a 50% chance of placing a [Sleep] debuff for 1 turn. Has a 75% chance against enemies under debuffs.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Buff/Debuff Chance +10%\n\nLvl. 5 Buff/Debuff Chance +10%\n\nLvl. 6 Cooldown -1",
+      "slug": "horrid-dreams",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuffs/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "610_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Debuff",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Debuff",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.8,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Debuff",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0.9,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Debuff",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 1,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Debuff",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 1,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Debuff",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "64a83faebed82cf92a2a44128a3a0f5f",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 36,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time."
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/zelotah/",
+  "image_slug": "image-champion-zelotah",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Zelotah is a epic assist champion from the faction Undead Hordes doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Zelotah",
+      "zelotah"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Zelotah is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-zelotah.jpg",
+        "name": "Zelotah",
+        "url": "https://raid-codex.com/champions/zelotah/"
+      }
+    ]
+  },
+  "default_description": "Zelotah is a epic assist champion from the faction Undead Hordes doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "610",
+  "synergy": [],
+  "thumbnail": "00ac8ed3b4327bdd4ebbebcb2ba10a00",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

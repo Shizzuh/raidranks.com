@@ -1,0 +1,23 @@
+{
+  "name": "Barbarians",
+  "slug": "barbarians",
+  "website_link": "/factions/barbarians/",
+  "image_slug": "image-faction-barbarians",
+  "number_of_champions": 32,
+  "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 31 champions",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "factions",
+      "Barbarians",
+      "barbarians"
+    ],
+    "structured_data": null
+  },
+  "giid": "",
+  "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands."
+}

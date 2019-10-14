@@ -1,1 +1,115 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$rsl-primary: mat-palette($mat-indigo);
+$rsl-accent: mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$rsl-warn: mat-palette($mat-red);
+
+// Create the theme object (a Sass map containing all of the palettes).
+$rsl-theme: mat-light-theme($rsl-primary, $rsl-accent, $rsl-warn);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($rsl-theme);
+
 /* You can add global styles to this file, and also import other style files */
+@import 'app/styles/index';
+
+html, body, .global {
+  background: $color-background !important;
+  height:100%;
+  width:100%;
+}
+
+.global {
+  display:flex;
+  flex-direction: row;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+hr {
+  border-top:1px solid rgba($color-primary, .3) !important;
+  margin: 2rem auto !important;
+}
+
+button.btn.btn-circle {
+  border: 1px solid $color-primary;
+  border-radius: 50%;
+  height: 3vw;
+  width: 3vw;
+  margin: 5px;
+  color: $color-primary;
+}
+
+.scrollable-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 2px;
+  &:hover {
+    width:16px;
+  }
+}
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-primary;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background: lighten($color-background, 10%);
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: lighten($color-background, 10%);
+}
+
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+@media all and (min-width:$mobile) {
+}

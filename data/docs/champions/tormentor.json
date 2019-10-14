@@ -1,0 +1,800 @@
+{
+  "name": "Tormentor",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "C",
+    "campaign": "B",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "C",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 2,
+    "campaign": 3.5,
+    "arena_offense": 2.5,
+    "arena_defense": 2.5,
+    "clan_boss": 3.5,
+    "ice_guardian": 4,
+    "dragon": 4,
+    "spider": 1,
+    "fire_knight": 4,
+    "minotaur": 4.5,
+    "force_dungeon": 3.5,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 3.5,
+    "void_dungeon": 4
+  },
+  "slug": "tormentor",
+  "characteristics": {
+    "60": {
+      "hp": 13875,
+      "attack": 1156,
+      "defense": 947,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Endless Agonies",
+      "raw_description": "",
+      "slug": "endless-agonies",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3350_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Hit",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-hit",
+              "slug": "extra-hit",
+              "website_link": "/battle_enhancements/extra-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Hit",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-hit",
+              "slug": "extra-hit",
+              "website_link": "/battle_enhancements/extra-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Hit",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-hit",
+              "slug": "extra-hit",
+              "website_link": "/battle_enhancements/extra-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Hit",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-hit",
+              "slug": "extra-hit",
+              "website_link": "/battle_enhancements/extra-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Extra Hit",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-extra-hit",
+              "slug": "extra-hit",
+              "website_link": "/battle_enhancements/extra-hit",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Critical Strike",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "24b9d64bdd526637234bb041d793786e",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Infernal Miasma",
+      "raw_description": "",
+      "slug": "infernal-miasma",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3350_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.25,
+              "chance": 0.5,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.25,
+              "chance": 0.5,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.25,
+              "chance": 0.5,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.25,
+              "chance": 0.55,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.25,
+              "chance": 0.65,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.25,
+              "chance": 0.75,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 7",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ACC",
+              "value": 0.25,
+              "chance": 0.75,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-acc",
+              "slug": "decrease-acc",
+              "website_link": "/debuffs/decrease-acc",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "fa98baf19002c080bfdd85aa72a120d9",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Creeping Doom",
+      "raw_description": "",
+      "slug": "creeping-doom",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3350_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Block Buffs",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Block Debuffs",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-debuffs",
+              "slug": "block-debuffs",
+              "website_link": "/debuffs/block-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Block Buffs",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Block Debuffs",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-debuffs",
+              "slug": "block-debuffs",
+              "website_link": "/debuffs/block-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Block Buffs",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Block Debuffs",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-debuffs",
+              "slug": "block-debuffs",
+              "website_link": "/debuffs/block-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Block Buffs",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Block Debuffs",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-debuffs",
+              "slug": "block-debuffs",
+              "website_link": "/debuffs/block-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Block Buffs",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Block Debuffs",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-debuffs",
+              "slug": "block-debuffs",
+              "website_link": "/debuffs/block-debuffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "1bf401d89bf18bf47d17c9f9bfa87594",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 28,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Beyond the dark portal lies a realm of fire and darkness. It is thehome of ancient beings born of darkness. Forbidden fromsetting foot in the fair lands of Teleria, these foul entities haveconspired with Necromancers to breed Demonspawn - unholyunions of Demon and mortal"
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/tormentor/",
+  "image_slug": "image-champion-tormentor",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Tormentor is a rare attack champion from the faction Demonspawn doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Tormentor",
+      "tormentor"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Tormentor is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-tormentor.jpg",
+        "name": "Tormentor",
+        "url": "https://raid-codex.com/champions/tormentor/"
+      }
+    ]
+  },
+  "default_description": "Tormentor is a rare attack champion from the faction Demonspawn doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3350",
+  "synergy": [],
+  "thumbnail": "b7ee0d0d4d5ef995aae0fc691e6d840d",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

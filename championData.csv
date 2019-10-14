@@ -1,0 +1,268 @@
+Banner Lords,Lord Champfort,Legendary,Magic,HP,A,A,S,S,B,B,A,A,A,B,S,B,B,B,A
+Banner Lords,Sethallia,Legendary,Magic,Support,A,B,B,A,S,A,A,A,B,B,A,A,A,B,A
+Banner Lords,Black Knight,Legendary,Force,HP,A,B,A,S,B,B,B,A,B,C,A,B,B,C,A
+Banner Lords,Lugan the Steadfast,Legendary,Spirit,HP,S,B,SS,SS,S,S,A,S,B,B,S,B,B,B,A
+Banner Lords,Septimus,Legendary,Spirit,Attack,A,A,A,A,S,S,B,A,B,C,A,B,S,C,A
+Banner Lords,Richtoff the Bold,Legendary,Spirit,Attack,S,A,S,B,A,B,A,A,A,A,A,B,B,A,A
+Banner Lords,Raglin,Legendary,Void,Support,B,C,A,A,B,C,B,B,C,C,A,B,B,C,A
+Banner Lords,Baron,Legendary,Void,Attack,A,A,S,B,B,B,A,A,B,B,A,S,A,B,A
+Banner Lords,Hordin,Epic,Magic,Attack,A,A,A,C,B,A,B,A,C,C,A,B,B,B,A
+Banner Lords,Oathbound,Epic,Force,Def,A,C,A,B,B,S,B,A,B,S,A,B,B,S,A
+Banner Lords,Knight Errant,Epic,Spirit,Attack,A,A,S,C,B,C,B,A,B,C,A,A,B,C,A
+Banner Lords,Rowan,Epic,Void,Attack,S,C,S,C,S,S,B,A,B,SS,A,B,B,SS,A
+Banner Lords,Azure,Epic,Void,HP,A,C,B,A,B,B,B,A,C,B,A,B,B,B,B
+Banner Lords,Warcaster,Epic,Void,Support,B,B,A,S,B,C,B,B,C,C,A,B,S,C,B
+Banner Lords,Crossbowman,Rare,Magic,Attack,C,C,B,C,D,D,C,C,D,C,C,C,C,C,C
+Banner Lords,Valerie,Rare,Magic,Support,B,B,B,B,C,C,B,B,C,D,B,B,B,B,B
+Banner Lords,Grandmaster,Rare,Magic,HP,B,B,B,B,C,S,B,B,D,B,B,B,B,B,B
+Banner Lords,Preserver,Rare,Force,Def,B,B,B,B,D,C,B,B,D,C,B,B,B,B,B
+Banner Lords,Courtier,Rare,Force,Attack,B,B,A,A,D,C,B,B,C,B,B,B,B,B,B
+Banner Lords,Cataphract,Rare,Spirit,HP,B,B,B,B,D,D,B,B,B,B,B,A,B,C,B
+Banner Lords,Conquerer,Rare,Spirit,Attack,B,B,A,B,C,C,B,A,D,B,B,B,A,B,B
+Banner Lords,Halberdier,Rare,Spirit,Attack,B,B,A,B,C,C,B,A,C,C,A,B,A,C,A
+Banner Lords,Chevalier,Rare,Void,Def,B,B,A,A,C,C,B,B,C,B,B,B,A,B,B
+Banner Lords,Vanguard,Rare,Void,Def,C,C,B,C,C,D,C,B,D,D,C,C,C,C,B
+High Elves,Elenaril,Legendary,Magic,Attack,A,B,A,C,SS,SS,A,A,A,C,A,B,B,C,B
+High Elves,Shirimani,Legendary,Force,Support,A,B,S,A,B,A,A,A,C,A,A,B,B,A,A
+High Elves,Lyssandra,Legendary,Spirit,Support,A,C,S,S,B,B,B,A,S,A,A,B,B,A,A
+High Elves,Royal Huntsman,Legendary,Spirit,Attack,S,A,SS,C,B,B,S,S,A,B,A,SS,A,B,A
+High Elves,Ithos,Legendary,Void,Attack,S,S,SS,B,B,B,S,S,S,A,A,B,B,A,A
+High Elves,Belanor,Legendary,Void,Attack,S,B,S,B,S,SS,A,S,B,B,S,S,B,B,A
+High Elves,Arbiter,Legendary,Void,Support,S,C,SS,SS,A,S,B,A,C,B,A,A,A,B,A
+High Elves,Royal Guard,Epic,Magic,Attack,S,A,B,B,S,S,B,S,S,A,A,S,B,A,A
+High Elves,Tayrel,Epic,Magic,Def,S,A,S,S,S,S,A,S,S,B,S,A,B,A,A
+High Elves,Thenasil,Epic,Force,Support,A,C,B,A,B,B,A,A,B,A,A,B,B,B,A
+High Elves,Luthiea,Epic,Force,Attack,A,B,A,C,A,B,B,A,B,B,A,B,B,B,A
+High Elves,Vergis,Epic,Spirit,Def,C,C,B,B,D,D,B,B,D,C,B,C,C,C,B
+High Elves,Marksman,Epic,Spirit,Attack,A,C,A,C,S,A,B,A,C,A,A,S,B,B,A
+High Elves,Jinglehunter,Epic,Spirit,Attack,A,B,S,B,C,C,B,B,B,B,B,C,C,B,B
+High Elves,Battlesage,Epic,Void,Support,A,A,A,B,C,C,B,A,A,C,A,C,C,C,B
+High Elves,Exemplar,Epic,Void,Attack,A,B,A,C,A,S,B,A,C,A,A,B,B,A,B
+High Elves,Apothecary,Rare,Magic,Support,A,C,S,S,A,SS,B,A,C,A,A,B,B,A,B
+High Elves,Avenger,Rare,Magic,Attack,B,B,B,C,C,C,C,B,C,C,B,B,B,C,B
+High Elves,Elhain,Rare,Magic,Attack,B,A,A,B,C,D,A,A,A,C,A,C,C,C,B
+High Elves,Heiress,Rare,Force,Attack,B,B,A,B,C,C,A,A,C,C,A,B,B,A,B
+High Elves,Magister,Rare,Force,Support,B,B,B,B,C,C,B,B,C,C,B,B,B,A,B
+High Elves,Hyria,Rare,Spirit,Attack,B,B,B,B,S,B,B,A,C,A,A,B,B,A,B
+High Elves,Interceptor,Rare,Void,Def,C,C,B,C,D,D,C,C,C,C,C,C,C,C,C
+The Sacred Order,Roshcard the Tower,Legendary,Magic,HP,A,B,S,SS,B,C,A,A,C,C,B,B,S,B,B
+The Sacred Order,Errol,Legendary,Force,Attack,A,B,S,B,B,B,A,S,B,A,A,S,A,A,A
+The Sacred Order,Abbess,Legendary,Force,Attack,S,B,S,B,C,C,S,A,S,B,A,S,A,B,A
+The Sacred Order,Martyr,Legendary,Spirit,Def,S,B,S,S,A,SS,A,S,B,A,A,S,B,A,A
+The Sacred Order,Cupidus,Legendary,Spirit,Attack,S,S,SS,A,A,B,A,A,S,B,S,B,B,B,A
+The Sacred Order,Sir Nicholas,Legendary,Void,HP,S,S,S,SS,A,S,S,S,A,B,A,B,B,B,A
+The Sacred Order,Venus,Legendary,Void,Support,S,A,S,A,SS,SS,A,S,B,B,A,S,B,B,A
+The Sacred Order,Canoness,Epic,Magic,Def,B,C,B,B,C,C,B,B,C,C,B,B,C,C,B
+The Sacred Order,Adriel,Epic,Magic,Support,A,B,B,A,A,B,B,A,B,B,A,B,B,B,B
+The Sacred Order,Hope,Epic,Magic,HP,A,C,A,A,C,C,B,A,B,C,A,C,A,C,A
+The Sacred Order,Frostbringer,Epic,Magic,Support,S,B,A,B,A,S,A,A,B,SS,A,S,B,SS,A
+The Sacred Order,Tallia,Epic,Magic,Attack,A,B,S,B,B,A,A,A,B,A,A,B,B,A,A
+The Sacred Order,Juliana,Epic,Magic,Attack,S,B,B,B,SS,SS,B,A,B,A,A,B,B,A,A
+The Sacred Order,Aothar,Epic,Force,Attack,A,B,A,B,S,S,A,A,C,A,A,B,A,A,A
+The Sacred Order,Relickeeper,Epic,Force,Attack,A,S,A,B,C,C,B,A,C,C,A,B,C,C,B
+The Sacred Order,Missionary,Epic,Force,HP,B,B,B,B,D,C,C,B,D,B,B,C,C,B,B
+The Sacred Order,Romero,Epic,Force,Def,A,C,B,A,C,C,B,A,A,C,B,C,C,C,B
+The Sacred Order,Bushi,Epic,Spirit,Attack,B,C,A,C,C,C,C,B,D,C,B,B,C,C,B
+The Sacred Order,Fenax,Epic,Spirit,Attack,A,B,S,B,C,C,S,A,C,B,A,A,A,B,B
+The Sacred Order,Cardinal,Epic,Void,Support,B,C,B,A,A,B,B,B,C,C,B,B,B,C,B
+The Sacred Order,Lightsworn,Epic,Void,Def,A,B,A,A,A,SS,A,A,C,A,A,B,B,A,B
+The Sacred Order,Athel,Rare,Magic,Attack,A,A,A,B,A,S,B,A,C,A,A,C,B,A,A
+The Sacred Order,Witness,Rare,Magic,Support,C,C,C,B,D,D,C,B,D,C,B,C,C,C,B
+The Sacred Order,Hospitaller,Rare,Magic,Support,B,B,A,B,C,C,B,B,B,C,B,C,B,C,B
+The Sacred Order,Chaplain,Rare,Force,Support,B,A,B,A,C,C,B,B,C,C,B,C,C,C,B
+The Sacred Order,Lamellar,Rare,Force,HP,B,B,C,C,C,C,B,B,B,C,B,B,C,C,B
+The Sacred Order,Templar,Rare,Spirit,Def,B,B,B,A,C,A,B,B,C,A,B,B,B,A,B
+The Sacred Order,Penitent,Rare,Spirit,Def,B,B,C,C,C,B,B,B,D,B,B,C,C,B,B
+The Sacred Order,Warpriest,Rare,Spirit,Support,B,B,B,B,C,C,B,B,C,C,B,C,C,C,B
+The Sacred Order,Judicator,Rare,Spirit,Attack,B,B,B,C,C,D,B,B,D,B,B,B,C,B,B
+The Sacred Order,Maiden,Rare,Spirit,Attack,B,B,A,B,C,C,B,B,D,B,B,A,C,C,B
+The Sacred Order,Confessor,Rare,Void,Attack,B,B,A,B,C,C,B,B,B,B,B,C,C,C,B
+The Sacred Order,Justiciar,Rare,Void,Def,B,B,B,C,D,D,C,B,D,D,B,C,C,C,B
+The Sacred Order,Harrier,Rare,Void,Attack,B,B,A,C,B,B,B,B,C,B,B,A,C,B,B
+Barbarians,Altan,Legendary,Magic,Def,B,S,B,B,B,B,B,B,B,C,B,C,C,C,B
+Barbarians,Valkyrie,Legendary,Spirit,Def,A,A,S,S,A,S,A,A,C,A,A,A,A,A,B
+Barbarians,Turvold,Legendary,Void,Attack,A,A,S,A,B,A,A,A,B,B,A,B,B,B,B
+Barbarians,Aina,Epic,Magic,Attack,A,C,B,C,B,B,A,A,C,A,A,A,A,B,A
+Barbarians,Jotun,Epic,Magic,HP,A,C,B,B,S,A,B,A,C,A,A,A,B,A,B
+Barbarians,Atur,Epic,Magic,HP,C,B,B,C,D,D,B,B,D,C,B,C,C,C,B
+Barbarians,Alika,Epic,Force,Attack,B,B,S,A,C,C,B,A,C,C,B,S,B,B,A
+Barbarians,Teshada,Epic,Force,Def,B,B,B,B,C,A,B,A,C,B,B,B,B,B,A
+Barbarians,Kallia,Epic,Force,Attack,S,A,A,B,S,A,A,A,A,SS,A,B,B,SS,B
+Barbarians,Woad-Painted,Epic,Spirit,HP,B,C,A,A,C,C,C,B,D,C,B,B,B,C,B
+Barbarians,High Khatun,Epic,Spirit,Support,B,B,A,A,C,C,B,B,C,B,B,B,B,B,A
+Barbarians,Marked,Rare,Magic,Support,B,B,B,B,B,C,B,A,C,C,A,A,B,C,B
+Barbarians,Elder,Rare,Magic,Def,C,C,B,C,D,D,C,C,D,D,C,C,C,C,C
+Barbarians,Sentinel,Rare,Force,HP,B,B,B,B,C,C,B,B,B,A,B,C,C,A,B
+Barbarians,Warmaiden,Rare,Force,Attack,B,B,A,B,B,C,B,A,B,C,B,A,C,C,B
+Barbarians,Slayer,Rare,Force,Attack,B,B,B,B,A,B,B,A,B,C,B,C,C,C,B
+Barbarians,Anointed,Rare,Force,Support,B,B,A,A,B,B,B,A,C,A,B,B,B,A,B
+Barbarians,Berserker,Rare,Spirit,Attack,B,B,A,C,C,C,B,B,A,C,B,B,C,C,B
+Barbarians,Bloodbraid,Rare,Spirit,HP,B,C,B,C,C,C,B,B,D,S,B,C,C,S,B
+Barbarians,Skirmisher,Rare,Void,Attack,B,B,A,B,C,C,B,A,B,B,A,C,B,B,B
+Barbarians,Ox,Rare,Void,Attack,B,B,B,C,C,D,B,B,D,C,B,B,C,C,B
+Ogryn Tribes,Big´Un,Legendary,Magic,Attack,S,SS,SS,S,C,D,S,A,S,A,S,B,B,A,B
+Ogryn Tribes,War Mother,Legendary,Magic,Attack,A,B,A,B,A,A,A,A,B,C,B,B,C,C,B
+Ogryn Tribes,Ignatius,Legendary,Magic,Def,A,A,S,S,B,C,B,B,S,C,A,B,B,C,B
+Ogryn Tribes,Shamrock,Legendary,Spirit,Support,A,C,S,S,B,B,A,A,C,C,A,B,A,C,B
+Ogryn Tribes,Gurgoh the Augur,Legendary,Void,Attack,B,C,S,SS,D,C,C,B,C,B,C,C,B,B,C
+Ogryn Tribes,Grimskin,Epic,Magic,Def,B,B,A,A,D,D,C,B,B,C,B,C,B,C,B
+Ogryn Tribes,Skullcrusher,Epic,Force,Def,A,C,S,S,A,SS,A,A,C,A,B,B,B,A,B
+Ogryn Tribes,Shatterbones,Epic,Force,Attack,A,B,S,S,B,A,A,A,A,B,B,C,C,B,B
+Ogryn Tribes,Galkut,Epic,Spirit,Attack,B,B,A,C,C,C,A,B,A,C,A,A,B,C,B
+Ogryn Tribes,Cagebreaker,Epic,Spirit,Attack,A,B,A,B,C,B,B,A,C,A,A,S,B,A,A
+Ogryn Tribes,Maneater,Epic,Void,Attack,A,C,A,S,B,B,B,B,C,C,B,C,B,C,A
+Ogryn Tribes,Towering Titan,Epic,Void,HP,A,B,A,S,A,A,B,A,C,A,A,S,A,A,A
+Ogryn Tribes,Rocktooth,Rare,Magic,Attack,A,B,B,C,D,D,B,B,C,S,B,C,C,S,B
+Ogryn Tribes,Pounder,Rare,Magic,Def,C,C,C,B,C,C,C,C,D,D,C,C,C,C,C
+Ogryn Tribes,Fortress Goon,Rare,Magic,Def,B,B,B,B,B,B,B,B,B,C,B,C,C,B,B
+Ogryn Tribes,Magmablood,Rare,Force,Attack,B,B,B,B,C,C,B,C,B,D,B,B,C,C,B
+Ogryn Tribes,Furystoker,Rare,Spirit,Support,B,C,C,B,C,D,B,B,D,D,B,C,C,C,B
+Ogryn Tribes,Siegebreaker,Rare,Spirit,Attack,B,B,A,A,D,C,B,B,B,B,B,C,C,B,B
+Ogryn Tribes,Flesheater,Rare,Spirit,Support,B,B,B,C,C,C,B,B,C,C,B,C,C,C,B
+Ogryn Tribes,Stoneskin,Rare,Void,HP,C,B,B,B,D,D,B,C,C,D,C,C,C,C,C
+Ogryn Tribes,Bellower,Rare,Void,Support,A,A,S,A,C,C,A,A,S,C,A,B,B,C,B
+Lizardmen,Dracomorph,Legendary,Magic,Attack,B,B,B,C,S,A,B,B,D,B,B,B,C,B,B
+Lizardmen,Fu-Shan,Legendary,Force,Attack,S,B,S,S,B,S,A,A,A,S,A,S,B,A,B
+Lizardmen,Rhazin Scarhide,Legendary,Force,Def,S,B,S,S,S,S,S,S,B,S,S,A,A,S,A
+Lizardmen,Jarang,Epic,Magic,Attack,A,B,A,B,B,A,A,A,C,A,A,A,A,A,B
+Lizardmen,Jareg,Epic,Magic,HP,A,C,B,A,A,S,B,A,C,B,A,B,B,B,A
+Lizardmen,Basilisk,Epic,Force,Attack,B,A,B,B,C,D,B,B,B,C,B,B,C,C,A
+Lizardmen,Drake,Epic,Spirit,Attack,B,B,A,C,D,D,B,B,D,C,B,C,C,C,B
+Lizardmen,Jizoh,Epic,Spirit,Def,B,B,B,B,D,C,B,B,C,C,B,C,C,C,B
+Lizardmen,Broadmaw,Epic,Void,Support,B,C,B,A,C,C,B,B,D,C,B,C,C,C,B
+Lizardmen,Muckstalker,Rare,Magic,HP,C,B,B,C,D,D,C,C,D,D,C,C,B,C,C
+Lizardmen,Skink,Rare,Magic,Attack,A,B,B,C,D,D,B,B,C,A,B,A,S,A,B
+Lizardmen,Gator,Rare,Magic,Support,B,B,B,C,C,D,B,B,C,A,B,C,C,A,B
+Lizardmen,Slitherbrute,Rare,Magic,Attack,B,B,A,C,C,D,B,B,D,C,B,C,C,C,B
+Lizardmen,Bogwalker,Rare,Force,Def,B,B,C,B,C,C,B,B,B,C,B,C,C,C,B
+Lizardmen,Skullsworn,Rare,Force,Attack,B,B,B,C,D,B,B,B,D,B,B,C,C,B,B
+Lizardmen,Hurler,Rare,Force,Attack,B,C,B,C,D,C,B,B,D,D,B,A,C,C,B
+Lizardmen,Flinger,Rare,Spirit,Attack,B,B,B,C,D,D,B,B,B,C,B,A,C,C,B
+Lizardmen,Slasher,Rare,Spirit,Attack,B,C,B,C,C,C,B,B,D,C,B,A,C,C,B
+Lizardmen,Metalshaper,Rare,Spirit,Support,B,B,B,A,C,C,B,B,D,C,B,C,B,C,B
+Skinwalkers,Norog,Legendary,Magic,Def,A,A,S,SS,D,D,B,B,B,C,B,C,S,C,B
+Skinwalkers,Longbeard,Legendary,Magic,Attack,S,B,A,B,S,SS,A,S,B,S,A,A,S,S,A
+Skinwalkers,Warchief,Legendary,Force,Def,A,B,A,A,B,A,A,A,C,S,A,B,S,S,B
+Skinwalkers,Taurus,Epic,Magic,Attack,C,C,C,C,B,D,B,B,C,C,B,B,B,C,B
+Skinwalkers,Flesh-Tearer,Epic,Magic,Support,B,C,B,A,B,C,B,B,B,C,B,C,C,C,B
+Skinwalkers,Ripper,Epic,Force,Attack,B,C,B,C,C,D,B,B,B,A,B,A,B,A,B
+Skinwalkers,Reinbeast,Epic,Force,Def,A,A,S,SS,B,C,B,B,B,C,B,C,C,C,B
+Skinwalkers,Yaga the Insatiable,Epic,Force,Attack,B,C,C,C,S,A,B,B,C,C,B,B,B,B,A
+Skinwalkers,Steelskull,Epic,Spirit,Support,A,C,B,S,S,SS,B,B,B,C,B,C,C,C,B
+Skinwalkers,Basher,Epic,Void,Attack,A,B,A,A,B,A,B,B,B,A,B,C,C,A,B
+Skinwalkers,Graybeard,Rare,Magic,Def,B,B,B,B,D,D,B,B,B,D,B,C,C,C,B
+Skinwalkers,Bloodpainter,Rare,Force,Attack,B,C,B,B,A,A,B,B,B,C,B,B,B,C,B
+Skinwalkers,Gnarlhorn,Rare,Spirit,HP,C,C,B,A,D,D,C,C,D,D,C,B,C,C,B
+Skinwalkers,Channeler,Rare,Spirit,Support,B,C,B,B,C,C,C,C,D,A,C,C,C,A,C
+Skinwalkers,Grappler,Rare,Spirit,Def,B,C,C,B,A,A,B,B,C,B,B,C,C,B,B
+Skinwalkers,Bloodhorn,Rare,Void,HP,C,C,C,B,D,D,C,C,D,D,C,C,C,C,C
+Orcs,Robar,Legendary,Force,Attack,A,A,S,A,B,C,S,A,S,C,A,S,B,C,B
+Orcs,Warlord,Legendary,Void,Support,S,B,SS,SS,S,S,S,S,A,A,S,A,A,A,S
+Orcs,Torturehelm,Epic,Force,HP,B,B,A,C,D,D,B,B,D,C,B,C,C,C,B
+Orcs,Zargala,Epic,Force,Attack,B,B,A,B,B,B,B,B,A,C,B,A,B,C,B
+Orcs,Bloodfeather,Epic,Force,Attack,B,C,B,C,C,D,B,A,C,B,B,A,C,C,B
+Orcs,Bonekepper,Epic,Force,Attack,B,C,A,C,C,B,B,A,D,C,A,S,B,B,B
+Orcs,Shaman,Epic,Force,Support,B,C,A,A,C,C,B,A,D,C,B,B,A,C,B
+Orcs,Terrorbeast,Epic,Spirit,HP,B,B,A,C,D,C,B,B,D,B,B,C,C,B,B
+Orcs,Vrask,Epic,Spirit,HP,A,A,A,A,A,B,A,S,B,B,A,B,B,B,A
+Orcs,Seer,Epic,Void,Support,A,C,S,B,A,B,A,A,A,B,B,B,S,B,A
+Orcs,Deathchanter,Rare,Magic,HP,C,C,B,B,D,D,B,B,D,B,B,C,C,B,B
+Orcs,Chopper,Rare,Magic,Attack,C,C,B,C,C,C,B,B,D,C,B,A,B,C,B
+Orcs,Galek,Rare,Magic,Attack,A,A,A,A,C,B,A,A,A,B,A,A,C,B,A
+Orcs,Spikehead,Rare,Magic,Attack,B,C,A,C,D,B,B,B,D,A,B,C,C,A,B
+Orcs,Ironclad,Rare,Force,HP,B,C,B,A,C,C,B,B,C,A,B,C,C,B,B
+Orcs,Goremask,Rare,Force,Attack,B,C,A,C,D,C,B,B,D,C,B,C,A,C,B
+Orcs,Treefeller,Rare,Force,Attack,C,C,C,C,B,C,B,B,D,C,B,B,B,C,B
+Orcs,Raider,Rare,Spirit,Attack,C,C,B,C,C,C,B,B,D,C,B,C,C,B,B
+Orcs,Totem,Rare,Spirit,Support,B,C,B,B,A,C,B,B,C,D,B,B,C,C,B
+Orcs,Veteran,Rare,Void,Def,B,C,B,A,B,B,B,B,C,C,B,C,C,C,B
+Orcs,Huntress,Rare,Void,Attack,C,C,B,C,C,B,B,B,D,C,B,C,C,C,B
+Demonspawn,Prince Kymar,Legendary,Magic,Support,S,SS,SS,SS,A,B,S,A,S,B,S,B,S,B,A
+Demonspawn,Drexthar Bloodtwin,Legendary,Force,Def,S,A,S,A,S,S,A,S,B,A,S,B,B,A,A
+Demonspawn,Mortu-Macaab,Legendary,Spirit,Attack,S,A,S,A,C,C,S,A,A,SS,A,B,S,SS,A
+Demonspawn,Lord Shazar,Legendary,Spirit,HP,A,A,S,A,B,A,B,A,B,A,A,B,B,A,A
+Demonspawn,Alure,Epic,Magic,Attack,S,A,S,A,B,A,S,S,S,SS,S,A,B,SS,B
+Demonspawn,Erinyes,Epic,Force,Attack,A,B,A,B,S,A,A,A,B,C,A,B,S,C,B
+Demonspawn,Souldrinker,Epic,Force,Attack,A,B,A,C,A,B,A,A,A,B,A,A,B,B,A
+Demonspawn,Nazana,Epic,Force,HP,S,B,S,S,B,B,S,S,SS,C,S,B,B,B,B
+Demonspawn,Hellgazer,Epic,Spirit,Attack,A,B,S,B,A,B,A,A,B,C,A,S,C,C,A
+Demonspawn,Peydma,Epic,Void,Def,A,A,S,B,B,B,B,B,B,B,B,C,SS,B,A
+Demonspawn,Diabolist,Rare,Magic,Support,B,B,A,B,C,C,B,B,C,C,B,C,C,C,B
+Demonspawn,Tormentor,Rare,Magic,Attack,C,B,B,C,D,D,C,B,D,C,B,C,B,C,B
+Demonspawn,Hound Spawn,Rare,Force,Attack,B,B,B,C,C,C,B,B,C,C,B,A,C,C,B
+Demonspawn,Hellfang,Rare,Spirit,Attack,B,B,A,B,C,C,B,B,C,C,B,C,C,C,B
+Demonspawn,Marquess,Rare,Spirit,Def,B,B,B,B,C,C,B,B,B,C,B,C,C,C,B
+Demonspawn,Ifrit,Rare,Void,HP,C,C,C,C,B,B,C,C,D,D,C,C,C,D,C
+Demonspawn,Marquis,Rare,Void,Def,B,B,A,A,D,D,B,B,B,C,B,C,C,C,B
+Demonspawn,Fellhound,Rare,Void,Def,B,B,C,B,C,C,B,B,C,A,B,C,C,C,B
+Demonspawn,Malbranche,Rare,Void,Attack,B,C,C,D,C,D,C,C,C,D,C,C,D,D,B
+Undead Hordes,Crypt-King Graal,Legendary,Magic,Support,A,B,A,B,SS,S,A,A,A,B,A,B,B,B,A
+Undead Hordes,Skartosis,Legendary,Force,Support,A,A,S,A,B,C,A,A,A,C,A,C,A,C,A
+Undead Hordes,Bad-el-Kazar,Legendary,Force,Support,S,S,SS,S,SS,S,S,S,S,A,S,A,A,A,S
+Undead Hordes,Bloodgorged,Legendary,Force,Attack,A,A,S,A,A,A,SS,S,B,A,A,S,B,A,A
+Undead Hordes,Ma´Shalled,Legendary,Spirit,Attack,B,B,B,C,C,C,C,B,C,A,B,C,C,A,B
+Undead Hordes,Nethril,Legendary,Spirit,Attack,A,S,SS,A,S,A,S,A,S,A,A,B,B,A,A
+Undead Hordes,Gorgorab,Epic,Magic,Support,S,C,S,SS,B,C,A,A,B,B,A,B,A,B,A
+Undead Hordes,Seeker,Epic,Magic,Def,A,C,S,SS,B,C,A,A,A,A,A,A,A,A,A
+Undead Hordes,Husk,Epic,Force,HP,A,B,A,A,A,B,B,B,A,C,A,C,C,C,A
+Undead Hordes,Karam,Epic,Force,Attack,B,C,A,C,A,C,B,A,C,C,B,B,B,B,B
+Undead Hordes,Lich,Epic,Force,Def,A,C,A,B,C,C,A,A,S,S,A,A,A,S,A
+Undead Hordes,Hexia,Epic,Force,Attack,B,A,A,C,C,C,B,B,C,C,B,A,C,C,B
+Undead Hordes,Zelotah,Epic,Spirit,Support,A,A,A,S,B,B,A,A,A,A,A,A,A,A,A
+Undead Hordes,Banshee,Rare,Magic,Support,B,A,A,A,C,C,B,B,A,C,A,B,A,C,A
+Undead Hordes,Temptress,Rare,Magic,Attack,B,C,A,C,B,B,B,B,C,B,B,C,A,B,B
+Undead Hordes,Sorceress,Rare,Force,Attack,B,C,B,B,B,C,B,B,C,B,B,B,B,B,B
+Undead Hordes,Grinner,Rare,Force,Support,B,B,A,B,C,C,B,B,C,C,B,C,C,C,B
+Undead Hordes,Wretch,Rare,Force,Attack,B,C,C,C,A,B,B,B,C,A,B,C,C,A,B
+Undead Hordes,Bone Knight,Rare,Spirit,Attack,B,C,C,C,D,C,B,B,B,A,B,C,C,A,B
+Undead Hordes,Arbalester,Rare,Void,Attack,C,C,B,C,D,D,C,C,D,D,C,C,C,C,C
+Undead Hordes,Doomscreech,Rare,Void,HP,B,C,A,A,B,B,B,B,C,C,B,C,C,C,B
+Undead Hordes,Hollow,Rare,Void,Attack,B,C,C,D,B,B,B,B,D,A,B,B,C,C,B
+Undead Hordes,Seducer,Rare,Void,Def,B,C,A,S,C,C,B,B,C,C,B,C,C,C,B
+Dark Elves,Rae,Legendary,Magic,Attack,S,S,SS,A,B,C,S,S,S,C,S,B,B,C,A
+Dark Elves,Foli,Legendary,Magic,Attack,S,A,A,B,A,A,S,S,B,S,S,S,A,S,A
+Dark Elves,Zavia,Legendary,Force,Attack,S,SS,SS,A,S,SS,SS,A,SS,SS,S,B,B,SS,A
+Dark Elves,Astralith,Legendary,Spirit,Attack,C,B,B,C,C,C,C,B,D,C,B,B,C,C,B
+Dark Elves,Queen Eva,Legendary,Spirit,Attack,S,A,SS,A,C,C,SS,A,S,SS,A,B,B,SS,B
+Dark Elves,Ghostborn,Legendary,Spirit,Support,S,A,S,A,B,B,S,A,SS,S,A,SS,B,S,B
+Dark Elves,Blind Seer,Legendary,Void,Support,A,C,A,S,C,A,B,A,A,A,S,C,B,A,S
+Dark Elves,Spider,Epic,Force,Support,A,B,S,A,A,B,A,A,B,B,A,B,S,B,B
+Dark Elves,Luria,Epic,Spirit,Attack,S,B,S,B,B,C,A,A,A,S,A,S,SS,S,A
+Dark Elves,Crimson Helm,Epic,Spirit,Def,A,B,S,S,A,A,A,A,C,A,A,C,C,A,B
+Dark Elves,Warden,Epic,Spirit,Def,A,B,A,S,A,B,A,A,B,C,A,B,B,B,B
+Dark Elves,Delver,Epic,Spirit,Attack,A,C,A,A,B,B,A,A,B,S,A,A,A,S,A
+Dark Elves,Lua,Epic,Void,Attack,S,SS,SS,S,C,C,S,S,S,A,S,A,S,A,A
+Dark Elves,Psylar,Epic,Void,Support,S,S,S,S,D,D,S,A,S,C,A,C,C,C,B
+Dark Elves,Judge,Rare,Magic,Attack,B,C,B,B,D,D,B,B,B,C,B,B,C,C,B
+Dark Elves,Kael,Rare,Magic,Attack,A,A,A,B,S,A,A,B,A,A,A,A,A,A,A
+Dark Elves,Mystic Hand,Rare,Force,Support,B,C,A,B,C,C,B,B,C,C,B,C,S,C,B
+Dark Elves,Spirithost,Rare,Spirit,Support,A,A,A,A,C,C,B,B,B,C,B,B,B,B,S
+Dark Elves,Hexweaver,Rare,Spirit,Support,B,C,B,C,B,C,B,B,B,C,B,C,C,C,B
+Dark Elves,Wanderer,Rare,Spirit,Attack,B,C,B,C,C,C,B,B,C,B,B,B,C,B,B
+Dark Elves,Coldheart,Rare,Void,Attack,A,B,A,C,S,S,B,B,SS,SS,A,B,A,SS,B
+Dark Elves,Paragon,Rare,Void,Def,A,C,A,A,B,C,B,B,C,S,B,C,C,S,B
+Dark Elves,Retainer,Rare,Void,Def,B,C,A,A,C,C,B,B,B,C,B,A,C,C,B
+Dark Elves,Eviscerator,Rare,Void,Attack,B,B,B,C,A,B,B,B,B,C,B,B,C,C,C
+Dark Elves,Pain Keeper,Rare,Void,HP,B,B,B,C,C,C,B,B,B,C,B,C,C,C,B
+Knight Revenant,Bystophus,Legendary,Force,Attack,A,A,S,A,C,C,B,A,B,A,A,B,B,A,A
+Knight Revenant,Soulless,Legendary,Void,Def,A,A,A,A,C,C,B,A,C,B,A,B,A,B,A
+Knight Revenant,Hegemon,Legendary,Void,Attack,A,A,SS,S,C,B,B,A,C,B,A,B,B,B,A
+Knight Revenant,Crypt Witch,Epic,Magic,Attack,B,C,B,C,C,B,A,A,C,C,A,S,S,A,B
+Knight Revenant,Pitiless One,Epic,Magic,Attack,B,S,S,C,B,C,B,A,S,B,A,C,C,B,A
+Knight Revenant,Sinesha,Epic,Force,Support,A,A,S,S,B,C,A,A,S,B,A,B,B,B,A
+Knight Revenant,Doompriest,Epic,Force,Support,S,C,A,B,A,C,A,S,A,C,S,A,A,C,S
+Knight Revenant,Kytis,Epic,Spirit,Attack,B,C,A,C,C,B,B,B,B,A,B,C,C,A,B
+Knight Revenant,Faceless,Epic,Void,Attack,B,C,B,C,C,D,B,A,D,C,B,B,A,C,B
+Knight Revenant,Skullcrown,Epic,Void,Attack,S,S,S,S,C,C,S,A,S,B,A,B,B,B,A
+Knight Revenant,Golden Reaper,Epic,Void,Support,S,B,SS,S,S,S,A,S,A,B,A,B,B,B,A
+Knight Revenant,Executioner,Rare,Magic,Def,B,A,B,A,C,D,B,B,B,D,B,C,C,B,B
+Knight Revenant,Theurgist,Rare,Magic,Support,B,C,B,B,C,C,B,B,C,C,B,C,C,C,B
+Knight Revenant,Magus,Rare,Magic,Attack,B,B,A,C,B,C,B,B,C,C,B,C,C,C,B
+Knight Revenant,Arcanist,Rare,Force,Support,A,C,A,B,B,C,B,A,C,C,A,C,C,C,A
+Knight Revenant,Gladiator,Rare,Force,Attack,B,B,B,C,C,B,B,B,B,B,B,C,C,B,A
+Knight Revenant,Acolyte,Rare,Force,Support,B,C,A,B,D,D,B,B,C,B,B,C,C,B,B
+Knight Revenant,Guardian,Rare,Spirit,HP,B,C,B,B,D,C,B,B,C,B,B,C,A,B,B
+Knight Revenant,Crimson Slayer,Rare,Spirit,Attack,B,B,B,C,D,C,C,B,B,B,C,C,C,B,B
+Knight Revenant,Renegade,Rare,Void,Support,B,C,B,B,B,C,B,B,C,A,B,C,C,A,B
+Knight Revenant,Daywalker,Rare,Void,HP,C,C,B,B,C,D,B,B,C,C,B,C,C,C,B
+Knight Revenant,Centurion,Rare,Void,Defense,C,B,C,B,C,D,C,B,D,C,B,C,C,C,B

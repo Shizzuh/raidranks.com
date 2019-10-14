@@ -1,0 +1,124 @@
+{
+  "name": "Aristocrat",
+  "rarity": "Uncommon",
+  "element": "Magic",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "aristocrat",
+  "characteristics": {
+    "60": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "speed": 0,
+      "critical_rate": 0,
+      "critical_damage": 0,
+      "resistance": 0,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 28,
+    "default_description": "High Elves is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "High Elves originate from Aravia where they have built a wondrous, shimmering city. Living in these lands of plenty has enabled them to evolve their society to the highest degree of physical, intellectual, and spiritual achievement. High-principled, they welcome exiles and offer them new homes further east."
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/aristocrat/",
+  "image_slug": "image-champion-aristocrat",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Aristocrat is a uncommon attack champion from the faction High Elves doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Aristocrat",
+      "aristocrat"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Aristocrat is a champion of Uncommon rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-aristocrat.jpg",
+        "name": "Aristocrat",
+        "url": "https://raid-codex.com/champions/aristocrat/"
+      }
+    ]
+  },
+  "default_description": "Aristocrat is a uncommon attack champion from the faction High Elves doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3310",
+  "synergy": [],
+  "thumbnail": "69386f6bb1dfed68692a24c8686939b9",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-foli-teshada",
+      "fusion_type": "ingredient"
+    }
+  ]
+}

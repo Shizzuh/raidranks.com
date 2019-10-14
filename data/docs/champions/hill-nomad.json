@@ -1,0 +1,273 @@
+{
+  "name": "Hill Nomad",
+  "rarity": "Rare",
+  "element": "Magic",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "C",
+    "campaign": "C",
+    "arena_offense": "C",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "C",
+    "dragon": "B",
+    "spider": "D",
+    "fire_knight": "C",
+    "minotaur": "C",
+    "force_dungeon": "C",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "hill-nomad",
+  "characteristics": {
+    "60": {
+      "hp": 13875,
+      "attack": 1145,
+      "defense": 958,
+      "speed": 103,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Sandstorm",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Decrease ATK] debuff for 2 turns. Damage based on ATK\n\nLvl. 2 Damage +5%.\n\nLvl. 3 Damage +5%.\n\nLvl. 4 Damage +5%.\n\nLvl. 5 Damage +5%.",
+      "slug": "sandstorm",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3940_s1",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "c8260f1a59420cc20873b0ec404baa72",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Nomad's Endurance",
+      "raw_description": "Places a 7.5% [Continuous Heal] buff on an ally for 2 turns.\n\nLvl. 2 Cooldown -1.",
+      "slug": "nomad-s-endurance",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Continuous Heal",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-continuous-heal",
+          "slug": "continuous-heal",
+          "website_link": "/buffs/continuous-heal",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3940_s2",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "d899a4ec65127955cf877984d99c7fe4",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Ambush Tactics",
+      "raw_description": "Places a [Veil] buff on an ally for 1 turn and a 25% [Increase ATK] buff for 2 turns. Also places a [Shield] buff on this Champion equal to 20% of their MAX HP for 2 turns. Damage based on 1\n\nLvl. 2 Shield +5%.\n\nLvl. 3 Shield +5%.\n\nLvl. 4 Shield +5%.\n\nLvl. 5 Shield +5%.\n\nLvl. 6 Cooldown -1.",
+      "slug": "ambush-tactics",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk",
+          "slug": "increase-atk",
+          "website_link": "/buffs/increase-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buffs/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-veil",
+          "slug": "veil",
+          "website_link": "/buffs/veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3940_s3",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "b14179d5d4ca7302bc01851a846ebf52",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 32,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 32 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands."
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/hill-nomad/",
+  "image_slug": "image-champion-hill-nomad",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Hill Nomad is a rare assist champion from the faction Barbarians doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Hill Nomad",
+      "hill-nomad"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Hill Nomad is a champion of Rare rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-hill-nomad.jpg",
+        "name": "Hill Nomad",
+        "url": "https://raid-codex.com/champions/hill-nomad/"
+      }
+    ]
+  },
+  "default_description": "Hill Nomad is a rare assist champion from the faction Barbarians doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3940",
+  "synergy": [],
+  "thumbnail": "3fa146219c48a4393aace23e8f353125",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

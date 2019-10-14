@@ -1,0 +1,44 @@
+{
+  "time_start": null,
+  "time_end": null,
+  "active": true,
+  "limit": null,
+  "champion_slug": "justiciar",
+  "name": "Relickeeper - Justiciar",
+  "slug": "fusion-relickeeper-justiciar",
+  "ingredients": [
+    {
+      "champion_slug": "warmaiden",
+      "level": 30,
+      "stars": 3,
+      "ascended_stars": 3,
+      "fusion": null,
+      "fusion_slug": null
+    },
+    {
+      "champion_slug": "diabolist",
+      "level": 30,
+      "stars": 3,
+      "ascended_stars": 3,
+      "fusion": null,
+      "fusion_slug": null
+    },
+    {
+      "champion_slug": "spirithost",
+      "level": 30,
+      "stars": 3,
+      "ascended_stars": 3,
+      "fusion": null,
+      "fusion_slug": null
+    },
+    {
+      "champion_slug": "heiress",
+      "level": 30,
+      "stars": 3,
+      "ascended_stars": 3,
+      "fusion": null,
+      "fusion_slug": null
+    }
+  ],
+  "parent_fusion_slug": "fusion-relickeeper"
+}

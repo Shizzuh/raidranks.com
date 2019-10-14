@@ -1,0 +1,26 @@
+<ng-container *ngIf="champ && (source === 'champs' || source === 'team')">
+  <a
+    snInViewport
+    class="champion-card {{ champ.rarity }} {{source}}"
+    [routerLink]="['/champion-details', champ.faction.replace(' ', '-').replace(' ', '-').toLowerCase(),
+    champ.name.replace(' ',
+    '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
+    queryParamsHandling="merge"
+    [ngStyle]="{'background-image': 'url(../../../assets/images/champions/'+championPortrait.toLowerCase()}">
+    <img *ngIf="champ.element" [lazyLoad]="championElementIcon" [scrollTarget]="scrollTarget">
+    <p>{{champ.name}}</p>
+  </a>
+  <fa-icon *ngIf="source === 'team'" (click)="removeChamp(champ)" [icon]="faTrashAlt"></fa-icon>
+  <fa-icon *ngIf="source === 'champs'" (click)="addChamp(champ)" [icon]="faShare"></fa-icon>
+</ng-container>
+
+<ng-container *ngIf="champ && source === 'builder'">
+  <a
+    class="champion-card {{ champ.rarity }} {{source}}"
+    [routerLink]="['/champion-details', champ.faction.replace(' ', '-').replace(' ', '-').toLowerCase(),
+    champ.name.replace(' ',
+    '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
+    queryParamsHandling="merge"
+    [ngStyle]="{'background-image': 'url(../../../assets/images/champions/'+championPortrait.toLowerCase()}">
+  </a>
+</ng-container>

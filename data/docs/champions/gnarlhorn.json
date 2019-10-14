@@ -1,0 +1,559 @@
+{
+  "name": "Gnarlhorn",
+  "rarity": "Rare",
+  "element": "Spirit",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "C",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "D",
+    "clan_boss_with_giant_slayer": "D",
+    "ice_guardian": "C",
+    "dragon": "C",
+    "spider": "D",
+    "fire_knight": "D",
+    "minotaur": "C",
+    "force_dungeon": "B",
+    "magic_dungeon": "C",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 13,
+    "campaign": 3.3,
+    "arena_offense": 2.7,
+    "arena_defense": 2.7,
+    "clan_boss": 2,
+    "ice_guardian": 3.4,
+    "dragon": 3.4,
+    "spider": 3.2,
+    "fire_knight": 3.4,
+    "minotaur": 3.4,
+    "force_dungeon": 3.4,
+    "magic_dungeon": 3.4,
+    "spirit_dungeon": 3.4,
+    "void_dungeon": 3.4
+  },
+  "slug": "gnarlhorn",
+  "characteristics": {
+    "60": {
+      "hp": 17010,
+      "attack": 958,
+      "defense": 936,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in Dungeons by 27%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Ram",
+      "raw_description": "Attacks 1 enemy. Damage increases according to how much HP this Champion has lost. This attack cannot be a strong, critical, or weak hit.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%",
+      "slug": "ram",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "1100_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per HP lost",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-hp-lost",
+              "slug": "increase-dmg-per-hp-lost",
+              "website_link": "/battle_enhancements/increase-dmg-per-hp-lost",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per HP lost",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-hp-lost",
+              "slug": "increase-dmg-per-hp-lost",
+              "website_link": "/battle_enhancements/increase-dmg-per-hp-lost",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per HP lost",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-hp-lost",
+              "slug": "increase-dmg-per-hp-lost",
+              "website_link": "/battle_enhancements/increase-dmg-per-hp-lost",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per HP lost",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-hp-lost",
+              "slug": "increase-dmg-per-hp-lost",
+              "website_link": "/battle_enhancements/increase-dmg-per-hp-lost",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per HP lost",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-hp-lost",
+              "slug": "increase-dmg-per-hp-lost",
+              "website_link": "/battle_enhancements/increase-dmg-per-hp-lost",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "96c1b6e9523f65add2a6c431a175fe63",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "War Drum",
+      "raw_description": "Places a [Provoke] debuff on all enemies for 1 turn. Places a 30% {Increase DEF] buff on this Champion for 2 turns.\n\nLvl. 2 Cooldown -1",
+      "slug": "war-drum",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "1100_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Increase DEF",
+              "value": 0.3,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-def",
+              "slug": "increase-def",
+              "website_link": "/debuffs/increase-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "77c07e26f11186a4b2cb3b8613344530",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Determined",
+      "raw_description": "Places an [Unkillable] buff on this Champion for 2 turns.\n\nLvl. 2 Cooldown -1\n\nLvl. 3 Cooldown -1",
+      "slug": "determined",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Unkillable",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-unkillable",
+          "slug": "unkillable",
+          "website_link": "/buffs/unkillable",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "1100_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Unkillable",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-unkillable",
+              "slug": "unkillable",
+              "website_link": "/debuffs/unkillable",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Unkillable",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-unkillable",
+              "slug": "unkillable",
+              "website_link": "/debuffs/unkillable",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Unkillable",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-unkillable",
+              "slug": "unkillable",
+              "website_link": "/debuffs/unkillable",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "a03435d4155a3f1c72df6d7e595e69ba",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Skinwalkers",
+    "slug": "skinwalkers",
+    "website_link": "/factions/skinwalkers/",
+    "image_slug": "image-faction-skinwalkers",
+    "number_of_champions": 19,
+    "default_description": "Skinwalkers is a faction from RAID Shadow Legends composed of 19 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalkers is a faction from RAID Shadow Legends composed of 18 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalkers",
+        "skinwalkers"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "As told by the tragic legend of Ch'arocah, Skinwalkers once had the power to cast themselves in the form of any man or beast. But after centuries of overuse, these shamans found themselves entrapped as something less than human, but more than animal. Though wild and dangerous, they can sense evil and may act to prevent it"
+  },
+  "faction_slug": "skinwalkers",
+  "website_link": "/champions/gnarlhorn/",
+  "image_slug": "image-champion-gnarlhorn",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Gnarlhorn is a rare hp champion from the faction Skinwalkers doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Gnarlhorn",
+      "gnarlhorn"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalkers"
+        },
+        "description": "Member of the faction Skinwalkers, Gnarlhorn is a champion of Rare rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-gnarlhorn.jpg",
+        "name": "Gnarlhorn",
+        "url": "https://raid-codex.com/champions/gnarlhorn/"
+      }
+    ]
+  },
+  "default_description": "Gnarlhorn is a rare hp champion from the faction Skinwalkers doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "1100",
+  "synergy": [],
+  "thumbnail": "1e6e0a04d20f50967c64dac2d639a577",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-rhazin-scarhide-erinyes",
+      "fusion_type": "ingredient"
+    }
+  ]
+}

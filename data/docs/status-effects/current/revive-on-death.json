@@ -1,0 +1,15 @@
+{
+  "effect_type": "buff",
+  "type": "Revive on Death",
+  "value": 0,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-buff-revive-on-death",
+  "slug": "revive-on-death",
+  "website_link": "/buffs/revive-on-death",
+  "extra": false,
+  "raw_description": "If a Champion with this buff dies, he or she will immediately be revived with 30% HP and 0% Turn Meter.",
+  "places_if": "",
+  "amount": 0
+}

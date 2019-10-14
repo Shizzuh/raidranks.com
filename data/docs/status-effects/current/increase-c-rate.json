@@ -1,0 +1,15 @@
+{
+  "effect_type": "buff",
+  "type": "Increase C. RATE",
+  "value": 0.15,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-buff-increase-c-rate",
+  "slug": "increase-c-rate",
+  "website_link": "/buffs/increase-c-rate",
+  "extra": false,
+  "raw_description": "Increases the Champion’s C.RATE by 15%",
+  "places_if": "",
+  "amount": 0
+}

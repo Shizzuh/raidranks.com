@@ -1,0 +1,23 @@
+{
+  "name": "Knight Revenant",
+  "slug": "knight-revenant",
+  "website_link": "/factions/knight-revenant/",
+  "image_slug": "image-faction-knight-revenant",
+  "number_of_champions": 29,
+  "default_description": "Knight Revenant is a faction from RAID Shadow Legends composed of 28 champions",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Knight Revenant is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "factions",
+      "Knight Revenant",
+      "knight-revenant"
+    ],
+    "structured_data": null
+  },
+  "giid": "",
+  "raw_description": "Disciples of the K'leth death cult, the Knights Revenant see themselves as vessels of the spirits of the dead of their order. They raid indiscriminately to capture slaves to support themselves and as ritual sacrifices. Upon initiation, devotees surrender their bodies to the spirits of dark warriors."
+}

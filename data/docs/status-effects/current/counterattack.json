@@ -1,0 +1,15 @@
+{
+  "effect_type": "buff",
+  "type": "Counterattack",
+  "value": 0,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-buff-counterattack",
+  "slug": "counterattack",
+  "website_link": "/buffs/counterattack",
+  "extra": false,
+  "raw_description": "When attacked, the Champion with this buff strikes back at their attacker using their Default Skill. This attack deals 75% of the normal Default Skill damage. Can only counterattack once when attacked with a Multi-hit Skill. Does not counterattack in response to the enemy’s own counterattack. Does not count as a Turn.",
+  "places_if": "",
+  "amount": 0
+}

@@ -1,0 +1,908 @@
+{
+  "name": "Tayrel",
+  "rarity": "Epic",
+  "element": "Magic",
+  "type": "Def",
+  "guide_video_id": "QOXclBZc2nw",
+  "rating": {
+    "overall": "S",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "A",
+    "dragon": "S",
+    "spider": "S",
+    "fire_knight": "B",
+    "minotaur": "S",
+    "force_dungeon": "A",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 308,
+    "campaign": 4.8,
+    "arena_offense": 4.7,
+    "arena_defense": 4.7,
+    "clan_boss": 4.7,
+    "ice_guardian": 4.6,
+    "dragon": 4.7,
+    "spider": 4.2,
+    "fire_knight": 4.3,
+    "minotaur": 4.7,
+    "force_dungeon": 4.3,
+    "magic_dungeon": 4.6,
+    "spirit_dungeon": 4.7,
+    "void_dungeon": 4.6
+  },
+  "slug": "tayrel",
+  "characteristics": {
+    "60": {
+      "hp": 16185,
+      "attack": 881,
+      "defense": 1343,
+      "speed": 95,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in all Battles by 25%",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Humble",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 40% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Damage inflicted is proportional to DEF.\n\nDamage based on: [DEF]\n\nLvl. 2 Buff/Debuff Chance +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Damage +15%",
+      "slug": "humble",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk-2",
+          "slug": "decrease-atk-2",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "190_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 0.4,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 0.45,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 0.45,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Decrease ATK",
+              "value": 0.5,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-atk",
+              "slug": "decrease-atk",
+              "website_link": "/debuffs/decrease-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +15%"
+        }
+      ],
+      "image_slug": "58a244d2b585afe50f9cb2b7fda66d89",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Singing Steel",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns. If the target is under a [Decrease ATK] debuff, it will place a [Sleep] debuff for 1 turn. Damage inflicted is proportional to DEF.\n\nDamage based on: [DEF]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Buff/Debuff Chance +10%\n\nLvl. 5 Buff/Debuff Chance +10%",
+      "slug": "singing-steel",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/debuffs/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Sleep",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-sleep",
+          "slug": "sleep",
+          "website_link": "/debuffs/sleep",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "190_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Decrease ATK",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.6,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Decrease ATK",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.6,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Decrease ATK",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.6,
+              "chance": 0.8,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Decrease ATK",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.6,
+              "chance": 0.9,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Sleep",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-sleep",
+              "slug": "sleep",
+              "website_link": "/debuffs/sleep",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Decrease ATK",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.6,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "4da6fb5316a91dac783bbcdaa3fdaae3",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Preemptive Strike",
+      "raw_description": "Attacks 1 enemy. Decreases the target's Turn Meter by 50%. If the attack fully depletes the Turn Meter, it will place a [Stun] debuff for 2 turns. Damage inflicted is proportional to DEF.\n\nDamage based on: [DEF]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Damage +10%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "preemptive-strike",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuffs/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "190_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Decrease Turn Meter",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Decrease Turn Meter",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Decrease Turn Meter",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Decrease Turn Meter",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Stun",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-stun",
+              "slug": "stun",
+              "website_link": "/debuffs/stun",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Decrease Turn Meter",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease Turn Meter",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-turn-meter",
+              "slug": "decrease-turn-meter",
+              "website_link": "/battle_enhancements/decrease-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "75c55f9a4fe1ac74c586b0bbb396ecc4",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "High Elves",
+    "slug": "high-elves",
+    "website_link": "/factions/high-elves/",
+    "image_slug": "image-faction-high-elves",
+    "number_of_champions": 28,
+    "default_description": "High Elves is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "High Elves is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "High Elves",
+        "high-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "High Elves originate from Aravia where they have built a wondrous, shimmering city. Living in these lands of plenty has enabled them to evolve their society to the highest degree of physical, intellectual, and spiritual achievement. High-principled, they welcome exiles and offer them new homes further east."
+  },
+  "faction_slug": "high-elves",
+  "website_link": "/champions/tayrel/",
+  "image_slug": "image-champion-tayrel",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Tayrel is a epic def champion from the faction High Elves doing magic damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Tayrel",
+      "tayrel"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "High Elves"
+        },
+        "description": "Member of the faction High Elves, Tayrel is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-tayrel.jpg",
+        "name": "Tayrel",
+        "url": "https://raid-codex.com/champions/tayrel/"
+      }
+    ]
+  },
+  "default_description": "Tayrel is a epic def champion from the faction High Elves doing magic damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "190",
+  "synergy": [],
+  "thumbnail": "cfecdb276f634854f3ef915e2e980c31",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

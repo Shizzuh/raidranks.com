@@ -1,0 +1,183 @@
+{
+  "name": "Stitched Beast",
+  "rarity": "Rare",
+  "element": "Void",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "stitched-beast",
+  "characteristics": {
+    "60": {
+      "hp": 13545,
+      "attack": 1343,
+      "defense": 782,
+      "speed": 101,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Bestial Maw",
+      "raw_description": "Attack 1 enemy 2 times. Damage based on: [ATK]",
+      "slug": "bestial-maw",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3580_s1",
+      "upgrades": [],
+      "image_slug": "39cbffdfbce525266b78d6f372713612",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Virulent Spittle",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 25% chance of placing a 25% [Weaken] debuff for 2 turns. Damage based on: [ATK]",
+      "slug": "virulent-spittle",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Weaken",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-weaken-2",
+          "slug": "weaken-2",
+          "website_link": "/debuffs/weaken",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3580_s2",
+      "upgrades": [],
+      "image_slug": "a87a5c6757b6333ecabe06c084fed31c",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Pack Tactics",
+      "raw_description": "Attacks 1 enemy. Fully depletes the target's Turn Meter. Damage based on: [ATK]",
+      "slug": "pack-tactics",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3580_s3",
+      "upgrades": [],
+      "image_slug": "04a2502c27e81f16b033975267d56f4c",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 36,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time."
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/stitched-beast/",
+  "image_slug": "image-champion-stitched-beast",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Stitched Beast is a rare attack champion from the faction Undead Hordes doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Stitched Beast",
+      "stitched-beast"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Stitched Beast is a champion of Rare rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-stitched-beast.jpg",
+        "name": "Stitched Beast",
+        "url": "https://raid-codex.com/champions/stitched-beast/"
+      }
+    ]
+  },
+  "default_description": "Stitched Beast is a rare attack champion from the faction Undead Hordes doing void damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3580",
+  "synergy": [],
+  "thumbnail": "630b7d8dd49a0bab667498f287d68c16",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": [
+    {
+      "fusion_slug": "fusion-sikara",
+      "fusion_type": "ingredient"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "effect_type": "battle_enhancement",
+  "type": "Heal",
+  "value": 0,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-battle-enhancement-heal",
+  "slug": "heal",
+  "website_link": "/battle_enhancements/heal",
+  "extra": false,
+  "raw_description": "",
+  "places_if": "",
+  "amount": 1
+}

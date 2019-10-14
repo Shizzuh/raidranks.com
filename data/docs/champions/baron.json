@@ -1,0 +1,1033 @@
+{
+  "name": "Baron",
+  "rarity": "Legendary",
+  "element": "Void",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "A",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "B",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "B",
+    "fire_knight": "B",
+    "minotaur": "A",
+    "force_dungeon": "S",
+    "magic_dungeon": "A",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 178,
+    "campaign": 4.9,
+    "arena_offense": 4.9,
+    "arena_defense": 4.7,
+    "clan_boss": 4.8,
+    "ice_guardian": 4.8,
+    "dragon": 4.9,
+    "spider": 4.7,
+    "fire_knight": 4.6,
+    "minotaur": 4.9,
+    "force_dungeon": 4.9,
+    "magic_dungeon": 4.9,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.9
+  },
+  "slug": "baron",
+  "characteristics": {
+    "60": {
+      "hp": 15030,
+      "attack": 1575,
+      "defense": 1002,
+      "speed": 90,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in all Battles by 33%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Trample",
+      "raw_description": "Attacks 1 enemy. Will attack all remaining enemies with any surplus skill, Skypiercer, for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%",
+      "slug": "trample",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "380_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.1,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK with Surplus DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk-with-surplus-dmg",
+              "slug": "atk-with-surplus-dmg",
+              "website_link": "/battle_enhancements/atk-with-surplus-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.1,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK with Surplus DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk-with-surplus-dmg",
+              "slug": "atk-with-surplus-dmg",
+              "website_link": "/battle_enhancements/atk-with-surplus-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.1,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK with Surplus DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk-with-surplus-dmg",
+              "slug": "atk-with-surplus-dmg",
+              "website_link": "/battle_enhancements/atk-with-surplus-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.1,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK with Surplus DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk-with-surplus-dmg",
+              "slug": "atk-with-surplus-dmg",
+              "website_link": "/battle_enhancements/atk-with-surplus-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.1,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "ATK with Surplus DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-atk-with-surplus-dmg",
+              "slug": "atk-with-surplus-dmg",
+              "website_link": "/battle_enhancements/atk-with-surplus-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Kill",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "ce12197609c70c3031b58cefb5cc4de6",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Split Asunder",
+      "raw_description": "Attacks 1 enemy. Places a 60% [Decrease DEF] debuff for 2 turns. This debuff is guaranteed. Has a 20% chance of unlocking a secret Skill, Skypiercer, for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Cooldown -1",
+      "slug": "split-asunder",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def-2",
+          "slug": "decrease-def-2",
+          "website_link": "/debuffs/decrease-def",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "380_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.6,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.6,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.6,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.6,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Decrease DEF",
+              "value": 0.6,
+              "chance": 1,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-decrease-def",
+              "slug": "decrease-def",
+              "website_link": "/debuffs/decrease-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "02e792c5dab9a91c4d03b3a0864d13bd",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Righteous Charge",
+      "raw_description": "Attacks 1 enemy. Damage increases according to the number of buffs on this Champion. Has a 40% chance to unlock a secret skill, Skypiercer, for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Damage +10%\n\nLvl. 4 Cooldown -1\n\nLvl. 5 Cooldown -1",
+      "slug": "righteous-charge",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "380_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per Buff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-buff",
+              "slug": "increase-dmg-per-buff",
+              "website_link": "/battle_enhancements/increase-dmg-per-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per Buff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-buff",
+              "slug": "increase-dmg-per-buff",
+              "website_link": "/battle_enhancements/increase-dmg-per-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per Buff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-buff",
+              "slug": "increase-dmg-per-buff",
+              "website_link": "/battle_enhancements/increase-dmg-per-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 6,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per Buff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-buff",
+              "slug": "increase-dmg-per-buff",
+              "website_link": "/battle_enhancements/increase-dmg-per-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Cooldown -1"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Skypiercer",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-skypiercer",
+              "slug": "unlock-skypiercer",
+              "website_link": "/battle_enhancements/unlock-skypiercer",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG per Buff",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg-per-buff",
+              "slug": "increase-dmg-per-buff",
+              "website_link": "/battle_enhancements/increase-dmg-per-buff",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "da8098044cd25456569918feb7da153a",
+      "skill_number": "A3"
+    },
+    {
+      "passive": false,
+      "name": "Skypiercer",
+      "raw_description": "Attacks all enemies. Deals Pure Damage. Will ignore [Shield] and {Block Damage] buffs.\n\nDamage based on: [ATK]",
+      "slug": "skypiercer",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buffs/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "380_s4",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 0,
+          "target": {
+            "who": "-",
+            "targets": "-"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Block DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-block-dmg",
+              "slug": "ignore-block-dmg",
+              "website_link": "/battle_enhancements/ignore-block-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-shield",
+              "slug": "ignore-shield",
+              "website_link": "/battle_enhancements/ignore-shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "284b23408d35f8d4fe72697b7f3c9ab6",
+      "skill_number": "A4"
+    }
+  ],
+  "faction": {
+    "name": "Banner Lords",
+    "slug": "banner lords",
+    "website_link": "/factions/banner lords/",
+    "image_slug": "image-faction-banner lords",
+    "number_of_champions": 36,
+    "default_description": "Banner Lords is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Banner Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Banner Lords",
+        "banner lords"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll."
+  },
+  "faction_slug": "banner lords",
+  "website_link": "/champions/baron/",
+  "image_slug": "image-champion-baron",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Baron is a legendary attack champion from the faction Banner Lords doing void damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Baron",
+      "baron"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Banner Lords"
+        },
+        "description": "Member of the faction Banner Lords, Baron is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-baron.jpg",
+        "name": "Baron",
+        "url": "https://raid-codex.com/champions/baron/"
+      }
+    ]
+  },
+  "default_description": "Baron is a legendary attack champion from the faction Banner Lords doing void damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "380",
+  "synergy": [],
+  "thumbnail": "bca82e41ee7b0833588399b1fcd177c7",
+  "tags": [
+    "CHAMPION_UPDATED_20190808"
+  ],
+  "masteries": [],
+  "fusion_data": []
+}

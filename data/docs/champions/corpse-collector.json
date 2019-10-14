@@ -1,0 +1,278 @@
+{
+  "name": "Corpse Collector",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "corpse-collector",
+  "characteristics": {
+    "60": {
+      "hp": 17175,
+      "attack": 1167,
+      "defense": 991,
+      "speed": 106,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally Accuracy in Arena by 40",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Insidious Parasite",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a [Leech] debuff for 2 turns. Damage based on ATK\n\nLvl. 2 Damage +5%.\n\nLvl. 3 Damage +5%.\n\nLvl. 4 Damage +5%.\n\nLvl. 5 Chance +10%.",
+      "slug": "insidious-parasite",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Leech",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-leech",
+          "slug": "leech",
+          "website_link": "/debuffs/leech",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3960_s1",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "3a7a54872d51f7e9483757d73b0edc88",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Hailfire",
+      "raw_description": "Attacks all enemies. Has a 75% chance of placing a 100% [Heal Reduction] debuff and a 50% [Decrease ACC] debuff on all enemies for 2 turns. Damage based on ATK\n\nLvl. 2 Damage +5%.\n\nLvl. 3 Damage +5%.\n\nLvl. 4 Chance +5%.\n\nLvl. 5 Chance +10%.\n\nLvl. 6 Chance +10%.\n\nLvl. 7 Cooldown -1.",
+      "slug": "hailfire",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ACC",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-acc-2",
+          "slug": "decrease-acc-2",
+          "website_link": "/debuffs/decrease-acc",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/debuffs/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3960_s2",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "f3fb346fb1e9dd75f0d7435d6a9bdddd",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Noxious Escape",
+      "raw_description": "Attacks 3 times at random. Each hit has a 75% chance of placing a 5% [Poison] debuff for 2 turns. Places a [Veil] buff on this Champion for 1 turn. Damage based on ATK\n\nLvl. 2 Damage +10%.\n\nLvl. 3 Damage +10%.\n\nLvl. 4 Chance +10%.\n\nLvl. 5 Chance +15%.\n\nLvl. 6 Cooldown -1.",
+      "slug": "noxious-escape",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/debuffs/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Veil",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-veil",
+          "slug": "veil",
+          "website_link": "/buffs/veil",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3960_s3",
+      "upgrades": [
+        {
+          "level": "",
+          "hits": 0,
+          "target": {
+            "who": "",
+            "targets": ""
+          },
+          "effects": [],
+          "based_on": [],
+          "cooldown": 5,
+          "raw_detail": ""
+        }
+      ],
+      "image_slug": "ef3a73452f11a93c79075ee8d494cbfd",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Undead Hordes",
+    "slug": "undead-hordes",
+    "website_link": "/factions/undead-hordes/",
+    "image_slug": "image-faction-undead-hordes",
+    "number_of_champions": 36,
+    "default_description": "Undead Hordes is a faction from RAID Shadow Legends composed of 36 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Undead Hordes is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Undead Hordes",
+        "undead-hordes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Awakened by the call of the Corruption, these ghouls andcreatures of the night inhabit the forgotten tombs and darkplaces of the world, and serve as minions to the Dark One. Whilemost are the desecrated carcasses of fallen Telerians, othershave lurked in the darkness for centuries... awaiting their time."
+  },
+  "faction_slug": "undead-hordes",
+  "website_link": "/champions/corpse-collector/",
+  "image_slug": "image-champion-corpse-collector",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Corpse Collector is a epic assist champion from the faction Undead Hordes doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Corpse Collector",
+      "corpse-collector"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Undead Hordes"
+        },
+        "description": "Member of the faction Undead Hordes, Corpse Collector is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-corpse-collector.jpg",
+        "name": "Corpse Collector",
+        "url": "https://raid-codex.com/champions/corpse-collector/"
+      }
+    ]
+  },
+  "default_description": "Corpse Collector is a epic assist champion from the faction Undead Hordes doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3960",
+  "synergy": [],
+  "thumbnail": "ac52c626afc10d4075708ac4c778ddfc",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

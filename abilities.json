@@ -1,0 +1,330 @@
+[{
+    "effectType": "battle_enhancement",
+    "type": "Decrease Turn Meter",
+    "imageSlug": "image-battle-enhancement-decrease-turn-meter",
+    "slug": "decrease-turn-meter",
+    "description": ""
+  },
+  {
+    "effectType": "battle_enhancement",
+    "type": "Heal",
+    "imageSlug": "image-battle-enhancement-heal",
+    "slug": "heal",
+    "description": ""
+  },
+  {
+    "effectType": "battle_enhancement",
+    "type": "Increase Turn Meter",
+    "imageSlug": "image-battle-enhancement-increase-turn-meter",
+    "slug": "increase-turn-meter",
+    "description": ""
+  },
+  {
+    "effectType": "buff",
+    "type": "Ally Protection",
+    "imageSlug": "image-buff-ally-protection",
+    "slug": "ally-protection",
+    "description": "The Caster Champion takes 25% of direct damage inflicted upon the Target Champion. Self-inflicted damage and Poison do not trigger this effect. Each Champion uses their respective DEF values for mitigating damage."
+  },
+  {
+    "effectType": "buff",
+    "type": "Ally Protection",
+    "imageSlug": "image-buff-ally-protection-2",
+    "slug": "ally-protection-2",
+    "description": "The Caster Champion takes 50% of direct damage inflicted upon the Target Champion. Self-inflicted damage and Poison do not trigger this effect. Each Champion uses their respective DEF values for mitigating damage."
+  },
+  {
+    "effectType": "buff",
+    "type": "Block Damage",
+    "imageSlug": "image-buff-block-damage",
+    "slug": "block-damage",
+    "description": "Makes the Champion immune to all forms of damage."
+  },
+  {
+    "effectType": "buff",
+    "type": "Block Debuffs",
+    "imageSlug": "image-buff-block-debuffs",
+    "slug": "block-debuffs",
+    "description": "While this buff is active, the Champion is immune to all debuffs. Instant negative effect such as Decrease Turn Meter are not affected and work as normal."
+  },
+  {
+    "effectType": "buff",
+    "type": "Continuous Heal",
+    "imageSlug": "image-buff-continuous-heal",
+    "slug": "continuous-heal",
+    "description": "Heals the target Champion by 7,5% of their MAX HP at the beginning of their Turn."
+  },
+  {
+    "effectType": "buff",
+    "type": "Continuous Heal",
+    "imageSlug": "image-buff-continuous-heal-2",
+    "slug": "continuous-heal-2",
+    "description": "Heals the target Champion by 15% of their MAX HP at the beginning of their Turn."
+  },
+  {
+    "effectType": "buff",
+    "type": "Counterattack",
+    "imageSlug": "image-buff-counterattack",
+    "slug": "counterattack",
+    "description": "When attacked, the Champion with this buff strikes back at their attacker using their Default Skill. This attack deals 75% of the normal Default Skill damage. Can only counterattack once when attacked with a Multi-hit Skill. Does not counterattack in response to the enemy’s own counterattack. Does not count as a Turn."
+  },
+  {
+    "effectType": "buff",
+    "type": "Increase ATK",
+    "imageSlug": "image-buff-increase-atk",
+    "slug": "increase-atk",
+    "description": "Increases the Champion’s Battle ATK (current ATK value, all other effects taken into account) by 25%"
+  },
+  {
+    "effectType": "buff",
+    "type": "Increase ATK",
+    "imageSlug": "image-buff-increase-atk-2",
+    "slug": "increase-atk-2",
+    "description": "Increases the Champion’s Battle ATK (current ATK value, all other effects taken into account) by 50%"
+  },
+  {
+    "effectType": "buff",
+    "type": "Increase C. RATE",
+    "imageSlug": "image-buff-increase-c-rate",
+    "slug": "increase-c-rate",
+    "description": "Increases the Champion’s C.RATE by 15%"
+  },
+  {
+    "effectType": "buff",
+    "type": "Increase C. RATE",
+    "imageSlug": "image-buff-increase-c-rate-2",
+    "slug": "increase-c-rate-2",
+    "description": "Increases the Champion’s C.RATE by 30%"
+  },
+  {
+    "effectType": "buff",
+    "type": "Increase DEF",
+    "imageSlug": "image-buff-increase-def",
+    "slug": "increase-def",
+    "description": "Increases the Champion’s Battle DEF by 30%"
+  },
+  {
+    "effectType": "buff",
+    "type": "Increase DEF",
+    "imageSlug": "image-buff-increase-def-2",
+    "slug": "increase-def-2",
+    "description": "Increases the Champion’s Battle DEF by 60%"
+  },
+  {
+    "effectType": "buff",
+    "type": "Increase SPD",
+    "imageSlug": "image-buff-increase-spd",
+    "slug": "increase-spd",
+    "description": "Increases the Champion’s Battle SPD by 15%"
+  },
+  {
+    "effectType": "buff",
+    "type": "Increase SPD",
+    "imageSlug": "image-buff-increase-spd-2",
+    "slug": "increase-spd-2",
+    "description": "Increases the Champion’s Battle SPD by 30%"
+  },
+  {
+    "effectType": "buff",
+    "type": "Reflect Damage",
+    "imageSlug": "image-buff-reflect-damage",
+    "slug": "reflect-damage",
+    "description": "Any Champion attack a target with this buff will sustain 15% of the damage they inflicted with the attack."
+  },
+  {
+    "effectType": "buff",
+    "type": "Reflect Damage",
+    "imageSlug": "image-buff-reflect-damage-2",
+    "slug": "reflect-damage-2",
+    "description": "Any Champion attack a target with this buff will sustain 30% of the damage they inflicted with the attack."
+  },
+  {
+    "effectType": "buff",
+    "type": "Revive on Death",
+    "imageSlug": "image-buff-revive-on-death",
+    "slug": "revive-on-death",
+    "description": "If a Champion with this buff dies, he or she will immediately be revived with 30% HP and 0% Turn Meter."
+  },
+  {
+    "effectType": "buff",
+    "type": "Shield",
+    "imageSlug": "image-buff-shield",
+    "slug": "shield",
+    "description": "The Champion’s HP bar is reinforced for X Turns with a Shield effect. Damage is calculated normally but is first applied to the Shield (unless the attack ignores Shields, which is stated in the Skill description). When the buff expires or Shield value reaches 0, the Shield is removed and further damage applies as normal. Note: damage dealt to the shield does not count as damage dealt to the Champion, so effects such as Lifesteal do not benefit from it."
+  },
+  {
+    "effectType": "buff",
+    "type": "Unkillable",
+    "imageSlug": "image-buff-unkillable",
+    "slug": "unkillable",
+    "description": "The Champion with this buff cannot fall below 1 HP for the entirety of its duration."
+  },
+  {
+    "effectType": "buff",
+    "type": "Veil",
+    "imageSlug": "image-buff-veil",
+    "slug": "veil",
+    "description": "Crafted by the wise and powerful mages, the spell of the Veil takes many forms and applications. But its purpose remains unchanged - it hides the Champion from the eyes of his or her foes, allowing for a perfect strike to be delivered when the time is right. This buff has two tiers: Veil and Perfect Veil. The Champion under either of these buffs cannot be chosen as a target of an enemy Champion’s Skill. Note: if all remaining Champions on your team have an active Veil or Perfect Veil effect, the enemy will no longer be restricted in choosing a target. In the case of basic Veil, the effect will be immediately lifted if the Champion uses a Skill that deals damage. With the exception of: Damage inflicted by the Skill that applies [Veil] (if applicable) Passive damage Damage that \"Does not count as a hit\" At the same time, [Perfect Veil] is not affected, no matter what Skills the Champion uses. Thus it allows them to strike with impunity for as long as the buff remains active - or they have a wall of allies to hide behind."
+  },
+  {
+    "effectType": "debuff",
+    "type": "Block Buffs",
+    "imageSlug": "image-debuff-block-buffs",
+    "slug": "block-buffs",
+    "description": "All buffs that are applied to the Champion with this debuff are automatically blocked and have no effect."
+  },
+  {
+    "effectType": "debuff",
+    "type": "Block Cooldown Skills",
+    "imageSlug": "image-debuff-block-cooldown-skills",
+    "slug": "block-cooldown-skills",
+    "description": "Prevents the Champion with debuff from using Active Skills other than their Default Skill for the duration of the debuff. Skill Cooldown of the affected Champion refreshes as normal."
+  },
+  {
+    "effectType": "debuff",
+    "type": "Bomb",
+    "imageSlug": "image-debuff-bomb",
+    "slug": "bomb",
+    "description": "When this debuff expires, the affected Champion suffers direct damage that ignores their DEF value. The damage inflicted by the bomb scales in accordance with the Stat indicated in the Skill description."
+  },
+  {
+    "effectType": "debuff",
+    "type": "Decrease ACC",
+    "imageSlug": "image-debuff-decrease-acc",
+    "slug": "decrease-acc",
+    "description": "Reduces the Champion’s Battle ACC by 25%"
+  },
+  {
+    "effectType": "debuff",
+    "type": "Decrease ACC",
+    "imageSlug": "image-debuff-decrease-acc-2",
+    "slug": "decrease-acc-2",
+    "description": "Reduces the Champion’s Battle ACC by 50%"
+  },
+  {
+    "effectType": "debuff",
+    "type": "Decrease ATK",
+    "imageSlug": "image-debuff-decrease-atk",
+    "slug": "decrease-atk",
+    "description": "Decreases the Champion’s Battle ATK by 25%"
+  },
+  {
+    "effectType": "debuff",
+    "type": "Decrease ATK",
+    "imageSlug": "image-debuff-decrease-atk-2",
+    "slug": "decrease-atk-2",
+    "description": "Decreases the Champion’s Battle ATK by 50%"
+  },
+  {
+    "effectType": "debuff",
+    "type": "Decrease DEF",
+    "imageSlug": "image-debuff-decrease-def",
+    "slug": "decrease-def",
+    "description": "Decreases the Champion’s Battle DEF by 30%"
+  },
+  {
+    "effectType": "debuff",
+    "type": "Decrease DEF",
+    "imageSlug": "image-debuff-decrease-def-2",
+    "slug": "decrease-def-2",
+    "description": "Decreases the Champion’s Battle DEF by 60%"
+  },
+  {
+    "effectType": "debuff",
+    "type": "Decrease SPD",
+    "imageSlug": "image-debuff-decrease-spd",
+    "slug": "decrease-spd",
+    "description": "Decreases the Champion’s Battle SPD by 15%"
+  },
+  {
+    "effectType": "debuff",
+    "type": "Decrease SPD",
+    "imageSlug": "image-debuff-decrease-spd-2",
+    "slug": "decrease-spd-2",
+    "description": "Decreases the Champion’s Battle SPD by 30%"
+  },
+  {
+    "effectType": "debuff",
+    "type": "Freeze",
+    "imageSlug": "image-debuff-freeze",
+    "slug": "freeze",
+    "description": "The Champion with this debuff is unable to act X Turns. Cooldowns are not refreshed while [Freeze] is active. The Champion only receives 75% of incoming damage."
+  },
+  {
+    "effectType": "debuff",
+    "type": "Heal Reduction",
+    "imageSlug": "image-debuff-heal-reduction",
+    "slug": "heal-reduction",
+    "description": "Any healing received by the Champion with this debuff is reduced by 50%"
+  },
+  {
+    "effectType": "debuff",
+    "type": "Heal Reduction",
+    "imageSlug": "image-debuff-heal-reduction-2",
+    "slug": "heal-reduction-2",
+    "description": "Any healing received by the Champion with this debuff is reduced by 100%"
+  },
+  {
+    "effectType": "debuff",
+    "type": "HP Burn",
+    "imageSlug": "image-debuff-hp-burn",
+    "slug": "hp-burn",
+    "description": "While the debuff is active and at the start of the affected Champion’s turn, they and all their allies take damage equal to 3% of their respective MAX HP. There can be only one [HP Burn] debuff active of a Champion at a time. However, if multiple Champions on the Team are debuffed with [HP Burn], all of these debuffs work as normal and apply their full damage."
+  },
+  {
+    "effectType": "debuff",
+    "type": "Leech",
+    "imageSlug": "image-debuff-leech",
+    "slug": "leech",
+    "description": "Any Champion that attacks a Champion with this debuff heals for 10% of inflicted damage."
+  },
+  {
+    "effectType": "debuff",
+    "type": "Poison",
+    "imageSlug": "image-debuff-poison",
+    "slug": "poison",
+    "description": "Damages the target Champion by 2,5% of their MAX HP at the beginning of their Turn. This damage is not affected by any other effects and only scales in accordance with the Target’s MAX HP. Block Damage blocks it. If the Target Champion has a Shield, Poison damage will be applied to the Shield first."
+  },
+  {
+    "effectType": "debuff",
+    "type": "Poison",
+    "imageSlug": "image-debuff-poison-2",
+    "slug": "poison-2",
+    "description": "Damages the target Champion by 5% of their MAX HP at the beginning of their Turn. This damage is not affected by any other effects and only scales in accordance with the Target’s MAX HP. Block Damage blocks it. If the Target Champion has a Shield, Poison damage will be applied to the Shield first."
+  },
+  {
+    "effectType": "debuff",
+    "type": "Provoke",
+    "imageSlug": "image-debuff-provoke",
+    "slug": "provoke",
+    "description": "The Champion with this debuff can only attack the Champion that applied it for X Turns, using their Default Skill."
+  },
+  {
+    "effectType": "debuff",
+    "type": "Sleep",
+    "imageSlug": "image-debuff-sleep",
+    "slug": "sleep",
+    "description": "The Champion with this debuff is unable to act X Turns. Cooldowns are not refreshed while [Sleep] is active. Continuous Heal and Poison Effect work as normal while the Champion is debuffed with [Sleep], so do any Passive Skills that heal the Champion. Any incoming damage that the Champion receives automatically removes [Sleep]."
+  },
+  {
+    "effectType": "debuff",
+    "type": "Stun",
+    "imageSlug": "image-debuff-stun",
+    "slug": "stun",
+    "description": "The Champion with this debuff is unable to act X Turns. Cooldowns are not refreshed while [Stun] is active."
+  },
+  {
+    "effectType": "debuff",
+    "type": "Weaken",
+    "imageSlug": "image-debuff-weaken",
+    "slug": "weaken",
+    "description": "Increases damage received by the Target Champion by 15%."
+  },
+  {
+    "effectType": "debuff",
+    "type": "Weaken",
+    "imageSlug": "image-debuff-weaken-2",
+    "slug": "weaken-2",
+    "description": "Increases damage received by the Target Champion by 25%."
+  }
+]

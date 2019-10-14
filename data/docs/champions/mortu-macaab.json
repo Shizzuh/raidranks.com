@@ -1,0 +1,785 @@
+{
+  "name": "Mortu-Macaab",
+  "rarity": "Legendary",
+  "element": "Spirit",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "S",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "S",
+    "dragon": "A",
+    "spider": "A",
+    "fire_knight": "SS",
+    "minotaur": "A",
+    "force_dungeon": "B",
+    "magic_dungeon": "S",
+    "spirit_dungeon": "SS",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 275,
+    "campaign": 4.8,
+    "arena_offense": 4.7,
+    "arena_defense": 4.5,
+    "clan_boss": 4.5,
+    "ice_guardian": 4.8,
+    "dragon": 4.8,
+    "spider": 4.5,
+    "fire_knight": 4.5,
+    "minotaur": 4.7,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.8,
+    "void_dungeon": 4.7
+  },
+  "slug": "mortu-macaab",
+  "characteristics": {
+    "60": {
+      "hp": 23130,
+      "attack": 1145,
+      "defense": 892,
+      "speed": 94,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 40,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally SPD in all Battles by 24%.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Stigmata",
+      "raw_description": "Attacks 1 enemy. Has a 60% chance of placing a 100% [Heal Reduction] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +10%\n\nLvl. 5 Damage +15%\n\nLvl. 6 Buff/Debuff Chance +15%",
+      "slug": "stigmata",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction-2",
+          "slug": "heal-reduction-2",
+          "website_link": "/debuffs/heal-reduction",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "21120_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.6,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.6,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.6,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.7,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.7,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 1,
+              "chance": 0.85,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Chance +15%"
+        }
+      ],
+      "image_slug": "9ee6be7df9fc3f6de50f5e1a5e8ec7c3",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Falling from Grace",
+      "raw_description": "Attacks all enemies 2 times. Places a [Block Buffs] debuff for 2 turns on targets under [Heal Reduction] debuffs. Each hit has a 50% chance of placing a [Block Buffs] debuff for 2 turns against targets not under [Heal Reduction] debuffs.\n\nDamage based on: [ATK] [HP]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Buff/Debuff Chance +5%\n\nLvl. 6 Cooldown -1",
+      "slug": "falling-from-grace",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/debuffs/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK",
+        "HP"
+      ],
+      "giid": "21120_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Buffs",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-buffs",
+              "slug": "block-buffs",
+              "website_link": "/debuffs/block-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "No Heal Red",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Buffs",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-buffs",
+              "slug": "block-buffs",
+              "website_link": "/debuffs/block-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "No Heal Red",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Buffs",
+              "value": 0,
+              "chance": 0.55,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-buffs",
+              "slug": "block-buffs",
+              "website_link": "/debuffs/block-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "No Heal Red",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Buffs",
+              "value": 0,
+              "chance": 0.55,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-buffs",
+              "slug": "block-buffs",
+              "website_link": "/debuffs/block-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "No Heal Red",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Buffs",
+              "value": 0,
+              "chance": 0.6,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-buffs",
+              "slug": "block-buffs",
+              "website_link": "/debuffs/block-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "No Heal Red",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Block Buffs",
+              "value": 0,
+              "chance": 0.6,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-block-buffs",
+              "slug": "block-buffs",
+              "website_link": "/debuffs/block-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "No Heal Red",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK",
+            "HP"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "e99a5a1c8f0ae061ca8f8fbc65e47f3a",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Fiery Rage",
+      "raw_description": "Has a 10% chance to unlock a secret skill, Peril, for 1 turn. Also has a 20% chance to fill this Champion's Turn Meter by 25% when attacked.",
+      "slug": "fiery-rage",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "21120_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase Turn Meter",
+              "value": 0.25,
+              "chance": 0.2,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-turn-meter",
+              "slug": "increase-turn-meter",
+              "website_link": "/battle_enhancements/increase-turn-meter",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Hit",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Unlock Peril Skill",
+              "value": 0,
+              "chance": 0.1,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-unlock-peril-skill",
+              "slug": "unlock-peril-skill",
+              "website_link": "/battle_enhancements/unlock-peril-skill",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "1b984bd512627c06118cea26f9847410",
+      "skill_number": "P1"
+    },
+    {
+      "passive": false,
+      "name": "Peril",
+      "raw_description": "Attacks 1 enemy 2 times. Will ignore [Shield] and [Block Damage] buffs as well as DEF. Enemies killed by this skill cannot be revived.\n\nDamage based on: [HP]",
+      "slug": "peril",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Block Damage",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-block-damage",
+          "slug": "block-damage",
+          "website_link": "/buffs/block-damage",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Shield",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-shield",
+          "slug": "shield",
+          "website_link": "/buffs/shield",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "HP"
+      ],
+      "giid": "21120_s4",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 2,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Block Revive",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-block-revive",
+              "slug": "block-revive",
+              "website_link": "/battle_enhancements/block-revive",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore DEF",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-def",
+              "slug": "ignore-def",
+              "website_link": "/battle_enhancements/ignore-def",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Block DMG",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-block-dmg",
+              "slug": "ignore-block-dmg",
+              "website_link": "/battle_enhancements/ignore-block-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Ignore Shield",
+              "value": 0,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-ignore-shield",
+              "slug": "ignore-shield",
+              "website_link": "/battle_enhancements/ignore-shield",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "Max HP"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "b4682d541ff63f2e8365a1a26aa2d92a",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 28,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Beyond the dark portal lies a realm of fire and darkness. It is thehome of ancient beings born of darkness. Forbidden fromsetting foot in the fair lands of Teleria, these foul entities haveconspired with Necromancers to breed Demonspawn - unholyunions of Demon and mortal"
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/mortu-macaab/",
+  "image_slug": "image-champion-mortu-macaab",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Mortu-Macaab is a legendary attack champion from the faction Demonspawn doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Mortu-Macaab",
+      "mortu-macaab"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Mortu-Macaab is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-mortu-macaab.jpg",
+        "name": "Mortu-Macaab",
+        "url": "https://raid-codex.com/champions/mortu-macaab/"
+      }
+    ]
+  },
+  "default_description": "Mortu-Macaab is a legendary attack champion from the faction Demonspawn doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "21120",
+  "synergy": [],
+  "thumbnail": "9d15081dc54bcd9dc23a74f99646b2a6",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

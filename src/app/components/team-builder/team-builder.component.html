@@ -1,0 +1,28 @@
+<ng-container *ngIf="builderActive && !teamPage">
+  <div class="team-builder" id="builder">
+    <div class="close-builder" (click)="closeBuilder()">
+      <fa-icon [icon]="faTimes"></fa-icon>
+    </div>
+    <h6 class="small mt-3">Team Builder</h6>
+    <h5 class="text-center">{{team.name}}</h5>
+    <div class="team">
+      <div class="champs">
+        <ng-container *ngFor="let champ of team.champions">
+            <champion-card
+              class="builder"
+              [source]="'builder'"
+              (refreshTeams)="refreshTeams()"
+              [attr.data-champ-name]="champ.name.toLowerCase()"
+              [champ]="champ"></champion-card>
+        </ng-container>
+        <ng-container *ngIf="champPage && team.champions.length <= 4">
+          <button class="btn btn-circle" (click)="addChamp()">
+            <fa-icon [icon]="faPlus"></fa-icon>
+          </button>
+        </ng-container>
+      </div>
+      <a class="mt-3" *ngIf="team.champions.length > 0" [routerLink]="['/teams']">
+        <fa-icon [icon]="faPencil"></fa-icon> Edit Team</a>
+    </div>
+  </div>
+</ng-container>

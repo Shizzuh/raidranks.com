@@ -1,0 +1,729 @@
+{
+  "name": "Cupidus",
+  "rarity": "Legendary",
+  "element": "Spirit",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "S",
+    "campaign": "S",
+    "arena_offense": "SS",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "B",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "S",
+    "fire_knight": "B",
+    "minotaur": "S",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 423,
+    "campaign": 4.9,
+    "arena_offense": 4.7,
+    "arena_defense": 4.6,
+    "clan_boss": 4.8,
+    "ice_guardian": 4.8,
+    "dragon": 4.8,
+    "spider": 4.9,
+    "fire_knight": 4.4,
+    "minotaur": 4.8,
+    "force_dungeon": 4.8,
+    "magic_dungeon": 4.7,
+    "spirit_dungeon": 4.7,
+    "void_dungeon": 4.8
+  },
+  "slug": "cupidus",
+  "characteristics": {
+    "60": {
+      "hp": 18825,
+      "attack": 1520,
+      "defense": 804,
+      "speed": 107,
+      "critical_rate": 0.15,
+      "critical_damage": 0.63,
+      "resistance": 30,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in all Battles by 33%",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Heartbreaker",
+      "raw_description": "Attacks all enemies. Damage increases by 15% if the target has any debuffs.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%",
+      "slug": "heartbreaker",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3510_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Debuff",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Debuff",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Debuff",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0.15,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Debuff",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "b8de9f258ccb62051b338d3dbaf5cafc",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Flames of Passion",
+      "raw_description": "Attacks 3 times at random. Each hit has a 50% chance of placing a [HP Burn] debuff for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +59\n\nLvl. 5 Buff/Debuff Chance +10'\n\nLvl. 6 Buff/Debuff Chance +10",
+      "slug": "flames-of-passion",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/debuffs/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3510_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.55,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.65,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "random"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "3fd0caeb1ac2f914b686b33df7bfdd20",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Flameout",
+      "raw_description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns, then attacks 1 enemy. turns if this attack kills an enemy. This debuff cannot be resisted.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +10%\n\nLvl. 3 Cooldown -1",
+      "slug": "flameout",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk-2",
+          "slug": "increase-atk-2",
+          "website_link": "/buffs/increase-atk",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3510_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "kill",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "kill",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 2,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "kill",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Increase ATK",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-increase-atk",
+              "slug": "increase-atk",
+              "website_link": "/debuffs/increase-atk",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "ATK"
+          ],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "922779a0d617f2475c1cca54808a6dee",
+      "skill_number": "A3"
+    },
+    {
+      "passive": false,
+      "name": "Punishing Partner",
+      "raw_description": "Attacks inflict 25% more damage to targets under debuffs. Only available when Venus is on the same team.",
+      "slug": "punishing-partner",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "3510_s4",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Increase DMG",
+              "value": 0.25,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-increase-dmg",
+              "slug": "increase-dmg",
+              "website_link": "/battle_enhancements/increase-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Debuff",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "5a13709dd94a48465c3c72e1267c385d",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "The Sacred Order",
+    "slug": "the sacred order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 52,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends composed of 52 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends composed of 47 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "The Sacred Order",
+        "the sacred order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "For centuries the Knights of the Sacred Order were charged with cleansing Teleria of evil in all its guises. But since the declaration of war, they have sworn allegiance to the Queen of Aravia. In league with the Queen's Necromancer, these once-holy knights now enforce her Majesty's will and guard her chattel."
+  },
+  "faction_slug": "the sacred order",
+  "website_link": "/champions/cupidus/",
+  "image_slug": "image-champion-cupidus",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Cupidus is a legendary attack champion from the faction Sacred Order doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Cupidus",
+      "cupidus"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "The Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Cupidus is a champion of Legendary rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-cupidus.jpg",
+        "name": "Cupidus",
+        "url": "https://raid-codex.com/champions/cupidus/"
+      }
+    ]
+  },
+  "default_description": "Cupidus is a legendary attack champion from the faction Sacred Order doing spirit damage",
+  "recommended_builds": [],
+  "lore": "<p>Bards and minstrels have spun many tales about love so pure, it overcomes death itself. While it is, indeed, the stuff of many a ballad (too many, perhaps) the Realm of Teleria had seen these wondrous tales come to life.</p><p>One particular legend speaks of a maiden so fair she caught a jealous eye of an evil Sorcerer, a servant of Siroth's dark will. The spells he weaved allowed him to entrance the maiden and entrap her in a distant stronghold. Fortunately, her faith allowed the maiden to break free and regain her will before the sorcerer's vile designs could be realized, yet she remained a prisoner under threat of imminent death were she not to accept the Sorcerer's advances.</p><p>But all was not lost, for her promised one, a noble Knight of great renown, rose up to the challenge. He fought his way through untold dangers and enemies uncountable before forcing the great gates of the dark keep open. There, the entire might of the Sorceror's magic was unleashed upon him. The Knight cut down hordes of Siroth's servants, ignoring his own wounds and striking the villain down with a single blow of his blessed sword. Though life ebbed away from his body by the moment, he chose to expend the last of his strength on proclaiming his love for the Maiden who was finally free.</p><p>I was at that moment the Arbiter herself interfered. Though Lumaya may never guide the affairs of mortals, her faithful herald would not let a heroic deed driven by love as pure as that turn into tragedy. She used her power to save the dying Knight, yet such divine assistance did come with a price. Unable to live on without her beloved, the Maiden did not hesitate to swear her own soul to Lumaya???s cause. In turn, both she and her Knight were granted with life immortal.</p><p>There are many recountings of their adventures afterward, some contradicting each other, some - the stuff of fairy tales. Even their true names are lost to history, as is any proof that their origins are anything more than legend. Yet one thing is certain - wherever the mysterious lovers known as Venus and Cupidus appear, no darkness may stand before the fires of their passion. With her magic, and his trusty blade, the pair has saved lives beyond counting. Any warrior that gains the loyalty of both of these divine servants will find their force strengthened with the kind of purity only love that transcends mortal boundaries can bring.</p>",
+  "giid": "3510",
+  "synergy": [],
+  "thumbnail": "15e122e839dfdaa7ce969536f94aecf6",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

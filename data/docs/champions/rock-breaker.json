@@ -1,0 +1,205 @@
+{
+  "name": "Rock Breaker",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "Def",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "rock-breaker",
+  "characteristics": {
+    "60": {
+      "hp": 18495,
+      "attack": 716,
+      "defense": 1354,
+      "speed": 91,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally DEF in the Arena by 30%",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Whirling Hammers",
+      "raw_description": "Attacks 1 enemy.\n\nIncreases this Champion's DEF by 4% each time this Skill is used. Stacks up to 20%.\n\nDamage based on: [DEF]",
+      "slug": "whirling-hammers",
+      "effects": [],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "4160_s1",
+      "upgrades": [],
+      "image_slug": "4d44446fbd169e7831b9739b44b28302",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Chest Thump",
+      "raw_description": "Has a 75% chance of placing a [Provoke] debuff on all enemies for 1 turn.\n\nPlaces a [Counterattack] buff on this Champion for 2 turns",
+      "slug": "chest-thump",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Counterattack",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-counterattack",
+          "slug": "counterattack",
+          "website_link": "/buffs/counterattack",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4160_s2",
+      "upgrades": [],
+      "image_slug": "e6358876ec9d8d0960570fe7a5709dd5",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Iron Hide",
+      "raw_description": "Has a 25% chance of decreasing damage inflicted on this Champion by 50% each time this Champion is attacked",
+      "slug": "iron-hide",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "4160_s3",
+      "upgrades": [],
+      "image_slug": "edc683159fe79fd1bb26139a23354bc4",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Dwarves",
+    "slug": "dwarves",
+    "website_link": "/factions/dwarves/",
+    "image_slug": "image-faction-dwarves",
+    "number_of_champions": 10,
+    "default_description": "Dwarves is a faction from RAID Shadow Legends composed of 10 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dwarves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dwarves",
+        "dwarves"
+      ],
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-dwarves.jpg",
+          "name": "Dwarves",
+          "url": "https://raid-codex.com/factions/dwarves/"
+        }
+      ]
+    },
+    "giid": "",
+    "raw_description": "Proud and suspicious of outsiders, the Dwarves have long clung to tradition and isolationism. They were once known across Teleria as peerless craftsmen and steadfast warriors, and although these skills have never waned, the hubris of Dwarven royalty ensured that contact with the outside world gradually stopped. Were if not for the occasional mercenary or merchant, their very existence might have been forgotten.\n\nIt was only the recent invasion by the demonic legions of Siroth and their undead minions that has opened the eyes of the Dwarven King to grim reality. Through courage, determination, and sacrifice, the unholy horde has eventually been repelled. But the devastation that it wrought was too great to ignore. Now, driven forth by the calls for justice, Dwarves send their greatest heroes to the surface to bring the battle to their hated foe."
+  },
+  "faction_slug": "dwarves",
+  "website_link": "/champions/rock-breaker/",
+  "image_slug": "image-champion-rock-breaker",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Rock Breaker is a epic def champion from the faction Dwarves doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Rock Breaker",
+      "rock-breaker"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dwarves"
+        },
+        "description": "Member of the faction Dwarves, Rock Breaker is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-rock-breaker.jpg",
+        "name": "Rock Breaker",
+        "url": "https://raid-codex.com/champions/rock-breaker/"
+      }
+    ]
+  },
+  "default_description": "Rock Breaker is a epic def champion from the faction Dwarves doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "4160",
+  "synergy": [],
+  "thumbnail": "f816dc0acface7498e10496222e9db10",
+  "tags": [
+    "NEW_CHAMPION_20190808"
+  ],
+  "masteries": [],
+  "fusion_data": []
+}

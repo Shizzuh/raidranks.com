@@ -1,0 +1,205 @@
+{
+  "name": "Yaga the Insatiable",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "B",
+    "campaign": "C",
+    "arena_offense": "C",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "A",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "yaga-the-insatiable",
+  "characteristics": {
+    "60": {
+      "hp": 15195,
+      "attack": 1365,
+      "defense": 925,
+      "speed": 95,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 15
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ATK in all Battles by 20%",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Virulent Cleaver",
+      "raw_description": "Attacks 1 enemy. Has a 40% chance of placing a 5% [Poison] debuff for 2 turns",
+      "slug": "virulent-cleaver",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/debuffs/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4020_s1",
+      "upgrades": [],
+      "image_slug": "b953a82cb3120671e330277858ed1e52",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Hungering Plague",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a 5% [Poison] for 2 turns",
+      "slug": "hungering-plague",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Poison",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-poison-2",
+          "slug": "poison-2",
+          "website_link": "/debuffs/poison",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4020_s2",
+      "upgrades": [],
+      "image_slug": "b10a97bff6dae35d1a736c1139dab551",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Rot from Within",
+      "raw_description": "Attacks 1 enemy. Damage increases by 25% against target under [Poison] debuff",
+      "slug": "rot-from-within",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "4020_s3",
+      "upgrades": [],
+      "image_slug": "5c18b15764911dd4da6e5cf739b8ee2a",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Skinwalkers",
+    "slug": "skinwalkers",
+    "website_link": "/factions/skinwalkers/",
+    "image_slug": "image-faction-skinwalkers",
+    "number_of_champions": 19,
+    "default_description": "Skinwalkers is a faction from RAID Shadow Legends composed of 19 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Skinwalkers is a faction from RAID Shadow Legends composed of 18 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Skinwalkers",
+        "skinwalkers"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "As told by the tragic legend of Ch'arocah, Skinwalkers once had the power to cast themselves in the form of any man or beast. But after centuries of overuse, these shamans found themselves entrapped as something less than human, but more than animal. Though wild and dangerous, they can sense evil and may act to prevent it"
+  },
+  "faction_slug": "skinwalkers",
+  "website_link": "/champions/yaga-the-insatiable/",
+  "image_slug": "image-champion-yaga-the-insatiable",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Yaga the Insatiable is a epic attack champion from the faction Skinwalkers doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Yaga the Insatiable",
+      "yaga-the-insatiable"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Skinwalkers"
+        },
+        "description": "Member of the faction Skinwalkers, Yaga the Insatiable is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-yaga-the-insatiable.jpg",
+        "name": "Yaga the Insatiable",
+        "url": "https://raid-codex.com/champions/yaga-the-insatiable/"
+      }
+    ]
+  },
+  "default_description": "Yaga the Insatiable is a epic attack champion from the faction Skinwalkers doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>Once a respected shaman and protector of his people, Yaga was known far and wide among the Skinwalker tribes. He was said to be able to decipher any dream, cure any ailment, appease any spirit. Yet such power came at a price. Deeper and deeper into the realm of the unnatural he delved, and darker the entities he dealt with did become. Slowly, Yaga’s heart turned black, his thirst for ancient knowledge corrupting him until the light of Lumaya within was all but extinguished.\n\nBut one does not deal with demons without consequences. For his pride, a powerful Baron of Siroth’s legions cursed Yaga with an illness not even the most knowledgeable of Skinwalker shamans could defeat. And when Yaga was left weak and desperate, the demon appeared to him with an offer - immortality in exchange for his soul. Yaga accepted without hesitation, and in a split of a second, his body was transformed. The rot that was slowly killing him did not vanish, yet it no longer spread. Yaga’s plague-infested body strengthened beyond what he thought possible - he was no longer mortal in the full sense of the word.\n\nBut the price was terrifying indeed. For his salvation, Yaga was bound to Sirtoh’s will, made to serve the Dark Lord’s horrific designs as a herald of pestilence. Wherever he treads, death and grief follow. His weapon is cursed with plague runes, his very gaze brings corruption. Only the purest can hope to beat such a foe - and only the strongest-willed can hope to shackle Yaga’s Shard and bring his rampage under control.</p>",
+  "giid": "4020",
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "valkyrie",
+        "jizoh",
+        "skullcrusher",
+        "martyr"
+      ]
+    }
+  ],
+  "thumbnail": "1192265fb31ab52a6332c561ee6e5258",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Banner-Lords",
+  "slug": "banner-lords",
+  "website_link": "/factions/banner-lords/",
+  "image_slug": "image-faction-banner-lords",
+  "number_of_champions": 36,
+  "default_description": "Banner-Lords is a faction from RAID Shadow Legends composed of 34 champions",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Banner-Lords is a faction from RAID Shadow Legends composed of 33 champions. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "factions",
+      "Banner-Lords",
+      "banner-lords"
+    ],
+    "structured_data": null
+  },
+  "giid": "",
+  "raw_description": "Hereditary Knights of Kaerok, the Banner Lords swear blindallegiance to King Tayba. His majesty has tasked them withwaging his war of expansion, and protecting the royaladministrators posted at Kaerok Castle. These fearsome knightswill let no soul pass without a royal scroll."
+}

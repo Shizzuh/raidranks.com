@@ -1,0 +1,44 @@
+{
+  "time_start": null,
+  "time_end": null,
+  "active": true,
+  "limit": null,
+  "champion_slug": "erinyes",
+  "name": "Rhazin Scarhide - Erinyes",
+  "slug": "fusion-rhazin-scarhide-erinyes",
+  "ingredients": [
+    {
+      "champion_slug": "raider",
+      "level": 40,
+      "stars": 4,
+      "ascended_stars": 4,
+      "fusion": null,
+      "fusion_slug": null
+    },
+    {
+      "champion_slug": "gnarlhorn",
+      "level": 40,
+      "stars": 4,
+      "ascended_stars": 4,
+      "fusion": null,
+      "fusion_slug": null
+    },
+    {
+      "champion_slug": "valerie",
+      "level": 40,
+      "stars": 4,
+      "ascended_stars": 4,
+      "fusion": null,
+      "fusion_slug": null
+    },
+    {
+      "champion_slug": "wanderer",
+      "level": 40,
+      "stars": 4,
+      "ascended_stars": 4,
+      "fusion": null,
+      "fusion_slug": null
+    }
+  ],
+  "parent_fusion_slug": "fusion-rhazin-scarhide"
+}

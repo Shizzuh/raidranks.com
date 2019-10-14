@@ -1,0 +1,23 @@
+{
+  "name": "Skinwalkers",
+  "slug": "skinwalkers",
+  "website_link": "/factions/skinwalkers/",
+  "image_slug": "image-faction-skinwalkers",
+  "number_of_champions": 19,
+  "default_description": "Skinwalkers is a faction from RAID Shadow Legends composed of 19 champions",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Skinwalkers is a faction from RAID Shadow Legends composed of 18 champions. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "factions",
+      "Skinwalkers",
+      "skinwalkers"
+    ],
+    "structured_data": null
+  },
+  "giid": "",
+  "raw_description": "As told by the tragic legend of Ch'arocah, Skinwalkers once had the power to cast themselves in the form of any man or beast. But after centuries of overuse, these shamans found themselves entrapped as something less than human, but more than animal. Though wild and dangerous, they can sense evil and may act to prevent it"
+}

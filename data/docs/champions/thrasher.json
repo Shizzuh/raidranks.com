@@ -1,0 +1,166 @@
+{
+  "name": "Thrasher",
+  "rarity": "Uncommon",
+  "element": "Spirit",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "thrasher",
+  "characteristics": {
+    "60": {
+      "hp": 11400,
+      "attack": 1156,
+      "defense": 837,
+      "speed": 93,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Gorey Fists",
+      "raw_description": "Attacks 1 enemy.\n\nDamage based on: [ATK]",
+      "slug": "gorey-fists",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3340_s1",
+      "upgrades": [],
+      "image_slug": "8bde8228f1778279e53a914533ab2905",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Thrash",
+      "raw_description": "Attacks 1 enemy. Has a 15% chance of placing a [Block Buffs] debuff for 2 turns.\n\nDamage based on: [ATK]",
+      "slug": "thrash",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/debuffs/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "3340_s2",
+      "upgrades": [],
+      "image_slug": "663eba785baaa6e42145712ba4d2bbe0",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Ogryn Tribes",
+    "slug": "ogryn tribes",
+    "website_link": "/factions/ogryn tribes/",
+    "image_slug": "image-faction-ogryn tribes",
+    "number_of_champions": 27,
+    "default_description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 27 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Ogryn Tribes",
+        "ogryn tribes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Subhuman giants with prodigious bellies and brawn, Ogryns arenonetheless sluggish, dumb brutes prone to servitude. Yet theseterrifying great oafs often prove that brute force and ignorancewill often win the day. Together with the Skinwalkers they controlFelwin's Gate, entry to the Kingdom of Aravia."
+  },
+  "faction_slug": "ogryn tribes",
+  "website_link": "/champions/thrasher/",
+  "image_slug": "image-champion-thrasher",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Thrasher is a uncommon attack champion from the faction Ogryn Tribes doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Thrasher",
+      "thrasher"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Ogryn Tribes"
+        },
+        "description": "Member of the faction Ogryn Tribes, Thrasher is a champion of Uncommon rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-thrasher.jpg",
+        "name": "Thrasher",
+        "url": "https://raid-codex.com/champions/thrasher/"
+      }
+    ]
+  },
+  "default_description": "Thrasher is a uncommon attack champion from the faction Ogryn Tribes doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3340",
+  "synergy": [],
+  "thumbnail": "f471223d1a1614b58a7dc45c9d01df19",
+  "tags": [
+    "NEW_CHAMPION_20190726"
+  ],
+  "masteries": [],
+  "fusion_data": []
+}

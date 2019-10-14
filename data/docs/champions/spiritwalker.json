@@ -1,0 +1,178 @@
+{
+  "name": "Spiritwalker",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "spiritwalker",
+  "characteristics": {
+    "60": {
+      "hp": 10740,
+      "attack": 1288,
+      "defense": 749,
+      "speed": 90,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Cripple",
+      "raw_description": "Attacks 1 enemy 2 times. Each hit has a 20% chance of placing a 25% [Decrease ATK] debuff on the target for 2 turns.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 6 Buff/Debuff Chance +10%",
+      "slug": "cripple",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-atk",
+          "slug": "decrease-atk",
+          "website_link": "/debuffs/decrease-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "810_s1",
+      "upgrades": [],
+      "image_slug": "ebe9bcae1b00598151b5a42c4a56144d",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Battle Trance",
+      "raw_description": "Removes all debuffs from this Champion. Places a 25% [Increase ATK] buff on all allies for 2 turns.\n\nLvl. 2 Cooldown -1\n\nLvl. 3 Cooldown -1",
+      "slug": "battle-trance",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase ATK",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-atk",
+          "slug": "increase-atk",
+          "website_link": "/buffs/increase-atk",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "810_s2",
+      "upgrades": [],
+      "image_slug": "cbd16bc218ee7d1650938fde6df295a6",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 32,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 32 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands."
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/spiritwalker/",
+  "image_slug": "image-champion-spiritwalker",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Spiritwalker is a uncommon assist champion from the faction Barbarians. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Spiritwalker",
+      "spiritwalker"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, Spiritwalker is a champion of Uncommon rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-spiritwalker.jpg",
+        "name": "Spiritwalker",
+        "url": "https://raid-codex.com/champions/spiritwalker/"
+      }
+    ]
+  },
+  "default_description": "Spiritwalker is a uncommon assist champion from the faction Barbarians",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "810",
+  "synergy": [],
+  "thumbnail": "b6edc1cd1f36e45daf6d7824d7bb2283",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

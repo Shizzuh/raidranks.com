@@ -1,0 +1,193 @@
+{
+  "name": "High Khatun",
+  "rarity": "Epic",
+  "element": "Spirit",
+  "type": "Assist",
+  "guide_video_id": "4FAlhHWSUdQ",
+  "rating": {
+    "overall": "B",
+    "campaign": "B",
+    "arena_offense": "A",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "C",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "B",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "B",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "B",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "high-khatun",
+  "characteristics": {
+    "60": {
+      "hp": 16350,
+      "attack": 1024,
+      "defense": 1189,
+      "speed": 104,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally SPD in all Battles by 19%",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Imperial Grace",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 30% [Decrease SPD] debuff for 2 turns",
+      "slug": "imperial-grace",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd-2",
+          "slug": "decrease-spd-2",
+          "website_link": "/debuffs/decrease-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4010_s1",
+      "upgrades": [],
+      "image_slug": "5a5b8f1660a930b03baea38256eb78f8",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Rally the Horde",
+      "raw_description": "Fills the Turn Meters of all allies by 15% and places a 30% [Increase SPD] buff on all allies for 2 turns",
+      "slug": "rally-the-horde",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Increase SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-increase-spd-2",
+          "slug": "increase-spd-2",
+          "website_link": "/buffs/increase-spd",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "4010_s2",
+      "upgrades": [],
+      "image_slug": "01efd3d4ac89c108a5abaab8634d6d57",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Shamanic Lightning",
+      "raw_description": "Attacks all enemies. Has a 50% chance of decreasing the Turn Meter by 15%",
+      "slug": "shamanic-lightning",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "4010_s3",
+      "upgrades": [],
+      "image_slug": "ca49d90b2763090f029474313bf085c6",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "Barbarians",
+    "slug": "barbarians",
+    "website_link": "/factions/barbarians/",
+    "image_slug": "image-faction-barbarians",
+    "number_of_champions": 32,
+    "default_description": "Barbarians is a faction from RAID Shadow Legends composed of 32 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Barbarians is a faction from RAID Shadow Legends composed of 27 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Barbarians",
+        "barbarians"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "The Barbarians of Hark'han are opportunists ever eager to offertheir mercenary services to the highest bidder. When theservants of the Corruption first came from the East with theirdragon, they quickly made a pact granting them control of theregion they now patrol as the Deadlands."
+  },
+  "faction_slug": "barbarians",
+  "website_link": "/champions/high-khatun/",
+  "image_slug": "image-champion-high-khatun",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "High Khatun is a epic assist champion from the faction Barbarians doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "High Khatun",
+      "high-khatun"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Barbarians"
+        },
+        "description": "Member of the faction Barbarians, High Khatun is a champion of Epic rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-high-khatun.jpg",
+        "name": "High Khatun",
+        "url": "https://raid-codex.com/champions/high-khatun/"
+      }
+    ]
+  },
+  "default_description": "High Khatun is a epic assist champion from the faction Barbarians doing spirit damage",
+  "recommended_builds": [],
+  "lore": "<p>In ages past, human nomads claimed the lands that spread from the dark groves of the Durham Forest to the plains of Tilshire. Fiercely independent and fiery-tempered, these tribes remained fragmented and mired in infighting for most of their history. Yet, sometimes, a great leader would arise and unite the “horse lords” - as the High Elves would mockingly call their neighbors - under a single banner. Devastating wars of conquest always followed, slowly chipping away at the Elven realm. It was not until the young Kingdom of Kaerok struck an alliance with Aravia that these barbarians were finally defeated and driven into the scorching sands of the Krokhan Desert where they dwell to this day.\n\nThough no longer a mighty nation that they were at the height of their power, the scattered tribes are still a force to be reconned with - and a source of highly-prized mercenaries for Nobles across Teleria. To this day, they cling to their tradition. Tribe chieftains are respectfully referred to as Khan or Khatun, and they are the most successful warriors that tribe has to offer. And the few individuals both fierce and cunning enough to gain control over several tribes? Well, those are bound to be extremely proficient leaders and warlords, whose ability to command free-spirited barbarians and direct them is going to be a useful boon to any force of Champions.</p>",
+  "giid": "4010",
+  "synergy": [],
+  "thumbnail": "6693a7aacb8a2e74c6f5fe91bc39864b",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

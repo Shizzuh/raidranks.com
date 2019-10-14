@@ -1,0 +1,15 @@
+{
+  "effect_type": "debuff",
+  "type": "Stun",
+  "value": 0,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-debuff-stun",
+  "slug": "stun",
+  "website_link": "/debuffs/stun",
+  "extra": false,
+  "raw_description": "The Champion with this debuff is unable to act X Turns. Cooldowns are not refreshed while [Stun] is active.",
+  "places_if": "",
+  "amount": 0
+}

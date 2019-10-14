@@ -1,0 +1,582 @@
+{
+  "name": "Skullcrusher",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Def",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "A",
+    "campaign": "C",
+    "arena_offense": "S",
+    "arena_defense": "S",
+    "clan_boss_without_giant_slayer": "A",
+    "clan_boss_with_giant_slayer": "SS",
+    "ice_guardian": "A",
+    "dragon": "A",
+    "spider": "C",
+    "fire_knight": "A",
+    "minotaur": "B",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "A",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 271,
+    "campaign": 4.3,
+    "arena_offense": 4.7,
+    "arena_defense": 4.9,
+    "clan_boss": 4.7,
+    "ice_guardian": 4.7,
+    "dragon": 4.5,
+    "spider": 3.5,
+    "fire_knight": 4.7,
+    "minotaur": 4.7,
+    "force_dungeon": 4.6,
+    "magic_dungeon": 4.5,
+    "spirit_dungeon": 4.1,
+    "void_dungeon": 4.5
+  },
+  "slug": "skullcrusher",
+  "characteristics": {
+    "60": {
+      "hp": 19320,
+      "attack": 826,
+      "defense": 1189,
+      "speed": 98,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 45,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Smash",
+      "raw_description": "Attacks 1 enemy. Places a 50% [Heal Reduction] debuff if the target's DEF is lower than this Champion's.\n\nDamage based on: [DEF]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +5%",
+      "slug": "smash",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Heal Reduction",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-heal-reduction",
+          "slug": "heal-reduction",
+          "website_link": "/debuffs/heal-reduction",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "DEF"
+      ],
+      "giid": "650_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Target DEF Lower",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Target DEF Lower",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Target DEF Lower",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Target DEF Lower",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Heal Reduction",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-heal-reduction",
+              "slug": "heal-reduction",
+              "website_link": "/debuffs/heal-reduction",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Target DEF Lower",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        }
+      ],
+      "image_slug": "a2ee5023675e0655b0a053d2d94061d1",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Stonewall",
+      "raw_description": "Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Places a [Counterattack] buff on all allies except this Champion for 2 turns. Places an [Unkillable] buff on this Champion\n\nLvl. 2 Cooldown -1",
+      "slug": "stonewall",
+      "effects": [
+        {
+          "effect_type": "buff",
+          "type": "Ally Protection",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-ally-protection-2",
+          "slug": "ally-protection-2",
+          "website_link": "/buffs/ally-protection",
+          "extra": true,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Counterattack",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-counterattack",
+          "slug": "counterattack",
+          "website_link": "/buffs/counterattack",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        },
+        {
+          "effect_type": "buff",
+          "type": "Unkillable",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-buff-unkillable",
+          "slug": "unkillable",
+          "website_link": "/buffs/unkillable",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "650_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 0,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Unkillable",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-unkillable",
+              "slug": "unkillable",
+              "website_link": "/debuffs/unkillable",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Counterattack",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "other allys",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-counterattack",
+              "slug": "counterattack",
+              "website_link": "/debuffs/counterattack",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Ally Protection",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all other ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-ally-protection",
+              "slug": "ally-protection",
+              "website_link": "/debuffs/ally-protection",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 4,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 0,
+          "target": {
+            "who": "ally",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Unkillable",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-unkillable",
+              "slug": "unkillable",
+              "website_link": "/debuffs/unkillable",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Counterattack",
+              "value": 0,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "other allys",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-counterattack",
+              "slug": "counterattack",
+              "website_link": "/debuffs/counterattack",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "Ally Protection",
+              "value": 0.5,
+              "chance": 0,
+              "turns": 2,
+              "target": {
+                "who": "all other ally",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-ally-protection",
+              "slug": "ally-protection",
+              "website_link": "/debuffs/ally-protection",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 3,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "6b948f8b03f453611da17d8683fff17a",
+      "skill_number": "A2"
+    },
+    {
+      "passive": true,
+      "name": "Unshakeable",
+      "raw_description": "Decreases the duration of all debuffs on this Champion by 1 turn. Occurs once per turn.",
+      "slug": "unshakeable",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "650_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "self",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Decrease All Buffs",
+              "value": 0,
+              "chance": 0,
+              "turns": 1,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-decrease-all-buffs",
+              "slug": "decrease-all-buffs",
+              "website_link": "/battle_enhancements/decrease-all-buffs",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "-"
+        }
+      ],
+      "image_slug": "c36dbca3e62a03b5a333fc7a3c543b16",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Ogryn Tribes",
+    "slug": "ogryn tribes",
+    "website_link": "/factions/ogryn tribes/",
+    "image_slug": "image-faction-ogryn tribes",
+    "number_of_champions": 27,
+    "default_description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 27 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Ogryn Tribes",
+        "ogryn tribes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Subhuman giants with prodigious bellies and brawn, Ogryns arenonetheless sluggish, dumb brutes prone to servitude. Yet theseterrifying great oafs often prove that brute force and ignorancewill often win the day. Together with the Skinwalkers they controlFelwin's Gate, entry to the Kingdom of Aravia."
+  },
+  "faction_slug": "ogryn tribes",
+  "website_link": "/champions/skullcrusher/",
+  "image_slug": "image-champion-skullcrusher",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Skullcrusher is a epic def champion from the faction Ogryn Tribes doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Skullcrusher",
+      "skullcrusher"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Ogryn Tribes"
+        },
+        "description": "Member of the faction Ogryn Tribes, Skullcrusher is a champion of Epic rarity and of Def type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-skullcrusher.jpg",
+        "name": "Skullcrusher",
+        "url": "https://raid-codex.com/champions/skullcrusher/"
+      }
+    ]
+  },
+  "default_description": "Skullcrusher is a epic def champion from the faction Ogryn Tribes doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "650",
+  "synergy": [
+    {
+      "context": {
+        "key": "poison-counterattack"
+      },
+      "champions": [
+        "warmaiden",
+        "zavia",
+        "kael",
+        "eviscerator",
+        "prince-kymar",
+        "erinyes",
+        "luthiea",
+        "marksman",
+        "occult-brawler",
+        "brute",
+        "totem",
+        "tracker",
+        "venus",
+        "cardinal",
+        "steelskull",
+        "yaga-the-insatiable",
+        "taurus",
+        "bloodpainter",
+        "nethril",
+        "karam",
+        "hollow"
+      ]
+    }
+  ],
+  "thumbnail": "884d247c6f65a96a7da4d1105d584ddd",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

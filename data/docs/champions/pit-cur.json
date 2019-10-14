@@ -1,0 +1,176 @@
+{
+  "name": "Pit Cur",
+  "rarity": "Uncommon",
+  "element": "Force",
+  "type": "HP",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "pit-cur",
+  "characteristics": {
+    "60": {
+      "hp": 15690,
+      "attack": 826,
+      "defense": 881,
+      "speed": 91,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Hamstring Bite",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a 15% [Decrease SPD] debuff for 2 turns",
+      "slug": "hamstring-bite",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd",
+          "slug": "decrease-spd",
+          "website_link": "/debuffs/decrease-spd",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3080_s1",
+      "upgrades": [],
+      "image_slug": "eec2fba8f74a05134ba61ffc425573e6",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Rabid Infection",
+      "raw_description": "Attacks all enemies. Has a 25% chance of placing a [Provoke] debuff for 1 turn",
+      "slug": "rabid-infection",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3080_s2",
+      "upgrades": [],
+      "image_slug": "8de9021fc6d0ae4e6909b768dc51ffe3",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 28,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Beyond the dark portal lies a realm of fire and darkness. It is thehome of ancient beings born of darkness. Forbidden fromsetting foot in the fair lands of Teleria, these foul entities haveconspired with Necromancers to breed Demonspawn - unholyunions of Demon and mortal"
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/pit-cur/",
+  "image_slug": "image-champion-pit-cur",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Pit Cur is a uncommon hp champion from the faction Demonspawn doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Pit Cur",
+      "pit-cur"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Pit Cur is a champion of Uncommon rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-pit-cur.jpg",
+        "name": "Pit Cur",
+        "url": "https://raid-codex.com/champions/pit-cur/"
+      }
+    ]
+  },
+  "default_description": "Pit Cur is a uncommon hp champion from the faction Demonspawn doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "3080",
+  "synergy": [],
+  "thumbnail": "a9986cb066812f440bc2bb6e3c13696c",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

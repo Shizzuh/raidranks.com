@@ -1,0 +1,1103 @@
+[
+  {
+    "time_start": null,
+    "time_end": null,
+    "active": true,
+    "limit": 1,
+    "champion_slug": "broadmaw",
+    "name": "Broadmaw",
+    "slug": "fusion-broadmaw",
+    "ingredients": [
+      {
+        "champion_slug": "arbalester",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": {
+          "time_start": null,
+          "time_end": null,
+          "active": true,
+          "limit": null,
+          "champion_slug": "arbalester",
+          "name": "Broadmaw - Arbalester",
+          "slug": "fusion-broadmaw-arbalester",
+          "ingredients": [
+            {
+              "champion_slug": "arbalester",
+              "level": 30,
+              "stars": 3,
+              "ascended_stars": 3,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "commander",
+              "level": 30,
+              "stars": 3,
+              "ascended_stars": 3,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "dhampir",
+              "level": 30,
+              "stars": 3,
+              "ascended_stars": 3,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "satyr",
+              "level": 30,
+              "stars": 3,
+              "ascended_stars": 3,
+              "fusion": null,
+              "fusion_slug": null
+            }
+          ],
+          "parent_fusion_slug": "fusion-broadmaw"
+        },
+        "fusion_slug": "fusion-broadmaw-arbalester"
+      },
+      {
+        "champion_slug": "stoneskin",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": {
+          "time_start": null,
+          "time_end": null,
+          "active": true,
+          "limit": null,
+          "champion_slug": "stoneskin",
+          "name": "Broadmaw - Stoneskin",
+          "slug": "fusion-broadmaw-stoneskin",
+          "ingredients": [
+            {
+              "champion_slug": "brute",
+              "level": 30,
+              "stars": 3,
+              "ascended_stars": 3,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "jaeger",
+              "level": 30,
+              "stars": 3,
+              "ascended_stars": 3,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "warchanter",
+              "level": 30,
+              "stars": 3,
+              "ascended_stars": 3,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "militia",
+              "level": 30,
+              "stars": 3,
+              "ascended_stars": 3,
+              "fusion": null,
+              "fusion_slug": null
+            }
+          ],
+          "parent_fusion_slug": "fusion-broadmaw"
+        },
+        "fusion_slug": "fusion-broadmaw-stoneskin"
+      },
+      {
+        "champion_slug": "huntress",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "bloodhorn",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      }
+    ],
+    "parent_fusion_slug": null
+  },
+  {
+    "time_start": null,
+    "time_end": null,
+    "active": true,
+    "limit": null,
+    "champion_slug": "arbalester",
+    "name": "Broadmaw - Arbalester",
+    "slug": "fusion-broadmaw-arbalester",
+    "ingredients": [
+      {
+        "champion_slug": "arbalester",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "commander",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "dhampir",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "satyr",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      }
+    ],
+    "parent_fusion_slug": "fusion-broadmaw"
+  },
+  {
+    "time_start": null,
+    "time_end": null,
+    "active": true,
+    "limit": null,
+    "champion_slug": "stoneskin",
+    "name": "Broadmaw - Stoneskin",
+    "slug": "fusion-broadmaw-stoneskin",
+    "ingredients": [
+      {
+        "champion_slug": "brute",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "jaeger",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "warchanter",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "militia",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      }
+    ],
+    "parent_fusion_slug": "fusion-broadmaw"
+  },
+  {
+    "time_start": "2019-07-05T00:00:00Z",
+    "time_end": "2019-07-27T00:00:00Z",
+    "active": false,
+    "limit": 1,
+    "champion_slug": "foli",
+    "name": "Foli",
+    "slug": "fusion-foli",
+    "ingredients": [
+      {
+        "champion_slug": "towering-titan",
+        "level": 50,
+        "stars": 5,
+        "ascended_stars": 5,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "teshada",
+        "level": 50,
+        "stars": 5,
+        "ascended_stars": 5,
+        "fusion": {
+          "time_start": "2019-07-05T00:00:00Z",
+          "time_end": "2019-07-27T00:00:00Z",
+          "active": false,
+          "limit": null,
+          "champion_slug": "teshada",
+          "name": "Foli - Teshada",
+          "slug": "fusion-foli-teshada",
+          "ingredients": [
+            {
+              "champion_slug": "hungerer",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "rotting-mage",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "aristocrat",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "tracker",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            }
+          ],
+          "parent_fusion_slug": "fusion-foli"
+        },
+        "fusion_slug": "fusion-foli-teshada"
+      },
+      {
+        "champion_slug": "missionary",
+        "level": 50,
+        "stars": 5,
+        "ascended_stars": 5,
+        "fusion": {
+          "time_start": "2019-07-05T00:00:00Z",
+          "time_end": "2019-07-27T00:00:00Z",
+          "active": false,
+          "limit": null,
+          "champion_slug": "missionary",
+          "name": "Foli - Missionary",
+          "slug": "fusion-foli-missionary",
+          "ingredients": [
+            {
+              "champion_slug": "eviscerator",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "centurion",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "treefeller",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "zephyr-sniper",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            }
+          ],
+          "parent_fusion_slug": "fusion-foli"
+        },
+        "fusion_slug": "fusion-foli-missionary"
+      },
+      {
+        "champion_slug": "kytis",
+        "level": 50,
+        "stars": 5,
+        "ascended_stars": 5,
+        "fusion": {
+          "time_start": "2019-07-05T00:00:00Z",
+          "time_end": "2019-07-27T00:00:00Z",
+          "active": false,
+          "limit": null,
+          "champion_slug": "kytis",
+          "name": "Foli - Kytis",
+          "slug": "fusion-foli-kytis",
+          "ingredients": [
+            {
+              "champion_slug": "interceptor",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "witness",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "steel-bowyer",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "fortress-goon",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            }
+          ],
+          "parent_fusion_slug": "fusion-foli"
+        },
+        "fusion_slug": "fusion-foli-kytis"
+      }
+    ],
+    "parent_fusion_slug": null
+  },
+  {
+    "time_start": "2019-07-05T00:00:00Z",
+    "time_end": "2019-07-27T00:00:00Z",
+    "active": false,
+    "limit": null,
+    "champion_slug": "kytis",
+    "name": "Foli - Kytis",
+    "slug": "fusion-foli-kytis",
+    "ingredients": [
+      {
+        "champion_slug": "interceptor",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "witness",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "steel-bowyer",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "fortress-goon",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      }
+    ],
+    "parent_fusion_slug": "fusion-foli"
+  },
+  {
+    "time_start": "2019-07-05T00:00:00Z",
+    "time_end": "2019-07-27T00:00:00Z",
+    "active": false,
+    "limit": null,
+    "champion_slug": "missionary",
+    "name": "Foli - Missionary",
+    "slug": "fusion-foli-missionary",
+    "ingredients": [
+      {
+        "champion_slug": "eviscerator",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "centurion",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "treefeller",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "zephyr-sniper",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      }
+    ],
+    "parent_fusion_slug": "fusion-foli"
+  },
+  {
+    "time_start": "2019-07-05T00:00:00Z",
+    "time_end": "2019-07-27T00:00:00Z",
+    "active": false,
+    "limit": null,
+    "champion_slug": "teshada",
+    "name": "Foli - Teshada",
+    "slug": "fusion-foli-teshada",
+    "ingredients": [
+      {
+        "champion_slug": "hungerer",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "rotting-mage",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "aristocrat",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "tracker",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      }
+    ],
+    "parent_fusion_slug": "fusion-foli"
+  },
+  {
+    "time_start": null,
+    "time_end": null,
+    "active": true,
+    "limit": null,
+    "champion_slug": "relickeeper",
+    "name": "Relickeeper",
+    "slug": "fusion-relickeeper",
+    "ingredients": [
+      {
+        "champion_slug": "justiciar",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": {
+          "time_start": null,
+          "time_end": null,
+          "active": true,
+          "limit": null,
+          "champion_slug": "justiciar",
+          "name": "Relickeeper - Justiciar",
+          "slug": "fusion-relickeeper-justiciar",
+          "ingredients": [
+            {
+              "champion_slug": "warmaiden",
+              "level": 30,
+              "stars": 3,
+              "ascended_stars": 3,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "diabolist",
+              "level": 30,
+              "stars": 3,
+              "ascended_stars": 3,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "spirithost",
+              "level": 30,
+              "stars": 3,
+              "ascended_stars": 3,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "heiress",
+              "level": 30,
+              "stars": 3,
+              "ascended_stars": 3,
+              "fusion": null,
+              "fusion_slug": null
+            }
+          ],
+          "parent_fusion_slug": "fusion-relickeeper"
+        },
+        "fusion_slug": "fusion-relickeeper-justiciar"
+      },
+      {
+        "champion_slug": "templar",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "executioner",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "sorceress",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      }
+    ],
+    "parent_fusion_slug": null
+  },
+  {
+    "time_start": null,
+    "time_end": null,
+    "active": true,
+    "limit": null,
+    "champion_slug": "justiciar",
+    "name": "Relickeeper - Justiciar",
+    "slug": "fusion-relickeeper-justiciar",
+    "ingredients": [
+      {
+        "champion_slug": "warmaiden",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "diabolist",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "spirithost",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "heiress",
+        "level": 30,
+        "stars": 3,
+        "ascended_stars": 3,
+        "fusion": null,
+        "fusion_slug": null
+      }
+    ],
+    "parent_fusion_slug": "fusion-relickeeper"
+  },
+  {
+    "time_start": null,
+    "time_end": null,
+    "active": true,
+    "limit": 1,
+    "champion_slug": "rhazin-scarhide",
+    "name": "Razhin Scarhide",
+    "slug": "fusion-rhazin-scarhide",
+    "ingredients": [
+      {
+        "champion_slug": "lich",
+        "level": 50,
+        "stars": 5,
+        "ascended_stars": 5,
+        "fusion": {
+          "time_start": null,
+          "time_end": null,
+          "active": true,
+          "limit": null,
+          "champion_slug": "lich",
+          "name": "Rhazin Scarhide - Lich",
+          "slug": "fusion-rhazin-scarhide-lich",
+          "ingredients": [
+            {
+              "champion_slug": "magus",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "marked",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "rocktooth",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "penitent",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            }
+          ],
+          "parent_fusion_slug": "fusion-rhazin-scarhide"
+        },
+        "fusion_slug": "fusion-rhazin-scarhide-lich"
+      },
+      {
+        "champion_slug": "erinyes",
+        "level": 50,
+        "stars": 5,
+        "ascended_stars": 5,
+        "fusion": {
+          "time_start": null,
+          "time_end": null,
+          "active": true,
+          "limit": null,
+          "champion_slug": "erinyes",
+          "name": "Rhazin Scarhide - Erinyes",
+          "slug": "fusion-rhazin-scarhide-erinyes",
+          "ingredients": [
+            {
+              "champion_slug": "raider",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "gnarlhorn",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "valerie",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "wanderer",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            }
+          ],
+          "parent_fusion_slug": "fusion-rhazin-scarhide"
+        },
+        "fusion_slug": "fusion-rhazin-scarhide-erinyes"
+      },
+      {
+        "champion_slug": "bloodfeather",
+        "level": 50,
+        "stars": 5,
+        "ascended_stars": 5,
+        "fusion": {
+          "time_start": null,
+          "time_end": null,
+          "active": true,
+          "limit": null,
+          "champion_slug": "bloodfeather",
+          "name": "Rhazin Scarhide - Bloodfeather",
+          "slug": "fusion-rhazin-scarhide-bloodfeather",
+          "ingredients": [
+            {
+              "champion_slug": "slitherbrute",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "goremask",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "preserver",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "channeler",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            }
+          ],
+          "parent_fusion_slug": "fusion-rhazin-scarhide"
+        },
+        "fusion_slug": "fusion-rhazin-scarhide-bloodfeather"
+      },
+      {
+        "champion_slug": "torturehelm",
+        "level": 50,
+        "stars": 5,
+        "ascended_stars": 5,
+        "fusion": {
+          "time_start": null,
+          "time_end": null,
+          "active": true,
+          "limit": null,
+          "champion_slug": "torturehelm",
+          "name": "Rhazin Scarhide - Torturehelm",
+          "slug": "fusion-rhazin-scarhide-torturehelm",
+          "ingredients": [
+            {
+              "champion_slug": "skullsworn",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "halberdier",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "spikehead",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            },
+            {
+              "champion_slug": "theurgist",
+              "level": 40,
+              "stars": 4,
+              "ascended_stars": 4,
+              "fusion": null,
+              "fusion_slug": null
+            }
+          ],
+          "parent_fusion_slug": "fusion-rhazin-scarhide"
+        },
+        "fusion_slug": "fusion-rhazin-scarhide-torturehelm"
+      }
+    ],
+    "parent_fusion_slug": null
+  },
+  {
+    "time_start": null,
+    "time_end": null,
+    "active": true,
+    "limit": null,
+    "champion_slug": "bloodfeather",
+    "name": "Rhazin Scarhide - Bloodfeather",
+    "slug": "fusion-rhazin-scarhide-bloodfeather",
+    "ingredients": [
+      {
+        "champion_slug": "slitherbrute",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "goremask",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "preserver",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "channeler",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      }
+    ],
+    "parent_fusion_slug": "fusion-rhazin-scarhide"
+  },
+  {
+    "time_start": null,
+    "time_end": null,
+    "active": true,
+    "limit": null,
+    "champion_slug": "erinyes",
+    "name": "Rhazin Scarhide - Erinyes",
+    "slug": "fusion-rhazin-scarhide-erinyes",
+    "ingredients": [
+      {
+        "champion_slug": "raider",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "gnarlhorn",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "valerie",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "wanderer",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      }
+    ],
+    "parent_fusion_slug": "fusion-rhazin-scarhide"
+  },
+  {
+    "time_start": null,
+    "time_end": null,
+    "active": true,
+    "limit": null,
+    "champion_slug": "lich",
+    "name": "Rhazin Scarhide - Lich",
+    "slug": "fusion-rhazin-scarhide-lich",
+    "ingredients": [
+      {
+        "champion_slug": "magus",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "marked",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "rocktooth",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "penitent",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      }
+    ],
+    "parent_fusion_slug": "fusion-rhazin-scarhide"
+  },
+  {
+    "time_start": null,
+    "time_end": null,
+    "active": true,
+    "limit": null,
+    "champion_slug": "torturehelm",
+    "name": "Rhazin Scarhide - Torturehelm",
+    "slug": "fusion-rhazin-scarhide-torturehelm",
+    "ingredients": [
+      {
+        "champion_slug": "skullsworn",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "halberdier",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "spikehead",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "theurgist",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      }
+    ],
+    "parent_fusion_slug": "fusion-rhazin-scarhide"
+  },
+  {
+    "time_start": "2019-08-26T00:00:00Z",
+    "time_end": "2019-09-09T00:00:00Z",
+    "active": true,
+    "limit": 1,
+    "champion_slug": "sikara",
+    "name": "Sikara",
+    "slug": "fusion-sikara",
+    "ingredients": [
+      {
+        "champion_slug": "stitched-beast",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "amarantine-skeleton",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "grumbler",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      },
+      {
+        "champion_slug": "honor-guard",
+        "level": 40,
+        "stars": 4,
+        "ascended_stars": 4,
+        "fusion": null,
+        "fusion_slug": null
+      }
+    ],
+    "parent_fusion_slug": null
+  },
+  {
+    "time_start": "2019-03-01T00:00:00Z",
+    "time_end": "2019-03-01T00:00:00Z",
+    "active": false,
+    "limit": null,
+    "champion_slug": "sir-nicholas",
+    "name": "Sir Nicholas",
+    "slug": "fusion-sir-nicholas",
+    "ingredients": [],
+    "parent_fusion_slug": null
+  }
+]

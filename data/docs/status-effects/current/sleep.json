@@ -1,0 +1,15 @@
+{
+  "effect_type": "debuff",
+  "type": "Sleep",
+  "value": 0,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-debuff-sleep",
+  "slug": "sleep",
+  "website_link": "/debuffs/sleep",
+  "extra": false,
+  "raw_description": "The Champion with this debuff is unable to act X Turns. Cooldowns are not refreshed while [Sleep] is active. Continuous Heal and Poison Effect work as normal while the Champion is debuffed with [Sleep], so do any Passive Skills that heal the Champion. Any incoming damage that the Champion receives automatically removes [Sleep].",
+  "places_if": "",
+  "amount": 0
+}

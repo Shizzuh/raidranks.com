@@ -1,0 +1,15 @@
+{
+  "effect_type": "debuff",
+  "type": "Freeze",
+  "value": 0,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-debuff-freeze",
+  "slug": "freeze",
+  "website_link": "/debuffs/freeze",
+  "extra": false,
+  "raw_description": "The Champion with this debuff is unable to act X Turns. Cooldowns are not refreshed while [Freeze] is active. The Champion only receives 75% of incoming damage.",
+  "places_if": "",
+  "amount": 0
+}

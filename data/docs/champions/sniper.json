@@ -1,0 +1,164 @@
+{
+  "name": "Sniper",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "sniper",
+  "characteristics": {
+    "60": {
+      "hp": 12555,
+      "attack": 1211,
+      "defense": 705,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.57,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Double Shot",
+      "raw_description": "Attacks 1 enemy 2 times. Has an extra 15% chance of inflicting a critical hit. Fills this Champion's Turn Meter by 15% on each critical hit.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +5%\n\nLvl. 5 Damage +10%",
+      "slug": "double-shot",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2120_s1",
+      "upgrades": [],
+      "image_slug": "41826f0565650ffe571336883b464b4d",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Rain of Arrows",
+      "raw_description": "Attacks all enemies 2 times. Has a 10% chance of placing a 15% [Decrease SPD] debuff for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Cooldown -1\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Damage +10%\n\nLvl. 6 Buff/Debuff Chance +5%\n\nLvl. 7 Damage +15%\n\nLvl. 8 Buff/Debuff Chance +5%",
+      "slug": "rain-of-arrows",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease SPD",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-spd",
+          "slug": "decrease-spd",
+          "website_link": "/debuffs/decrease-spd",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2120_s2",
+      "upgrades": [],
+      "image_slug": "491ab4e410134c313ecaefb8d76c7246",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Dark Elves",
+    "slug": "dark-elves",
+    "website_link": "/factions/dark-elves/",
+    "image_slug": "image-faction-dark-elves",
+    "number_of_champions": 33,
+    "default_description": "Dark Elves is a faction from RAID Shadow Legends composed of 33 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dark Elves is a faction from RAID Shadow Legends composed of 30 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dark Elves",
+        "dark-elves"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Fallen from grace in their homelands of Aravia, the Dark Elves inhabit the forests that border the realms of Teleria. They see persecutions in Kaerok rather as a boon than a bane supplying them with a stream of silver. They have set up tolls for those anxious to pass safely, but woe betide those who cannot pay."
+  },
+  "faction_slug": "dark-elves",
+  "website_link": "/champions/sniper/",
+  "image_slug": "image-champion-sniper",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Sniper is a uncommon attack champion from the faction Dark Elves. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Sniper",
+      "sniper"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dark Elves"
+        },
+        "description": "Member of the faction Dark Elves, Sniper is a champion of Uncommon rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-sniper.jpg",
+        "name": "Sniper",
+        "url": "https://raid-codex.com/champions/sniper/"
+      }
+    ]
+  },
+  "default_description": "Sniper is a uncommon attack champion from the faction Dark Elves",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "2120",
+  "synergy": [],
+  "thumbnail": "44cd7a8f7f9f85129b9953950665064d",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

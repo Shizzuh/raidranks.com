@@ -1,0 +1,162 @@
+{
+  "name": "Frostskin",
+  "rarity": "Uncommon",
+  "element": "",
+  "type": "Assist",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "frostskin",
+  "characteristics": {
+    "60": {
+      "hp": 14865,
+      "attack": 1046,
+      "defense": 705,
+      "speed": 96,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Frozen Fists",
+      "raw_description": "Attacks 1 enemy. Has a 20% chance of placing a [Freeze] debuff for 1 turn.\n\nDamage based on: [ATK]\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Buff/Debuff Chance +5%\n\nLvl. 5 Buff/Debuff Chance +5%",
+      "slug": "frozen-fists",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Freeze",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-freeze",
+          "slug": "freeze",
+          "website_link": "/debuffs/freeze",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "2830_s1",
+      "upgrades": [],
+      "image_slug": "c7a5fcbcb0453e6ee0798ee5706c46e2",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Sap Strength",
+      "raw_description": "Fully depletes a target ally’s Turn Meter. Heals that ally equal to 50% of the lost Turn Meter. Heals the target by 10% if their Turn Meter is less than 10% full.\n\nLvl. 2 Heal +10%\n\nLvl. 3 Heal +10%\n\nLvl. 4 Cooldown -1",
+      "slug": "sap-strength",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "2830_s2",
+      "upgrades": [],
+      "image_slug": "5c6112ba8865d00208309b794f130fab",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Ogryn Tribes",
+    "slug": "ogryn tribes",
+    "website_link": "/factions/ogryn tribes/",
+    "image_slug": "image-faction-ogryn tribes",
+    "number_of_champions": 27,
+    "default_description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 27 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Ogryn Tribes is a faction from RAID Shadow Legends composed of 25 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Ogryn Tribes",
+        "ogryn tribes"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Subhuman giants with prodigious bellies and brawn, Ogryns arenonetheless sluggish, dumb brutes prone to servitude. Yet theseterrifying great oafs often prove that brute force and ignorancewill often win the day. Together with the Skinwalkers they controlFelwin's Gate, entry to the Kingdom of Aravia."
+  },
+  "faction_slug": "ogryn tribes",
+  "website_link": "/champions/frostskin/",
+  "image_slug": "image-champion-frostskin",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Frostskin is a uncommon assist champion from the faction Ogryn Tribes. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Frostskin",
+      "frostskin"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Ogryn Tribes"
+        },
+        "description": "Member of the faction Ogryn Tribes, Frostskin is a champion of Uncommon rarity and of Assist type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-frostskin.jpg",
+        "name": "Frostskin",
+        "url": "https://raid-codex.com/champions/frostskin/"
+      }
+    ]
+  },
+  "default_description": "Frostskin is a uncommon assist champion from the faction Ogryn Tribes",
+  "recommended_builds": [],
+  "lore": "<p>Commonly known as Frostskins, these ice trolls dwell in the snowy mountains and ice-covered plains of Telerian North. Yet as the Shadow grows and its corruption spreads across the land, many of them are forced to abandon their cavernous homes and either join their kin to form tribes or roaming bands, or seek to survive on their own.</p><p>The magic that flows through their veins does have visible effects, allowing Frostskins to chill anything they touch - often turning their foes to ice. But they are also capable of using that same magic to heal injuries, should they choose to, even if the process is as slow as the change of seasons in their frozen homeland.</p>",
+  "giid": "2830",
+  "synergy": [],
+  "thumbnail": "0738069b244a1c43c83112b735140a16",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

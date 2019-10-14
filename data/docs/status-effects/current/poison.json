@@ -1,0 +1,15 @@
+{
+  "effect_type": "debuff",
+  "type": "Poison",
+  "value": 0.025,
+  "chance": 0,
+  "turns": 0,
+  "target": null,
+  "image_slug": "image-debuff-poison",
+  "slug": "poison",
+  "website_link": "/debuffs/poison",
+  "extra": false,
+  "raw_description": "Damages the target Champion by 2,5% of their MAX HP at the beginning of their Turn. This damage is not affected by any other effects and only scales in accordance with the Target’s MAX HP. Block Damage blocks it. If the Target Champion has a Shield, Poison damage will be applied to the Shield first.",
+  "places_if": "",
+  "amount": 0
+}

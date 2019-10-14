@@ -1,0 +1,192 @@
+{
+  "name": "Sanctioned Purifier",
+  "rarity": "Epic",
+  "element": "Force",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "C",
+    "campaign": "C",
+    "arena_offense": "B",
+    "arena_defense": "C",
+    "clan_boss_without_giant_slayer": "B",
+    "clan_boss_with_giant_slayer": "C",
+    "ice_guardian": "C",
+    "dragon": "B",
+    "spider": "C",
+    "fire_knight": "C",
+    "minotaur": "B",
+    "force_dungeon": "C",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "C",
+    "void_dungeon": "B"
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "sanctioned-purifier",
+  "characteristics": {
+    "60": {
+      "hp": 13215,
+      "attack": 1387,
+      "defense": 1035,
+      "speed": 99,
+      "critical_rate": 0.15,
+      "critical_damage": 0.6,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Blessed Missiles",
+      "raw_description": "Attacks 1 enemy. Has a 25% chance of placing a [Block Buffs] debuff for 2 turns.\n\nDamage based on: [ATK]",
+      "slug": "blessed-missiles",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Block Buffs",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-block-buffs",
+          "slug": "block-buffs",
+          "website_link": "/debuffs/block-buffs",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4380_s1",
+      "upgrades": [],
+      "image_slug": "0009d70ca3a83a26e2edb13d7eae8232",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Whiplash",
+      "raw_description": "Attacks 1 enemy. Has a 50% chance of placing a [Stun] debuff for 1 turn.\n\nDamage based on: [ATK]",
+      "slug": "whiplash",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Stun",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-stun",
+          "slug": "stun",
+          "website_link": "/debuffs/stun",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4380_s2",
+      "upgrades": [],
+      "image_slug": "31562cd521b19fe8ddb0676e0f087dea",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Fiend Purge",
+      "raw_description": "Attacks 1 enemy with 2 random allies.\n\nDamage inflicted by this Champion and any allies joining this attack will be increased by 10% if the target is under a [Stun] debuff. Allies joining the attack use their default skills",
+      "slug": "fiend-purge",
+      "effects": [],
+      "damaged_based_on": [],
+      "giid": "4380_s3",
+      "upgrades": [],
+      "image_slug": "6ed892ce98a924cc4d4d018927ade88f",
+      "skill_number": "A3"
+    }
+  ],
+  "faction": {
+    "name": "The Sacred Order",
+    "slug": "the sacred order",
+    "website_link": "/factions/sacred-order/",
+    "image_slug": "image-faction-sacred-order",
+    "number_of_champions": 52,
+    "default_description": "Sacred Order is a faction from RAID Shadow Legends composed of 52 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Sacred Order is a faction from RAID Shadow Legends composed of 47 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "The Sacred Order",
+        "the sacred order"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "For centuries the Knights of the Sacred Order were charged with cleansing Teleria of evil in all its guises. But since the declaration of war, they have sworn allegiance to the Queen of Aravia. In league with the Queen's Necromancer, these once-holy knights now enforce her Majesty's will and guard her chattel."
+  },
+  "faction_slug": "the sacred order",
+  "website_link": "/champions/sanctioned-purifier/",
+  "image_slug": "image-champion-sanctioned-purifier",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Sanctioned Purifier is a epic attack champion from the faction Sacred Order doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Sanctioned Purifier",
+      "sanctioned-purifier"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "The Sacred Order"
+        },
+        "description": "Member of the faction Sacred Order, Sanctioned Purifier is a champion of Epic rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-sanctioned-purifier.jpg",
+        "name": "Sanctioned Purifier",
+        "url": "https://raid-codex.com/champions/sanctioned-purifier/"
+      }
+    ]
+  },
+  "default_description": "Sanctioned Purifier is a epic attack champion from the faction Sacred Order doing force damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "4380",
+  "synergy": [],
+  "thumbnail": "2b1905b5d4641830901acf76c957cfb1",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

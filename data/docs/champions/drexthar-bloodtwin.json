@@ -1,0 +1,742 @@
+{
+  "name": "Drexthar Bloodtwin",
+  "rarity": "Legendary",
+  "element": "Force",
+  "type": "Def",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "S",
+    "campaign": "A",
+    "arena_offense": "S",
+    "arena_defense": "A",
+    "clan_boss_without_giant_slayer": "S",
+    "clan_boss_with_giant_slayer": "S",
+    "ice_guardian": "A",
+    "dragon": "S",
+    "spider": "B",
+    "fire_knight": "A",
+    "minotaur": "S",
+    "force_dungeon": "B",
+    "magic_dungeon": "B",
+    "spirit_dungeon": "A",
+    "void_dungeon": "A"
+  },
+  "reviews": {
+    "amount": 118,
+    "campaign": 4.9,
+    "arena_offense": 4.6,
+    "arena_defense": 4.6,
+    "clan_boss": 5,
+    "ice_guardian": 5,
+    "dragon": 4.9,
+    "spider": 4.7,
+    "fire_knight": 5,
+    "minotaur": 5,
+    "force_dungeon": 4.9,
+    "magic_dungeon": 4.8,
+    "spirit_dungeon": 4.7,
+    "void_dungeon": 4.9
+  },
+  "slug": "drexthar-bloodtwin",
+  "characteristics": {
+    "60": {
+      "hp": 18990,
+      "attack": 914,
+      "defense": 1398,
+      "speed": 97,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 50,
+      "accuracy": 10
+    }
+  },
+  "auras": [
+    {
+      "raw_description": "Increases Ally ACC in all Battles by 70.",
+      "effects": []
+    }
+  ],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Eldritch Flames",
+      "raw_description": "Attacks 1 enemy 3 times. Has a 30% chance of placing an [HP Burn] for 2 turns. Heals this Champion by 20% of the damage inflicted if the target is afflicted by a [HP Burn] debuff.\n\nLvl. 2 Damage +5%\n\nLvl. 3 Damage +5%\n\nLvl. 4 Damage +10%",
+      "slug": "eldritch-flames",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/debuffs/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3170_s1",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/battle_enhancements/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "HP Burn",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF",
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/battle_enhancements/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "HP Burn",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF",
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/battle_enhancements/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "HP Burn",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF",
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 3,
+          "target": {
+            "who": "enemy",
+            "targets": "1"
+          },
+          "effects": [
+            {
+              "effect_type": "battle_enhancement",
+              "type": "Heal per DMG",
+              "value": 0.2,
+              "chance": 0,
+              "turns": 0,
+              "target": {
+                "who": "self",
+                "targets": ""
+              },
+              "image_slug": "image-battle-enhancement-heal-per-dmg",
+              "slug": "heal-per-dmg",
+              "website_link": "/battle_enhancements/heal-per-dmg",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "HP Burn",
+              "amount": 1
+            },
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.3,
+              "turns": 2,
+              "target": {
+                "who": "target",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF",
+            "ATK"
+          ],
+          "cooldown": 0,
+          "raw_detail": "Damage +10%"
+        }
+      ],
+      "image_slug": "a3b57f41e2d13d7b7dc4bd9427a045dc",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Burning Lash",
+      "raw_description": "Attacks all enemies. Has a 40% chance of placing a [Provoke] debuff for 1 turn.\n\nLvl. 2 Damage +5%\n\nLvl. 3 Buff/Debuff Chance +10%\n\nLvl. 4 Damage +10%\n\nLvl. 5 Buff/Debuff Chance +10%\n\nLvl. 6 Cooldown -1",
+      "slug": "burning-lash",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Provoke",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-provoke",
+          "slug": "provoke",
+          "website_link": "/debuffs/provoke",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3170_s2",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.4,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.5,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Damage +10%"
+        },
+        {
+          "level": "Level 5",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.6,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 5,
+          "raw_detail": "Chance +10%"
+        },
+        {
+          "level": "Level 6",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "all"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "Provoke",
+              "value": 0,
+              "chance": 0.6,
+              "turns": 1,
+              "target": {
+                "who": "all enemy",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-provoke",
+              "slug": "provoke",
+              "website_link": "/debuffs/provoke",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "-",
+              "amount": 1
+            }
+          ],
+          "based_on": [
+            "DEF"
+          ],
+          "cooldown": 4,
+          "raw_detail": "Cooldown -1"
+        }
+      ],
+      "image_slug": "8e4806198fbe92cce7e2a621fa4aade9",
+      "skill_number": "A2"
+    },
+    {
+      "passive": false,
+      "name": "Fiery Blood (P)",
+      "raw_description": "Has a 55% chance of placing a [HP Burn] debuff when hit.\n\nLvl. 2 Buff/Debuff Chance +5%\n\nLvl. 3 Buff/Debuff Chance +5%\n\nLvl. 4 Buff/Debuff Chance +10%",
+      "slug": "fiery-blood--",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "HP Burn",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-hp-burn",
+          "slug": "hp-burn",
+          "website_link": "/debuffs/hp-burn",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [],
+      "giid": "3170_s3",
+      "upgrades": [
+        {
+          "level": "Level 1",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "-"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.55,
+              "turns": 0,
+              "target": {
+                "who": "attacker",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Hit",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "-"
+        },
+        {
+          "level": "Level 2",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "-"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.6,
+              "turns": 0,
+              "target": {
+                "who": "attacker",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Hit",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 3",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "-"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.65,
+              "turns": 0,
+              "target": {
+                "who": "attacker",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Hit",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "Chance +5%"
+        },
+        {
+          "level": "Level 4",
+          "hits": 1,
+          "target": {
+            "who": "enemy",
+            "targets": "-"
+          },
+          "effects": [
+            {
+              "effect_type": "debuff",
+              "type": "HP Burn",
+              "value": 0,
+              "chance": 0.75,
+              "turns": 0,
+              "target": {
+                "who": "attacker",
+                "targets": ""
+              },
+              "image_slug": "image-debuff-hp-burn",
+              "slug": "hp-burn",
+              "website_link": "/debuffs/hp-burn",
+              "extra": false,
+              "raw_description": "",
+              "places_if": "Hit",
+              "amount": 1
+            }
+          ],
+          "based_on": [],
+          "cooldown": 0,
+          "raw_detail": "Chance +10%"
+        }
+      ],
+      "image_slug": "1facc49152b8ae7cb8388b31694c5363",
+      "skill_number": "P1"
+    }
+  ],
+  "faction": {
+    "name": "Demonspawn",
+    "slug": "demonspawn",
+    "website_link": "/factions/demonspawn/",
+    "image_slug": "image-faction-demonspawn",
+    "number_of_champions": 28,
+    "default_description": "Demonspawn is a faction from RAID Shadow Legends composed of 28 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Demonspawn is a faction from RAID Shadow Legends composed of 22 champions. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Demonspawn",
+        "demonspawn"
+      ],
+      "structured_data": null
+    },
+    "giid": "",
+    "raw_description": "Beyond the dark portal lies a realm of fire and darkness. It is thehome of ancient beings born of darkness. Forbidden fromsetting foot in the fair lands of Teleria, these foul entities haveconspired with Necromancers to breed Demonspawn - unholyunions of Demon and mortal"
+  },
+  "faction_slug": "demonspawn",
+  "website_link": "/champions/drexthar-bloodtwin/",
+  "image_slug": "image-champion-drexthar-bloodtwin",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Drexthar Bloodtwin is a legendary hp champion from the faction Demonspawn doing force damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Drexthar Bloodtwin",
+      "drexthar-bloodtwin"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Demonspawn"
+        },
+        "description": "Member of the faction Demonspawn, Drexthar Bloodtwin is a champion of Legendary rarity and of HP type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-drexthar-bloodtwin.jpg",
+        "name": "Drexthar Bloodtwin",
+        "url": "https://raid-codex.com/champions/drexthar-bloodtwin/"
+      }
+    ]
+  },
+  "default_description": "Drexthar Bloodtwin is a legendary def champion from the faction Demonspawn doing force damage",
+  "recommended_builds": [],
+  "lore": "<p>There are many demonic creatures in service of Siroth, some born of Teleria and its magical ether, others - in the astral planes far beyond the mortal world. Some of these planes consist of naught but eldritch flames and eternal darkness. From there, the Dark Lord summoned forth some of his most powerful minions. Fire Elementals - the personification of rage and destruction given form and will. And among them, Drexthar Bloodtwin is among the most terrifying.</p><p>A being of ancient power, Drexthar's body is little more than an ephemeral spirits created by the ever-burning hellfire. To give him form, Siroth encased the elemental into a suit of might armour and armed him with a vicious blade that feeds on Drexthar's own nature. All those who dare to stand in his way must beware, for not only this servant of Siroth a mighty and experienced warrior that has ended many would-be Champions over thousands of years, but his very being presents a mortal danger as well. Though strikes may yet break through Drexthar's armour, the flames hidden beneath are volatile, hungry, and all too eager to lash out at any creature foolish enough to try extinguishing them.</p><p>Yet Drexthar's nature is also his weakness, for fire does not only consume and destroy - it brings light and warmth as well. Heroes with a sufficiently strong will may be able to bind the elemental to it, cutting him off from his dark master and turning the raw destructive potential to serve good.</p>",
+  "giid": "3170",
+  "synergy": [],
+  "thumbnail": "73e5080f0f3804cb9cf470a8ce895dac",
+  "tags": [],
+  "masteries": [],
+  "fusion_data": []
+}

@@ -1,0 +1,175 @@
+{
+  "name": "Slicer",
+  "rarity": "Uncommon",
+  "element": "Spirit",
+  "type": "Attack",
+  "guide_video_id": "",
+  "rating": {
+    "overall": "D",
+    "campaign": "",
+    "arena_offense": "",
+    "arena_defense": "",
+    "clan_boss_without_giant_slayer": "",
+    "clan_boss_with_giant_slayer": "",
+    "ice_guardian": "",
+    "dragon": "",
+    "spider": "",
+    "fire_knight": "",
+    "minotaur": "",
+    "force_dungeon": "",
+    "magic_dungeon": "",
+    "spirit_dungeon": "",
+    "void_dungeon": ""
+  },
+  "reviews": {
+    "amount": 0,
+    "campaign": 0,
+    "arena_offense": 0,
+    "arena_defense": 0,
+    "clan_boss": 0,
+    "ice_guardian": 0,
+    "dragon": 0,
+    "spider": 0,
+    "fire_knight": 0,
+    "minotaur": 0,
+    "force_dungeon": 0,
+    "magic_dungeon": 0,
+    "spirit_dungeon": 0,
+    "void_dungeon": 0
+  },
+  "slug": "slicer",
+  "characteristics": {
+    "60": {
+      "hp": 14370,
+      "attack": 1090,
+      "defense": 705,
+      "speed": 90,
+      "critical_rate": 0.15,
+      "critical_damage": 0.5,
+      "resistance": 30,
+      "accuracy": 0
+    }
+  },
+  "auras": [],
+  "skills": [
+    {
+      "passive": false,
+      "name": "Finishing Blow",
+      "raw_description": "Attacks 1 enemy.\n\nDrecreased the cooldown of the Cut Apart skill by 1 turn if this attack kills an enemy.\n\nDamage based on: [ATK]",
+      "slug": "finishing-blow",
+      "effects": [],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4220_s1",
+      "upgrades": [],
+      "image_slug": "d833531e3bef3dc8ff3109fd0206cf25",
+      "skill_number": "A1"
+    },
+    {
+      "passive": false,
+      "name": "Cut Apart",
+      "raw_description": "Attacks 1 enemy.\n\nHas a 30% chance of placing a 30% [Decrease DEF] debuff for 2 turns.\n\nDamage based on: [ATK]",
+      "slug": "cut-apart",
+      "effects": [
+        {
+          "effect_type": "debuff",
+          "type": "Decrease DEF",
+          "value": 0,
+          "chance": 0,
+          "turns": 0,
+          "target": null,
+          "image_slug": "image-debuff-decrease-def",
+          "slug": "decrease-def",
+          "website_link": "/debuffs/decrease-def",
+          "extra": false,
+          "raw_description": "",
+          "places_if": "",
+          "amount": 0
+        }
+      ],
+      "damaged_based_on": [
+        "ATK"
+      ],
+      "giid": "4220_s2",
+      "upgrades": [],
+      "image_slug": "7c536eb41944e33b506b4c038bea2f6a",
+      "skill_number": "A2"
+    }
+  ],
+  "faction": {
+    "name": "Dwarves",
+    "slug": "dwarves",
+    "website_link": "/factions/dwarves/",
+    "image_slug": "image-faction-dwarves",
+    "number_of_champions": 10,
+    "default_description": "Dwarves is a faction from RAID Shadow Legends composed of 10 champions",
+    "seo": {
+      "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+      "description": "Dwarves is a faction from RAID Shadow Legends. Find out more on this Raid Shadow Legends codex.",
+      "keywords": [
+        "raid",
+        "shadow",
+        "legends",
+        "factions",
+        "Dwarves",
+        "dwarves"
+      ],
+      "structured_data": [
+        {
+          "@context": "http://schema.org/",
+          "@type": "Organization",
+          "description": "",
+          "image": "https://raid-codex.com/wp-content/uploads/factions/image-faction-dwarves.jpg",
+          "name": "Dwarves",
+          "url": "https://raid-codex.com/factions/dwarves/"
+        }
+      ]
+    },
+    "giid": "",
+    "raw_description": "Proud and suspicious of outsiders, the Dwarves have long clung to tradition and isolationism. They were once known across Teleria as peerless craftsmen and steadfast warriors, and although these skills have never waned, the hubris of Dwarven royalty ensured that contact with the outside world gradually stopped. Were if not for the occasional mercenary or merchant, their very existence might have been forgotten.\n\nIt was only the recent invasion by the demonic legions of Siroth and their undead minions that has opened the eyes of the Dwarven King to grim reality. Through courage, determination, and sacrifice, the unholy horde has eventually been repelled. But the devastation that it wrought was too great to ignore. Now, driven forth by the calls for justice, Dwarves send their greatest heroes to the surface to bring the battle to their hated foe."
+  },
+  "faction_slug": "dwarves",
+  "website_link": "/champions/slicer/",
+  "image_slug": "image-champion-slicer",
+  "seo": {
+    "title": "%%title%% %%page%% %%sep%% %%parent_title%% %%sep%% %%sitename%%",
+    "description": "Slicer is a uncommon attack champion from the faction Dwarves doing spirit damage. Find out more on this Raid Shadow Legends codex.",
+    "keywords": [
+      "raid",
+      "shadow",
+      "legends",
+      "champions",
+      "tier",
+      "list",
+      "Slicer",
+      "slicer"
+    ],
+    "structured_data": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "affiliation": {
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "name": "Dwarves"
+        },
+        "description": "Member of the faction Dwarves, Slicer is a champion of Uncommon rarity and of Attack type",
+        "image": "https://raid-codex.com/wp-content/uploads/champions/image-champion-slicer.jpg",
+        "name": "Slicer",
+        "url": "https://raid-codex.com/champions/slicer/"
+      }
+    ]
+  },
+  "default_description": "Slicer is a uncommon attack champion from the faction Dwarves doing spirit damage",
+  "recommended_builds": [],
+  "lore": "",
+  "giid": "4220",
+  "synergy": [],
+  "thumbnail": "35d02fef7d9a24e237057162abab82b7",
+  "tags": [
+    "NEW_CHAMPION_20190808"
+  ],
+  "masteries": [],
+  "fusion_data": []
+}

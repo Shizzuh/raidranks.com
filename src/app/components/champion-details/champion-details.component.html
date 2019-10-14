@@ -1,0 +1,212 @@
+<div class="container-fluid text-left" *ngFor="let champion of champion | async">
+  <!-- <a [routerLink]="['/champions']" class="text-left">Back to champions</a> -->
+  <div class="champion">
+    <div class="champion-stats">
+      <div class="champion-image">
+        <img class="{{champion.rarity}}"
+          [src]="['../../../assets/images/champions/' + champion.name.replace(' ', '').replace(' ', '').replace('\'', '´').toLowerCase()+'.jpg']"
+          alt="{{champion.name}}">
+        <img class="faction-banner" [src]="['../../../assets/images/faction-banners/' + champion.faction.name+'.png']"
+          alt="{{champion.name}}">
+      </div>
+      <div class="champion-details text-center">
+        <h2><img *ngIf="champion.element" [src]="['../../../assets/images/elements/' + champion.element.toLowerCase()+'.png']"
+            alt="{{champion.name}}">{{ champion.name }}</h2>
+        <div class="stats">
+          <div class="stat">
+            <span>HP</span>
+            {{champion.characteristics.hp}}
+          </div>
+          <div class="stat">
+            <span>Attack</span>
+            {{champion.characteristics.attack}}
+          </div>
+          <div class="stat">
+            <span>Defense</span>
+            {{champion.characteristics.defense}}
+          </div>
+          <div class="stat">
+            <span>Speed</span>
+            {{champion.characteristics.speed}}
+          </div>
+          <div class="stat">
+            <span>Crit Rate</span>
+            {{champion.characteristics.critical_rate}}
+          </div>
+          <div class="stat">
+            <span>Crit Damage</span>
+            {{champion.characteristics.critical_damage}}
+          </div>
+          <div class="stat">
+            <span>Resistance</span>
+            {{champion.characteristics.resistance}}
+          </div>
+          <div class="stat">
+            <span>Accuracy</span>
+            {{champion.characteristics.accuracy}}
+          </div>
+        </div>
+        <div class="effects">
+          <ng-container *ngFor="let skill of champion.skills">
+            <ng-container *ngFor="let effect of skill.effects">
+              <div class="effect" *ngIf="effect">
+                <img [src]="['../../../assets/images/abilities/' + effect.image_slug.replace('-2', '') +'.png']" alt="">
+                <span>{{effect.type}}</span>
+              </div>
+            </ng-container>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+
+    <ng-adsense [adClient]="'ca-pub-2485646423395791'" [adSlot]="2779186363" [display]="'inline-block'"></ng-adsense>
+
+    <h4>Skills</h4>
+    <ng-container *ngFor="let aura of champion.auras">
+      <div class="aura" *ngIf="champion.auras"><span>Aura:</span> {{aura.raw_description}}</div>
+    </ng-container>
+
+    <div class="champion-skills">
+      <ng-container *ngIf="champSkills.length > 0">
+        <ng-container *ngFor="let skill of champSkills">
+          <div class="champion-skill">
+            <h5>
+              <img
+                [src]="['../../../assets/images/abilities/' + skill.image_slug +'.png']"
+                alt="">
+                {{skill.name}}
+                <span *ngIf="skill.upgrades && skill.upgrades[0] && skill.upgrades[0].cooldown > 0"> - {{skill.upgrades[0].cooldown}}
+                  turn cooldown</span>
+                <span *ngIf="skill.passive">- passive</span>
+            </h5>
+            <p>{{skill.raw_description}}</p>
+            <ng-container *ngFor="let upgrade of skill.upgrades; index as i">
+              <p *ngIf="i > 0">{{upgrade.level}} - {{upgrade.raw_detail}}</p>
+            </ng-container>
+          </div>
+        </ng-container>
+      </ng-container>
+
+    </div>
+
+    <h4 *ngIf="champion.guide_video_id">{{champion.name}} Video Guide</h4>
+    <iframe *ngIf="champion.guide_video_id" width="560" height="400" [src]="guideUrl" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h4 *ngIf="false">Rankings</h4>
+    <div *ngIf="false" class="champion-rankings" [ngClass]="{'active': toggleStats}">
+      <div class="champion-rank">
+        <div class="champ-label">
+          Campaign
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.campaign }}">
+          {{ champion.rating.campaign }}
+        </div>
+      </div>
+      <div class="champion-rank">
+        <div class="champ-label">
+          Arena Offense
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.arena_offense }}">
+          {{ champion.rating.arena_offense }}
+        </div>
+      </div>
+      <div class="champion-rank">
+        <div class="champ-label">
+          Arena Defense
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.arena_defense }}">
+          {{ champion.rating.arena_defense }}
+        </div>
+      </div>
+      <div class="champion-rank">
+        <div class="champ-label">
+          Clanboss Pre 6*
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.clan_boss_without_giant_slayer }}">
+          {{ champion.rating.clan_boss_without_giant_slayer }}
+        </div>
+      </div>
+      <div class="champion-rank">
+        <div class="champ-label">
+          Clanboss Post 6*
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.clan_boss_with_giant_slayer }}">
+          {{ champion.rating.clan_boss_with_giant_slayer }}
+        </div>
+      </div>
+      <div class="champion-rank">
+        <div class="champ-label">
+          Minotaur
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.minotaur }}">
+          {{ champion.rating.minotaur }}
+        </div>
+      </div>
+      <div class="champion-rank">
+        <div class="champ-label">
+          Ice Golem
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.ice_guardian }}">
+          {{ champion.rating.ice_guardian }}
+        </div>
+      </div>
+      <div class="champion-rank">
+        <div class="champ-label">
+          Dragon
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.dragon }}">
+          {{ champion.rating.dragon }}
+        </div>
+      </div>
+      <div class="champion-rank">
+        <div class="champ-label">
+          Spider
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.spider }}">
+          {{ champion.rating.spider }}
+        </div>
+      </div>
+      <div class="champion-rank">
+        <div class="champ-label">
+          Fire Knight
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.fire_knight }}">
+          {{ champion.rating.fire_knight }}
+        </div>
+      </div>
+      <div class="champion-rank">
+        <div class="champ-label">
+          Force
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.force_dungeon }}">
+          {{ champion.rating.force_dungeon }}
+        </div>
+      </div>
+      <div class="champion-rank">
+        <div class="champ-label">
+          Magic
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.magic_dungeon }}">
+          {{ champion.rating.magic_dungeon }}
+        </div>
+      </div>
+      <div class="champion-rank">
+        <div class="champ-label">
+          Spirit
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.spirit_dungeon }}">
+          {{ champion.rating.spirit_dungeon }}
+        </div>
+      </div>
+      <div class="champion-rank">
+        <div class="champ-label">
+          Void
+        </div>
+        <div class="champion-rank-tier {{ champion.rating.void_dungeon }}">
+          {{ champion.rating.void_dungeon }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <disqus [identifier]="pageId" [url]="pageUrl"></disqus>
+</div>

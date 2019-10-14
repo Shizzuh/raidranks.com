@@ -1,0 +1,44 @@
+{
+  "time_start": null,
+  "time_end": null,
+  "active": true,
+  "limit": null,
+  "champion_slug": "stoneskin",
+  "name": "Broadmaw - Stoneskin",
+  "slug": "fusion-broadmaw-stoneskin",
+  "ingredients": [
+    {
+      "champion_slug": "brute",
+      "level": 30,
+      "stars": 3,
+      "ascended_stars": 3,
+      "fusion": null,
+      "fusion_slug": null
+    },
+    {
+      "champion_slug": "jaeger",
+      "level": 30,
+      "stars": 3,
+      "ascended_stars": 3,
+      "fusion": null,
+      "fusion_slug": null
+    },
+    {
+      "champion_slug": "warchanter",
+      "level": 30,
+      "stars": 3,
+      "ascended_stars": 3,
+      "fusion": null,
+      "fusion_slug": null
+    },
+    {
+      "champion_slug": "militia",
+      "level": 30,
+      "stars": 3,
+      "ascended_stars": 3,
+      "fusion": null,
+      "fusion_slug": null
+    }
+  ],
+  "parent_fusion_slug": "fusion-broadmaw"
+}
