@@ -37,36 +37,6 @@ export class ChampionDetailsComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    // const team = {
-    //   id: 133437,
-    //   name: 'MinoSpider 20 - TEST',
-    //   champions: []
-    // };
-
-    // const team = {
-    //   id: 1337,
-    //   name: 'Spider 20 - TEST',
-    //   champions: [{
-    //     id: 884,
-    //     name: 'Martyr',
-    //     faction: 'Dark Elves'
-    //   },{
-    //     id: 32989,
-    //     name: 'Coldheart',
-    //     faction: 'Dark Elves'
-    //   }]
-    // };
-
-    // const champ = {
-    //   id: 32989,
-    //   name: 'Coldheart',
-    //   faction: 'Dark Elves'
-    // }
-
-    // this.teamBuilderService.addTeam(team);
-    // this.teamBuilderService.deleteTeam(team);
-    // this.teamBuilderService.deleteChampFromTeam(champ);
-    // this.teamBuilderService.addChampToTeam(team, champ);
 
     this.loadChamps();
     this.pageUrl = 'https://raidranks.com' + this.router.url;
@@ -80,13 +50,17 @@ export class ChampionDetailsComponent implements OnInit, OnDestroy {
   }
 
   loadChamps() {
-    this.route.params.subscribe(params => {
-      this.champFaction = params['faction'].replace('-', ' ').replace('-', ' ');
-      this.champName = params['champion'];
-      this.pageId = this.champName;
-    });
+    this.route.params
+      .subscribe(params => {
+        this.champFaction = params['faction'].replace('-', ' ').replace('-', ' ');
+        this.champName = params['champion'];
+        this.pageId = this.champName;
+      });
 
-    this.championCollection = this.db.collection('championsV3').doc(this.champFaction).collection('champions', ref => ref.where('champion.slug', '==', this.champName));
+    this.championCollection = this.db
+      .collection('championsV3')
+      .doc(this.champFaction)
+      .collection('champions', ref => ref.where('champion.slug', '==', this.champName));
     this.champion = this.championCollection.snapshotChanges().pipe(
       map((actions: any) => actions.map(a => {
 

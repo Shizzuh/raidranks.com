@@ -43,7 +43,7 @@ export class TeamsComponent implements OnInit {
   }
 
   activateBuilder(team: Team) {
-    this.teamBuilderService.activateBuilder(team);
+    this.teamBuilderService.setTeamBuilderTeam(team);
     this.router.navigate(['./champions']);
   }
 

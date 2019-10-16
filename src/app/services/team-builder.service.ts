@@ -1,15 +1,44 @@
 import { Storage } from './store.service';
 import { Injectable } from '@angular/core';
 import { Team, Champion } from './../models/team.model';
+import { Subject, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class TeamBuilderService {
 
-  constructor(
-    private localStorage: Storage
-  ) { }
+  champion: Champion;
+  private isActive = new Subject<string>();
+  private teamCount = new Subject<number>();
+
+  constructor(private localStorage: Storage) {}
+
+
+
+  getIsActive(): Observable<string> {
+    return this.isActive.asObservable();
+  }
+
+  setIsActive(status: string) {
+    this.isActive.next(status);
+  }
+
+
+
+  getBuilderTeamCount(): Observable<number> {
+    return this.teamCount.asObservable();
+  }
+
+  setBuilderTeamCount() {
+    const team = this.getBuilderTeam();
+    if (team) {
+      const teamCount = team.champions.length;
+      this.teamCount.next(teamCount);
+    }
+  }
+
+
 
   getTeams() {
     return this.localStorage.get('rslTeams');
@@ -47,9 +76,10 @@ export class TeamBuilderService {
     this.localStorage.set('rslTeams', JSON.parse(updatedTeams));
   }
 
-  addChampToTeam() {
+  addChampToTeam(champ: Champion) {
+    champ ? this.champion = champ : this.champion = this.getChampion();
+
     const team = this.getBuilderTeam();
-    const champ = this.getChampion();
 
     if (!this.getTeams()) {
       return 'No teams to add a champion to';
@@ -58,7 +88,7 @@ export class TeamBuilderService {
     const originalTeams = JSON.stringify(this.getTeams());
     const originalTeam = JSON.stringify(team);
 
-    team.champions.push(champ);
+    team.champions.push(this.champion);
     let updatedTeam = JSON.stringify(team);
 
     this.localStorage.set('rslTeamBuilder', JSON.parse(updatedTeam));
@@ -80,15 +110,15 @@ export class TeamBuilderService {
     this.localStorage.set('rslTeams', JSON.parse(updatedTeams));
   }
 
-  activateBuilder(team: Team) {
+  setTeamBuilderTeam(team: Team) {
     this.localStorage.set('rslTeamBuilder', team);
   }
 
-  getBuilderTeam() {
+  getBuilderTeam(): Team {
     return this.localStorage.get('rslTeamBuilder');
   }
 
-  getChampion() {
+  getChampion(): Champion {
     return this.localStorage.get('rslTeamBuilderChampion');
   }
 
@@ -101,6 +131,6 @@ export class TeamBuilderService {
   }
 
   closeBuilder() {
-    this.localStorage.set('rslTeamBuilder', null);
+    this.setIsActive('false');
   }
 }

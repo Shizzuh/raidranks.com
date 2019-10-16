@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, AfterViewInit, Output, EventEmitter } from '@angular/core';
-import { Champion } from 'src/app/models/team.model';
-import { faTrashAlt, faShare } from '@fortawesome/pro-light-svg-icons';
+import { Champion, Team } from 'src/app/models/team.model';
+import { faTrashAlt, faShare, faPlus, faUsersMedical } from '@fortawesome/pro-light-svg-icons';
 import { TeamBuilderService } from './../../services/team-builder.service';
 
 @Component({
@@ -21,6 +21,13 @@ export class ChampionCardComponent implements OnInit, AfterViewInit {
   scrollTarget: HTMLElement;
   faTrashAlt = faTrashAlt;
   faShare = faShare;
+  faPlus = faPlus;
+  faUsersMedical = faUsersMedical;
+  team: Team;
+  builderActive: boolean;
+  teamAtMax: boolean;
+  teamBuilderStatus: any;
+  champCardStatus: string;
 
   constructor(
     private teamBuilderService: TeamBuilderService
@@ -31,16 +38,41 @@ export class ChampionCardComponent implements OnInit, AfterViewInit {
     this.scrollTarget = document.getElementById('content');
     this.championElementIcon = '../../../assets/images/elements/' + this.champ.element.toLowerCase() + '.png'
     this.championPortrait = '../../../assets/images/champions/' + this.champ.portrait.toLowerCase() + '.png';
+
+    this.team = this.teamBuilderService.getBuilderTeam();
+    this.team ? this.builderActive = true : this.builderActive = false;
+
+    if (this.team) {
+      this.teamAtMax = this.team.champions.length > 4;
+    }
+
+    this.teamBuilderStatus = this.teamBuilderService.getIsActive()
+      .subscribe(status => {
+        this.champCardStatus = status
+
+        if (this.champCardStatus === 'true') {
+          this.builderActive === true;
+        } else {
+          this.builderActive === false;
+        }
+      });
   }
 
-  ngAfterViewInit() {
-    setTimeout(() => {
-      this.processing = false;
-    }, 0);
-  }
+  ngAfterViewInit() {}
 
   removeChamp() {
     this.teamBuilderService.deleteChampFromTeam(this.champ);
     this.refreshTeams.next('refreshTeams');
+  }
+
+  addChamp(champ: Champion) {
+    this.teamBuilderService.addChampToTeam(champ);
+    this.teamBuilderService.setIsActive('true');
+    this.team = this.teamBuilderService.getBuilderTeam();
+    this.teamBuilderService.setBuilderTeamCount();
+
+    if (this.team) {
+      this.teamAtMax = this.team.champions.length > 4;
+    }
   }
 }

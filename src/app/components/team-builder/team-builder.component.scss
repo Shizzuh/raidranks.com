@@ -21,6 +21,9 @@
   background:lighten($color-background, 5%);
   padding-top:15px;
   border-radius:4px;
+  h5 {
+    padding-bottom:15px;
+  }
   h6 {
     font-size:10px !important;
     color:#888;
@@ -29,13 +32,12 @@
 }
 
 team-builder:host {
-  padding-top:15px;
   .team {
     text-align:center;
     display: flex;
     width: 100%;
     flex-direction: column;
-    margin:15px 0;
+    margin:0 0 15px;
     padding:15px 0;
     border-top:1px solid rgba($color-primary, .2);
   }

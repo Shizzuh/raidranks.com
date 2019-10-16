@@ -10,8 +10,7 @@
     <img *ngIf="champ.element" [lazyLoad]="championElementIcon" [scrollTarget]="scrollTarget">
     <p>{{champ.name}}</p>
   </a>
-  <fa-icon *ngIf="source === 'team'" (click)="removeChamp(champ)" [icon]="faTrashAlt"></fa-icon>
-  <fa-icon *ngIf="source === 'champs'" (click)="addChamp(champ)" [icon]="faShare"></fa-icon>
+  <fa-icon class="delete" *ngIf="source === 'team'" (click)="removeChamp(champ)" [icon]="faTrashAlt"></fa-icon>
 </ng-container>
 
 <ng-container *ngIf="champ && source === 'builder'">
