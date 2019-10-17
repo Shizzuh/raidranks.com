@@ -193,6 +193,3 @@ export class DealsComponent implements OnInit {
     }
   }
 }
-
-
-1950
