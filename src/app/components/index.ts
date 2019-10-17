@@ -8,3 +8,4 @@ export * from './spinner/spinner.component';
 export * from './champions/champions.component';
 export * from './champion-card/champion-card.component';
 export * from './champion-details/champion-details.component';
+export * from './deals/deals.component';

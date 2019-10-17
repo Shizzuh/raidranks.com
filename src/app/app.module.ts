@@ -36,7 +36,8 @@ import * as component from './components';
     component.ChampionsComponent,
     component.SearchComponent,
     component.ChampionDetailsComponent,
-    component.SpinnerComponent
+    component.SpinnerComponent,
+    component.DealsComponent
   ],
   imports: [
     InViewportModule,

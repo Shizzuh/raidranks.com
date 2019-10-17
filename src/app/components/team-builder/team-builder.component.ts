@@ -44,10 +44,8 @@ export class TeamBuilderComponent implements OnInit, OnDestroy, AfterViewInit {
           this.team ? this.builderActive = true : this.builderActive = false;
         }
 
-        setTimeout(() => {
-          this.currentChampDetails = this.teamBuilderService.getChampion();
-          this.currentChampDetails ? this.champPage = true : this.champPage = false;
-        }, 500);
+        this.currentChampDetails = this.teamBuilderService.getChampion();
+        location.pathname.includes('/champion-details') ? this.champPage = true : this.champPage = false;
 
       }
     });
