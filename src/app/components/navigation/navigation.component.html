@@ -4,20 +4,39 @@
     <fa-icon [icon]="faSwords"></fa-icon>
     <span>Champions</span>
   </a>
+  <a [routerLink]="['teams']">
+    <fa-icon [icon]="faUsersMedical"></fa-icon>
+    <span>Team Builder</span>
+  </a>
   <a [routerLink]="['deals']">
     <fa-icon [icon]="faUsdCircle"></fa-icon>
     <span>Deal Values</span>
   </a>
-  <a [routerLink]="['food-calculator']">
+  <a [routerLink]="['food']">
     <fa-icon [icon]="faDrumstick"></fa-icon>
     <span>Food Calculator</span>
-  </a>
-  <a [routerLink]="['teams']">
-    <fa-icon [icon]="faUsersMedical"></fa-icon>
-    <span>Team Builder</span>
   </a>
   <a [routerLink]="['roster']">
     <fa-icon [icon]="faUsers"></fa-icon>
     <span>Roster</span>
   </a>
+  <p>Known issues:</p>
+  <ul>
+    <li>Nothing is even remotely mobile friendly at the moment</li>
+    <li>Roster and Food Calculator links go no where</li>
+    <li>Missing champ data</li>
+  </ul>
+  <p>To Come:</p>
+  <ul>
+    <li>Renaming of teams</li>
+    <li>"At a glance" window for buffs and debuffs for an entire team</li>
+    <li>
+      Roster Builder
+      <ul>
+        <li>Roster will show you every debuff and buff available to you</li>
+      </ul>
+    </li>
+    <li>Food rank calculator</li>
+    <li>Fleshed out UI for deal calculator</li>
+  </ul>
 </div>

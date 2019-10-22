@@ -13,6 +13,7 @@ navigation:host {
   background:$background-gradient-secondary;
   transition: all 200ms ease-in-out;
   z-index:1;
+  overflow:auto;
   .nav-links {
     display: flex;
   }

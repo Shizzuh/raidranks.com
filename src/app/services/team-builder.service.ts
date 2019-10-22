@@ -2,6 +2,9 @@ import { Storage } from './store.service';
 import { Injectable } from '@angular/core';
 import { Team, Champion } from './../models/team.model';
 import { Subject, Observable } from 'rxjs';
+import { AngularFirestore } from '@angular/fire/firestore';
+import { Params } from '@fortawesome/fontawesome-svg-core';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -9,10 +12,15 @@ import { Subject, Observable } from 'rxjs';
 export class TeamBuilderService {
 
   champion: Champion;
+  activatedRoute: ActivatedRoute;
   private isActive = new Subject<string>();
   private teamCount = new Subject<number>();
 
-  constructor(private localStorage: Storage) {}
+  constructor(
+    private router: Router,
+    private db: AngularFirestore,
+    private localStorage: Storage
+    ) {}
 
 
 
@@ -38,6 +46,22 @@ export class TeamBuilderService {
     }
   }
 
+
+  shareLink(team) {
+
+    const dbRef = this.db.doc('teams/' + team.id);
+    dbRef.set(team, { merge: true }).then(success => {
+      const queryParams = { teamId: team.id };
+      this.router.navigate(
+        ['/team-share'], {
+        relativeTo: this.activatedRoute,
+        queryParams: queryParams,
+        queryParamsHandling: 'merge'
+      });
+    }).catch(err => {
+      console.log('Failed to add hero - ' + err);
+    })
+  }
 
 
   getTeams() {

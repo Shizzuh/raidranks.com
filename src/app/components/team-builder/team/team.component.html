@@ -1,0 +1,29 @@
+<div class="team-card">
+  <ng-container *ngIf="!deleteConfirmation">
+    <div class="team-actions">
+      <button *ngIf="team.champions.length > 0" class="team-share" (click)="shareLink(team)">
+        <fa-icon [icon]="faShare"></fa-icon>
+      </button>
+      <button class="team-delete" (click)="deleteTeamConfirmation()">
+        <fa-icon [icon]="faTrashAlt"></fa-icon>
+      </button>
+    </div>
+    <h2>{{team.name}}</h2>
+    <ng-container *ngIf="team.champions.length > 0">
+      <div class="champions">
+        <champion-card (refreshTeams)="refreshTeamsEv()" [source]="'team'" [champ]="champ"
+          *ngFor="let champ of team.champions" [attr.data-champ-name]="champ.name.toLowerCase()"></champion-card>
+      </div>
+    </ng-container>
+    <button *ngIf="team.champions.length < 5" class="btn btn-outline-primary btn-block"
+      (click)="activateBuilder(team)">Add Champion{{team.champions.length <= 3 ? 's' : ''}}</button>
+  </ng-container>
+  <ng-container *ngIf="deleteConfirmation">
+    <div class="delete-confirmation">
+      <p>Are you sure you want to delete <span class="text-primary">{{team.name}}</span>?</p>
+      <p class="text-danger">This CAN NOT be undone.</p>
+      <button class="btn btn-danger" (click)="deleteTeam(team)">DELETE</button>
+      <button class="btn btn-outline-primary" (click)="deleteTeamConfirmation()">Cancel</button>
+    </div>
+  </ng-container>
+</div>

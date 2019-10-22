@@ -10,17 +10,13 @@
 }
 
 input {
-  position:absolute;
-  z-index:1;
-  top:0;
-  left:0;
   padding:7px 15px;
   font-size:20px;
-  width:96%;
   margin-left:2%;
   color:white;
-  background:rgba($color-background, .9);
   border:none;
+  width:50%;
+  background:transparent;
   border-bottom:1px solid $color-primary;
   &:focus {
     outline:none;
@@ -29,5 +25,14 @@ input {
 
 virtual-scroller {
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 75px);
+}
+
+.search {
+  padding:15px;
+  background:rgba(lighten($color-background, 10%), .9);
+  display:flex;
+  width:100%;
+  flex-direction: row;
+  justify-content: space-between;
 }

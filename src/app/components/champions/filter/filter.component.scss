@@ -1,0 +1,133 @@
+@import 'variables';
+@import 'typography';
+
+.row {
+  display:flex;
+  flex-direction: row;
+  padding:0;
+  margin:0;
+}
+.col {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 20px;
+}
+.ng-fa-icon {
+  font-size: 12px;
+  color: white;
+}
+
+filter:host {
+  right: 20px;
+  align-items: center;
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: flex-end;
+  color: white;
+}
+
+.filter-toggle {
+  height:45px;
+  width:45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background:$color-primary;
+  border-radius:50%;
+}
+
+.filter-menu {
+  position:absolute;
+  z-index: 2;
+  background: rgba(#000D1A, .9);
+  height: auto;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px solid #333;
+  top: 45px;
+  right: 20px;
+
+  .left,
+  .right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .left {
+    border-right: 1px solid $color-primary;
+  }
+
+  .filter-menu-header {
+    border-bottom: 1px solid $color-primary;
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 5px 10px;
+  }
+
+  .rarity {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    span {
+      padding: 5px 10px;
+      display: block;
+      width: 100%;
+      font-size: 12px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $color-primary;
+        color: white;
+      }
+    }
+  }
+
+  .elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+
+    img {
+      margin: 10px 0;
+      width: 25%;
+      height: auto;
+      max-width: 15px;
+      max-height: 18px;
+      cursor: pointer;
+    }
+  }
+}
+
+.filtered-by {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-top:1px solid $color-primary;
+  .filter-key {
+    text-transform: uppercase;
+    text-align:center;
+    border-right:1px solid $color-primary;
+    width: 100%;
+    padding: 8px 0;
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
+
+.btn-primary {
+  margin-top:0;
+}

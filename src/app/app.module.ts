@@ -22,7 +22,9 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { VirtualScrollerModule } from 'ngx-virtual-scroller';
 import { InViewportModule } from '@thisissoon/angular-inviewport';
 import { InputSearchModule } from 'ngx-input-search';
+import { ClipboardModule } from 'ngx-clipboard';
 import * as component from './components';
+
 
 @NgModule({
   declarations: [
@@ -37,9 +39,14 @@ import * as component from './components';
     component.SearchComponent,
     component.ChampionDetailsComponent,
     component.SpinnerComponent,
-    component.DealsComponent
+    component.DealsComponent,
+    component.FilterComponent,
+    component.FoodComponent,
+    component.TeamShareComponent,
+    component.TeamComponent
   ],
   imports: [
+    ClipboardModule,
     InViewportModule,
     BrowserModule,
     InputSearchModule,
@@ -68,4 +75,4 @@ import * as component from './components';
 })
 export class AppModule { }
 
-platformBrowserDynamic().bootstrapModule(AppModule);
+// platformBrowserDynamic().bootstrapModule(AppModule);

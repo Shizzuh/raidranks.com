@@ -1,10 +1,13 @@
 <div class="champions-cards">
-  <input
+  <div class="search">
+    <input
     type="text"
     placeholder="Search Champions..."
     (ngxInputSearch)="updateSearch($event)"
     (keyup)="emptyCheck()"
     [(ngModel)]="searchInput">
+    <filter></filter>
+  </div>
   <virtual-scroller #scroll [items]="championList">
       <champion-card
         class="champs"

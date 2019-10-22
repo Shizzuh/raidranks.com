@@ -1,0 +1,21 @@
+<div class="teams">
+  <div class="team-card">
+    <div class="new-team">
+      <h2>New Team</h2>
+      <hr>
+      <input
+        type="text"
+        placeholder="Team Name"
+        (keydown.enter)="createNewTeam()"
+        [(ngModel)]="teamName">
+      <button
+        class="btn btn-outline-primary btn-block"
+        (click)="createNewTeam()">Create New Team</button>
+    </div>
+  </div>
+  <ng-container *ngIf="teams">
+    <ng-container *ngFor="let team of teams">
+      <team [team]="team" (refreshTeams)="refreshTeams($event)"></team>
+    </ng-container>
+  </ng-container>
+</div>

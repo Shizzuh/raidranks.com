@@ -40,6 +40,7 @@
     "ng-lazyload-image": "^6.1.0",
     "ng-viewport": "^2.0.2",
     "ng2-adsense": "^6.0.0",
+    "ngx-clipboard": "^12.2.1",
     "ngx-disqus": "^2.4.3",
     "ngx-infinite-scroll": "^8.0.0",
     "ngx-input-search": "^2.2.1",

@@ -13,7 +13,7 @@ export class ChampionCardComponent implements OnInit, AfterViewInit {
   @Input() champ: Champion;
   @Input() source: string;
 
-  @Output() refreshTeams = new EventEmitter<string>();
+  @Output() refreshTeams = new EventEmitter<boolean>();
 
   processing: boolean;
   championPortrait: string;
@@ -62,7 +62,7 @@ export class ChampionCardComponent implements OnInit, AfterViewInit {
 
   removeChamp() {
     this.teamBuilderService.deleteChampFromTeam(this.champ);
-    this.refreshTeams.next('refreshTeams');
+    this.refreshTeams.next(true);
   }
 
   addChamp(champ: Champion) {

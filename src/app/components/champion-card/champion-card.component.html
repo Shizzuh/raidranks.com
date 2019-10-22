@@ -10,10 +10,10 @@
     <img *ngIf="champ.element" [lazyLoad]="championElementIcon" [scrollTarget]="scrollTarget">
     <p>{{champ.name}}</p>
   </a>
-  <fa-icon class="delete" *ngIf="source === 'team'" (click)="removeChamp(champ)" [icon]="faTrashAlt"></fa-icon>
+  <fa-icon class="delete" *ngIf="source === 'team'" (click)="removeChamp()" [icon]="faTrashAlt"></fa-icon>
 </ng-container>
 
-<ng-container *ngIf="champ && source === 'builder'">
+<ng-container *ngIf="champ && (source === 'builder') ">
   <a
     class="champion-card {{ champ.rarity }} {{source}}"
     [routerLink]="['/champion-details', champ.faction.replace(' ', '-').replace(' ', '-').toLowerCase(),
@@ -23,3 +23,17 @@
     [ngStyle]="{'background-image': 'url(../../../assets/images/champions/'+championPortrait.toLowerCase()}">
   </a>
 </ng-container>
+
+
+<a
+  *ngIf="source === 'teamShare'"
+  snInViewport
+  class="champion-card {{ champ.rarity }} {{source}}"
+  [routerLink]="['/champion-details', champ.faction.replace(' ', '-').replace(' ', '-').toLowerCase(),
+  champ.name.replace(' ',
+  '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
+  queryParamsHandling="merge"
+  [ngStyle]="{'background-image': 'url(../../../assets/images/champions/'+championPortrait.toLowerCase()}">
+  <img *ngIf="champ.element" [lazyLoad]="championElementIcon" [scrollTarget]="scrollTarget">
+  <p>{{champ.name}}</p>
+</a>

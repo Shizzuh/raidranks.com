@@ -2,6 +2,8 @@
 @import 'typography';
 .container-fluid {
   padding:70px 0 50px;
+  height:100%;
+  overflow:auto;
   h2 {
     margin:0 0 50px;
     color:$color-primary;

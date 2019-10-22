@@ -7,7 +7,9 @@ const routes: Routes = [
   { path: 'champions', component: component.ChampionsComponent },
   { path: 'champion-details/:faction/:champion', component: component.ChampionDetailsComponent },
   { path: 'teams', component: component.TeamsComponent },
-  { path: 'deals', component: component.DealsComponent }
+  { path: 'team-share', component: component.TeamShareComponent },
+  { path: 'deals', component: component.DealsComponent },
+  { path: 'food', component: component.FoodComponent }
 ];
 
 @NgModule({

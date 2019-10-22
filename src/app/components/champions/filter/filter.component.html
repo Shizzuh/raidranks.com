@@ -1,0 +1,48 @@
+<div class="filter-toggle" (click)="toggleFilterMenu()">
+  <fa-icon [icon]="faFilter"></fa-icon>
+</div>
+<div class="filter-menu" *ngIf="filterMenuActive">
+  <div class="row p-0">
+    <div class="left">
+      <div class="filter-menu-header">Elements</div>
+      <div class="elements">
+        <img (click)="addFilter('element', 'Force')" src="../../../assets/images/elements/force.png" alt="">
+        <img (click)="addFilter('element', 'Spirit')" src="../../../assets/images/elements/spirit.png" alt="">
+        <img (click)="addFilter('element', 'Magic')" src="../../../assets/images/elements/magic.png" alt="">
+        <img (click)="addFilter('element', 'Void')" src="../../../assets/images/elements/void.png" alt="">
+      </div>
+      <div class="filter-menu-header">Rarity</div>
+      <div class="rarity">
+        <span (click)="addFilter('rarity', 'Legendary')">Legendary</span>
+        <span (click)="addFilter('rarity', 'Epic')">Epic</span>
+        <span (click)="addFilter('rarity', 'Rare')">Rare</span>
+        <span (click)="addFilter('rarity', 'Uncommon')">Uncommon</span>
+        <span (click)="addFilter('rarity', 'Common')">Common</span>
+      </div>
+      <div class="filter-menu-header">Type</div>
+      <div class="rarity">
+        <span (click)="addFilter('type', 'Attack')">Attack</span>
+        <span (click)="addFilter('type', 'Def')">Defense</span>
+        <span (click)="addFilter('type', 'Assist')">Support</span>
+        <span (click)="addFilter('type', 'HP')">HP</span>
+      </div>
+    </div>
+    <div class="right">
+      <div class="filter-menu-header">Factions</div>
+      <div class="rarity">
+        <ng-container *ngFor="let faction of factions">
+          <span (click)="addFilter('faction', faction.toLowerCase())">{{faction}}</span>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+  <div class="filtered-by" *ngIf="filterKeys">
+    <ng-container *ngFor="let filter of filterKeys | keyvalue">
+      <div class="filter-key" (click)="clearFilter(filter.key)">
+        {{filter.value}}
+        <fa-icon [icon]="faTimes"></fa-icon>
+      </div>
+    </ng-container>
+  </div>
+  <div *ngIf="filterKeys.faction || filterKeys.type || filterKeys.elemnt || filterKeys.rarity" class="btn btn-primary" (click)="clearFilters()">Clear All</div>
+</div>

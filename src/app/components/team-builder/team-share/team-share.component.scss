@@ -1,0 +1,12 @@
+.champs {
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.team {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

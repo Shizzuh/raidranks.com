@@ -1,6 +1,6 @@
 import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
-import { TeamBuilderService } from './../../services/team-builder.service';
+import { TeamBuilderService } from 'src/app/services/team-builder.service';
 import { Team } from 'src/app/models/team.model';
 import { faTrashAlt, faShare } from '@fortawesome/pro-light-svg-icons';
 
@@ -16,10 +16,10 @@ export class TeamsComponent implements OnInit {
 
   faShare = faShare;
   faTrashAlt = faTrashAlt;
+  deleteConfirmation: boolean;
 
   constructor(
-    private teamBuilderService: TeamBuilderService,
-    private router: Router
+    private teamBuilderService: TeamBuilderService
   ) { }
 
   ngOnInit() {
@@ -37,17 +37,7 @@ export class TeamsComponent implements OnInit {
     this.teamName = null;
   }
 
-  deleteTeam(team: Team) {
-    this.teamBuilderService.deleteTeam(team);
-    this.teams = this.teamBuilderService.getTeams();
-  }
-
-  activateBuilder(team: Team) {
-    this.teamBuilderService.setTeamBuilderTeam(team);
-    this.router.navigate(['./champions']);
-  }
-
-  refreshTeams() {
+  refreshTeams(ev: any) {
     this.teams = this.teamBuilderService.getTeams();
   }
 

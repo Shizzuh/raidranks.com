@@ -1,0 +1,24 @@
+<div class="container" *ngIf="team | async as team">
+  <div class="team-list">
+    <div class="team">
+      <h2 class="text-center mt-5">
+        {{ team[0].name }}
+      </h2>
+      <button
+        class="center-block btn btn-outline-primary"
+        (click)="copyTeamUrl(shareLink)">
+        {{ copied ? 'Share Link Copied' : 'Copy Share Link' }}
+        <fa-icon *ngIf="copied" [icon]="faCheck"></fa-icon>
+      </button>
+      <div class="champs">
+        <ng-container *ngFor="let champ of team[0].champions">
+          <champion-card [source]="'teamShare'" [champ]="champ"></champion-card>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+  <div style="height:100px;width:100%;">
+    <ng-adsense [height]="100" [adClient]="'ca-pub-2485646423395791'" [adSlot]="2779186363" [display]="'inline-block'">
+    </ng-adsense>
+  </div>
+</div>
