@@ -9,4 +9,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  &-list {
+    margin-bottom:50px;
+  }
+}
+
+.adsbygoogle {
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  display: block !important;
 }

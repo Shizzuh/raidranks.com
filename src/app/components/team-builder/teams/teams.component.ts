@@ -2,7 +2,8 @@ import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { TeamBuilderService } from 'src/app/services/team-builder.service';
 import { Team } from 'src/app/models/team.model';
-import { faTrashAlt, faShare } from '@fortawesome/pro-light-svg-icons';
+import { faTrashAlt, faShare, faPlus } from '@fortawesome/pro-light-svg-icons';
+import { GaService } from 'src/app/services/ga.service';
 
 @Component({
   selector: 'teams',
@@ -16,9 +17,12 @@ export class TeamsComponent implements OnInit {
 
   faShare = faShare;
   faTrashAlt = faTrashAlt;
+  faPlus = faPlus;
   deleteConfirmation: boolean;
+  helpOverlayIsActive: boolean;
 
   constructor(
+    private ga: GaService,
     private teamBuilderService: TeamBuilderService
   ) { }
 
@@ -27,6 +31,7 @@ export class TeamsComponent implements OnInit {
   }
 
   createNewTeam() {
+    this.ga.eventEmitter('Team Builder', 'Create Team', 'createNewTeam', this.teamName);
     const team = {
       name: this.teamName,
       id: Math.floor((Math.random() * 9999999999) + 999999999),
@@ -39,6 +44,10 @@ export class TeamsComponent implements OnInit {
 
   refreshTeams(ev: any) {
     this.teams = this.teamBuilderService.getTeams();
+  }
+
+  helpOverlay() {
+    this.helpOverlayIsActive ? this.helpOverlayIsActive = false : this.helpOverlayIsActive = true;
   }
 
 }

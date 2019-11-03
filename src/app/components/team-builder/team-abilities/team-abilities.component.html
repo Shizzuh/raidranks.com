@@ -1,0 +1,20 @@
+<div class="abilities">
+  <div class="effects">
+    <ng-container *ngFor="let champ of champ">
+      <div class="champ">
+        <h4>{{champ.name}}</h4>
+        <div class="champ-abilities">
+          <ng-container *ngFor="let skill of champ.skills">
+            <ng-container *ngFor="let effect of skill.effects">
+              <div class="effect" *ngIf="effect">
+                <img [src]="['../../../assets/images/abilities/' + effect.image_slug.replace('-2', '') +'.png']" alt="">
+                <span class="rsl-label">{{effect.type}}</span>
+              </div>
+            </ng-container>
+          </ng-container>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+  <div class="btn btn-outline-primary" (click)="close()">Close</div>
+</div>

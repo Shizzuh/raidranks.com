@@ -3,7 +3,9 @@ import { Router, ActivatedRoute, NavigationEnd, Params } from '@angular/router';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { map } from 'rxjs/operators';
 import { DomSanitizer } from '@angular/platform-browser';
+import { ClipboardService } from 'ngx-clipboard'
 import { TeamBuilderService } from './../../services/team-builder.service';
+import { faCheck } from '@fortawesome/pro-light-svg-icons';
 
 @Component({
   selector: 'champion-details',
@@ -23,8 +25,12 @@ export class ChampionDetailsComponent implements OnInit, OnDestroy {
   champFullName: any;
   champFac: any;
   champSkills: any;
+  copied: boolean;
+  faCheck = faCheck;
+  shadowbotName: string;
 
   constructor(
+    private clipboardService: ClipboardService,
     private router: Router,
     private route: ActivatedRoute,
     private db: AngularFirestore,
@@ -78,6 +84,8 @@ export class ChampionDetailsComponent implements OnInit, OnDestroy {
 
         this.teamBuilderService.setChampion(champ);
 
+        this.shadowbotName = '!'+data.name.toLowerCase().replace('-', '').replace('-', '').replace('\'', '');
+
         this.champFac = data.faction.name;
         this.champFullName = data.name;
         this.champSkills = data.skills;
@@ -86,5 +94,10 @@ export class ChampionDetailsComponent implements OnInit, OnDestroy {
         return { id, ...data };
       }))
     );
+  }
+
+  copyShadowbotCommand(shadowbotName: string) {
+    this.clipboardService.copyFromContent(shadowbotName);
+    this.copied = true;
   }
 }

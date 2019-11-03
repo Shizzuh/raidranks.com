@@ -100,6 +100,19 @@ export class TeamBuilderService {
     this.localStorage.set('rslTeams', JSON.parse(updatedTeams));
   }
 
+  renameName(team: Team, newTeamName: string) {
+    if (!this.getTeams()) {
+      return 'No teams to rename';
+    }
+
+    const oldTeamName = team.name;
+    const teamToRename = JSON.stringify(team);
+    const updatedTeam = teamToRename.replace(oldTeamName, newTeamName);
+    const teams = JSON.stringify(this.getTeams());
+    const updatedTeams = teams.replace(teamToRename, updatedTeam);
+    this.localStorage.set('rslTeams', JSON.parse(updatedTeams));
+  }
+
   addChampToTeam(champ: Champion) {
     champ ? this.champion = champ : this.champion = this.getChampion();
 

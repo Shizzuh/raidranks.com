@@ -1,29 +1,47 @@
-<div class="team-card">
-  <ng-container *ngIf="!deleteConfirmation">
-    <div class="team-actions">
-      <button *ngIf="team.champions.length > 0" class="team-share" (click)="shareLink(team)">
-        <fa-icon [icon]="faShare"></fa-icon>
-      </button>
-      <button class="team-delete" (click)="deleteTeamConfirmation()">
-        <fa-icon [icon]="faTrashAlt"></fa-icon>
-      </button>
-    </div>
-    <h2>{{team.name}}</h2>
-    <ng-container *ngIf="team.champions.length > 0">
+<div class="team-wrapper">
+  <div class="team-card">
+    <h3>{{team.name}}</h3>
+    <ng-container *ngIf="team.champions.length > 0; else noChamps">
       <div class="champions">
         <champion-card (refreshTeams)="refreshTeamsEv()" [source]="'team'" [champ]="champ"
           *ngFor="let champ of team.champions" [attr.data-champ-name]="champ.name.toLowerCase()"></champion-card>
       </div>
     </ng-container>
-    <button *ngIf="team.champions.length < 5" class="btn btn-outline-primary btn-block"
-      (click)="activateBuilder(team)">Add Champion{{team.champions.length <= 3 ? 's' : ''}}</button>
-  </ng-container>
-  <ng-container *ngIf="deleteConfirmation">
-    <div class="delete-confirmation">
-      <p>Are you sure you want to delete <span class="text-primary">{{team.name}}</span>?</p>
-      <p class="text-danger">This CAN NOT be undone.</p>
-      <button class="btn btn-danger" (click)="deleteTeam(team)">DELETE</button>
-      <button class="btn btn-outline-primary" (click)="deleteTeamConfirmation()">Cancel</button>
-    </div>
-  </ng-container>
+    <ng-template #noChamps>
+      <p class="rsl-label no-champs">No Champions Added</p>
+    </ng-template>
+  </div>
+
+  <div class="team-actions">
+    <button *ngIf="team.champions.length < 5" (click)="activateBuilder(team)">
+      <fa-icon [icon]="faPlus"></fa-icon>
+      <span class="rsl-label">Add</span>
+    </button>
+    <button *ngIf="team.champions.length > 0" (click)="toggleAbilities()">
+      <fa-icon [icon]="faShield"></fa-icon>
+      <span class="rsl-label">Abilities</span>
+    </button>
+    <button *ngIf="team.champions.length > 0" (click)="shareLink(team)">
+      <fa-icon [icon]="faShare"></fa-icon>
+      <span class="rsl-label">Share</span>
+    </button>
+    <button (click)="openEdit()">
+      <fa-icon [icon]="faPencil"></fa-icon>
+      <span class="rsl-label">Edit</span>
+    </button>
+  </div>
+</div>
+
+<div class="overlay" *ngIf="abilities">
+  <team-abilities
+    (closeAbilities)="toggleAbilities()"
+    [team]="team"></team-abilities>
+</div>
+
+<div class="overlay" *ngIf="teamEdit">
+  <team-edit
+    (openEdit)="openEdit()"
+    (refreshTeams)="refreshTeamsEv()"
+    (closeEdit)="closeEdit()"
+    [team]="team"></team-edit>
 </div>

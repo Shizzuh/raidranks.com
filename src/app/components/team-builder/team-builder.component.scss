@@ -19,15 +19,10 @@
 .team-builder {
   position: relative;
   background:lighten($color-background, 5%);
-  padding-top:15px;
+  padding-top:0;
   border-radius:4px;
-  h5 {
-    padding-bottom:15px;
-  }
-  h6 {
-    font-size:10px !important;
-    color:#888;
-    text-align:center;
+  h5, h6 {
+    display:none;
   }
 }
 
@@ -37,8 +32,7 @@ team-builder:host {
     display: flex;
     width: 100%;
     flex-direction: column;
-    margin:0 0 15px;
-    padding:15px 0;
+    padding:5px 0;
     border-top:1px solid rgba($color-primary, .2);
   }
   .champs {
@@ -57,12 +51,49 @@ team-builder:host {
   }
 }
 
+button.btn.btn-circle {
+  height:10vw;
+  width:10vw;
+}
+
+.edit-link {
+  display:none;
+}
+
 @media all and (min-width:$mobile) {
+  .team-builder {
+    padding-top:15px;
+    h5 {
+      display:inline-block;
+      width:100%;
+      padding-bottom: 15px;
+    }
+
+    h6 {
+      display:inline-block;
+      width:100%;
+      font-size: 10px !important;
+      color: #888;
+      text-align: center;
+    }
+  }
   team-builder:host {
+    .team {
+      padding:15px 0;
+      margin: 0 0 15px;
+    }
     .champion-img {
       height:46px;
       width:46px;
       margin:4px;
     }
+  }
+  button.btn.btn-circle {
+    height: 46px;
+    width: 46px;
+  }
+  .edit-link {
+    display: block;
+    width:100%;
   }
 }

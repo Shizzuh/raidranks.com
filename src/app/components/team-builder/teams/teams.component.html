@@ -1,21 +1,43 @@
-<div class="teams">
-  <div class="team-card">
-    <div class="new-team">
-      <h2>New Team</h2>
-      <hr>
-      <input
-        type="text"
-        placeholder="Team Name"
-        (keydown.enter)="createNewTeam()"
-        [(ngModel)]="teamName">
-      <button
-        class="btn btn-outline-primary btn-block"
-        (click)="createNewTeam()">Create New Team</button>
-    </div>
+<!-- <div class="new-team">
+  <div class="actions">
+    <input
+      type="text"
+      placeholder="New Team Name"
+      (keydown.enter)="createNewTeam()"
+      [(ngModel)]="teamName">
+    <button
+      class="btn btn-primary btn-circle"
+      (click)="createNewTeam()">
+      <fa-icon [icon]="faPlus"></fa-icon>
+    </button>
   </div>
+</div> -->
+<div class="teams">
   <ng-container *ngIf="teams">
+    <div class="new-team">
+      <input type="text" class="form-control" placeholder="New Team Name" (keydown.enter)="createNewTeam()" [(ngModel)]="teamName">
+      <button class="btn btn-primary btn-circle" (click)="createNewTeam()">
+        <fa-icon [icon]="faPlus"></fa-icon>
+      </button>
+      <button class="btn btn-link mt-3" (click)="helpOverlay()">Need Help?</button>
+    </div>
     <ng-container *ngFor="let team of teams">
       <team [team]="team" (refreshTeams)="refreshTeams($event)"></team>
     </ng-container>
   </ng-container>
 </div>
+
+<div class="overlay" *ngIf="helpOverlayIsActive">
+  <div class="help">
+    <div class="btn btn-outline-primary mb-5" (click)="helpOverlay()">Close</div>
+    <h4>Team Builder</h4>
+    <p>The <span class="text-primary">Team Builder</span> is used to create not only the teams you currently have, but also the teams you wish you had.</p>
+    <p>Add champions to a new team to easily see what they bring to the table at a glance. This will allow for being able to theorycraft a bit easier and in a more visual way.</p>
+    <p><span class="text-primary">1.</span> To get started, just enter a team name right about the link you clicked to read this, then press enter, or click the <span class="text-primary">+</span> icon.</p>
+    <p><span class="text-primary">2.</span> After your new team is added, you'll see it appear on the screen with an <span class="text-primary">Add</span> and  <span class="text-primary">Edit</span> button.</p>
+    <p><span class="text-primary">3.</span> Clicking the <span class="text-primary">Add</span> button will bring you to the <span class="text-primary">Champions</span> page. Simply search for and click the champion to add.</p>
+    <p><span class="text-primary">4.</span> On the <span class="text-primary">Champion Details</span> page, if you are on a desktop computer, you will see a <span class="text-primary">+</span> button in the top left inside the navigation bar. Click this to add this champion to your team. On mobile, this button will be at the bottom of your screen.</p>
+    <p><span class="text-primary">5.</span> Profit.</p>
+  </div>
+</div>
+

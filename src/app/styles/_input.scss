@@ -1,13 +1,29 @@
-.value-card {
-  input {
-    width:100%;
-    display:block;
-    border:none;
-    background:transparent;
-    border-bottom:1px solid $color-primary;
-    padding:5px 10px;
-    color:white;
-    margin-top:5px;
-    text-align:center;
+.value-card, .new-team {
+ input {
+   width: 100%;
+   display: block;
+   border: none;
+   background: transparent;
+   border-bottom: 1px solid $color-primary;
+   padding: 5px 10px;
+   color: white;
+   margin-top: 5px;
+   text-align: center;
+ }
+}
+
+.rsl-input {
+  width: 100%;
+  display: block;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid $color-primary;
+  padding: 5px 10px;
+  color: white;
+  margin-top: 5px;
+  text-align: center;
+
+  &-large {
+    font-size: 24px;
   }
 }

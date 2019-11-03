@@ -25,7 +25,9 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.json",
+              "src/ngsw-config.json"
             ],
             "styles": [
               "src/styles.scss",
@@ -46,6 +48,8 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
+              "serviceWorker": true,
+              "ngswConfigPath": "src/ngsw-config.json",
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,

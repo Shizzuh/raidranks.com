@@ -65,6 +65,7 @@ export class DealsComponent implements OnInit {
   grandTotal: number;
 
   score: number;
+  helpOverlayIsActive: any;
 
   constructor() { }
 
@@ -191,5 +192,9 @@ export class DealsComponent implements OnInit {
     if (this.grandTotal) {
       this.score = Math.round(100 * (this.grandTotal / this.priceValue)) / 100;
     }
+  }
+
+  helpOverlay() {
+    this.helpOverlayIsActive ? this.helpOverlayIsActive = false : this.helpOverlayIsActive = true;
   }
 }

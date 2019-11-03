@@ -57,8 +57,27 @@
         </div>
       </div>
     </div>
+    <h4 class="text-center">Masteries - Provided by <span class="text-primary"><a target="_blank" href="https://discord.gg/x5yYgT3">SHADOWBOT</a></span>
+    </h4>
+    <div class="masteries text-center pt-3">
+      <p><span class="text-primary"><a target="_blank" href="https://discord.gg/x5yYgT3">SHADOWBOT</a></span> is made by players for players.</p>
+      <p class="font-italic">"We try to arrange ourselves as much as possible to make our bot as optimal as possible. There are over 100
+        masteries uploaded into our bot. The masteries are provided by players with experience and knowledge about the
+        game. On a daily basis, we try to implement as many masteries as we can."</p>
+      <p class="text-primary">- SHADOWBOT TEAM</p>
+      <a class="btn btn-primary mt-4 mr-4" target="_blank" href="https://discord.gg/x5yYgT3">Go to SHADOWBOT</a>
+      <button class="center-block btn btn-outline-primary mt-4" (click)="copyShadowbotCommand(shadowbotName)">
+        {{ copied ? 'Champion Copied' : 'Copy Champion Command' }}
+        <fa-icon *ngIf="copied" [icon]="faCheck"></fa-icon>
+      </button>
+    </div>
 
-    <ng-adsense [adClient]="'ca-pub-2485646423395791'" [adSlot]="2779186363" [display]="'inline-block'"></ng-adsense>
+    <ng-adsense
+      [height]="150"
+      [adClient]="'ca-pub-2485646423395791'"
+      [adSlot]="2779186363"
+      [display]="'block'">
+    </ng-adsense>
 
     <h4>Skills</h4>
     <ng-container *ngFor="let aura of champion.auras">

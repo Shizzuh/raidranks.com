@@ -1,0 +1,43 @@
+<div class="shards">
+  <div class="champions">
+    <ng-container *ngIf="randomChamps.length > 0; else noSummons">
+      <ng-container *ngFor="let champ of randomChamps; index as i">
+        <champion-card [index]="i" [source]="'shards'" [champ]="champ"></champion-card>
+      </ng-container>
+    </ng-container>
+  </div>
+  <div class="summon-options">
+    <button [ngClass]="{'inactive': onCoolDown  || showBluestacks}" class="btn btn-outline-primary mr-3" (click)="summon(10, 1)">Summon</button>
+    <button [ngClass]="{'inactive': onCoolDown  || showBluestacks}" class="btn btn-outline-primary" (click)="summon(10, 2)">Summon x2 Rates</button>
+  </div>
+  <p class="mt-5">
+    Try your luck! The odds used here are the exact odds used to summon certain rarities within Raid.
+    Feeling that itch, but don't have the <span class="text-primary">$$$</span> to throw away on a long shot? Cool. This is <span class="text-primary">free</span>.
+  </p>
+  <p class="mb-5 rsl-label">These summons include <span class="text-primary">VOID</span> champions.</p>
+
+
+  <ng-adsense
+    [height]="150"
+    [adClient]="'ca-pub-2485646423395791'"
+    [adSlot]="2779186363"
+    [display]="'block'">
+  </ng-adsense>
+</div>
+
+<ng-template #noSummons>
+  <img src="../../../assets/images/shards/ancient.png" alt="Ancient Shard">
+</ng-template>
+
+<ng-container *ngIf="showBluestacks">
+  <div class="overlay">
+    <div class="bluestacks">
+      <p>It looks like you might be enjoying this champion summoning. If you don't mind, I'd like to ask you to check out BlueStacks on the PC. To be totally transparent, <span class="text-primary">it helps me out when you click the link and play Raid from BlueStacks</span>.</p>
+      <p class="rsl-label">Don't worry, I won't ask you again!</p>
+      <p class="text-primary">Thank you!</p>
+      <img src="../../../assets/images/blustacks.png" alt="BlueStacks Logo">
+      <a class="btn btn-block btn-outline-primary" href="https://bstk.me/u2U9kRRvO" target="_blank" (click)="closeBluestacks(false)">Download and play on BlueStacks</a>
+      <button class="btn btn-block btn-outline-danger" (click)="closeBluestacks(true)">Go Away!</button>
+    </div>
+  </div>
+</ng-container>

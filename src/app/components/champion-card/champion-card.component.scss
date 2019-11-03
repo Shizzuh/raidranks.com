@@ -1,12 +1,15 @@
 @import 'variables';
+@import 'input';
 
 champion-card:host {
   display:inline-block;
+  height:auto;
 
   &.champs {
     position: relative;
-    height: 250px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+    margin: 10% 0%;
   }
 
   &.builder {
@@ -15,19 +18,9 @@ champion-card:host {
 
   .delete {
     color: red;
-    opacity:0;
     display:inline-block;
-    pointer-events:none;
-    transform:translateY(-50px);
+    text-align: center;
     cursor:pointer;
-    transition:all .25s ease-in-out;
-  }
-  &:hover {
-    .delete {
-      opacity: 1;
-      pointer-events: all;
-      transform:translateY(0px);
-    }
   }
 
   .add {
@@ -44,16 +37,35 @@ champion-card:host {
     font-size:22px;
     transform:translateY(-40px);
   }
-}
 
+  .remove-mode {
+    pointer-events:none;
+  }
+
+  .overlay-btn-danger,
+  .overlay-btn-primary {
+    border-radius: 50%;
+    .ng-fa-icon {
+      font-size:24px;
+    }
+  }
+  .overlay-btn-primary {
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+  }
+  &:hover {
+    .overlay-btn-primary {
+      opacity: 1;
+    }
+  }
+}
 .champion-card {
+  height: 100%;
+  width: 100%;
   display:flex;
   background-size:cover;
   background-position:50% 50%;
-  height:20vw;
-  width:20vw;
   border-radius:50%;
-  margin:10vw 5vw;
   align-items: flex-end;
   position:relative;
   justify-content: center;
@@ -63,11 +75,14 @@ champion-card:host {
     box-shadow 250ms ease-in-out,
     transform 250ms ease-in-out;
 
-  &.team {
-    height: 4vw;
-    width: 4vw;
-    margin: 20px 6px;
-
+  p {
+    margin-bottom: 0 !important;
+  }
+  &.team,
+  &.team-edit {
+    height: 12vw;
+    width: 12vw;
+    margin: 3vw;
     img {
       height: 1vw;
       width: auto;
@@ -79,9 +94,25 @@ champion-card:host {
     }
   }
 
+  &.teamShare {
+    height: 20vw;
+    width: 20vw;
+    margin: 6vw;
+
+    img {
+      height: 4vw;
+      width: auto;
+    }
+
+    p {
+      font-size: 10px;
+      bottom: -35px;
+    }
+  }
+
   &.builder {
-    height: 3vw;
-    width: 3vw;
+    height: 10vw;
+    width: 10vw;
     margin: 5px;
   }
   &:hover {
@@ -93,7 +124,7 @@ champion-card:host {
   }
   p {
     position: absolute;
-    bottom: -48px;
+    bottom: -55px;
     text-transform: uppercase;
     width: 100%;
     text-align: center;
@@ -136,19 +167,202 @@ champion-card:host {
     }
   }
 }
+.champion-card.shards {
+  box-shadow:0 0 0 white;
+  transition:box-shadow .25s ease-in-out;
+    &.Legendary {
+      transform:scale(1);
+      border: 5px solid rgba($color-legendary, .75);
+      box-shadow: 0 0 30px 15px rgba($color-legendary, .75);
+    }
+
+    &.Epic {
+      border: 5px solid rgba($color-epic, .75);
+      box-shadow: 0 0 20px 10px rgba($color-epic, .75);
+    }
+
+    &.Rare {
+      border: 5px solid rgba($color-rare, .75);
+      box-shadow: 0 0 10px 5px rgba($color-rare, .75);
+    }
+}
+.roster-champion {
+  display:flex;
+  height:100%;
+  width:98%;
+  margin:0 auto;
+  border-bottom:1px solid rgba($color-primary, .5);
+  flex-direction: row;
+  padding:.5vw 2vw;
+  align-items: center;
+  background-color:rgba(lighten($color-background, 10%), .8);
+
+  &.Legendary {
+    border-left: 2px solid rgba($color-legendary, .75);
+  }
+
+  &.Epic {
+    border-left: 2px solid rgba($color-epic, .75);
+  }
+
+  &.Rare {
+    border-left: 2px solid rgba($color-rare, .75);
+  }
+
+  &.Uncommon {
+    border-left: 2px solid rgba($color-uncommon, .75);
+  }
+
+  &.Common {
+    border-left: 2px solid rgba($color-common, .75);
+  }
+  &-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  }
+  &-data {
+    p {
+      width:100%;
+      display:inline-block;
+      margin:0;
+      font-size:3.5vw;
+      text-transform: capitalize;
+    }
+  }
+  &-img {
+    height:8vw;
+    width:8vw;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    border-radius:50%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    img {
+      height:3vw;
+      width:3vw;
+    }
+  }
+  &-actions {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width:100%;
+    padding:1vw 0;
+    .btn {
+      padding:1vw 2vw;
+    }
+    .ng-fa-icon {
+      font-size:4vw;
+    }
+  }
+}
 
 @media all and (min-width:$mobile) {
+  champion-card:host {
+    &.champs {
+      margin: 4% 2%;
+    }
+  }
   .champion-card {
-    height: 150px;
-    width: 150px;
-    margin:50px 25px;
+    &.team,
+    &.builder {
+      height: 45px;
+      width: 45px;
+      margin: 15px 10px;
+      img, p {
+        display:none;
+      }
+    }
 
     img {
       height: 35px;
+      width: auto;
     }
 
     p {
       font-size: 12px;
+    }
+
+    &.team-edit,
+    &.teamShare {
+      height: 100px;
+      width: 100px;
+      margin: 15px 10px;
+
+      img {
+        height: 20px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .roster-champion {
+    border:none;
+    flex-direction: column;
+    border-radius:3px;
+    padding:10px 5px;
+    box-shadow:0 5px 15px rgba(black, .1);
+
+    &.Legendary {
+      border: 2px solid rgba($color-legendary, .75);
+    }
+
+    &.Epic {
+      border: 2px solid rgba($color-epic, .75);
+    }
+
+    &.Rare {
+      border: 2px solid rgba($color-rare, .75);
+    }
+
+    &.Uncommon {
+      border: 2px solid rgba($color-uncommon, .75);
+    }
+
+    &.Common {
+      border: 2px solid rgba($color-common, .75);
+    }
+    &-card {
+      padding: 15px 0;
+      flex-direction: column;
+    }
+
+    &-data {
+      margin-top:15px;
+
+      p {
+        font-size:14px;
+      }
+    }
+
+    &-img {
+      height: 75px;
+      width: 75px;
+
+      img {
+        height: 15px;
+        width: 15px;
+      }
+    }
+
+    &-actions {
+      padding: 5px 0;
+      justify-content: center;
+
+      .btn {
+        padding: 5px 10px;
+      }
+
+      .ng-fa-icon {
+        font-size: 12px;
+      }
     }
   }
 }

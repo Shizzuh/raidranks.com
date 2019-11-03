@@ -1,10 +1,11 @@
+import { ChampionsService } from './../../services/champions.service';
 import { Storage } from './../../services/store.service';
 import { Component, OnInit } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { map } from 'rxjs/operators';
 import { faSearch, faFilter } from '@fortawesome/pro-light-svg-icons';
 import * as _ from 'lodash';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'champions',
@@ -21,14 +22,23 @@ export class ChampionsComponent implements OnInit {
 
   faSearch = faSearch;
   faFilter = faFilter;
+  championsListPage: boolean;
+  rosterMode: any;
 
   constructor(
+    private championsService: ChampionsService,
     private localStorage: Storage,
     private db: AngularFirestore,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private router: Router
   ) { }
 
   ngOnInit() {
+
+    this.checkRosterMode();
+
+    this.championsService.getAllChampions();
+
     if (localStorage.getItem('championFlatList')) {
       this.championList = _.orderBy(
         this.localStorage.get('championFlatList'), ['faction', 'rarity', 'name'], ['asc', 'asc', 'asc']
@@ -45,6 +55,7 @@ export class ChampionsComponent implements OnInit {
         );
 
       this.championFlatList.subscribe(resp => {
+        console.log(resp);
         resp.map(champions => {
           champions.champions.map(champ => {
             champ.name = champ.name.toLowerCase();
@@ -61,6 +72,13 @@ export class ChampionsComponent implements OnInit {
     this.route.queryParamMap.subscribe(params => {
       this.orderObj = { ...params.keys, ...params };
       this.championList = _.filter(this.localStorage.get('championFlatList'), this.orderObj.params);
+    });
+
+
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        this.checkRosterMode();
+      }
     });
   }
 
@@ -80,5 +98,15 @@ export class ChampionsComponent implements OnInit {
     } else {
       return;
     }
+  }
+
+  checkRosterMode() {
+    this.router.url === '/champions' ? this.championsListPage = true : this.championsListPage = false;
+    if (this.championsListPage) {
+      this.rosterMode = this.localStorage.get('rosterMode');
+    } else {
+      this.rosterMode = false;
+    }
+
   }
 }

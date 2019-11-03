@@ -1,0 +1,33 @@
+<div class="champions-cards">
+  <div class="search" *ngIf="originalChampionList && originalChampionList.length > 0">
+    <input
+    type="text"
+    placeholder="Search Champions..."
+    (ngxInputSearch)="updateSearch($event)"
+    (keyup)="emptyCheck()"
+    [(ngModel)]="searchInput">
+    <filter></filter>
+  </div>
+  <virtual-scroller
+    #scroll
+    class="roster-scrollable-content"
+    *ngIf="championList?.length > 0"
+    [items]="championList">
+      <champion-card
+        [removeMode]="removeMode"
+        class="champs champion-roster"
+        (refreshTeams)="refreshRoster()"
+        *ngFor="let champ of scroll.viewPortItems"
+        [source]="'roster'"
+        [attr.data-champ-name]="champ.name.toLowerCase()"
+        [champ]="champ">
+      </champion-card>
+  </virtual-scroller>
+  <div *ngIf="originalChampionList && originalChampionList.length > 1 && championList.length < 1" class="no-champions">
+    <h4>No results found</h4>
+  </div>
+  <div *ngIf="!originalChampionList || originalChampionList.length < 1" class="no-champions">
+    <h4>No champions added to your roster</h4>
+    <button class="btn btn-outline-primary mt-3" (click)="addChampionsToRoster()">Get Started</button>
+  </div>
+</div>

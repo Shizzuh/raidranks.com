@@ -9,7 +9,7 @@ html, body {
 @for $i from 1 through 6 {
   h#{$i} {
     color:$color-primary;
-    font-size:2 / $i + 1rem !important;
+    font-size:15 / $i + 1vw !important;
     font-family: $font-primary !important;
   }
 }
@@ -24,4 +24,20 @@ p {
 
 .add {
   color: $color-primary;
+}
+
+.rsl-label {
+  font-size:3vw;
+  color:#bbb;
+}
+
+@media all and (min-width:$mobile) {
+  @for $i from 1 through 6 {
+    h#{$i} {
+      font-size: 2 / $i + 1rem !important;
+    }
+  }
+ .rsl-label {
+   font-size: 10px;
+ }
 }

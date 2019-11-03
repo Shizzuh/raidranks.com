@@ -1,0 +1,32 @@
+<div class="abilities text-center" *ngIf="!deleteConfirmation">
+  <input
+    class="rsl-input rsl-input-large"
+    type="text"
+    [value]="team.name"
+    (ngxInputSearch)="renameTeam($event)">
+  <div *ngIf="!teamNameSaved" class="mt-2 rsl-label">Tap team name to edit</div>
+  <div *ngIf="teamNameSaved" class="mt-2 rsl-label text-primary font-weight-bold">
+    <fa-icon class="mr-2" [icon]="faCheck"></fa-icon> Team Saved
+  </div>
+  <div class="team">
+    <champion-card
+      *ngFor="let champ of team.champions"
+      [source]="'team-edit'"
+      [champ]="champ"
+      (reopenEdit)="reopenEdit()"
+      (refreshTeams)="refreshTeam()"></champion-card>
+  </div>
+  <button class="btn btn-outline-primary mr-3" (click)="close()">
+    <fa-icon [icon]="faTimes"></fa-icon> Close
+  </button>
+  <button class="btn btn-outline-danger" (click)="deleteTeamConfirmation()">
+    <fa-icon [icon]="faTrashAlt"></fa-icon> Delete
+  </button>
+</div>
+
+<div class="delete-confirmation" *ngIf="deleteConfirmation">
+  <p>You're about to delete <span class="text-primary">{{team.name}}</span></p>
+  <p class="text-danger">This CAN NOT be undone</p>
+  <button class="btn btn-block btn-danger" (click)="deleteTeam(team)">DELETE</button>
+  <button class="btn btn-block btn-outline-primary" (click)="deleteTeamConfirmation()">Cancel</button>
+</div>

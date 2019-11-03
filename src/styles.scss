@@ -29,15 +29,28 @@ $rsl-theme: mat-light-theme($rsl-primary, $rsl-accent, $rsl-warn);
 /* You can add global styles to this file, and also import other style files */
 @import 'app/styles/index';
 
+html {
+  background-image:url('assets/images/rsl-bg.png');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 html, body, .global {
-  background: $color-background !important;
   height:100%;
   width:100%;
 }
 
-.global {
+body {
+  background: rgba($color-background, .9) !important;
+  overflow:hidden;
+}
+
+html > body > app-root > div.global {
   display:flex;
   flex-direction: row;
+  height:100% !important;
 }
 
 .content {
@@ -46,9 +59,25 @@ html, body, .global {
   overflow-y: hidden;
 }
 
+.overlay {
+  top:0;
+  left:0;
+  position:fixed;
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  background:rgba(black, .9);
+  z-index: 9;
+  overflow: auto;
+  padding: 50px 15px 25px;
+}
+
 hr {
   border-top:1px solid rgba($color-primary, .3) !important;
   margin: 2rem auto !important;
+  width:100%;
 }
 
 button.btn.btn-circle {
@@ -60,15 +89,29 @@ button.btn.btn-circle {
   color: $color-primary;
 }
 
+ng-adsense {
+  width:100% !important;
+}
+
 .scrollable-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
+.roster-scrollable-content {
+  .scrollable-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding:15px;
+  }
+}
+
 ::-webkit-scrollbar {
-  width: 4px;
-  height: 2px;
+  width: .5vw;
+  height: .25vw;
   &:hover {
     width:16px;
   }
@@ -112,4 +155,19 @@ button.btn.btn-circle {
 }
 
 @media all and (min-width:$mobile) {
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 2px;
+  }
+
+  .roster-scrollable-content {
+    .scrollable-content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+    }
+  }
+
 }

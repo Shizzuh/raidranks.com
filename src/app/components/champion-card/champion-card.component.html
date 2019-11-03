@@ -1,29 +1,39 @@
-<ng-container *ngIf="champ && (source === 'champs' || source === 'team')">
+<ng-container *ngIf="champ && source === 'champs' && !hideChamp">
   <a
     snInViewport
+    [ngClass]="{'remove-mode': removeMode || rosterMode}"
     class="champion-card {{ champ.rarity }} {{source}}"
     [routerLink]="['/champion-details', champ.faction.replace(' ', '-').replace(' ', '-').toLowerCase(),
-    champ.name.replace(' ',
-    '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
+    champ.name.replace(' ', '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
     queryParamsHandling="merge"
-    [ngStyle]="{'background-image': 'url(../../../assets/images/champions/'+championPortrait.toLowerCase()}">
+    [ngStyle]="{'background-image': 'url(../../../assets/images/all/'+championPortrait.toLowerCase()}">
     <img *ngIf="champ.element" [lazyLoad]="championElementIcon" [scrollTarget]="scrollTarget">
     <p>{{champ.name}}</p>
   </a>
-  <fa-icon class="delete" *ngIf="source === 'team'" (click)="removeChamp()" [icon]="faTrashAlt"></fa-icon>
+  <button
+    *ngIf="rosterMode"
+    class="overlay-btn overlay-btn-primary"
+    (click)="addChampToRoster(champ)">
+    {{ !championAddedConfirmation ? 'Add Champion' : '' }}
+    <fa-icon *ngIf="championAddedConfirmation" [icon]="faCheck"></fa-icon>
+  </button>
+  <button
+    *ngIf="removeMode"
+    class="overlay-btn overlay-btn-danger"
+    (click)="removeChampFromRoster(champ)">
+    Remove
+  </button>
 </ng-container>
 
-<ng-container *ngIf="champ && (source === 'builder') ">
-  <a
-    class="champion-card {{ champ.rarity }} {{source}}"
-    [routerLink]="['/champion-details', champ.faction.replace(' ', '-').replace(' ', '-').toLowerCase(),
-    champ.name.replace(' ',
-    '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
-    queryParamsHandling="merge"
-    [ngStyle]="{'background-image': 'url(../../../assets/images/champions/'+championPortrait.toLowerCase()}">
-  </a>
-</ng-container>
-
+<a
+*ngIf="champ && showChamp && (source === 'builder' || source === 'team' || source === 'shards')"
+  class="champion-card {{ champ.rarity }} {{source}}"
+  [routerLink]="['/champion-details', champ.faction.replace(' ', '-').replace(' ', '-').toLowerCase(),
+  champ.name.replace(' ',
+  '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
+  queryParamsHandling="merge"
+  [ngStyle]="{'background-image': 'url(../../../assets/images/all/'+championPortrait.toLowerCase()}">
+</a>
 
 <a
   *ngIf="source === 'teamShare'"
@@ -33,7 +43,47 @@
   champ.name.replace(' ',
   '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
   queryParamsHandling="merge"
-  [ngStyle]="{'background-image': 'url(../../../assets/images/champions/'+championPortrait.toLowerCase()}">
+  [ngStyle]="{'background-image': 'url(../../../assets/images/all/'+championPortrait.toLowerCase()}">
   <img *ngIf="champ.element" [lazyLoad]="championElementIcon" [scrollTarget]="scrollTarget">
   <p>{{champ.name}}</p>
 </a>
+
+<ng-container *ngIf="showChamp && source === 'team-edit'">
+  <div class="champ-wrap">
+    <a
+      snInViewport
+      class="champion-card {{ champ.rarity }} {{source}}"
+      [routerLink]="['/champion-details', champ.faction.replace(' ', '-').replace(' ', '-').toLowerCase(),
+      champ.name.replace(' ',
+      '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
+      queryParamsHandling="merge"
+      [ngStyle]="{'background-image': 'url(../../../assets/images/all/'+championPortrait.toLowerCase()}">
+      <img *ngIf="champ.element" [lazyLoad]="championElementIcon" [scrollTarget]="scrollTarget">
+      <p>{{champ.name}}</p>
+    </a>
+    <fa-icon class="delete" (click)="removeChamp()" [icon]="faTrashAlt"></fa-icon>
+  </div>
+</ng-container>
+
+<div class="roster-champion {{ champ.rarity }}" *ngIf="champ && source === 'roster' && !hideChamp">
+  <a
+    snInViewport
+    class="roster-champion-card"
+    [routerLink]="['/champion-details', champ.faction.replace(' ', '-').replace(' ', '-').toLowerCase(),
+    champ.name.replace(' ', '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
+    queryParamsHandling="merge">
+    <div
+      class="roster-champion-img"
+      [ngStyle]="{'background-image': 'url(../../../assets/images/all/'+championPortrait.toLowerCase()}">
+      <img *ngIf="champ.element" src="{{championElementIcon}}">
+    </div>
+    <div class="roster-champion-data">
+      <p>{{champ.name}}</p>
+    </div>
+  </a>
+  <div class="roster-champion-actions">
+    <button class="btn btn-outline-danger" (click)="removeChampFromRoster(champ)">
+      <fa-icon [icon]="faTrashAlt"></fa-icon>
+    </button>
+  </div>
+</div>

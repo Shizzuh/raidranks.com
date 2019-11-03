@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { TeamBuilderService } from 'src/app/services/team-builder.service';
-import { faTrashAlt, faShare } from '@fortawesome/pro-light-svg-icons';
+import { faPencil, faShield, faPlus, faTrashAlt, faShare } from '@fortawesome/pro-light-svg-icons';
 import { Router } from '@angular/router';
 import { Team } from 'src/app/models/team.model';
 
@@ -13,12 +13,16 @@ export class TeamComponent implements OnInit {
 
   faShare = faShare;
   faTrashAlt = faTrashAlt;
+  faPlus = faPlus;
+  faShield = faShield;
+  faPencil = faPencil;
 
-  deleteConfirmation: boolean;
   teams: Team[];
 
   @Input() team: Team;
   @Output() refreshTeams = new EventEmitter<boolean>();
+  abilities: boolean;
+  teamEdit: any;
 
   constructor(
     private teamBuilderService: TeamBuilderService,
@@ -31,17 +35,6 @@ export class TeamComponent implements OnInit {
     this.teamBuilderService.shareLink(team);
   }
 
-  deleteTeamConfirmation() {
-    this.deleteConfirmation ? this.deleteConfirmation = false : this.deleteConfirmation = true;
-  }
-
-  deleteTeam(team: Team) {
-    this.teamBuilderService.deleteTeam(team);
-    this.teams = this.teamBuilderService.getTeams();
-    this.deleteConfirmation = true;
-    this.refreshTeamsEv();
-  }
-
   activateBuilder(team: Team) {
     this.teamBuilderService.setTeamBuilderTeam(team);
     this.router.navigate(['./champions']);
@@ -49,6 +42,19 @@ export class TeamComponent implements OnInit {
 
   refreshTeamsEv() {
     this.refreshTeams.next(true);
+  }
+
+  toggleAbilities() {
+    this.abilities ? this.abilities = false : this.abilities = true;
+  }
+
+  openEdit() {
+    this.teamEdit = true;
+  }
+
+  closeEdit() {
+    this.teamEdit = false;
+    this.refreshTeamsEv();
   }
 
 }

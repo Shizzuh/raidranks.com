@@ -1,0 +1,59 @@
+@import 'variables';
+.champ {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-background;
+  margin-bottom: 3%;
+  padding-top: 15px;
+  &-abilities {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+.abilities {
+  width: 100%;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.effects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center;
+  margin-bottom:25px;
+}
+.effect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3vw 1vw;
+  width: 20vw;
+
+  img {
+    height: 10vw;
+    width: 10vw;
+  }
+}
+
+@media all and (min-width:$mobile) {
+  .abilities {
+    width: 550px;
+  }
+  .effect {
+    margin: 15px 5px;
+    width: 100px;
+
+    img {
+      height: 40px;
+      width: 40px;
+    }
+  }
+}

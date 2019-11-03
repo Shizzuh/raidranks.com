@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "raidranks",
     "public": "dist/rsl",
     "ignore": [
       "firebase.json",

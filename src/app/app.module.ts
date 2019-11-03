@@ -24,6 +24,8 @@ import { InViewportModule } from '@thisissoon/angular-inviewport';
 import { InputSearchModule } from 'ngx-input-search';
 import { ClipboardModule } from 'ngx-clipboard';
 import * as component from './components';
+import { FaqComponent } from './components/faq/faq.component';
+import { ShardsComponent } from './components/shards/shards.component';
 
 
 @NgModule({
@@ -43,7 +45,14 @@ import * as component from './components';
     component.FilterComponent,
     component.FoodComponent,
     component.TeamShareComponent,
-    component.TeamComponent
+    component.TeamComponent,
+    component.TeamAbilitiesComponent,
+    component.AdminComponent,
+    component.TeamEditComponent,
+    component.RosterComponent,
+    component.SidebarComponent,
+    FaqComponent,
+    ShardsComponent
   ],
   imports: [
     ClipboardModule,

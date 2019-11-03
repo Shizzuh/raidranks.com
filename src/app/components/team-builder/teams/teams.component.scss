@@ -1,84 +1,66 @@
 @import 'variables';
+@import 'buttons';
+@import 'input';
 
 .teams {
   width:100%;
   height:100%;
   overflow-x:hidden;
   display:flex;
-  flex-wrap:wrap;
-  flex-direction:row;
-  justify-content: flex-start;
-  align-content: flex-start;
-  transition:all 200ms ease-in-out;
-}
-
-.team-card {
-  display:flex;
-  flex-wrap:wrap;
   flex-direction:column;
-  justify-content: center;
-  align-items: center;
-  background-color:lighten($color-background, 5%);
-  padding: 15px;
-  position:relative;
-  margin:1%;
-  height:auto;
-  width:100%;
-  width:100 / 3.2 + 0%;
-  max-width: 500px;
-  min-height:300px;
-  border-radius:4px;
-  text-align:center;
-  box-shadow:0 5px 15px rgba(black, .2);
   transition:all 200ms ease-in-out;
-  .btn {
-    width:100%;
-    max-width:300px;
-    margin-top:20px;
-  }
-}
-
-.team-actions {
-  position:absolute;
-  top:15px;
-  right:15px;
-  display:flex;
-  flex-direction: row;
-  button {
-    color:white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    border: none;
-    font-size: 18px;
-    background:transparent;
-    transition: all 200ms ease-in-out;
-  }
-
-  .team-delete {
-    color: darken(red, 15%);
-  }
-
-  .team-share {
-    color: $color-primary;
-  }
+  padding-bottom:40vw;
 }
 
 .new-team {
   width:100%;
-  max-width:300px;
-  input {
-    width:100%;
-    background:transparent;
+  background-color:lighten($color-background, 10%);
+  min-height:40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius:1vw 1vw 0 0;
+  width:96vw;
+  padding:3vw;
+  margin:2vw 2vw;
+  text-align:center;
+  .btn-circle {
+    height:10vw;
+    width:10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color:white;
-    margin-bottom:15px;
-    border:1px solid $color-primary;
-    padding:10px;
-    font-size:18px;
+    margin-top:3vw;
+    font-size:4vw;
   }
-  .btn {
-    width:100%;
+}
+
+.help {
+  max-width:400px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (min-width:$mobile) {
+  .new-team {
+    min-height: 100px;
+    border-radius:5px;
+    width: 350px;
+    padding: 15px;
+    margin: 15px;
+
+    .btn-circle {
+      height: 45px;
+      width: 45px;
+      margin-top: 15px;
+      font-size:18px;
+    }
+  }
+  .teams {
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
   }
 }
