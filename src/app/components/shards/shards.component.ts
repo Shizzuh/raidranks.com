@@ -20,6 +20,7 @@ export class ShardsComponent implements OnInit {
   numberOfSummons: number;
   showBluestacks: boolean;
   bluestacksCount: number;
+  adActive: boolean;
 
   constructor(
     private championsService: ChampionsService,
@@ -37,6 +38,7 @@ export class ShardsComponent implements OnInit {
     this.legendaryChampions = _.filter(this.championsList, ['rarity', 'Legendary']);
     this.epicChampions = _.filter(this.championsList, ['rarity', 'Epic']);
     this.rareChampions = _.filter(this.championsList, ['rarity', 'Rare']);
+    this.adActive = true;
   }
 
   summon(shardCount: number, chances: number) {
@@ -62,7 +64,11 @@ export class ShardsComponent implements OnInit {
     }
     setTimeout(() => {
       this.onCoolDown = false;
-    }, 5000);
+    }, 10000);
+    this.adActive = false;
+    setTimeout(() => {
+      this.adActive = true;
+    }, 1);
   }
 
   getRandomNumber() {

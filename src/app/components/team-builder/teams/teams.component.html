@@ -1,29 +1,13 @@
-<!-- <div class="new-team">
-  <div class="actions">
-    <input
-      type="text"
-      placeholder="New Team Name"
-      (keydown.enter)="createNewTeam()"
-      [(ngModel)]="teamName">
-    <button
-      class="btn btn-primary btn-circle"
-      (click)="createNewTeam()">
+<div class="teams">
+  <div class="new-team">
+    <input type="text" class="form-control" placeholder="New Team Name" (keydown.enter)="createNewTeam()" [(ngModel)]="teamName">
+    <button class="btn btn-primary btn-circle" (click)="createNewTeam()">
       <fa-icon [icon]="faPlus"></fa-icon>
     </button>
+    <button class="btn btn-link mt-3" (click)="helpOverlay()">Need Help?</button>
   </div>
-</div> -->
-<div class="teams">
-  <ng-container *ngIf="teams">
-    <div class="new-team">
-      <input type="text" class="form-control" placeholder="New Team Name" (keydown.enter)="createNewTeam()" [(ngModel)]="teamName">
-      <button class="btn btn-primary btn-circle" (click)="createNewTeam()">
-        <fa-icon [icon]="faPlus"></fa-icon>
-      </button>
-      <button class="btn btn-link mt-3" (click)="helpOverlay()">Need Help?</button>
-    </div>
-    <ng-container *ngFor="let team of teams">
-      <team [team]="team" (refreshTeams)="refreshTeams($event)"></team>
-    </ng-container>
+  <ng-container *ngFor="let team of teams">
+    <team [team]="team" (refreshTeams)="refreshTeams($event)"></team>
   </ng-container>
 </div>
 

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { AngularFirestore } from '@angular/fire/firestore/firestore';
+import { AngularFirestore } from '@angular/fire/firestore';
 import { Storage } from './store.service';
 
 @Injectable({
@@ -9,6 +9,8 @@ import { Storage } from './store.service';
 export class RosterService {
 
   activatedRoute: ActivatedRoute;
+  roster: any;
+  rosterId: any;
 
   constructor(
     private router: Router,
@@ -16,13 +18,18 @@ export class RosterService {
     private localStorage: Storage
   ) { }
 
+  shareLink() {
+    this.roster = this.localStorage.get('championRoster');
+    this.rosterId = this.roster[0].id;
 
-  shareLink(team) {
-    const dbRef = this.db.doc('teams/' + team.id);
-    dbRef.set(team, { merge: true }).then(success => {
-      const queryParams = { teamId: team.id };
+    const dbRef = this.db.doc('rosters/' + this.rosterId);
+    dbRef.set({
+      id: this.rosterId,
+      champions: this.roster[0].champions
+    }, { merge: true }).then(success => {
+      const queryParams = { rosterId: this.rosterId };
       this.router.navigate(
-        ['/team-share'], {
+        ['/roster-share'], {
         relativeTo: this.activatedRoute,
         queryParams: queryParams,
         queryParamsHandling: 'merge'

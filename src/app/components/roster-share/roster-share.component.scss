@@ -1,0 +1,82 @@
+@import 'variables';
+
+.champions-cards {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+input {
+  padding: 7px 15px;
+  font-size: 16px;
+  margin-left: 2%;
+  color: white;
+  border: none;
+  width: 50%;
+  background: transparent;
+  border-bottom: 1px solid $color-primary;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+virtual-scroller {
+  width: 100vw;
+  height: calc(100vh - 55px);
+  padding-bottom: 22vw;
+}
+
+.search {
+  padding: 4px 15px;
+  background-color: rgba($color-primary, .2);
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.no-champions {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+champion-card.champs.champion-roster {
+  margin: 3vw;
+  display: flex;
+  height: 30vw;
+  width: 23vw;
+}
+
+.roster-wrapper {
+  padding:15px;
+}
+
+.roster-scrollable-content .scrollable-content {
+  display:flex;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+}
+
+@media all and (min-width:$mobile) {
+
+  virtual-scroller {
+    padding-bottom: 0;
+  }
+
+  champion-card.champs.champion-roster {
+    margin: 5px;
+    height: 125px;
+    width: 100px;
+  }
+}

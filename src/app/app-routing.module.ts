@@ -7,12 +7,14 @@ const routes: Routes = [
   { path: 'champions', component: component.ChampionsComponent },
   { path: 'champion-details/:faction/:champion', component: component.ChampionDetailsComponent },
   { path: 'teams', component: component.TeamsComponent },
+  { path: 'leaderboards', component: component.CbLeaderboardComponent },
   { path: 'team-share', component: component.TeamShareComponent },
   { path: 'deals', component: component.DealsComponent },
   { path: 'food', component: component.FoodComponent },
   { path: 'admin', component: component.AdminComponent },
   { path: 'faq', component: component.FaqComponent },
   { path: 'roster', component: component.RosterComponent },
+  { path: 'roster-share', component: component.RosterShareComponent },
   { path: 'shards', component: component.ShardsComponent }
 ];
 

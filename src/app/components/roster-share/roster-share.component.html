@@ -1,0 +1,28 @@
+<div class="roster-wrapper">
+  <button class="mb-3 center-block btn btn-outline-primary" (click)="copyRosterUrl(shareLink)">
+    {{ copied ? 'Roster Link Copied' : 'Copy Roster Link' }}
+    <fa-icon *ngIf="copied" [icon]="faCheck"></fa-icon>
+  </button>
+  <div class="champions-cards" *ngIf="roster">
+    <virtual-scroller
+      #scroll
+      class="rosterShare-scrollable-content"
+      [items]="roster">
+      <champion-card class="champs champion-roster" *ngFor="let champ of rosterLegendary" [source]="'rosterShare'"
+        [champ]="champ">
+      </champion-card>
+      <champion-card class="champs champion-roster" *ngFor="let champ of rosterEpic" [source]="'rosterShare'"
+        [champ]="champ">
+      </champion-card>
+      <champion-card class="champs champion-roster" *ngFor="let champ of rosterRare" [source]="'rosterShare'"
+        [champ]="champ">
+      </champion-card>
+      <champion-card class="champs champion-roster" *ngFor="let champ of rosterUncommon" [source]="'rosterShare'"
+        [champ]="champ">
+      </champion-card>
+      <champion-card class="champs champion-roster" *ngFor="let champ of rosterCommon" [source]="'rosterShare'"
+        [champ]="champ">
+      </champion-card>
+    </virtual-scroller>
+  </div>
+</div>

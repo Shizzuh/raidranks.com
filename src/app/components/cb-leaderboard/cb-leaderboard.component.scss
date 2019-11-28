@@ -1,0 +1,38 @@
+@import 'variables';
+.wrapper {
+  overflow: auto;
+  height: 100%;
+  padding-bottom:100px;
+}
+.container {
+  width:992px;
+}
+.nav-link {
+  color:white;
+  cursor:pointer;
+}
+
+.action-menu {
+  position: absolute;
+  height: auto;
+  width: 380px;
+  top: 40px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background:$color-background;
+  box-shadow:0 5px 10px rgba(black, .2);
+  z-index: 1;
+  padding: 15px;
+  border-radius: 4px;
+  span {
+    width:100%;
+    padding:5px 10px;
+    display:block;
+    cursor:pointer;
+    &:hover {
+      background:lighten($color-background, 10%);
+    }
+  }
+}

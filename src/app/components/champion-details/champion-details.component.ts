@@ -84,7 +84,7 @@ export class ChampionDetailsComponent implements OnInit, OnDestroy {
 
         this.teamBuilderService.setChampion(champ);
 
-        this.shadowbotName = '!'+data.name.toLowerCase().replace('-', '').replace('-', '').replace('\'', '');
+        this.shadowbotName = '$'+data.name.toLowerCase().replace('-', '').replace('-', '').replace('\'', '')+' info';
 
         this.champFac = data.faction.name;
         this.champFullName = data.name;

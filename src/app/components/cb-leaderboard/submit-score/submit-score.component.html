@@ -1,0 +1,130 @@
+<div class="score-submission">
+  <div class="score-submitted" *ngIf="scoreSubmitted">
+    <fa-icon [icon]="faCheck"></fa-icon>
+    <h4>Thanks!</h4>
+    <p>Your score has been submitted. Please allow up to 24 hours for review!</p>
+  </div>
+  <div class="score-form" *ngIf="!scoreSubmitted">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h2>Score Submission</h2>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <div class="rsl-label">Username</div>
+          <input type="text" class="form-control" placeholder="Username" [(ngModel)]="userName"
+            (keyup)="validateForm()">
+        </div>
+        <div class="col">
+          <div class="rsl-label">Clan Tag</div>
+          <input type="text" class="form-control" placeholder="ELRE" [(ngModel)]="clan" (keyup)="validateForm(); clanValidation()">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <div class="rsl-label">Team Comp</div>
+          <select class="form-control" [(ngModel)]="category" (keyup)="validateForm()">
+            <option value="Uncategorized" selected>Uncategorized</option>
+            <option value="Unkillable">Unkillable</option>
+            <option value="Counter Attack">Counter Attack</option>
+            <option value="Speed">Speed</option>
+          </select>
+        </div>
+        <div class="col">
+          <div class="rsl-label">Difficulty</div>
+          <select class="form-control" [(ngModel)]="difficulty" (keyup)="validateForm()">
+            <option value="Easy">Easy</option>
+            <option value="Normal">Normal</option>
+            <option value="Hard">Hard</option>
+            <option value="Brutal">Brutal</option>
+            <option value="Nightmare">Nightmare</option>
+            <option value="Ultra Nightmare">Ultra Nightmare</option>
+          </select>
+        </div>
+        <div class="col">
+          <div class="rsl-label">Total Damage</div>
+          <input (keyup)="validateForm()" type="text" class="form-control" placeholder="40.23m" [(ngModel)]="damage">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <div class="rsl-label">NOTE: Please enter your score exactly as shown on your results screenshot. Any difference at all will cause your score to be denied.</div>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <ng-container *ngIf="!(cbTeam && cbTeam.length > 4)">
+            <div class="rsl-label">Search Champions</div>
+            <div class="search-champion">
+              <input #search type="text" class="form-control" placeholder="Search Champions..."
+                (ngxInputSearch)="updateSearch($event)" (keyup)="emptyCheck()" [(ngModel)]="searchInput">
+            </div>
+            <div class="results" *ngIf="championList">
+              <ng-container *ngFor="let champ of championList">
+                <div (click)="addChampToTeam(champ)" class="champion"
+                  [ngStyle]="{'background-image': 'url(../../../../assets/images/all/'+champ.portrait.toLowerCase()+'.png'}">
+                  <p>{{champ.name}}</p>
+                </div>
+              </ng-container>
+              <ng-container *ngIf="championList.length < 1">
+                <p>No results</p>
+              </ng-container>
+            </div>
+          </ng-container>
+          <div class="rsl-label mt-3" *ngIf="cbTeam">Team</div>
+          <div class="team" *ngIf="cbTeam">
+            <ng-container *ngFor="let champ of cbTeam">
+              <div
+                class="champion"
+                (click)="removeChamp(champ)"
+                [ngStyle]="{'background-image': 'url(../../../../assets/images/all/'+champ.portrait.toLowerCase()+'.png'}">
+                <p>{{champ.name}}</p>
+                <div class="remove">
+                  <fa-icon [icon]="faTimes"></fa-icon>
+                </div>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <div class="rsl-label">Screenshot</div>
+          <div class="custom-file">
+            <input
+              accept="image/*"
+              type="file"
+              class="custom-file-input"
+              id="customFile"
+              (change)="fileProgress($event); validateForm()"
+              [(ngModel)]="screenshot">
+            <label class="custom-file-label" for="customFile">Choose file</label>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <div class="rsl-label">NOTE: Your results screenshot must show your entire game screen. Leaving out the time, difficulty, damage, or your team will cause your score to be denied.</div>
+        </div>
+      </div>
+      <div class="row mb-3" *ngIf="previewUrl">
+        <div class="col">
+          <img [src]="previewUrl" class="preview-image">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-6">
+          <button
+            [disabled]="formIncomplete"
+            class="btn btn-primary btn-block"
+            (click)="submitScore()">Submit Score</button>
+        </div>
+        <div class="col-6">
+          <button class="btn btn-outline-danger btn-block" (click)="closeScoreSubmission()">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

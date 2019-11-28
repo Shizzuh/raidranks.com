@@ -25,7 +25,7 @@ input {
 
 virtual-scroller {
   width: 100vw;
-  height: calc(84vh - 55px);
+  height: calc(100vh - 55px);
   padding-bottom:22vw;
 }
 
@@ -50,7 +50,7 @@ virtual-scroller {
 @media all and (min-width:$mobile) {
   virtual-scroller {
     padding-bottom: 0;
-    height: calc(79.3vh - 55px);
+    height: calc(100vh - 55px);
   }
 
   .shards {

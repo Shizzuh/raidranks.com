@@ -8,10 +8,6 @@
     [(ngModel)]="searchInput">
     <filter></filter>
   </div>
-  <div class="shards">
-    <img src="../../../assets/images/shards/ancient.png" alt="Ancient Shard">
-    <a [routerLink]="['/shards']" class="btn btn-outline-primary">Summon Champions</a>
-  </div>
   <virtual-scroller #scroll [items]="championList">
       <champion-card
         [rosterMode]="rosterMode"

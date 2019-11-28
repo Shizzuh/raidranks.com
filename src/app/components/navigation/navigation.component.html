@@ -1,43 +1,55 @@
-<team-builder></team-builder>
-<div class="nav-links">
-  <a [routerLinkActive]="'is-active'" [routerLink]="['champions']">
-    <fa-icon [icon]="faSwords"></fa-icon>
-    <span>Champions</span>
-  </a>
-  <a [routerLinkActive]="'is-active'" [routerLink]="['teams']">
-    <fa-icon [icon]="faUsersMedical"></fa-icon>
-    <span>Team Builder</span>
-  </a>
-  <a [routerLinkActive]="'is-active'" [routerLink]="['deals']">
-    <fa-icon [icon]="faUsdCircle"></fa-icon>
-    <span>Deal Values</span>
-  </a>
-  <!-- <a [routerLinkActive]="'is-active'" [routerLink]="['food']">
-    <fa-icon [icon]="faDrumstick"></fa-icon>
-    <span>Food Calculator</span>
-  </a> -->
-  <a [routerLinkActive]="'is-active'" [routerLink]="['roster']">
-    <fa-icon [icon]="faUsers"></fa-icon>
-    <span>Roster</span>
-  </a>
-  <a [routerLinkActive]="'is-active'" [routerLink]="['faq']">
-    <fa-icon [icon]="faQuestion"></fa-icon>
-    <span>Info & FAQ</span>
-  </a>
-</div>
+<div class="navigation" [ngClass]="{'is-active': navigationActive}">
+  <team-builder></team-builder>
+  <div class="nav-links">
+    <a [routerLinkActive]="'is-active'" [routerLink]="['champions']" (click)="toggleNav()">
+      <fa-icon [icon]="faSwords"></fa-icon>
+      <span>Champions</span>
+    </a>
+    <a [routerLinkActive]="'is-active'" [routerLink]="['leaderboards']" (click)="toggleNav()">
+      <fa-icon [icon]="faBoxingGlove"></fa-icon>
+      <span>Clan Boss Leaderboards</span>
+    </a>
+    <a [routerLinkActive]="'is-active'" [routerLink]="['teams']" (click)="toggleNav()">
+      <fa-icon [icon]="faUsersMedical"></fa-icon>
+      <span>Team Builder</span>
+    </a>
+    <a [routerLinkActive]="'is-active'" [routerLink]="['deals']" (click)="toggleNav()">
+      <fa-icon [icon]="faUsdCircle"></fa-icon>
+      <span>Deal Values</span>
+    </a>
+    <a [routerLinkActive]="'is-active'" [routerLink]="['roster']" (click)="toggleNav()">
+      <fa-icon [icon]="faUsers"></fa-icon>
+      <span>Roster</span>
+    </a>
+    <a [routerLinkActive]="'is-active'" [routerLink]="['faq']" (click)="toggleNav()">
+      <fa-icon [icon]="faQuestion"></fa-icon>
+      <span>Info & FAQ</span>
+    </a>
+    <a [routerLinkActive]="'is-active'" [routerLink]="['/shards']" (click)="toggleNav()">
+      <fa-icon [icon]="faGem"></fa-icon>
+      Summon Champions
+    </a>
+    <a class="text-center" href="https://bstk.me/u2U9kRRvO" target="_blank">Play Raid on BlueStacks</a>
+  </div>
 
-<div *ngIf="rosterPage" class="roster">
-  <button class="btn btn-outline-primary btn-block mt-3" (click)="addChampionsToRoster()">
-    <fa-icon [icon]="faPlus"></fa-icon>
-    Add to Roster
-  </button>
-  <button class="btn btn-outline-primary" (click)="shareRoster()">
-    <fa-icon [icon]="faShareAlt"></fa-icon>
-    Share Roster
-  </button>
-</div>
+  <div *ngIf="rosterPage" class="roster">
+    <button class="btn btn-outline-primary btn-block mt-3" (click)="addChampionsToRoster()">
+      <fa-icon [icon]="faPlus"></fa-icon>
+      Add to Roster
+    </button>
+    <button class="btn btn-outline-primary btn-block" (click)="shareRoster()">
+      <fa-icon [icon]="faShareAlt"></fa-icon>
+      Publish Roster
+    </button>
+  </div>
 
-<div *ngIf="rosterMode" class="roster-mode">
-  <h5>Roster Mode Active</h5>
-  <button class="btn btn-outline-danger" (click)="exitRosterMode()">Exit</button>
+  <div *ngIf="rosterMode" class="roster-mode">
+    <h5>Roster Mode Active</h5>
+    <button class="btn btn-outline-danger" (click)="exitRosterMode()">Exit</button>
+  </div>
+
+  <div class="nav-toggle" (click)="toggleNav()">
+    <fa-icon *ngIf="!navigationActive" [icon]="faBars"></fa-icon>
+    <fa-icon *ngIf="navigationActive" [icon]="faTimes"></fa-icon>
+  </div>
 </div>

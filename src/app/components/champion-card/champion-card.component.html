@@ -65,15 +65,12 @@
   </div>
 </ng-container>
 
-<div class="roster-champion {{ champ.rarity }}" *ngIf="champ && source === 'roster' && !hideChamp">
-  <a
-    snInViewport
-    class="roster-champion-card"
-    [routerLink]="['/champion-details', champ.faction.replace(' ', '-').replace(' ', '-').toLowerCase(),
+<div class="roster-champion {{ champ.rarity }}"
+  *ngIf="champ && (source === 'roster') && !hideChamp">
+  <a snInViewport class="roster-champion-card" [routerLink]="['/champion-details', champ.faction.replace(' ', '-').replace(' ', '-').toLowerCase(),
     champ.name.replace(' ', '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
     queryParamsHandling="merge">
-    <div
-      class="roster-champion-img"
+    <div class="roster-champion-img"
       [ngStyle]="{'background-image': 'url(../../../assets/images/all/'+championPortrait.toLowerCase()}">
       <img *ngIf="champ.element" src="{{championElementIcon}}">
     </div>
@@ -86,4 +83,17 @@
       <fa-icon [icon]="faTrashAlt"></fa-icon>
     </button>
   </div>
+</div>
+
+<div class="roster-champion roster-champion-share {{ champ.rarity }}"
+  [ngStyle]="{'background-image': 'url(../../../assets/images/all/'+championPortrait.toLowerCase()}"
+  *ngIf="champ && (source === 'rosterShare') && !hideChamp">
+  <a snInViewport class="roster-champion-card" [routerLink]="['/champion-details', champ.faction.replace(' ', '-').replace(' ', '-').toLowerCase(),
+    champ.name.replace(' ', '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
+    queryParamsHandling="merge">
+    <div class="roster-champion-data">
+      <img *ngIf="champ.element" src="{{championElementIcon}}">
+      <p>{{champ.name}}</p>
+    </div>
+  </a>
 </div>

@@ -1,0 +1,81 @@
+<div class="row text-white" (click)="showDetails()">
+  <div class="col col-1">
+    <span class="rank">{{rank}}</span>
+    <img class="rankMedal" *ngIf="rank <= 3" src="../../../../assets/icons/{{rank}}.png" alt="">
+  </div>
+  <div class="col col-2 text-primary">{{score.userName}} {{score.clan ? '['+score.clan+']' : ''}}</div>
+  <div class="col col-3">{{score.category}}</div>
+  <div class="col col-2">{{score.difficulty}}</div>
+  <div class="col col-1 text-uppercase">{{ damage }}</div>
+  <div class="col col-3">
+    <div class="team">
+      <div
+        class="champion {{champion.rarity}}"
+        *ngFor="let champion of score.team"
+        [ngStyle]="{'background-image': 'url(../../../../assets/images/all/'+champion.portrait.toLowerCase()+'.png'}">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="overlay" *ngIf="moreDetails">
+  <div class="details">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="rsl-label">Ranking</div>
+          <h2>{{rank}}</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="rsl-label">Username</div>
+          <h3>{{score.userName}} [{{score.clan}}]</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="rsl-label">Difficulty</div>
+          <h5>{{score.difficulty}}</h5>
+        </div>
+        <div class="col-4">
+          <div class="rsl-label">Damage</div>
+          <h5>{{score.damage}}</h5>
+        </div>
+        <div class="col-4">
+          <div class="rsl-label">Category</div>
+          <h5>{{score.category}}</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="team">
+            <div class="champion {{champion.rarity}}" *ngFor="let champion of score.team"
+              [ngStyle]="{'background-image': 'url(../../../../assets/images/all/'+champion.portrait.toLowerCase()+'.png'}">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <ng-adsense
+            [adClient]="'ca-pub-2485646423395791'"
+            [adFormat]="'auto'"
+            [adSlot]="9301569907">
+          </ng-adsense>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="rsl-label">Screenshot or it didn't happen</div>
+          <img *ngIf="screenshot" [src]="screenshot | async" alt="">
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12">
+          <button class="btn btn-outline-danger" (click)="showDetails()">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

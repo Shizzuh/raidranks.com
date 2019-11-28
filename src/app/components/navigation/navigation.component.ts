@@ -1,5 +1,6 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 import {
+  faGem,
   faSwords,
   faTrashAlt,
   faUsersMedical,
@@ -10,10 +11,12 @@ import {
   faUsers,
   faPlus,
   faShareAlt,
-  faQuestion
+  faQuestion,
+  faBoxingGlove
 } from '@fortawesome/pro-light-svg-icons';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { Storage } from '../../services/store.service';
+import { RosterService } from '../../services/roster.service';
 
 @Component({
   selector: 'navigation',
@@ -30,9 +33,11 @@ export class NavigationComponent implements OnInit {
   faUsdCircle = faUsdCircle;
   faShareAlt = faShareAlt;
   faTimes = faTimes;
+  faGem = faGem;
   faQuestion = faQuestion;
   faDrumstick = faDrumstick;
   faUsers = faUsers;
+  faBoxingGlove = faBoxingGlove;
   navigationActive: boolean;
   rosterMode: any;
   championsListPage: boolean;
@@ -44,7 +49,8 @@ export class NavigationComponent implements OnInit {
     private localStorage: Storage,
     private router: Router,
     private route: ActivatedRoute,
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private rosterService: RosterService
   ) { }
 
   ngOnInit() {
@@ -56,7 +62,7 @@ export class NavigationComponent implements OnInit {
 
     this.router.events.subscribe(event => {
       this.router.url === '/champions' ? this.championsListPage = true : this.championsListPage = false;
-      this.router.url.includes('/roster') ? this.rosterPage = true : this.rosterPage = false;
+      this.router.url.includes('/roster') && !this.router.url.includes('/roster-share') ? this.rosterPage = true : this.rosterPage = false;
       if (event instanceof NavigationEnd) {
         if (this.championsListPage) {
           this.rosterMode = this.checkRosterMode();
@@ -97,7 +103,7 @@ export class NavigationComponent implements OnInit {
   }
 
   shareRoster() {
-
+    this.rosterService.shareLink();
   }
 
 }

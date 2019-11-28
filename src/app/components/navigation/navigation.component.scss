@@ -1,155 +1,122 @@
 @import 'variables';
 
-navigation:host {
-  width:100%;
-  color:$color-primary;
-  display:flex;
+.navigation {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  justify-items: center;
-  height:auto;
-  position:fixed;
-  left:0;
-  bottom:-1px;
-  background:$background-gradient-secondary;
-  transition: all 200ms ease-in-out;
+  position: fixed;
+  display: flex;
+  height: 100%;
   z-index:1;
-  overflow:auto;
+  background: $background-gradient-primary;
+  transform:translateX(-100%);
+  transition: transform .25s ease-in-out;
+
+  &.is-active {
+    transform:translateX(0%);
+
+    .nav-toggle {
+      right: 5vw;
+      transition: right .3s ease-in-out;
+    }
+  }
+
   .nav-links {
-    display: flex;
-  }
-  .ng-fa-icon {
-    color: $color-primary;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    font-size: 8vw;
-    transition: all 200ms ease-in-out;
-  }
-  a {
+    flex-direction: column;
     display:flex;
     width:100%;
-    transition: all 200ms ease-in-out;
-    text-align:center;
-    padding:15px 0;
-    color:$color-primary;
+  }
+
+  a {
+    width: 100%;
+    border-radius: 0;
+    height: auto;
+    padding: 15px;
+    font-size: 14px;
+    box-shadow: none;
+    text-align: left;
+    align-items: center;
+    border-bottom: 1px solid rgba($color-primary, .2);
+    box-shadow: inset 0 0 0 0 $color-primary;
+    transition: all .25s ease-in-out;
+    display: block;
+    &:last-child {
+      border-bottom:0;
+    }
+
     span {
-      display:none;
+      display: inline-block;
+      height: 20px;
+    }
+
+    &:hover {
+      text-decoration: none;
     }
 
     &.is-active {
-      box-shadow: inset 0 5px 0 0 $color-primary;
+      background-color: rgba($color-primary, .2);
+      box-shadow: inset 5px 0 0 0 $color-primary;
       color: white;
     }
   }
-}
 
-.roster-mode {
-  padding: 15px;
-  width: 98%;
-  margin: 1% auto;
-  text-align: center;
-  border-radius: 5px;
-  background-color: lighten($color-background, 10%);
-}
+  .ng-fa-icon {
+    display:inline-block;
+    width: 30px;
+    font-size: 14px;
+  }
 
-.roster {
-  width: 100%;
-  padding: 0 10px;
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  .btn {
-    width:48%;
-    margin:0 1%;
-    margin-top:0 !important;
-    margin-bottom:1vw;
-    font-size:4vw;
+  .nav-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vw;
+    width: 10vw;
+    position: absolute;
+    bottom: 5vw;
+    right: calc(-100% + 5vw);
+    border-radius: 50%;
+    z-index:9;
+    background-color: $color-primary;
+    transition: right .2s ease-in-out;
 
     .ng-fa-icon {
-      font-size:4vw;
+      color: white;
       width:auto;
     }
   }
 }
 
-.btn-outline-danger {
-  .ng-fa-icon {
-    color: red;
-  }
+.roster {
+  width: 95%;
+  .btn {
+    margin-top: 1vw !important;
+    margin-bottom: 1vw;
+    font-size: 12px;
 
-  &:hover {
     .ng-fa-icon {
-      color: white;
-    }
-  }
-}
-
-.btn-outline-primary {
-  .ng-fa-icon {
-    color: $color-primary;
-  }
-
-  &:hover {
-    .ng-fa-icon {
-      color: white;
+      font-size: 12px;
     }
   }
 }
 
 
 @media all and (min-width:$mobile) {
-  navigation:host {
-    width:430px;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-content: flex-start;
+  .navigation {
+    width:300px;
     position:relative;
-    height:100%;
-    background:$background-gradient-primary;
-    .nav-links {
-      flex-direction: column;
-    }
-    a {
-      width:100%;
-      border-radius:0;
-      height:auto;
-      padding:15px 25px;
-      font-size:16px;
-      box-shadow:none;
-      text-align:left;
-      align-items: center;
-      border-bottom:1px solid rgba($color-primary, .2);
-      box-shadow:inset 0 0 0 0 $color-primary;
-      transition: all .25s ease-in-out;
-      span {
-        display:inline-block;
-        height:20px;
-      }
-      &:hover {
-        text-decoration: none;
-      }
-      &.is-active {
-        background-color:rgba($color-primary, .2);
-        box-shadow:inset 5px 0 0 0 $color-primary;
-        color:white;
-      }
-    }
-    .ng-fa-icon {
-      height:20px;
-      width:35px;
-      font-size:18px;
+    transform:translateX(0%);
+
+    .nav-toggle {
+      display: none;
     }
   }
+
   .roster {
-
     .btn {
-      margin-top: 1vw !important;
-      margin-bottom: 1vw;
-      font-size: 12px;
-
-      .ng-fa-icon {
-        font-size: 12px;
-      }
+      margin-top: 5px !important;
+      margin-bottom: 5px;
     }
   }
 }

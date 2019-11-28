@@ -49,7 +49,7 @@ export class ChampionCardComponent implements OnInit {
     if (this.source === 'shards') {
       setTimeout(() => {
         this.showChamp = true
-      }, this.index * 500);
+      }, this.index * 1000);
     }
     this.processing = true;
     this.scrollTarget = document.getElementById('content');

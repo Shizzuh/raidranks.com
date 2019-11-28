@@ -31,6 +31,10 @@ p {
   color:#bbb;
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 @media all and (min-width:$mobile) {
   @for $i from 1 through 6 {
     h#{$i} {

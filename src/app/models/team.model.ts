@@ -1,6 +1,6 @@
 export interface Team {
   id: number;
-  name: string;
+  name?: string;
   champions: Champion[];
 }
 

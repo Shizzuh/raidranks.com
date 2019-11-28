@@ -55,7 +55,6 @@ export class ChampionsComponent implements OnInit {
         );
 
       this.championFlatList.subscribe(resp => {
-        console.log(resp);
         resp.map(champions => {
           champions.champions.map(champ => {
             champ.name = champ.name.toLowerCase();

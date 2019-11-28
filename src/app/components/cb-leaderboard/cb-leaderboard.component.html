@@ -1,0 +1,63 @@
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col mt-5 text-center">
+        <h2>Global Demon Lord Leaderboard</h2>
+        <img src="../../../assets/icons/clan_boss.png" alt="" class="mt-5 mb-5">
+      </div>
+    </div>
+    <div class="row mb-5 underline">
+      <div class="col-8">
+        <div class="btn btn-outline-primary" (click)="toggleFilter();$event.stopPropagation()">Filter</div>
+        <div class="action-menu" *ngIf="showFilter" (click)="$event.stopPropagation()">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <h5>Comp</h5>
+                <span (click)="filterComp(null)">All</span>
+                <span (click)="filterComp('Speed')">Speed</span>
+                <span (click)="filterComp('Unkillable')">Unkillable</span>
+                <span (click)="filterComp('Counter Attack')">Counter Attack</span>
+                <span (click)="filterComp('Uncategorized')">Uncategorized</span>
+              </div>
+              <div class="col">
+                <h5>Difficulty</h5>
+                <span (click)="filterDifficulty(null)">All</span>
+                <span (click)="filterDifficulty('Ultra Nightmare')">Ultra Nightmare</span>
+                <span (click)="filterDifficulty('Nightmare')">Nightmare</span>
+                <span (click)="filterDifficulty('Brutal')">Brutal</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <span (click)="resetFilter()" class="btn btn-outline-primary">Reset</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn btn-outline-primary" (click)="resetFilter()">Reset All</div>
+      </div>
+      <div class="col-4">
+        <button class="btn btn-primary btn-block" (click)="toggleScoreSubmission()">Submit Score</button>
+      </div>
+    </div>
+    <div class="row text-primary mb-4" *ngIf="filteredScores && filteredScores.length > 0">
+      <div class="col-1">Ranking</div>
+      <div class="col-2">Name</div>
+      <div class="col-3">Comp</div>
+      <div class="col-2">Difficulty</div>
+      <div class="col-1">Dmg</div>
+      <div class="col-3">Team</div>
+    </div>
+    <score *ngFor="let score of filteredScores; index as i" [rank]="i + 1" [score]="score"></score>
+    <ng-container *ngIf="filteredScores && filteredScores.length < 1">
+      <div class="row text-center mt-5">
+        <div class="col">
+          <h3>No Results</h3>
+        </div>
+      </div>
+    </ng-container>
+
+  </div>
+</div>
+<submit-score *ngIf="scoreSubmission" (toggleScoreSubmission)="toggleScoreSubmission()"></submit-score>

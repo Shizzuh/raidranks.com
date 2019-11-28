@@ -1,0 +1,76 @@
+@import 'variables';
+
+.row {
+  border-bottom:1px solid rgba(white, .2);
+  padding:5px 0;
+  cursor:pointer;
+  &:last-child {
+    border:none;
+  }
+  &:hover {
+    background-color:rgba(black, .2);
+  }
+}
+
+.col {
+  align-items: center;
+  display:flex;
+}
+
+.rank {
+  width:15px;
+  display:inline-block;
+}
+
+.rankMedal {
+  height:20px;
+  width:auto;
+  margin-left:5px;
+}
+
+.team {
+  width:100%;
+  display:flex;
+  flex-direction: row;
+}
+
+.champion {
+  height:50px;
+  width:100 / 5 + 0%;
+  margin:1px;
+  background-size:cover;
+  background-position:50% 50%;
+  &.Legendary {
+    border: 2px solid rgba($color-legendary, 1);
+  }
+
+  &.Epic {
+    border: 2px solid rgba($color-epic, 1);
+  }
+
+  &.Rare {
+    border: 2px solid rgba($color-rare, 1);
+  }
+}
+
+.details {
+  width:100%;
+  max-width:576px;
+  background:$color-background;
+  padding:15px;
+  text-align:center;
+  h2 {
+    font-size:60px !important;
+  }
+  img {
+    width:100%;
+  }
+  .team {
+    margin:25px 0;
+  }
+  .champion {
+    height: 150px;
+    width: 100 / 5 + 0%;
+    margin: 1px;
+  }
+}

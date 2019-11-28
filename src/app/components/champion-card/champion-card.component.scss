@@ -167,9 +167,20 @@ champion-card:host {
     }
   }
 }
+@keyframes fadeIn {
+  from {
+    opacity:0;
+    transform:scale(0.5);
+  }
+  to {
+    opacity:1;
+    transform:scale(1);
+  }
+}
 .champion-card.shards {
+  opacity:0;
   box-shadow:0 0 0 white;
-  transition:box-shadow .25s ease-in-out;
+  animation: fadeIn 1s ease-in-out forwards;
     &.Legendary {
       transform:scale(1);
       border: 5px solid rgba($color-legendary, .75);
@@ -196,6 +207,45 @@ champion-card:host {
   padding:.5vw 2vw;
   align-items: center;
   background-color:rgba(lighten($color-background, 10%), .8);
+
+  &-share {
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    padding: 0;
+
+    .roster-champion-card {
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      justify-content: flex-end;
+      flex-direction: column;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .roster-champion-data {
+      background: linear-gradient(transparent, black);
+      text-align: center;
+      width: 100%;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        font-size: 10px;
+      }
+
+      img {
+        height: 15px;
+        width: 15px;
+      }
+    }
+  }
 
   &.Legendary {
     border-left: 2px solid rgba($color-legendary, .75);
@@ -309,6 +359,41 @@ champion-card:host {
     border-radius:3px;
     padding:10px 5px;
     box-shadow:0 5px 15px rgba(black, .1);
+
+    &-share {
+      background-size: cover;
+      background-position: 50% 0;
+      background-repeat: no-repeat;
+      padding: 0;
+
+      .roster-champion-card {
+        height: 100%;
+        width: 100%;
+        padding:0;
+        justify-content: flex-end;
+        &:hover {
+          text-decoration:none;
+        }
+      }
+
+      .roster-champion-data {
+        background: linear-gradient(transparent, black);
+        text-align:center;
+        width: 100%;
+        padding:5px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        p {
+          font-size:10px;
+        }
+        img {
+          height:15px;
+          width:15px;
+        }
+      }
+    }
 
     &.Legendary {
       border: 2px solid rgba($color-legendary, .75);

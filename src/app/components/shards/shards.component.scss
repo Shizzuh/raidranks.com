@@ -1,61 +1,71 @@
 @import 'variables';
+
 .shards {
-  display:flex;
+  display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
   justify-content: flex-start;
-  height:100%;
-  width:100%;
-  max-width:768px;
-  margin:0 auto;
-  padding:15px;
-  overflow:auto;
-  padding-bottom:30vw;
+  height: 100%;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 15px;
+  padding-bottom: 30vw;
+
   .champions {
-    width:100%;
-    display:flex;
+    width: 100%;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
 }
+
 .btn {
-  margin-top:25px;
+  margin-top: 25px;
+
   &.inactive {
-    opacity:.5;
-    pointer-events:none;
+    opacity: .5;
+    pointer-events: none;
   }
 }
+
 img {
-  margin-bottom:25px;
-  width:150px;
-  height:auto;
+  margin-bottom: 25px;
+  width: 150px;
+  height: auto;
 }
+
 .bluestacks {
-  width:100%;
-  max-width:400px;
+  width: 100%;
+  max-width: 400px;
+
   img {
-    width:100%;
-    max-width:200px;
-    margin:25px auto;
-    display:block;
+    width: 100%;
+    max-width: 200px;
+    margin: 25px auto;
+    display: block;
   }
 }
+
 champion-card {
-  margin:15px;
-  height:15vw !important;
-  width:15vw !important;
+  margin: 15px;
+  height: 15vw !important;
+  width: 15vw !important;
 }
 
 @media all and (min-width:$mobile) {
+
   .shards {
-    align-items:center;
+    align-items: center;
     justify-content: center;
-    padding-bottom:0;
+    padding-bottom: 0;
+    position: relative;
   }
- champion-card {
-   margin: 20px;
-   height: 100px !important;
-   width: 100px !important;
- }
+
+  champion-card {
+    margin: 20px;
+    height: 100px !important;
+    width: 100px !important;
+  }
 }

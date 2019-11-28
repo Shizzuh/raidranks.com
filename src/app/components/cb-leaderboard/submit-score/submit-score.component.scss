@@ -1,0 +1,119 @@
+@import 'variables';
+
+.score-submission {
+  position:fixed;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  overflow: auto;
+  z-index:99;
+  background:rgba(black, .9);
+}
+
+.score-form {
+  width:100%;
+  max-width:567px;
+}
+
+.team {
+  width:100%;
+  padding:5px 0 25px;
+  display:flex;
+  justify-content: flex-start;
+}
+
+.results {
+  height:200px;
+  width:100%;
+  margin-top:15px;
+  background:$color-background;
+  border:1px solid rgba($color-primary, .2);
+  overflow:auto;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.champion {
+  height:130px;
+  width:96px;
+  margin:5px;
+  background-size:cover;
+  background-position:50% 50%;
+  position:relative;
+  cursor:pointer;
+  &:hover {
+    .remove {
+      display: flex;
+      .ng-fa-icon {
+        color:red;
+        font-size:32px;
+      }
+    }
+  }
+  p {
+    position:absolute;
+    width:100%;
+    padding:5px;
+    bottom:0;
+    background:linear-gradient(transparent, black);
+    text-transform: uppercase;
+    margin:0;
+    font-size:10px;
+  }
+  .remove {
+    display:none;
+    height:100%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(black, .7);
+  }
+}
+
+.preview-image {
+  width: 100%;
+  max-width:400px;
+  height:auto;
+  margin:0 auto;
+  display:block;
+}
+
+.score-submitted {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(black, .95);
+  z-index: 2;
+  .ng-fa-icon {
+    font-size:60px;
+    color:$color-primary;
+    border:1px solid $color-primary;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:120px;
+    width:120px;
+    margin-bottom:25px;
+  }
+}
+
+@media all and (min-width:567px) {
+  .score-submission {
+    align-items: center;
+    overflow: auto;
+  }
+}
