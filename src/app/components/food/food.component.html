@@ -27,101 +27,31 @@
     </div>    
     <div class="result-card">
       <label>5 Star </label>
-      <input placeholder="0" type="text" [(ngModel)]="availFiveStars" (keyup)="calculateFood()">
-      <label>{{reqFiveStar}}</label>
+      <input type="text" [(ngModel)]="availFiveStars" (keyup)="calculateFood()">
+      <label>{{reqFiveStars}}</label>
     </div>
     <div class="result-card">
       <label>4 Star </label>
-      <input placeholder="0" type="text" [(ngModel)]="availFourStars" (keyup)="calculateFood()">
-      <label>{{reqFourStar}}</label>
+      <input type="text" [(ngModel)]="availFourStars" (keyup)="calculateFood()">
+      <label>{{reqFourStars}}</label>
     </div>
     <div class="result-card">
       <label>3 Star </label>
-      <input placeholder="0" type="text" [(ngModel)]="availThreeStars" (keyup)="calculateFood()">
-      <label>{{reqThreeStar}}</label>
+      <input type="text" [(ngModel)]="availThreeStars" (keyup)="calculateFood()">
+      <label>{{reqThreeStars}}</label>
     </div>
     <div class="result-card">
       <label>2 Star </label>
-      <input placeholder="0" type="text" [(ngModel)]="availTwoStars" (keyup)="calculateFood()">
-      <label>{{reqTwoStar}}</label>
+      <input type="text" [(ngModel)]="availTwoStars" (keyup)="calculateFood()">
+      <label>{{reqTwoStars}}</label>
     </div>
     <div class="result-card">
       <label>1 Star </label>
-      <input placeholder="0" type="text" [(ngModel)]="availOneStars" (keyup)="calculateFood()">
-      <label>{{reqOneStar}}</label>
+      <input type="text" [(ngModel)]="availOneStars" (keyup)="calculateFood()">
+      <label>{{reqOneStars}}</label>
     </div>
   </div>
   <div class="result-header">Experience Requirements</div>
-</div>
-
-
-<div class="value-card">
-  <span class="rsl-label">Deal Price</span>
-  <input placeholder="0" type="text" [(ngModel)]="price" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">Ancient Shards</span>
-  <input placeholder="0" type="text" [(ngModel)]="ancientShard" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">Void Shards</span>
-  <input placeholder="0" type="text" [(ngModel)]="voidShard" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">Sacred Shards</span>
-  <input placeholder="0" type="text" [(ngModel)]="sacredShard" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">Rare Book</span>
-  <input placeholder="0" type="text" [(ngModel)]="rareBook" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">Epic Book</span>
-  <input placeholder="0" type="text" [(ngModel)]="epicBook" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">Legendary Book</span>
-  <input placeholder="0" type="text" [(ngModel)]="legendaryBook" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">Energy</span>
-  <input placeholder="0" type="text" [(ngModel)]="energy" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">Energy Refill</span>
-  <input placeholder="0" type="text" [(ngModel)]="energyRefill" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">Gem</span>
-  <input placeholder="0" type="text" [(ngModel)]="gem" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">XP Brew</span>
-  <input placeholder="0" type="text" [(ngModel)]="brew" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">Clan Boss Key</span>
-  <input placeholder="0" type="text" [(ngModel)]="clanBossKey" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">3 Star Chicken</span>
-  <input placeholder="0" type="text" [(ngModel)]="chicken3" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">4 Star Chicken</span>
-  <input placeholder="0" type="text" [(ngModel)]="chicken4" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">5 Star Chicken</span>
-  <input placeholder="0" type="text" [(ngModel)]="chicken5" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">Silver</span>
-  <input placeholder="0" type="text" [(ngModel)]="silver" (keyup)="calulateValue()">
-</div>
-<div class="value-card">
-  <span class="rsl-label">1 Day Exp</span>
-  <input placeholder="0" type="text" [(ngModel)]="exp" (keyup)="calulateValue()">
 </div>
 
 <div class="overlay" *ngIf="helpOverlayIsActive">

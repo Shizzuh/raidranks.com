@@ -37,6 +37,11 @@ export class FoodComponent implements OnInit {
     this.reqThreeStars = 120;
     this.reqTwoStars = 360;
     this.reqOneStars = 720;
+    this.availFiveStars = 0;
+    this.availFourStars = 0;
+    this.availThreeStars = 0;
+    this.availTwoStars = 0;
+    this.availOneStars = 0;
    }
 
   ngOnInit() {}
