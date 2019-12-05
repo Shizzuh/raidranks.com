@@ -6,73 +6,103 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./food.component.scss']
 })
 export class FoodComponent implements OnInit {
-  oneStar = 1;
-  twoStar = 2;
-  threeStar = 3;
-  fourStar = 4;
-  fiveStar = 5;
-  sixStar = 6;
-  
+
   starRank: number;
 
-  availableFood: number[];
-  availFiveStars: number;
-  availFourStars: number;
-  availThreeStars: number;
-  availTwoStars: number;
-  availOneStars: number;
+  star: Map<string, number>;
 
-  reqSixStars: number;
-  reqFiveStars: number;
-  reqFourStars: number;
-  reqThreeStars: number;
-  reqTwoStars: number;
-  reqOneStars: number;
+  availableFood: Map<string, number>;
+
+  reqStars: Map<string, number>;
+
+  expReq: Map<string, number>;
+
+  helpOverlayIsActive: boolean;
 
   constructor() {
+    this.initialise();
     this.starRank = 6;
-    this.reqSixStars = 1;
-    this.reqFiveStars = 6;
-    this.reqFourStars = 30;
-    this.reqThreeStars = 120;
-    this.reqTwoStars = 360;
-    this.reqOneStars = 720;
-    this.availFiveStars = 0;
-    this.availFourStars = 0;
-    this.availThreeStars = 0;
-    this.availTwoStars = 0;
-    this.availOneStars = 0;
+    this.helpOverlayIsActive = false;
    }
 
   ngOnInit() {}
 
+  calculateRequirements(){
+    this.calculateFood();
+    this.calculateExperience();
+  }
+
+  calculateExperience(){
+    this.expReq['total'] = 0;
+    for (let key in this.star){
+      this.expReq['total'] += this.expReq[key] * this.reqStars[key];
+    }
+  }
+
   calculateFood(){
-    console.log('Actually calls the method :)')
-    this.resetReqStars;
-    if ( this.starRank == this.sixStar ) {
-      this.reqSixStars = 1;
-      this.reqFiveStars = this.reqSixStars * this.sixStar - this.availFiveStars;
+    this.resetReqStars();
+    if ( this.starRank == this.star['six'] ) {
+      this.reqStars['six'] = 1;
+      this.reqStars['five'] = this.reqStars['six'] * this.star['six'] - this.availableFood['five'];
     }
-    if ( this.starRank == this.sixStar || this.starRank == this.fiveStar ) {
-      if ( this.starRank == this.fiveStar ) {
-        this.reqFiveStars = 1;
+    if ( this.starRank == this.star['six'] || this.starRank == this.star['five'] ) {
+      if ( this.starRank == this.star['five'] ) {
+        this.reqStars['five'] = 1;
       }
-      this.reqFourStars = Math.max(this.reqFiveStars * this.fiveStar - this.availFourStars, 0);
+      this.reqStars['four'] = Math.max(this.reqStars['five'] * this.star['five'] - this.availableFood['four'], 0);
     }
-    if ( this.starRank == this.fourStar ) {
-      this.reqFourStars = 1;
+    if ( this.starRank == this.star['four'] ) {
+      this.reqStars['four'] = 1;
     }
-    this.reqThreeStars = Math.max(this.reqFourStars * this.fourStar - this.availThreeStars, 0);
-    this.reqTwoStars = Math.max(this.reqThreeStars * this.threeStar - this.availTwoStars, 0);
-    this.reqOneStars = Math.max(this.reqTwoStars * this.twoStar - this.availOneStars, 0);
+    this.reqStars['three'] = Math.max(this.reqStars['four'] * this.star['four'] - this.availableFood['three'], 0);
+    this.reqStars['two'] = Math.max(this.reqStars['three'] * this.star['three'] - this.availableFood['two'], 0);
+    this.reqStars['one'] = Math.max(this.reqStars['two'] * this.star['two'] - this.availableFood['one'], 0);
   }
 
   resetReqStars(){
-    this.reqSixStars = 0;
-    this.reqFiveStars = 0;
-    this.reqFourStars = 0;
-    this.reqThreeStars = 0;
-    this.reqTwoStars = 0;
-    this.reqOneStars = 0;
+    this.reqStars['one'] = 0;
+    this.reqStars['two'] = 0;
+    this.reqStars['three'] = 0;
+    this.reqStars['four'] = 0;
+    this.reqStars['five'] = 0;
+    this.reqStars['six'] = 0;
+  }
+
+  initialise(){
+    this.star = new Map<string, number>();
+    this.star['one'] = 1;
+    this.star['two'] = 2;
+    this.star['three'] = 3;
+    this.star['four'] = 4;
+    this.star['five'] = 5;
+    this.star['six'] = 6;
+
+    this.availableFood = new Map<string, number>();
+    this.availableFood['one'] = 0; 
+    this.availableFood['two'] = 0;
+    this.availableFood['three'] = 0;
+    this.availableFood['four'] = 0;
+    this.availableFood['five'] = 0;
+
+    this.reqStars = new Map<string, number>();
+    this.reqStars['one'] = 720;
+    this.reqStars['two'] = 360;
+    this.reqStars['three'] = 120;
+    this.reqStars['four'] = 30;
+    this.reqStars['five'] = 6;
+    this.reqStars['six'] = 1;
+
+    this.expReq = new Map<string, number>();
+    this.expReq['total'] = 91013247;
+    this.expReq['one'] = 22761;
+    this.expReq['two'] = 81326;
+    this.expReq['three'] = 200684;
+    this.expReq['four'] = 449080;
+    this.expReq['five'] = 963803;
+    this.expReq['six'] = 2010669;
+  }
+
+  helpOverlay() {
+    this.helpOverlayIsActive ? this.helpOverlayIsActive = false : this.helpOverlayIsActive = true;
   }
 }
