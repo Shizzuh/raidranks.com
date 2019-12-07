@@ -34,8 +34,12 @@ export class FoodComponent implements OnInit {
 
   calculateExperience(){
     this.expReq['total'] = 0;
+    let temp = 0;
     for (let key in this.star){
-      this.expReq['total'] += this.expReq[key] * this.reqStars[key];
+      temp = Math.round(this.reqStars[key] / (this.star[key] + 1));
+      if(temp != 0){
+        this.expReq['total'] += this.expReq[key] * Math.max(temp, 1);
+      }
     }
   }
 
@@ -93,7 +97,7 @@ export class FoodComponent implements OnInit {
     this.reqStars['six'] = 1;
 
     this.expReq = new Map<string, number>();
-    this.expReq['total'] = 91013247;
+    this.expReq['total'] = 27631883;
     this.expReq['one'] = 22761;
     this.expReq['two'] = 81326;
     this.expReq['three'] = 200684;
