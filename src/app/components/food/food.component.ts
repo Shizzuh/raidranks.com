@@ -15,7 +15,9 @@ export class FoodComponent implements OnInit {
 
   reqStars: Map<string, number>;
 
-  expReq: Map<string, number>;
+  expReqLvl: Map<string, number>;
+
+  expReq: Map<string, number>
 
   helpOverlayIsActive: boolean;
 
@@ -28,23 +30,23 @@ export class FoodComponent implements OnInit {
   ngOnInit() {}
 
   calculateRequirements(){
+    this.resetDynamics();
     this.calculateFood();
     this.calculateExperience();
   }
 
   calculateExperience(){
-    this.expReq['total'] = 0;
     let temp = 0;
     for (let key in this.star){
       temp = Math.round(this.reqStars[key] / (this.star[key] + 1));
       if(temp != 0){
-        this.expReq['total'] += this.expReq[key] * Math.max(temp, 1);
+        this.expReq[key] = this.expReqLvl[key] * Math.max(temp, 1)
+        this.expReq['total'] += this.expReq[key];
       }
     }
   }
 
   calculateFood(){
-    this.resetReqStars();
     if ( this.starRank == this.star['six'] ) {
       this.reqStars['six'] = 1;
       this.reqStars['five'] = this.reqStars['six'] * this.star['six'] - this.availableFood['five'];
@@ -63,13 +65,21 @@ export class FoodComponent implements OnInit {
     this.reqStars['one'] = Math.max(this.reqStars['two'] * this.star['two'] - this.availableFood['one'], 0);
   }
 
-  resetReqStars(){
+  resetDynamics(){
     this.reqStars['one'] = 0;
     this.reqStars['two'] = 0;
     this.reqStars['three'] = 0;
     this.reqStars['four'] = 0;
     this.reqStars['five'] = 0;
     this.reqStars['six'] = 0;
+
+    this.expReq['total'] = 0;
+    this.expReq['one'] = 0;
+    this.expReq['two'] = 0;
+    this.expReq['three'] = 0;
+    this.expReq['four'] = 0;
+    this.expReq['five'] = 0;
+    this.expReq['six'] = 0;
   }
 
   initialise(){
@@ -96,14 +106,22 @@ export class FoodComponent implements OnInit {
     this.reqStars['five'] = 6;
     this.reqStars['six'] = 1;
 
-    this.expReq = new Map<string, number>();
+    this.expReq = new Map<string, number>()
     this.expReq['total'] = 27631883;
-    this.expReq['one'] = 22761;
-    this.expReq['two'] = 81326;
-    this.expReq['three'] = 200684;
-    this.expReq['four'] = 449080;
+    this.expReq['one'] = 8193960;
+    this.expReq['two'] = 9759120;
+    this.expReq['three'] = 6020520;
+    this.expReq['four'] = 2694480;
     this.expReq['five'] = 963803;
-    this.expReq['six'] = 2010669;
+    this.expReq['six'] = 0;
+
+    this.expReqLvl = new Map<string, number>();
+    this.expReqLvl['one'] = 22761;
+    this.expReqLvl['two'] = 81326;
+    this.expReqLvl['three'] = 200684;
+    this.expReqLvl['four'] = 449080;
+    this.expReqLvl['five'] = 963803;
+    this.expReqLvl['six'] = 2010669;
   }
 
   helpOverlay() {
