@@ -46,7 +46,7 @@
     "ngx-input-search": "^2.2.1",
     "ngx-pica": "^1.1.4",
     "ngx-virtual-scroller": "^3.0.3",
-    "rxjs": "~6.4.0",
+    "rxjs": "^6.4.0",
     "rxjs-compat": "^6.5.3",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
