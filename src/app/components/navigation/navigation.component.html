@@ -1,10 +1,18 @@
 <div class="navigation" [ngClass]="{'is-active': navigationActive}">
   <team-builder></team-builder>
   <div class="nav-links">
+      <a [routerLinkActive]="'is-active'" [routerLink]="['home']" (click)="toggleNav()">
+          <fa-icon [icon]="faArchway"></fa-icon>
+          <span>Home</span>
+        </a>
     <a [routerLinkActive]="'is-active'" [routerLink]="['champions']" (click)="toggleNav()">
       <fa-icon [icon]="faSwords"></fa-icon>
       <span>Champions</span>
     </a>
+    <a [routerLinkActive]="'is-active'" [routerLink]="['tierlist']" (click)="toggleNav()">
+        <fa-icon [icon]="faSwords"></fa-icon>
+        <span>Tier List</span>
+      </a>
     <a [routerLinkActive]="'is-active'" [routerLink]="['leaderboards']" (click)="toggleNav()">
       <fa-icon [icon]="faBoxingGlove"></fa-icon>
       <span>Clan Boss Leaderboards</span>

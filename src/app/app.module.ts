@@ -28,7 +28,9 @@ import * as component from './components';
 import { CbLeaderboardComponent } from './components/cb-leaderboard/cb-leaderboard.component';
 import { SubmitScoreComponent } from './components/cb-leaderboard/submit-score/submit-score.component';
 import { ScoreComponent } from './components/cb-leaderboard/score/score.component';
-
+import { HomeComponent } from './components/home/home.component';
+import { TierlistComponent } from './components/tierlist/tierlist.component';
+import { StierComponent } from './components/stier/stier.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +60,10 @@ import { ScoreComponent } from './components/cb-leaderboard/score/score.componen
     component.RosterShareComponent,
     CbLeaderboardComponent,
     SubmitScoreComponent,
-    ScoreComponent
+    ScoreComponent,
+    HomeComponent,
+    TierlistComponent,
+    StierComponent,
   ],
   imports: [
     ClipboardModule,

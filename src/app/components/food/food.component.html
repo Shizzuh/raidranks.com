@@ -1,3 +1,101 @@
-<div class="food">
-  <div class="rank-card"></div>
+<button class="btn btn-link mt-3" (click)="helpOverlay()">Need Help?</button>
+
+<div class="food-selection">
+  <div>
+    <h2>Rank Goal</h2>
+    <div class="radiobuttongroup">
+      <input type="radio" name="starRank" [value]="4" [(ngModel)]="starRank" (change)="calculateRequirements()">
+      <label>4 Star</label>
+    </div>
+    <div class="radiobuttongroup">
+      <input type="radio" name="starRank" [value]="5" [(ngModel)]="starRank" (change)="calculateRequirements()">
+      <label>5 Star</label>
+    </div>
+    <div class="radiobuttongroup">
+        <input type="radio" name="starRank" [value]="6" [(ngModel)]="starRank" (change)="calculateRequirements()" checked="checked">
+      <label>6 Star</label>
+    </div>    
+  </div>
+</div>
+
+<div class="food-selection">
+  <div class="result-header"><h2>Food Requirements</h2>
+    <div class="result-card">
+      <label>Rank</label>
+      <label>Available</label>
+      <label>Required</label>
+    </div>    
+    <div class="result-card">
+      <label>5 Star </label>
+      <input type="text" [(ngModel)]="availableFood['five']" (keyup)="calculateRequirements()">
+      <label>{{ reqStars['five'] }}</label>
+    </div>
+    <div class="result-card">
+      <label>4 Star </label>
+      <input type="text" [(ngModel)]="availableFood['four']" (keyup)="calculateRequirements()">
+      <label>{{ reqStars['four'] }}</label>
+    </div>
+    <div class="result-card">
+      <label>3 Star </label>
+      <input type="text" [(ngModel)]="availableFood['three']" (keyup)="calculateRequirements()">
+      <label>{{ reqStars['three'] }}</label>
+    </div>
+    <div class="result-card">
+      <label>2 Star </label>
+      <input type="text" [(ngModel)]="availableFood['two']" (keyup)="calculateRequirements()">
+      <label>{{ reqStars['two'] }}</label>
+    </div>
+    <div class="result-card">
+      <label>1 Star </label>
+      <input type="text" [(ngModel)]="availableFood['one']" (keyup)="calculateRequirements()">
+      <label>{{ reqStars['one'] }}</label>
+    </div>
+  </div>
+  <div class="result-header"><h2>Experience Requirements</h2>
+    <div class="result-card">
+      <label>Total EXP</label>
+      <label>{{ expReq['total'] }}</label>
+      <label>{{ reqStars['total'] }}</label>
+
+    </div>
+    <div class="result-card">
+        <label>Spend on 5 Star</label>
+        <label>{{ expReq['five'] }}</label>
+        <label>{{ reqStars['five'] }}</label>
+
+    </div>
+    <div class="result-card">
+        <label>Spend on 4 Star</label>
+        <label>{{ expReq['four'] }}</label>
+        <label>{{ reqStars['four'] }}</label>
+
+    </div>
+    <div class="result-card">
+        <label>Spend on 3 Star</label>
+        <label>{{ expReq['three'] }}</label>
+        <label>{{ reqStars['three'] }}</label>
+
+    </div>
+    <div class="result-card">
+        <label>Spend on 2 Star</label>
+        <label>{{ expReq['two'] }}</label>
+        <label>{{ reqStars['two'] }}</label>
+    </div>
+    <div class="result-card">
+        <label>Spend on 1 Star</label>
+        <label>{{ expReq['one'] }}</label>
+        <label>{{ reqStars['one'] }}</label>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="overlay" *ngIf="helpOverlayIsActive">
+  <div class="help">
+    <div class="btn btn-outline-primary mb-5" (click)="helpOverlay()">Close</div>
+    <h4>Food Requirements</h4>
+    <p><span class="text-primary">Rank Goal</span> shows what you are trying to work towards.</p>
+    <p>If you already have some food ready you can insert these in the fields respective to their Rank. This assumes the available food is at level 1 of their rank.</p>
+  </div>
 </div>

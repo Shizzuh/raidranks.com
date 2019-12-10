@@ -12,6 +12,7 @@ import {
   faPlus,
   faShareAlt,
   faQuestion,
+  faArchway,
   faBoxingGlove
 } from '@fortawesome/pro-light-svg-icons';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
@@ -26,6 +27,7 @@ import { RosterService } from '../../services/roster.service';
 export class NavigationComponent implements OnInit {
 
   faSwords = faSwords;
+  faArchway = faArchway;
   faTrashAlt = faTrashAlt;
   faUsersMedical = faUsersMedical;
   faBars = faBars;
@@ -91,6 +93,8 @@ export class NavigationComponent implements OnInit {
     this.localStorage.set('rosterMode', true);
     this.router.navigate(['./champions']);
   }
+
+
 
   removeChampionsFromRoster() {
     this.router.navigate(['./roster'], {
