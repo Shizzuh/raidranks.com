@@ -17,7 +17,9 @@ export class FoodComponent implements OnInit {
 
   expReqLvl: Map<string, number>;
 
-  expReq: Map<string, number>
+  expReq: Map<string, number>;
+
+  expReqPerc: Map<string, number>;
 
   helpOverlayIsActive: boolean;
 
@@ -38,11 +40,18 @@ export class FoodComponent implements OnInit {
   calculateExperience(){
     let temp = 0;
     for (let key in this.star){
-      temp = Math.round(this.reqStars[key] / (this.star[key] + 1));
-      if(temp != 0){
-        this.expReq[key] = this.expReqLvl[key] * Math.max(temp, 1)
-        this.expReq['total'] += this.expReq[key];
+      if(this.reqStars[key] <= this.star[key] + 1 && this.reqStars[key] > 0 && this.star[key] != this.starRank){
+        this.expReq[key] = this.expReqLvl[key];
+      } else {
+        temp = Math.round(this.reqStars[key] / (this.star[key] + 1));
+        if(temp != 0){
+          this.expReq[key] = this.expReqLvl[key] * Math.max(temp, 1); 
+        }
       }
+      this.expReq['total'] += this.expReq[key];
+    }
+    for (let key in this.star){
+      this.expReqPerc[key] = Math.round((this.expReq[key] / this.expReq['total']) * 100 * 100) / 100;
     }
   }
 
@@ -80,6 +89,13 @@ export class FoodComponent implements OnInit {
     this.expReq['four'] = 0;
     this.expReq['five'] = 0;
     this.expReq['six'] = 0;
+
+    this.expReqPerc['one'] = 0;
+    this.expReqPerc['two'] = 0;
+    this.expReqPerc['three'] = 0;
+    this.expReqPerc['four'] = 0;
+    this.expReqPerc['five'] = 0;
+    this.expReqPerc['six'] = 0;
   }
 
   initialise(){
@@ -106,7 +122,7 @@ export class FoodComponent implements OnInit {
     this.reqStars['five'] = 6;
     this.reqStars['six'] = 1;
 
-    this.expReq = new Map<string, number>()
+    this.expReq = new Map<string, number>();
     this.expReq['total'] = 27631883;
     this.expReq['one'] = 8193960;
     this.expReq['two'] = 9759120;
@@ -114,6 +130,15 @@ export class FoodComponent implements OnInit {
     this.expReq['four'] = 2694480;
     this.expReq['five'] = 963803;
     this.expReq['six'] = 0;
+
+    this.expReqPerc = new Map<string, number>();
+    this.expReqPerc['total'] = 100;
+    this.expReqPerc['one'] = 29.65;
+    this.expReqPerc['two'] = 35.32;
+    this.expReqPerc['three'] = 21.79;
+    this.expReqPerc['four'] = 9.75;
+    this.expReqPerc['five'] = 3.49;
+    this.expReqPerc['six'] = 0;
 
     this.expReqLvl = new Map<string, number>();
     this.expReqLvl['one'] = 22761;

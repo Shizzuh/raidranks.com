@@ -26,6 +26,9 @@
                 <span (click)="filterDifficulty('Ultra Nightmare')">Ultra Nightmare</span>
                 <span (click)="filterDifficulty('Nightmare')">Nightmare</span>
                 <span (click)="filterDifficulty('Brutal')">Brutal</span>
+                <span (click)="filterDifficulty('Hard')">Hard</span>
+                <span (click)="filterDifficulty('Normal')">Normal</span>
+                <span (click)="filterDifficulty('Easy')">Easy</span>
               </div>
             </div>
             <div class="row">
@@ -60,4 +63,7 @@
 
   </div>
 </div>
+
+
+
 <submit-score *ngIf="scoreSubmission" (toggleScoreSubmission)="toggleScoreSubmission()"></submit-score>

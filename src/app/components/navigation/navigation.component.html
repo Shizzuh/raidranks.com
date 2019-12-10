@@ -25,6 +25,10 @@
       <fa-icon [icon]="faUsdCircle"></fa-icon>
       <span>Deal Values</span>
     </a>
+    <a [routerLinkActive]="'is-active'" [routerLink]="['food']" (click)="toggleNav()">
+      <fa-icon [icon]="faHamburger"></fa-icon>
+      <span>Food Calculator</span>
+    </a>
     <a [routerLinkActive]="'is-active'" [routerLink]="['roster']" (click)="toggleNav()">
       <fa-icon [icon]="faUsers"></fa-icon>
       <span>Roster</span>
