@@ -45,7 +45,7 @@ margin-top:10px;
     text-align: center;
     width: 20%;
   }
-  .label {
+  label {
     display: block;
     margin: auto;
   }
@@ -63,15 +63,15 @@ margin-top:10px;
 .radiobuttongroup{
   display:inline-block;
   text-align: center;
-  background-color:lighten($color-background, 10%);
-  width: 25%;
+  width: 10%;
   margin: 4px;
   color:white;
   border-radius: 10px;
   align-items: center;
   font-size: medium;
-  .label {
+  label {
     display:block;
+    padding: 10px;
     color: white;
   }
 }
@@ -83,6 +83,7 @@ margin-top:10px;
   flex-direction:column;
   justify-content: center;
   align-items:center;
+  align-content: center;
 }
 
 .checkbox input {
@@ -90,16 +91,18 @@ margin-top:10px;
 }
 
 .checkbox span {
-  height:25px;
-  width:25px;
-  border-radius:3px;
+  height:28px;
+  width:100%;
+  border-radius:10px;
   cursor:pointer;
   display:block;
   position:relative;
-  background:white;
-  margin-bottom:10px;
+  background:transparent;
+  margin-bottom:-25px;
+  border: 1px solid rgba($color-primary, .75);
+  box-shadow: 0 5px 30px rgba(255, 255, 255, 0.219)
 }
 
 .checkbox input:checked + span {
-  background:$color-primary;
+  background: rgba($color-primary, .50);
 }
