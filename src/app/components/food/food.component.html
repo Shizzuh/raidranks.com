@@ -4,17 +4,26 @@
   <div>
     <h2>Rank Goal</h2>
     <div class="radiobuttongroup">
-      <input type="radio" name="starRank" [value]="4" [(ngModel)]="starRank" (change)="calculateRequirements()">
-      <label>4 Star</label>
-    </div>
-    <div class="radiobuttongroup">
-      <input type="radio" name="starRank" [value]="5" [(ngModel)]="starRank" (change)="calculateRequirements()">
-      <label>5 Star</label>
-    </div>
-    <div class="radiobuttongroup">
-        <input type="radio" name="starRank" [value]="6" [(ngModel)]="starRank" (change)="calculateRequirements()" checked="checked">
-      <label>6 Star</label>
-    </div>    
+      <label for="star4" class="checkbox">
+          <input type="radio" name="starRank" [value]="4" [(ngModel)]="starRank" (change)="calculateRequirements()">
+          <span></span>
+          <p class="label">4 Star</p>
+      </label>
+  </div>
+  <div class="radiobuttongroup">
+    <label for="star4" class="checkbox">
+        <input type="radio" name="starRank" [value]="5" [(ngModel)]="starRank" (change)="calculateRequirements()">
+        <span></span>
+        <p class="label">5 Star</p>
+    </label>
+</div>
+<div class="radiobuttongroup">
+  <label for="star4" class="checkbox">
+      <input type="radio" name="starRank" [value]="6" [(ngModel)]="starRank" (change)="calculateRequirements()">
+      <span></span>
+      <p class="label">6 Star</p>
+  </label>
+</div>
   </div>
 </div>
 
