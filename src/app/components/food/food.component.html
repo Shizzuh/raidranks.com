@@ -5,21 +5,21 @@
     <h2>Rank Goal</h2>
     <div class="radiobuttongroup">
       <label for="star4" class="checkbox">
-          <input id="star4" type="radio" name="starRank" [value]="4" [(ngModel)]="starRank" (change)="calculateRequirements()">
+          <input type="radio" name="starRank" [value]="4" [(ngModel)]="starRank" (change)="calculateRequirements()">
           <span></span>
           <p class="label">4 Star</p>
       </label>
   </div>
   <div class="radiobuttongroup">
-    <label for="star5" class="checkbox">
-        <input id="star5" type="radio" name="starRank" [value]="5" [(ngModel)]="starRank" (change)="calculateRequirements()">
+    <label for="star4" class="checkbox">
+        <input type="radio" name="starRank" [value]="5" [(ngModel)]="starRank" (change)="calculateRequirements()">
         <span></span>
         <p class="label">5 Star</p>
     </label>
 </div>
 <div class="radiobuttongroup">
-  <label for="star6" class="checkbox">
-      <input id="star6" type="radio" name="starRank" [value]="6" [(ngModel)]="starRank" (change)="calculateRequirements()">
+  <label for="star4" class="checkbox">
+      <input type="radio" name="starRank" [value]="6" [(ngModel)]="starRank" (change)="calculateRequirements()">
       <span></span>
       <p class="label">6 Star</p>
   </label>
@@ -33,7 +33,7 @@
       <label>Rank</label>
       <label>Available</label>
       <label>Required</label>
-    </div>
+    </div>    
     <div class="result-card">
       <label>5 Star </label>
       <input type="text" [(ngModel)]="availableFood['five']" (keyup)="calculateRequirements()">
