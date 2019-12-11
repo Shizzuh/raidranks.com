@@ -45,7 +45,7 @@ margin-top:10px;
     text-align: center;
     width: 20%;
   }
-  label {
+  .label {
     display: block;
     margin: auto;
   }
@@ -70,11 +70,19 @@ margin-top:10px;
   border-radius: 10px;
   align-items: center;
   font-size: medium;
-  label {
+  .label {
     display:block;
-    padding: 10px;
     color: white;
   }
+}
+
+.checkbox {
+  margin-top:15px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
 }
 
 .checkbox input {
@@ -82,30 +90,16 @@ margin-top:10px;
 }
 
 .checkbox span {
-  height:50px;
-  width:100px;
-  border-radius:50px;
-  border:1px solid #eee;
+  height:25px;
+  width:25px;
+  border-radius:3px;
   cursor:pointer;
   display:block;
   position:relative;
   background:white;
+  margin-bottom:10px;
 }
 
-.checkbox span:before {
-  content:'';
-  height:45px;
-  width:45px;
-  top:3px;
-  left:calc(0% + 3px);
-  position:absolute;
-  border-radius:50%;
-  display:block;
-  background:red;
-  transition: all .25s ease-in-out;
-}
-
-.checkbox input:checked + span:before {
-  left:calc(100% - 47px);
-  background:green;
+.checkbox input:checked + span {
+  background:$color-primary;
 }
