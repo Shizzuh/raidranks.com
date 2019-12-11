@@ -8,6 +8,7 @@ import {
   faUsdCircle,
   faTimes,
   faDrumstick,
+  faArchway,
   faUsers,
   faPlus,
   faShareAlt,
