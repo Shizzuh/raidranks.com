@@ -12,7 +12,8 @@ import {
   faPlus,
   faShareAlt,
   faQuestion,
-  faBoxingGlove
+  faBoxingGlove,
+  faHamburger
 } from '@fortawesome/pro-light-svg-icons';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { Storage } from '../../services/store.service';
@@ -38,6 +39,7 @@ export class NavigationComponent implements OnInit {
   faDrumstick = faDrumstick;
   faUsers = faUsers;
   faBoxingGlove = faBoxingGlove;
+  faHamburger = faHamburger;
   navigationActive: boolean;
   rosterMode: any;
   championsListPage: boolean;

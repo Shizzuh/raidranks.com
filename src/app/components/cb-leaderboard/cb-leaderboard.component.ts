@@ -26,13 +26,12 @@ export class CbLeaderboardComponent implements OnInit {
   ngOnInit() {
 
     this.scores$ = this.db.collection('leaderboard-pending');
-    this.scores$ = this.scores$.snapshotChanges()
-      .pipe(
+    this.scores$ = this.scores$.snapshotChanges().pipe(
         map((actions: any) => actions.map(a => {
           const data = a.payload.doc.data();
           return {...data };
         }))
-      );
+    );
 
     this.scores$
       .pipe(
