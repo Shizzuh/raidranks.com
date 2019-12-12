@@ -1,0 +1,135 @@
+{
+    "one":{
+        "star": 1,
+        "xpRequired": 22761,
+        "ascension":{
+            "uncommon":{
+                "arcane": 2,
+                "affinity": 2
+            },
+            "rare": {
+                "arcane": 2,
+                "affinity": 4
+            },
+            "epic": {
+                "arcane": 30,
+                "affinity": 40
+            },
+            "legendary": {
+                "arcane": 50,
+                "affinity": 100
+            }
+        }
+    },
+    "two":{
+        "star": 2,
+        "xpRequired": 81326,
+        "ascension":{
+            "uncommon":{
+                "arcane": 2,
+                "affinity": 2
+            },
+            "rare": {
+                "arcane": 3,
+                "affinity": 6
+            },
+            "epic": {
+                "arcane": 50,
+                "affinity": 70
+            },
+            "legendary": {
+                "arcane": 200,
+                "affinity": 200
+            }
+        }
+    },
+    "three":{
+        "star": 3,
+        "xpRequired": 200684,
+        "ascension":{
+            "uncommon":{
+                "arcane": 2,
+                "affinity": 3
+            },
+            "rare": {
+                "arcane": 10,
+                "affinity": 20
+            },
+            "epic": {
+                "arcane": 70,
+                "affinity": 90
+            },
+            "legendary": {
+                "arcane": 200,
+                "affinity": 300
+            }
+        }
+    },
+    "four":{
+        "star": 4,
+        "xpRequired": 449080,
+        "ascension":{
+            "uncommon":{
+                "arcane": 3,
+                "affinity": 3
+            },
+            "rare": {
+                "arcane": 20,
+                "affinity": 20
+            },
+            "epic": {
+                "arcane": 100,
+                "affinity": 300
+            },
+            "legendary": {
+                "arcane": 300,
+                "affinity": 400
+            }
+        }
+    },
+    "five":{
+        "star": 5,
+        "xpRequired": 963803,
+        "ascension":{
+            "uncommon":{
+                "arcane": null,
+                "affinity": null
+            },
+            "rare": {
+                "arcane": 30,
+                "affinity": 50
+            },
+            "epic": {
+                "arcane": 200,
+                "affinity": 300
+            },
+            "legendary": {
+                "arcane": 400,
+                "affinity": 500
+            }
+        }
+    },
+    "six":{
+        "star": 6,
+        "xpRequired": 2010669,
+        "ascension":{
+            "uncommon":{
+                "arcane": null,
+                "affinity": null
+            },
+            "rare": {
+                "arcane": 40,
+                "affinity": 60
+            },
+            "epic": {
+                "arcane": 200,
+                "affinity": 400
+            },
+            "legendary": {
+                "arcane": 400,
+                "affinity": 600
+            }
+        }
+    }
+
+}
