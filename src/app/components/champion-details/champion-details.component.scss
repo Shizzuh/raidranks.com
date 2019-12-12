@@ -282,3 +282,23 @@ iframe {
     }
   }
 }
+.gear {
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.gear {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-width:80px;
+  margin:15px 5px;
+  font-size:16px;
+  color:white;
+  span {
+    font-size:10px;
+    color:$color-primary;
+  }
+}

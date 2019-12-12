@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import * as component from './components';
 
 const routes: Routes = [
-  { path: '', component: component.ChampionsComponent },
+  { path: '', component: component.HomeComponent },
   { path: 'champions', component: component.ChampionsComponent },
   { path: 'champion-details/:faction/:champion', component: component.ChampionDetailsComponent },
   { path: 'teams', component: component.TeamsComponent },
@@ -15,7 +15,11 @@ const routes: Routes = [
   { path: 'faq', component: component.FaqComponent },
   { path: 'roster', component: component.RosterComponent },
   { path: 'roster-share', component: component.RosterShareComponent },
-  { path: 'shards', component: component.ShardsComponent }
+  { path: 'shards', component: component.ShardsComponent },
+  { path: 'tierlist', component: component.TierlistComponent},
+  { path: 'stier', component: component.StierComponent},
+  { path: '**', redirectTo: '' },
+
 ];
 
 @NgModule({
