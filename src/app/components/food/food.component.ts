@@ -25,10 +25,6 @@ export class FoodComponent implements OnInit {
 
   constructor() {
     this.xpInfo = rankInfo['default'];
-    console.log(typeof(rankInfo['default']));
-    console.log(rankInfo);
-    console.log(typeof(this.xpInfo))
-    console.log(this.xpInfo);
     this.starRank = 6;
     this.reqStars = new Map<string, number>();
     this.expReq = new Map<string, number>();
@@ -53,7 +49,7 @@ export class FoodComponent implements OnInit {
 
   calculateExperience(){
     let temp = 0;
-    let key;
+    let key: string;
     for (key of Object.keys(this.xpInfo)){
       if(this.reqStars[key] <= this.xpInfo[key].star + 1 && this.reqStars[key] > 0 && this.xpInfo[key].star != this.starRank){
         this.expReq[key] = this.xpInfo[key].xpRequired;
