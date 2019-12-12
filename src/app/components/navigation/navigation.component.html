@@ -1,25 +1,42 @@
 <div class="navigation" [ngClass]="{'is-active': navigationActive}">
   <team-builder></team-builder>
+
+
+  <a [routerLinkActive]="'is-active'" [routerLink]="['home']" (click)="toggleNav()">
+    <fa-icon [icon]="faArchway"></fa-icon>
+    <span>Home</span>
+  </a>
+
+  <a [routerLinkActive]="'is-active'" [routerLink]="['champions']" (click)="toggleNav()">
+    <fa-icon [icon]="faSwords"></fa-icon>
+    <span>Champions</span>
+  </a>
+  
+  <div class="dropdown">
+    <button class="dropbtn"><fa-icon [icon]="faTools"></fa-icon>RAID: Collections</button>
+
+    <div class="dropdown-content">
+
+      <a [routerLinkActive]="'is-active'" [routerLink]="['teams']" (click)="toggleNav()">
+        <fa-icon [icon]="faUsersMedical"></fa-icon>
+        <span>Team Builder</span>
+      </a>
+      <a [routerLinkActive]="'is-active'" [routerLink]="['roster']" (click)="toggleNav()">
+        <fa-icon [icon]="faUsers"></fa-icon>
+        <span>Roster</span>
+      </a>
+    </div>
+  </div>
+
+
+
+
+
   <div class="nav-links">
-    <a [routerLinkActive]="'is-active'" [routerLink]="['champions']" (click)="toggleNav()">
-      <fa-icon [icon]="faSwords"></fa-icon>
-      <span>Champions</span>
-    </a>
-    <a [routerLinkActive]="'is-active'" [routerLink]="['teams']" (click)="toggleNav()">
-      <fa-icon [icon]="faUsersMedical"></fa-icon>
-      <span>Team Builder</span>
-    </a>
-    <a [routerLinkActive]="'is-active'" [routerLink]="['roster']" (click)="toggleNav()">
-      <fa-icon [icon]="faUsers"></fa-icon>
-      <span>Roster</span>
-    </a>
-    <a [routerLinkActive]="'is-active'" [routerLink]="['tierlist']" (click)="toggleNav()">
-      <fa-icon [icon]="faSwords"></fa-icon>
-      <span>Tier List</span>
-    </a>
+    
 
     <div class="dropdown">
-      <button class="dropbtn"><fa-icon [icon]="faUsdCircle"></fa-icon>RAID: Tools</button>
+      <button class="dropbtn"><fa-icon [icon]="faTools"></fa-icon>RAID: Tools</button>
 
       <div class="dropdown-content">
         <a [routerLinkActive]="'is-active'" [routerLink]="['deals']" (click)="toggleNav()">

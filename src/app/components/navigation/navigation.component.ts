@@ -13,6 +13,8 @@ import {
   faShareAlt,
   faQuestion,
   faBoxingGlove,
+  faArchway,
+  faTools,
   faHamburger
 } from '@fortawesome/pro-light-svg-icons';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
@@ -40,6 +42,8 @@ export class NavigationComponent implements OnInit {
   faUsers = faUsers;
   faBoxingGlove = faBoxingGlove;
   faHamburger = faHamburger;
+  faArchway = faArchway;
+  faTools = faTools;
   navigationActive: boolean;
   rosterMode: any;
   championsListPage: boolean;

@@ -1,5 +1,6 @@
 $color-primary: #007bff;
 $color-background: #000D1A;
+$color-background2: rgb(7, 42, 77);
 
 $color-epic: #841CE8;
 $color-rare: #1399FF;
@@ -17,3 +18,4 @@ $small: 524px;
 $background-gradient-primary:linear-gradient(90deg, rgba(lighten($color-background, 5%), .95), rgba($color-background, 1));
 $background-gradient-secondary:linear-gradient(0deg, rgba(lighten($color-background, 5%), .95), rgba($color-background, 1));
 $background-gradient-third:linear-gradient(-180deg, rgba(lighten($color-background, 5%), .95), rgba($color-background, 1));
+$background-gradient-primary2:linear-gradient(90deg, rgba(lighten($color-background2, 5%), .95), rgba($color-background, 1));

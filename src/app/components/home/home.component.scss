@@ -1,19 +1,40 @@
+@import 'variables';
+.wrapper {
+  overflow: auto;
+  height: 100%;
+  padding-bottom:100px;
+}
+.container {
+  width:100%;
+}
+.nav-link {
+  color:white;
+  cursor:pointer;
+}
+
+
 h2 {
-    font-size:34px;
+    font-size:18px;
     text-align: center;
-    margin-top:25px;
-    margin-bottom:25px;
+    margin-top: 80px;
     width:100%;
-    border-bottom:1px solid rgba(white, .7);
+    border-bottom: 1px solid rgba($color-primary, .8);
   }
 
   h3 {
     font-size:34px;
     text-align: center;
-    margin-top:25px;
-    margin-bottom:25px;
-    width:100%;
     color: white;
+    width:100%;
+ }
+
+  h4 {
+    font-size:18px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width:100%;
+    color: $color-primary;
   }
 
   p {
@@ -24,36 +45,35 @@ h2 {
     width:100%;
   }
 
-
   .round-button {
-    margin: 0 auto;
-    width:300px;
-    height:80px;
-    line-height:80px;
-    border: 2px solid RoyalBlue;
-    border-radius: 10px;
-    color: RoyalBlue;
+    width:100%;
+    display: block;
+    height:auto;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
     text-align:center;
     text-decoration:none;
+    border-radius: 8px;
     box-shadow: 0 0 3px gray;
     font-size:20px;
     font-weight:bold;
     transition: 0.7s;
-    background-color: transparent;
-}
+    background: $background-gradient-primary;
+    border: 1px solid rgba($color-primary, .8);
+    }
+
 .round-button:hover {
-    background: rgb(12, 14, 20);
-    color: inherit; 
-    text-decoration: none;
+  background: $background-gradient-primary2;
+  text-decoration: none;
 }
 
 a:link {
   text-decoration: none;
+  color: $color-primary;
 }
 
-a:hover {
-  color: RoyalBlue;
-}
+
 
 img {
   width:100%;
@@ -63,4 +83,73 @@ img {
   border-radius: 50%;
   border: 4px solid rgba(#841CE8, .75);
   box-shadow: 0 5px 30px rgba(#841CE8, .75);
+  margin-bottom: 40px;
+}
+
+@import 'variables';
+
+.shards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 15px;
+  padding-bottom: 30vw;
+
+  .champions {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+.btn {
+  margin-top: 25px;
+
+  &.inactive {
+    opacity: .5;
+    pointer-events: none;
+  }
+}
+
+
+
+.bluestacks {
+  width: 100%;
+  max-width: 400px;
+
+  img {
+    width: 100%;
+    max-width: 200px;
+    margin: 25px auto;
+    display: block;
+  }
+}
+
+champion-card {
+  margin: 15px;
+  height: 15vw !important;
+  width: 15vw !important;
+}
+
+@media all and (min-width:$mobile) {
+
+  .shards {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+    position: relative;
+  }
+
+  champion-card {
+    margin: 20px;
+    height: 100px !important;
+    width: 100px !important;
+  }
 }

@@ -1,15 +1,6 @@
 <div class="wrapper">
     <div class="container">
       <div class="row">
-          <h2>RAIDRANKS</h2>
-          <p>A website related to the game "RAID: Shadow Legends"<br>         
-              developed by players for players.<br>
-              we give you alot of useful tools that you can use for the game and all the <a href="/champions">champion information</a>.<br>
-              An <a href="/leaderboards">clan-boss leaderboard</a> is available to compete with players over the whole world.<br>
-              You can use our <a href="/deals">Calculator</a> to look if it is worth to buy a specific deal into the game. <br>
-              Manage all your champions into an online <a href="/roster">roster</a> and work out your teams into the <a href="teams">team builder</a>. <br>
-              Our discord bot can provide you masteries , ratings and champions information.</p>
-             <button class="round-button"><a target="_blank" href="https://discord.gg/CXC2SP3">DISCORD</a></button>
       </div>
       <div class="weekly">
 
@@ -20,5 +11,45 @@ She is top rated into campaign , arena and into several dungeons. <br>
 For more information check out her<a href="/champion-details/orcs/zargala"> information</a>.</p>
 <a href="/champion-details/orcs/zargala"> <img [src]="['../../..//assets/images/champions/zargala.jpg']" alt=""></a>
       </div>
+      <div class="shards">
+        <div class="champions">
+          <ng-container *ngIf="randomChamps.length > 0; else noSummons">
+            <ng-container *ngFor="let champ of randomChamps; index as i">
+              <champion-card [index]="i" [source]="'shards'" [champ]="champ"></champion-card>
+            </ng-container>
+          </ng-container>
+        </div>
+        <div class="summon-options">
+          <button [ngClass]="{'inactive': onCoolDown  || showBluestacks}" class="btn btn-outline-primary mr-3" (click)="summon(10, 1)">Summon</button>
+          <button [ngClass]="{'inactive': onCoolDown  || showBluestacks}" class="btn btn-outline-primary" (click)="summon(10, 2)">Summon x2 Rates</button>
+        </div>
+        <p class="mt-5">
+          Try your luck! The odds used here are the exact odds used to summon certain rarities within Raid.
+          Feeling that itch, but don't have the <span class="text-primary">$$$</span> to throw away on a long shot? Cool. This is <span class="text-primary">free</span>.
+        </p>
+        <p class="mb-5 rsl-label">These summons include <span class="text-primary">VOID</span> champions.</p>
+      
+        <ng-adsense
+          *ngIf="adActive"
+          [adClient]="'ca-pub-2485646423395791'"
+          [adSlot]="5253939295">
+        </ng-adsense>
+      </div>
+      
+      <ng-template #noSummons>
+      </ng-template>
+      
+      <ng-container *ngIf="showBluestacks">
+        <div class="overlay">
+          <div class="bluestacks">
+            <p>It looks like you might be enjoying this champion summoning. If you don't mind, I'd like to ask you to check out BlueStacks on the PC. To be totally transparent, <span class="text-primary">it helps me out when you click the link and play Raid from BlueStacks</span>.</p>
+            <p class="rsl-label">Don't worry, I won't ask you again!</p>
+            <p class="text-primary">Thank you!</p>
+            <img src="../../../assets/images/blustacks.png" alt="BlueStacks Logo">
+            <a class="btn btn-block btn-outline-primary" href="https://bstk.me/u2U9kRRvO" target="_blank" (click)="closeBluestacks(false)">Download and play on BlueStacks</a>
+            <button class="btn btn-block btn-outline-danger" (click)="closeBluestacks(true)">Go Away!</button>
+          </div>
+        </div>
+      </ng-container>
     </div>
   </div>
