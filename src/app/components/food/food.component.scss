@@ -64,7 +64,7 @@ margin-top:10px;
   display:inline-block;
   text-align: center;
   background-color:lighten($color-background, 10%);
-  width: 10%;
+  width: 25%;
   margin: 4px;
   color:white;
   border-radius: 10px;
@@ -75,35 +75,7 @@ margin-top:10px;
     padding: 10px;
     color: white;
   }
-}
 
-.checkbox {
-  margin-top:15px;
-  text-align:center;
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items:center;
-  align-content: center;
-}
 
-.checkbox input {
-  display:none;
-}
 
-.checkbox span {
-  height:25px;
-  width:100%;
-  border-radius:3px;
-  cursor:pointer;
-  display:block;
-  position:relative;
-  background:white;
-  margin-bottom:20px;
-  border: 2px solid rgba(rgb(246, 242, 242), .75);
-  box-shadow: 0 5px 30px rgba(255, 255, 255, 0.219)
-}
-
-.checkbox input:checked + span {
-  background:$color-primary;
 }
