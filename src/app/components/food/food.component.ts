@@ -39,7 +39,7 @@ export class FoodComponent implements OnInit {
   }
 
   ngOnInit() {
-    // this.calculateRequirements();
+    this.calculateRequirements();
   }
 
   calculateRequirements(){

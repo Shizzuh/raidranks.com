@@ -15,7 +15,8 @@ import {
   faBoxingGlove,
   faArchway,
   faTools,
-  faHamburger
+  faHamburger,
+  faStar
 } from '@fortawesome/pro-light-svg-icons';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { Storage } from '../../services/store.service';
@@ -42,6 +43,7 @@ export class NavigationComponent implements OnInit {
   faUsers = faUsers;
   faBoxingGlove = faBoxingGlove;
   faHamburger = faHamburger;
+  faStar = faStar;
   faArchway = faArchway;
   faTools = faTools;
   navigationActive: boolean;
