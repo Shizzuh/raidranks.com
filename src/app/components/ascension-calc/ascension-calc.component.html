@@ -3,35 +3,35 @@
 <div class="Ascension">
   <div class="result-header">Ascension Potions</div>
   <div>
-    <label>Star Level</label>
-    <label>Uncommon</label>
-    <label>Rare</label>
-    <label>Epic</label>
-    <label>Legendary</label>
+    <button class="btnstyle">Stars</button>
+    <button class="btnstyle">Uncommon</button>
+    <button class="btnstyle">Rare</button>
+    <button class="btnstyle">Epic</button>
+    <button class="btnstyle">Legendary</button>
   </div>
-  <div>
-    <label>3 Star</label>
+  <div class="column">
+    <button class="btnstyle">3 Star</button>
     <input type="text" [(ngModel)]="uncommon['three']" (keyup)="calculatePotions()">
     <input type="text" [(ngModel)]="rare['three']" (keyup)="calculatePotions()">
     <input type="text" [(ngModel)]="epic['three']" (keyup)="calculatePotions()">
     <input type="text" [(ngModel)]="legendary['three']" (keyup)="calculatePotions()">
-  </div>
-  <div>
-    <label>4 Star</label>
+    </div>
+    <div class="column">
+      <button class="btnstyle">3 Star</button>
     <input type="text" [(ngModel)]="uncommon['four']" (keyup)="calculatePotions()">
     <input type="text" [(ngModel)]="rare['four']" (keyup)="calculatePotions()">
     <input type="text" [(ngModel)]="epic['four']" (keyup)="calculatePotions()">
     <input type="text" [(ngModel)]="legendary['four']" (keyup)="calculatePotions()">
   </div>
-  <div>
-    <label>5 Star</label>
+  <div class="column">
+    <button class="btnstyle">3 Star</button>
     <input type="text" [(ngModel)]="uncommon['five']" (keyup)="calculatePotions()">
     <input type="text" [(ngModel)]="rare['five']" (keyup)="calculatePotions()">
     <input type="text" [(ngModel)]="epic['five']" (keyup)="calculatePotions()">
     <input type="text" [(ngModel)]="legendary['five']" (keyup)="calculatePotions()">
   </div>
-  <div>
-    <label>6 Star</label>
+  <div class="column">
+    <button class="btnstyle">3 Star</button>
     <input type="text" [(ngModel)]="uncommon['six']" (keyup)="calculatePotions()">
     <input type="text" [(ngModel)]="rare['six']" (keyup)="calculatePotions()">
     <input type="text" [(ngModel)]="epic['six']" (keyup)="calculatePotions()">
