@@ -48,10 +48,33 @@
 <br>
 
 <div class="Ascension" >
-  <div class="result-header">Arcane Potions:  <label>  {{ arcane }} </label></div>
-  <br>
-  <br>
-  <div class="result-header">Affinity Potions:  <label>  {{ affinity }} </label></div>
+  <div class="result-header">Arcane Potions:  
+    <div class="column-3">
+      <label>Lesser</label>
+      <label>Greater</label>
+      <label>Superior</label>
+    </div>
+    <div class="column-3">
+      <label>output</label>
+      <label>output</label>
+      <label>output</label>
+    </div>
+  </div>
+</div>
+
+<div class="Ascension" >
+  <div class="result-header">Affinity Potions:  
+    <div class="column-3">
+      <label>Lesser</label>
+      <label>Greater</label>
+      <label>Superior</label>
+    </div>
+    <div class="column-3">
+      <label>output</label>
+      <label>output</label>
+      <label>output</label>
+    </div>
+  </div>
 </div>
 
 <div class="overlay" *ngIf="helpOverlayIsActive">
