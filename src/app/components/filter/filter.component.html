@@ -1,10 +1,11 @@
+<br>
 <div class="filter-toggle" (click)="toggleFilterMenu()">
-  <fa-icon [icon]="faFilter"></fa-icon>
+  <fa-icon [icon]="faFilter"></fa-icon> Filter Options
 </div>
 <div class="filter-menu" *ngIf="filterMenuActive">
   <div class="row p-0">
     <div class="left">
-      <div class="filter-menu-header">Elements</div>
+      <div class="filter-menu-header">Affinity</div>
       <div class="elements">
         <img (click)="addFilter('element', 'Force')" src="../../../assets/images/elements/force.png" alt="">
         <img (click)="addFilter('element', 'Spirit')" src="../../../assets/images/elements/spirit.png" alt="">
