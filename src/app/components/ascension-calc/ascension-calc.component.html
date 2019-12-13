@@ -12,31 +12,36 @@
   <div>
     <label>3 Star</label>
     <input type="text" [(ngModel)]="uncommon['three']" (keyup)="calculatePotions()">
-    <input type="text" [(ngModel)]="uncommon['four']">
-    <input type="text" [(ngModel)]="uncommon['five']">
-    <input type="text" [(ngModel)]="uncommon['six']">
+    <input type="text" [(ngModel)]="rare['three']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="epic['three']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="legendary['three']" (keyup)="calculatePotions()">
   </div>
   <div>
     <label>4 Star</label>
-    <input type="text" [(ngModel)]="rare['three']" (keyup)="calculatePotions()">
-    <input type="text" [(ngModel)]="rare['four']">
-    <input type="text" [(ngModel)]="rare['five']">
-    <input type="text" [(ngModel)]="rare['six']">
+    <input type="text" [(ngModel)]="uncommon['four']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="rare['four']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="epic['four']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="legendary['four']" (keyup)="calculatePotions()">
   </div>
   <div>
     <label>5 Star</label>
-    <input type="text" [(ngModel)]="epic['three']" (keyup)="calculatePotions()">
-    <input type="text" [(ngModel)]="epic['three']">
-    <input type="text" [(ngModel)]="epic['three']">
-    <input type="text" [(ngModel)]="epic['three']">
+    <input type="text" [(ngModel)]="uncommon['five']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="rare['five']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="epic['five']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="legendary['five']" (keyup)="calculatePotions()">
   </div>
   <div>
     <label>6 Star</label>
-    <input>
-    <input>
-    <input>
-    <input>
+    <input type="text" [(ngModel)]="uncommon['six']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="rare['six']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="epic['six']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="legendary['six']" (keyup)="calculatePotions()">
   </div>
+</div>
+
+<div class="Ascension" >
+  <h2>This is how many arcane potions you need {{ arcane }}</h2>
+  <h2>This is how many affinity based potions you need {{ affinity }}</h2>
 </div>
 
 <div class="overlay" *ngIf="helpOverlayIsActive">
