@@ -17,16 +17,14 @@
 .ng-fa-icon {
   font-size: 12px;
   color: white;
-  margin: 10px;
 }
 
 filter:host {
-  padding-top: 20px;
   right: 20px;
   align-items: center;
   cursor: pointer;
   height: 45px;
-  width: 100%;
+  width: 45px;
   display: flex;
   align-items: center;
   position: relative;
@@ -35,31 +33,25 @@ filter:host {
 }
 
 .filter-toggle {
-  margin-left: 10px;
-    margin-right: 10px;
-padding-bottom: 20px;
-
-  height:20px;
-  width:100%;
+  height:45px;
+  width:45px;
   display:flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid rgba($color-primary, .75);
-  background-color: transparent;
-  border-radius:2px;
+  background:$color-primary;
+  border-radius:50%;
 }
 
-
 .filter-menu {
-  margin-top: 10px;
+
   position: fixed;
   z-index: 2;
   background: rgba(0, 13, 26, 0.9);
   height: auto;
-  width: 98%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   font-size: 12px;
   border-radius: 4px;
   border: 1px solid #333;
