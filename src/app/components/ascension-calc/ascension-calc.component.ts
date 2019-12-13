@@ -45,33 +45,25 @@ export class AscensionCalcComponent implements OnInit {
   }
 
   calculatePotionsPerAff(requesting: Map<string, number>, rarity: string){
-    let totalArcane = 0;
-    let totalAffinity = 0;
     for(let key in requesting){
       if(requesting[key] > 0){
         for(let star of this.cascadeCount[key]){
-          totalArcane += this.xpInfo[star].ascension[rarity].arcane * requesting[key];
-          totalAffinity += this.xpInfo[star].ascension[rarity].affinity * requesting[key];
+          if(this.xpInfo[star].ascension[rarity].arcane % 100 == 0){
+            this.arcane['superior'] += this.xpInfo[star].ascension[rarity].arcane * requesting[key]/100;
+          } else if(this.xpInfo[star].ascension[rarity].arcane % 10 == 0){
+            this.arcane['greater'] += this.xpInfo[star].ascension[rarity].arcane * requesting[key]/10;
+          } else {
+            this.arcane['lesser'] += this.xpInfo[star].ascension[rarity].arcane * requesting[key];
+          }
+          if(this.xpInfo[star].ascension[rarity].affinity % 100 == 0){
+            this.affinity['superior'] += this.xpInfo[star].ascension[rarity].affinity * requesting[key]/100;
+          } else if(this.xpInfo[star].ascension[rarity].affinity % 10 == 0){
+            this.affinity['greater'] += this.xpInfo[star].ascension[rarity].affinity * requesting[key]/10;
+          } else {
+            this.affinity['lesser'] += this.xpInfo[star].ascension[rarity].affinity * requesting[key];
+          }
         }
       }
-    }
-    let temp = 0;
-    if (totalArcane > 0 && totalAffinity > 0){
-      temp = Math.floor(totalArcane/100);
-      this.arcane['superior'] += temp;
-      totalArcane -= temp*100;
-      temp = Math.floor(totalArcane/10);
-      this.arcane['greater'] += temp;
-      totalArcane -= temp*10;
-      this.arcane['lesser'] += totalArcane;
-      
-      temp = Math.floor(totalAffinity/100);
-      this.affinity['superior'] += temp;
-      totalAffinity -= temp*100;
-      temp = Math.floor(totalAffinity/10);
-      this.affinity['greater'] += temp;
-      totalAffinity -= temp*10;
-      this.affinity['lesser'] += totalAffinity;
     }
   }
 
