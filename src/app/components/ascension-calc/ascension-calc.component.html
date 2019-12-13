@@ -11,24 +11,24 @@
   </div>
   <div>
     <label>3 Star</label>
-    <input>
-    <input>
-    <input>
-    <input>
+    <input type="text" [(ngModel)]="uncommon['three']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="uncommon['four']">
+    <input type="text" [(ngModel)]="uncommon['five']">
+    <input type="text" [(ngModel)]="uncommon['six']">
   </div>
   <div>
     <label>4 Star</label>
-    <input>
-    <input>
-    <input>
-    <input>
+    <input type="text" [(ngModel)]="rare['three']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="rare['four']">
+    <input type="text" [(ngModel)]="rare['five']">
+    <input type="text" [(ngModel)]="rare['six']">
   </div>
   <div>
     <label>5 Star</label>
-    <input>
-    <input>
-    <input>
-    <input>
+    <input type="text" [(ngModel)]="epic['three']" (keyup)="calculatePotions()">
+    <input type="text" [(ngModel)]="epic['three']">
+    <input type="text" [(ngModel)]="epic['three']">
+    <input type="text" [(ngModel)]="epic['three']">
   </div>
   <div>
     <label>6 Star</label>
