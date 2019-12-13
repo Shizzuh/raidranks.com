@@ -55,15 +55,15 @@ export class AscensionCalcComponent implements OnInit {
     }
     if (totalArcane > 0 && totalAffinity > 0){
       this.arcane['superior'] += Math.floor(totalArcane/100);
-      totalArcane -= Math.floor(totalArcane/100);
+      totalArcane -= this.arcane['superior']*100;
       this.arcane['greater'] += Math.floor(totalArcane/10);
-      totalArcane -= Math.floor(totalArcane/10);
+      totalArcane -= this.arcane['greater']*10;
       this.arcane['lesser'] += totalArcane;
       
       this.affinity['superior'] += Math.floor(totalAffinity/100);
-      totalAffinity -= Math.floor(totalAffinity/100);
+      totalAffinity -= this.affinity['superior']*100;
       this.affinity['greater'] += Math.floor(totalAffinity/10);
-      totalAffinity -= Math.floor(totalAffinity/10);
+      totalAffinity -= this.affinity['greater']/10;
       this.affinity['lesser'] += totalAffinity;
     }
   }
