@@ -2,72 +2,40 @@
   <team-builder></team-builder>
 
 
-  <a [routerLinkActive]="'is-active'" [routerLink]="['home']" (click)="toggleNav()">
-    <fa-icon [icon]="faArchway"></fa-icon>
-    <span>Home</span>
-  </a>
 
-  <a [routerLinkActive]="'is-active'" [routerLink]="['champions']" (click)="toggleNav()">
-    <fa-icon [icon]="faSwords"></fa-icon>
-    <span>Champions</span>
-  </a>
+
+  <a href="/home" target="_self"><button class="dropbtn"><fa-icon [icon]="faArchway"></fa-icon>Home</button></a>
+  <a href="/champions" target="_self"><button class="dropbtn"><fa-icon [icon]="faSwords"></fa-icon>Champions</button></a>
+
   
   <div class="dropdown">
-    <button class="dropbtn"><fa-icon [icon]="faTools"></fa-icon>RAID: Collections</button>
-
+    <a href=" " target="_self"><button class="dropbtn" ><fa-icon [icon]="faTools"></fa-icon>RR: Collections</button></a>
     <div class="dropdown-content">
-
-      <a [routerLinkActive]="'is-active'" [routerLink]="['teams']" (click)="toggleNav()">
-        <fa-icon [icon]="faUsersMedical"></fa-icon>
-        <span>Team Builder</span>
-      </a>
-      <a [routerLinkActive]="'is-active'" [routerLink]="['roster']" (click)="toggleNav()">
-        <fa-icon [icon]="faUsers"></fa-icon>
-        <span>Roster</span>
-      </a>
+      <a href="/teams" target="_self"><button class="dropbtn"><fa-icon [icon]="faUsersMedical"></fa-icon>Team Builder</button></a>
+      <a href="/roster" target="_self"><button class="dropbtn"><fa-icon [icon]="faUsers"></fa-icon>Roster</button></a>
     </div>
   </div>
-
-
-
-
-
-  <div class="nav-links">
-    
 
     <div class="dropdown">
-      <button class="dropbtn"><fa-icon [icon]="faTools"></fa-icon>RAID: Tools</button>
-
+      <button class="dropbtn"><fa-icon [icon]="faTools"></fa-icon>RR: Tools</button>
       <div class="dropdown-content">
-        <a [routerLinkActive]="'is-active'" [routerLink]="['deals']" (click)="toggleNav()">
-          <fa-icon [icon]="faUsdCircle"></fa-icon>
-          <span>Deal Value Calculator</span>
-        </a>
-        <a [routerLinkActive]="'is-active'" [routerLink]="['food']" (click)="toggleNav()">
-          <fa-icon [icon]="faHamburger"></fa-icon>
-          <span>Food Calculator</span>
-        </a>
-        <a [routerLinkActive]="'is-active'" [routerLink]="['ascension-calc']" (click)="toggleNav()">
-          <fa-icon [icon]="faStar"></fa-icon>
-          <span>Ascension Calculator</span>
-        </a>
-            
+        <a href="/deals" target="_self"><button class="dropbtn"><fa-icon [icon]="faUsdCircle"></fa-icon>Deal Value Calculator</button></a>
+        <a href="/food" target="_self"><button class="dropbtn"><fa-icon [icon]="faHamburger"></fa-icon>Food Calculator</button></a>
+        <a href="/ascension-calc" target="_self"><button class="dropbtn"><fa-icon [icon]="faFlask"></fa-icon>Ascension Calculator</button></a>
+
       </div>
     </div>
-    <a [routerLinkActive]="'is-active'" [routerLink]="['leaderboards']" (click)="toggleNav()">
-      <fa-icon [icon]="faBoxingGlove"></fa-icon>
-      <span>Clan Boss Leaderboards</span>
-    </a>
-    <a [routerLinkActive]="'is-active'" [routerLink]="['faq']" (click)="toggleNav()">
-      <fa-icon [icon]="faQuestion"></fa-icon>
-      <span>Info & FAQ</span>
-    </a>
-    <a [routerLinkActive]="'is-active'" [routerLink]="['/shards']" (click)="toggleNav()">
-      <fa-icon [icon]="faGem"></fa-icon>
-      Summon Champions
-    </a>
-    <a class="text-center" href="https://bstk.me/u2U9kRRvO" target="_blank">Play Raid on BlueStacks</a>
-  </div>
+
+
+    <a href="/leaderboards" target="_self"><button class="dropbtn"><fa-icon [icon]="faBoxingGlove"></fa-icon>Clan Boss Leaderboards</button></a>
+    <a href="/faq" target="_self"><button class="dropbtn"><fa-icon [icon]="faQuestion"></fa-icon>Info & FAQ</button></a>
+    <a href="/shards" target="_self"><button class="dropbtn"><fa-icon [icon]="faGem"></fa-icon>Shards Simulator</button></a>
+
+
+
+
+
+
 
   <div *ngIf="rosterPage" class="roster">
     <button class="btn btn-outline-primary btn-block mt-3" (click)="addChampionsToRoster()">
