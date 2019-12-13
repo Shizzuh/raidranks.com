@@ -1,13 +1,18 @@
 <button class="btn btn-link mt-3" (click)="helpOverlay()">Need Help?</button>
 
 <div class="Ascension">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   <div class="result-header">Ascension Potions</div>
   <div>
     <button class="btnstyle">Stars</button>
-    <button class="btnstyle">Uncommon</button>
+    <button class="btnstyle">Unc.</button>
     <button class="btnstyle">Rare</button>
     <button class="btnstyle">Epic</button>
-    <button class="btnstyle">Legendary</button>
+    <button class="btnstyle">Lego</button>
   </div>
   <div class="column">
     <button class="btnstyle">3 Star</button>
@@ -38,10 +43,15 @@
     <input type="text" [(ngModel)]="legendary['six']" (keyup)="calculatePotions()">
   </div>
 </div>
+<br>
+<br>
+<br>
 
 <div class="Ascension" >
-  <h2>This is how many arcane potions you need {{ arcane }}</h2>
-  <h2>This is how many affinity based potions you need {{ affinity }}</h2>
+  <div class="result-header">Arcane Potions:  <label>  {{ arcane }} </label></div>
+  <br>
+  <br>
+  <div class="result-header">Affinity Potions:  <label>  {{ affinity }} </label></div>
 </div>
 
 <div class="overlay" *ngIf="helpOverlayIsActive">
