@@ -7,7 +7,6 @@
     champ.name.replace(' ', '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
     queryParamsHandling="merge"
     [ngStyle]="{'background-image': 'url(../../../assets/images/all/'+championPortrait.toLowerCase()}">
-    <img *ngIf="champ.element" [lazyLoad]="championElementIcon" [scrollTarget]="scrollTarget">
     <p>{{champ.name}}</p>
   </a>
   <button
@@ -44,7 +43,6 @@
   '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
   queryParamsHandling="merge"
   [ngStyle]="{'background-image': 'url(../../../assets/images/all/'+championPortrait.toLowerCase()}">
-  <img *ngIf="champ.element" [lazyLoad]="championElementIcon" [scrollTarget]="scrollTarget">
   <p>{{champ.name}}</p>
 </a>
 
@@ -58,7 +56,6 @@
       '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
       queryParamsHandling="merge"
       [ngStyle]="{'background-image': 'url(../../../assets/images/all/'+championPortrait.toLowerCase()}">
-      <img *ngIf="champ.element" [lazyLoad]="championElementIcon" [scrollTarget]="scrollTarget">
       <p>{{champ.name}}</p>
     </a>
     <fa-icon class="delete" (click)="removeChamp()" [icon]="faTrashAlt"></fa-icon>
@@ -72,7 +69,6 @@
     queryParamsHandling="merge">
     <div class="roster-champion-img"
       [ngStyle]="{'background-image': 'url(../../../assets/images/all/'+championPortrait.toLowerCase()}">
-      <img *ngIf="champ.element" src="{{championElementIcon}}">
     </div>
     <div class="roster-champion-data">
       <p>{{champ.name}}</p>
@@ -92,7 +88,6 @@
     champ.name.replace(' ', '-').replace(' ', '-').replace('´', '-').replace('\'', '-').toLowerCase()]"
     queryParamsHandling="merge">
     <div class="roster-champion-data">
-      <img *ngIf="champ.element" src="{{championElementIcon}}">
       <p>{{champ.name}}</p>
     </div>
   </a>
