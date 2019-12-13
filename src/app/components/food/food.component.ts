@@ -36,10 +36,11 @@ export class FoodComponent implements OnInit {
     this.availableFood['four'] = 0;
     this.availableFood['five'] = 0;
     this.helpOverlayIsActive = false;
-    this.calculateRequirements();
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.calculateRequirements();
+  }
 
   calculateRequirements(){
     this.resetDynamics();

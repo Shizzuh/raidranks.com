@@ -31,6 +31,7 @@ import { ScoreComponent } from './components/cb-leaderboard/score/score.componen
 import { HomeComponent } from './components/home/home.component';
 import { TierlistComponent } from './components/tierlist/tierlist.component';
 import { StierComponent } from './components/stier/stier.component';
+import { AscensionCalcComponent } from './components/ascension-calc/ascension-calc.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +65,7 @@ import { StierComponent } from './components/stier/stier.component';
     HomeComponent,
     TierlistComponent,
     StierComponent,
+    AscensionCalcComponent
   ],
   imports: [
     ClipboardModule,

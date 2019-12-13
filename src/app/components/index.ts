@@ -10,6 +10,7 @@ export * from './champion-card/champion-card.component';
 export * from './champion-details/champion-details.component';
 export * from './deals/deals.component';
 export * from './food/food.component';
+export * from './ascension-calc/ascension-calc.component';
 export * from './shards/shards.component';
 export * from './faq/faq.component';
 export * from './cb-leaderboard/cb-leaderboard.component';

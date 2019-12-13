@@ -1,0 +1,49 @@
+<button class="btn btn-link mt-3" (click)="helpOverlay()">Need Help?</button>
+
+<div class="Ascension">
+  <div class="result-header">Ascension Potions</div>
+  <div>
+    <label>Star Level</label>
+    <label>Uncommon</label>
+    <label>Rare</label>
+    <label>Epic</label>
+    <label>Legendary</label>
+  </div>
+  <div>
+    <label>3 Star</label>
+    <input>
+    <input>
+    <input>
+    <input>
+  </div>
+  <div>
+    <label>4 Star</label>
+    <input>
+    <input>
+    <input>
+    <input>
+  </div>
+  <div>
+    <label>5 Star</label>
+    <input>
+    <input>
+    <input>
+    <input>
+  </div>
+  <div>
+    <label>6 Star</label>
+    <input>
+    <input>
+    <input>
+    <input>
+  </div>
+</div>
+
+<div class="overlay" *ngIf="helpOverlayIsActive">
+  <div class="help">
+    <div class="btn btn-outline-primary mb-5" (click)="helpOverlay()">Close</div>
+        <h5>Ascension Requirements</h5>
+        <p><span class="text-primary">Ascension Potions</span> shows how many potions you need to fully ascend champions.</p>
+    </div>
+</div>
+

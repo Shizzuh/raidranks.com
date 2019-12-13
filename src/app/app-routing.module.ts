@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'team-share', component: component.TeamShareComponent },
   { path: 'deals', component: component.DealsComponent },
   { path: 'food', component: component.FoodComponent },
+  { path: 'ascension-calc', component: component.AscensionCalcComponent},
   { path: 'admin', component: component.AdminComponent },
   { path: 'faq', component: component.FaqComponent },
   { path: 'roster', component: component.RosterComponent },
