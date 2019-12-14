@@ -107,6 +107,7 @@
         <p>{{champion.rating.void_dungeon}}</p> 
       </div>
     </div>
+    <button class="btn btn-link mt-3" (click)="helpOverlay()">Rating Explanation</button>
 
 
 
@@ -163,4 +164,19 @@
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <disqus [identifier]="pageId" [url]="pageUrl"></disqus>
+</div>
+
+
+
+<div class="overlay" *ngIf="helpOverlayIsActive">
+  <div class="help">
+    <div class="btn btn-outline-primary mb-5" (click)="helpOverlay()">Close</div>
+        <h5>explanation Ratings: </h5>
+        <p><span class="text-primary">SS</span> - Godly</p>
+        <p><span class="text-primary">S</span> - Excellent</p>
+        <p><span class="text-primary">A</span> - Good</p>
+        <p><span class="text-primary">B</span> - Situational</p>
+        <p><span class="text-primary">C</span> - Early Game Viable</p>
+        <p><span class="text-primary">D</span> - unusable</p>
+    </div>
 </div>

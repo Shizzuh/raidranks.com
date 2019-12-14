@@ -14,6 +14,9 @@ import { faCheck } from '@fortawesome/pro-light-svg-icons';
 })
 export class ChampionDetailsComponent implements OnInit, OnDestroy {
 
+  helpOverlayIsActive: boolean;
+
+
   pageUrl: string;
   pageId: string;
   championCollection: any;
@@ -99,5 +102,11 @@ export class ChampionDetailsComponent implements OnInit, OnDestroy {
   copyShadowbotCommand(shadowbotName: string) {
     this.clipboardService.copyFromContent(shadowbotName);
     this.copied = true;
-  }
+  };
+
+
+
+helpOverlay() {
+  this.helpOverlayIsActive ? this.helpOverlayIsActive = false : this.helpOverlayIsActive = true;
+}
 }
