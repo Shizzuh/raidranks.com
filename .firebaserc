@@ -9,6 +9,13 @@
           "raidranks"
         ]
       }
+    },
+    "raidranks": {
+      "hosting": {
+        "raidranks": [
+          "raidranks"
+        ]
+      }
     }
   }
 }
