@@ -302,3 +302,31 @@ iframe {
     color:$color-primary;
   }
 }
+
+.rating {
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 22%;
+  margin:5px 5px;
+  font-size:16px;
+  color:white;
+  border-radius: 8px;
+  border: 1px solid rgba($color-primary, .30);
+  span {
+    font-size:15px;
+    color:$color-primary;
+    text-align: center;
+  }
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+}
