@@ -1,4 +1,25 @@
 <div class="wrapper">
+  <div class="container">
+    <ng-container *ngFor="let creators of (creators|async)">
+      <div class="row" *ngFor="let creator of creators.creators">
+        <div class="col-12">
+          <a href="{{creator.youtubeLink}}">
+            <img
+              src="../../../assets/images/youtubers/jgigs.png">
+          </a>
+        </div>
+        <div class="col-12">
+          <h3>{{creator.username}}</h3>
+        </div>
+        <div class="col-12">
+          <p>{{creator.description}}</p>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>
+
+<!-- <div class="wrapper">
     <div class="container">
         <h2>RR: Content Creators</h2>
         <div class="infopart">
@@ -17,4 +38,4 @@
              <p>If you want your youtube here feel free to message me on Discord : <span class="text-primary">Benn#2599</span></p>
          </div>
     </div>
-  </div>
+  </div> -->

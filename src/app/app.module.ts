@@ -33,6 +33,7 @@ import { TierlistComponent } from './components/tierlist/tierlist.component';
 import { StierComponent } from './components/stier/stier.component';
 import { AscensionCalcComponent } from './components/ascension-calc/ascension-calc.component';
 import { ContentcreatorsComponent } from './components/contentcreators/contentcreators.component';
+import { CreatorDetailsComponent } from './components/creator-details/creator-details.component';
 
 @NgModule({
   declarations: [
@@ -67,7 +68,8 @@ import { ContentcreatorsComponent } from './components/contentcreators/contentcr
     TierlistComponent,
     StierComponent,
     AscensionCalcComponent,
-    ContentcreatorsComponent
+    ContentcreatorsComponent,
+    CreatorDetailsComponent
   ],
   imports: [
     ClipboardModule,

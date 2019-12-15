@@ -26,6 +26,7 @@ export * from './filter/filter.component';
 export * from './sidebar/sidebar.component';
 export * from './team-builder/team-abilities/team-abilities.component';
 export * from './team-builder/team-edit/team-edit.component';
+export * from './creator-details/creator-details.component';
 export * from './home';
 export * from './tierlist';
 export * from './stier';
