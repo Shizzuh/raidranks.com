@@ -1,7 +1,7 @@
 <div class="wrapper">
   <div class="container">
+    <h2>Content Creators</h2>
     <ng-container *ngFor="let creators of (creators|async)">
-      <h2>Content Creators</h2>
       <div class="row" *ngFor="let creator of creators.creators">
         <div class="col-12">
           <a [routerLink]="['/content-creators', creator.slug]">

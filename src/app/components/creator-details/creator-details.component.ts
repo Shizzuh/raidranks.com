@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { map } from 'rxjs/operators';
 import { AngularFirestore } from '@angular/fire/firestore';
+import { DomSanitizer } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'creator-details',
@@ -12,11 +14,15 @@ export class CreatorDetailsComponent implements OnInit {
   creatorId: any;
   creatorRef: any;
   creator: any;
+  YoutubePlaylist: any;
+
 
   constructor(
     private db: AngularFirestore,
     private router: Router,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    public sanitizer: DomSanitizer,
+
   ) { }
 
   ngOnInit() {
@@ -40,6 +46,7 @@ export class CreatorDetailsComponent implements OnInit {
 
         const data = a.payload.doc.data();
         const id = a.payload.doc.id;
+        this.YoutubePlaylist = this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/' + data.YoutubePlaylist);
 
         return { ...data };
       }))
