@@ -33,6 +33,7 @@ import { TierlistComponent } from './components/tierlist/tierlist.component';
 import { StierComponent } from './components/stier/stier.component';
 import { AscensionCalcComponent } from './components/ascension-calc/ascension-calc.component';
 import { GuidesComponent } from './components/guides/guides.component';
+import { GuideFarmingComponent } from './components/guide-farming/guide-farming.component';
 
 @NgModule({
   declarations: [
@@ -67,7 +68,8 @@ import { GuidesComponent } from './components/guides/guides.component';
     TierlistComponent,
     StierComponent,
     AscensionCalcComponent,
-    GuidesComponent
+    GuidesComponent,
+    GuideFarmingComponent
   ],
   imports: [
     ClipboardModule,

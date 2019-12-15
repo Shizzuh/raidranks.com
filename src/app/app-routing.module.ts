@@ -20,6 +20,7 @@ const routes: Routes = [
   { path: 'tierlist', component: component.TierlistComponent},
   { path: 'stier', component: component.StierComponent},
   { path: 'guides', component: component.GuidesComponent},
+  { path: 'guide-farming', component: component.GuideFarmingComponent},
   { path: '**', redirectTo: '' },
 
 ];
