@@ -31,7 +31,7 @@ h2 {
     text-align: center;
     width:100%;
   }
-  .infopart {
+  .row {
       margin: 0 auto;
       margin-top: 30px;
       height: auto;
@@ -45,6 +45,7 @@ h2 {
   img {
       border-radius: 50%;
       width: 100px;
-    margin-top: 25px;
-    float: left;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
   }
