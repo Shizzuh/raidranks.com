@@ -1,1 +1,4 @@
-<p>creator-details works!</p>
+<ng-container *ngFor="let creator of creator|async">
+  <h1>You're on {{creator.username}}'s page</h1>
+</ng-container>
+

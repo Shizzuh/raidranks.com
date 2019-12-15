@@ -4,7 +4,7 @@
       <h2>Content Creators</h2>
       <div class="row" *ngFor="let creator of creators.creators">
         <div class="col-12">
-          <a href="{{creator.youtubeLink}}">
+          <a [routerLink]="['/content-creators', creator.slug]">
             <img
               src="../../../assets/images/youtubers/{{creator.slug}}.png">
           </a>

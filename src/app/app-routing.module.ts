@@ -19,8 +19,8 @@ const routes: Routes = [
   { path: 'shards', component: component.ShardsComponent },
   { path: 'tierlist', component: component.TierlistComponent},
   { path: 'stier', component: component.StierComponent},
-  { path: 'contentcreators', component: component.ContentcreatorsComponent },
-  { path: 'contentcreators/:creatorId', component: component.CreatorDetailsComponent },
+  { path: 'content-creators', component: component.ContentcreatorsComponent },
+  { path: 'content-creators/:creatorId', component: component.CreatorDetailsComponent },
   { path: '**', redirectTo: '' },
 
 ];
