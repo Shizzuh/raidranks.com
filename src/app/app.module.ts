@@ -32,6 +32,7 @@ import { HomeComponent } from './components/home/home.component';
 import { TierlistComponent } from './components/tierlist/tierlist.component';
 import { StierComponent } from './components/stier/stier.component';
 import { AscensionCalcComponent } from './components/ascension-calc/ascension-calc.component';
+import { GuidesComponent } from './components/guides/guides.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,8 @@ import { AscensionCalcComponent } from './components/ascension-calc/ascension-ca
     HomeComponent,
     TierlistComponent,
     StierComponent,
-    AscensionCalcComponent
+    AscensionCalcComponent,
+    GuidesComponent
   ],
   imports: [
     ClipboardModule,

@@ -29,3 +29,4 @@ export * from './team-builder/team-edit/team-edit.component';
 export * from './home';
 export * from './tierlist';
 export * from './stier';
+export * from './guides';

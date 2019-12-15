@@ -15,6 +15,7 @@ import {
   faBoxingGlove,
   faArchway,
   faTools,
+  faBook, 
   faFlask,
   faHamburger
 } from '@fortawesome/pro-light-svg-icons';
@@ -45,6 +46,7 @@ export class NavigationComponent implements OnInit {
   faHamburger = faHamburger;
   faArchway = faArchway;
   faTools = faTools;
+  faBook = faBook;
   faFlask = faFlask;
   navigationActive: boolean;
   rosterMode: any;
