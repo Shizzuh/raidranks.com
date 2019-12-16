@@ -33,7 +33,7 @@ import { TierlistComponent } from './components/tierlist/tierlist.component';
 import { StierComponent } from './components/stier/stier.component';
 import { AscensionCalcComponent } from './components/ascension-calc/ascension-calc.component';
 import { GuidesComponent } from './components/guides/guides.component';
-import { GuideFarmingComponent } from './components/guide-farming/guide-farming.component';
+import { GuideFarmingComponent } from './components/guides/guide-farming/guide-farming.component';
 import { ContentcreatorsComponent } from './components/contentcreators/contentcreators.component';
 import { CreatorDetailsComponent } from './components/creator-details/creator-details.component';
 

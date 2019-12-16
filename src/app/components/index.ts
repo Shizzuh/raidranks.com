@@ -31,5 +31,5 @@ export * from './home';
 export * from './tierlist';
 export * from './stier';
 export * from './guides';
-export * from './guide-farming';
+export * from './guides/guide-farming';
 export * from './contentcreators';
