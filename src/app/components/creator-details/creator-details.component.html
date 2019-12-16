@@ -4,9 +4,13 @@
       <h2> {{creator.username}} On RAIDRANKS.COM</h2><br>
       <p>{{creator.disc}}</p>
       <hr>
+      <h2> {{creator.username}} Playlist</h2><br>
+      <p>{{creator.playlistDisc}}</p>
+      <div class="framediv">
+        <iframe *ngIf="YoutubePlaylist" width="390" height="300" [src]="YoutubePlaylist" float="middle" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </ng-container>
-    <iframe *ngIf="YoutubePlaylist" width="560" height="400" [src]="YoutubePlaylist" frameborder="0"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
