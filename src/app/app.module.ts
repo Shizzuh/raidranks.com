@@ -34,6 +34,8 @@ import { StierComponent } from './components/stier/stier.component';
 import { AscensionCalcComponent } from './components/ascension-calc/ascension-calc.component';
 import { GuidesComponent } from './components/guides/guides.component';
 import { GuideFarmingComponent } from './components/guide-farming/guide-farming.component';
+import { ContentcreatorsComponent } from './components/contentcreators/contentcreators.component';
+import { CreatorDetailsComponent } from './components/creator-details/creator-details.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +71,9 @@ import { GuideFarmingComponent } from './components/guide-farming/guide-farming.
     StierComponent,
     AscensionCalcComponent,
     GuidesComponent,
-    GuideFarmingComponent
+    GuideFarmingComponent,
+    ContentcreatorsComponent,
+    CreatorDetailsComponent
   ],
   imports: [
     ClipboardModule,

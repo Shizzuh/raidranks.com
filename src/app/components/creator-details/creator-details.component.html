@@ -1,0 +1,20 @@
+<div class="wrapper">
+  <div class="container">
+    <ng-container *ngFor="let creator of creator|async">
+      <h2> {{creator.username}} On RAIDRANKS.COM</h2><br>
+      <p>{{creator.disc}}</p>
+      <a href="{{creator.youtubeLink}}">
+        <img
+          src="../../../assets/youtubelogo.png">
+      </a>
+      <hr>
+      <h2> {{creator.username}} Playlist</h2><br>
+      <p>{{creator.playlistDisc}}</p>
+      <div class="framediv">
+        <iframe *ngIf="YoutubePlaylist" width="390" height="300" [src]="YoutubePlaylist" float="middle" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </ng-container>
+  </div>
+</div>
+
