@@ -24,22 +24,12 @@ h2 {
   p {
       text-align: center;
   }
-  
+
   h3 {
     padding-top: 20px;
     font-size:18px;
     text-align: center;
     width:100%;
-  }
-  .row {
-      margin: 0 auto;
-      margin-top: 30px;
-      height: auto;
-      min-height: 150px;
-    border-bottom: 1px solid rgba($color-primary, .8);
-    border-radius: 30px;
-    background-color: rgba(0, 0, 0, 0.274);
-    width: 80%;
   }
 
   img {
@@ -61,7 +51,7 @@ h2 {
   }
 
   .button1 {
-    background-color: transparent; 
+    background-color: transparent;
     border: none;
     color: rgba($color-primary, .8);
     border: 1px solid rgba($color-primary, .75);

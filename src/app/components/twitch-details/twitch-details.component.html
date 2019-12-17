@@ -1,21 +1,22 @@
 <div class="wrapper">
-    <div class="container">
+    <div class="container-fluid">
       <ng-container *ngFor="let twitcher of (twitcher|async)">
-        <div class="framediv">
-        <h2> {{twitcher.username}} On RAIDRANKS.COM</h2><br>
-            <div class="infobox">
-        <iframe *ngIf="streamVideo" width="100%" height="600" float="middle" [src]="streamVideo"  frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
-        <a href="{{twitcher.chatLink}}"  target="_blank"><button class="button1">OPEN CHAT</button></a><br>
+        <div class="row">
+          <div class="col-12">
+            <h2> {{twitcher.username}} On RAIDRANKS.COM</h2>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-8">
+            <iframe *ngIf="streamVideo" width="100%" height="600" float="middle" [src]="streamVideo" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="col-4">
+            <iframe frameborder="0" [src]="streamChat"
+              height="600" width="100%">
+            </iframe>
+          </div>
         </div>
-        <hr>
       </ng-container>
     </div>
   </div>
-
-
-
-  <a href="http://kanishkkunal.in" 
-  target="popup" 
-  onclick="window.open">

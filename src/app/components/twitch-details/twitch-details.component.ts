@@ -53,7 +53,6 @@ export class TwitchDetailsComponent implements OnInit {
         this.streamVideo = this.sanitizer.bypassSecurityTrustResourceUrl('https://player.twitch.tv/' + data.streamVideo);
         this.streamChat = this.sanitizer.bypassSecurityTrustResourceUrl('https://www.twitch.tv/embed/' + data.streamChat);
 
-
         return { ...data };
       }))
     );
