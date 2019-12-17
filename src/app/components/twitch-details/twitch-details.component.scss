@@ -55,11 +55,39 @@ h2 {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    height: 100%;
     width: 100%;
-    max-width: 420px;
     margin: 0 auto;
     padding: 15px;
-    padding-bottom: 30vw;
+  }
 
+  .button1 {
+    background-color: transparent; 
+    border: none;
+    color: rgba($color-primary, .8);
+    border: 1px solid rgba($color-primary, .75);
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding-top: 10px;
+    margin:auto;
+    display:block;
+  }
+
+  .infobox {
+    border: 1px solid rgba($color-primary, .4);
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 40px;
+    padding: 10px 20px;
+    width: 100%;
+    h1 {
+        font-size:18px;
+        text-align: center;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        width:100%;
+        border-bottom: 1px solid rgba($color-primary, .8);
+      }
   }

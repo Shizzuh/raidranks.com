@@ -16,6 +16,8 @@ export class TwitchDetailsComponent implements OnInit {
   twitcherId: any;
   twitcherRef: any;
   twitcher: any;
+  streamVideo: any;
+  streamChat: any;
 
   constructor(
     private db: AngularFirestore,
@@ -48,6 +50,9 @@ export class TwitchDetailsComponent implements OnInit {
 
         const data = a.payload.doc.data();
         const id = a.payload.doc.id;
+        this.streamVideo = this.sanitizer.bypassSecurityTrustResourceUrl('https://player.twitch.tv/' + data.streamVideo);
+        this.streamChat = this.sanitizer.bypassSecurityTrustResourceUrl('https://www.twitch.tv/embed/' + data.streamChat);
+
 
         return { ...data };
       }))
