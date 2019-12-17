@@ -33,3 +33,4 @@ export * from './stier';
 export * from './guides';
 export * from './guides/guide-farming';
 export * from './contentcreators';
+export * from './guides/guide-gearing';

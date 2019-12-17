@@ -21,6 +21,7 @@ const routes: Routes = [
   { path: 'stier', component: component.StierComponent},
   { path: 'guides', component: component.GuidesComponent},
   { path: 'guide-farming', component: component.GuideFarmingComponent},
+  { path: 'guide-gearing', component: component.GuideGearingComponent},
   { path: 'content-creators', component: component.ContentcreatorsComponent },
   { path: 'content-creators/:creatorId', component: component.CreatorDetailsComponent },
   { path: '**', redirectTo: '' },
