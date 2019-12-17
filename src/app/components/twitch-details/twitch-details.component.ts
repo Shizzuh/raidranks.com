@@ -12,11 +12,10 @@ import { DomSanitizer } from '@angular/platform-browser';
   styleUrls: ['./twitch-details.component.scss']
 })
 export class TwitchDetailsComponent implements OnInit {
+
   twitcherId: any;
   twitcherRef: any;
   twitcher: any;
-
-
 
   constructor(
     private db: AngularFirestore,
@@ -37,10 +36,12 @@ export class TwitchDetailsComponent implements OnInit {
         this.twitcherId = params['twitcherId'];
       });
 
+    console.log(this.twitcherId);
+
     this.twitcherRef = this.db
       .collection('twitchers')
-      .doc('twitchers')
-      .collection('twitchers', ref => ref.where('slug', '==', this.twitcherId));
+      .doc('creators')
+      .collection('creators', ref => ref.where('slug', '==', this.twitcherId));
 
     this.twitcher = this.twitcherRef.snapshotChanges().pipe(
       map((actions: any) => actions.map(a => {
