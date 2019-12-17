@@ -1,0 +1,11 @@
+<div class="wrapper">
+    <div class="container">
+      <ng-container *ngFor="let twitcher of twitcher|async">
+        <h2> {{twitcher.username}} On RAIDRANKS.COM</h2><br>
+        <p>{{twitcher.disc}}</p>
+        <hr>
+      </ng-container>
+    </div>
+  </div>
+  
+  
