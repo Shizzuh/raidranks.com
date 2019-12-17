@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as rankInfo from "../../../assets/files/rank-info.json";
+import * as campaignInfo from "../../../assets/files/campaign-gains.json"
 
 
 @Component({
@@ -10,6 +11,26 @@ import * as rankInfo from "../../../assets/files/rank-info.json";
 export class FoodComponent implements OnInit {
 
   xpInfo: any;
+
+  campaignGains: any;
+
+  campaignDifficulties: string[];
+  chapterAndStages: string[];
+
+  selectedDifficulty: string;
+  selectedDifficultyVisual: string;
+  selectedChapter: number;
+  selectedStage: number;
+
+  averageCompletionTime: number;
+
+  doubleXP: boolean;
+  raidPass: boolean;
+  topOffChamps: boolean;
+
+  requiredEnergy: number;
+  requiredFarmingTime: number;
+  requiredSparringPitTime: number;
   
   starRank: number;
 
@@ -25,6 +46,30 @@ export class FoodComponent implements OnInit {
 
   constructor() {
     this.xpInfo = rankInfo['default'];
+    this.campaignGains = campaignInfo['default'];
+
+    this.campaignDifficulties = Object.keys(this.campaignGains);
+    for(let index in this.campaignDifficulties){
+      this.campaignDifficulties[index] = this.campaignDifficulties[index].charAt(0).toUpperCase() + this.campaignDifficulties[index].substring(1);
+    }
+    
+    this.chapterAndStages = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve"];
+    
+    this.selectedDifficultyVisual = "Brutal";
+    this.selectedDifficulty = "brutal";
+    this.selectedChapter = 12;
+    this.selectedStage = 3;
+
+    this.averageCompletionTime = 0;
+
+    this.doubleXP = true;
+    this.raidPass = false;
+    this.topOffChamps = false;
+
+    this.requiredEnergy = 0;
+    this.requiredFarmingTime = 0;
+    this.requiredSparringPitTime = 0;
+
     this.starRank = 6;
     this.reqStars = new Map<string, number>();
     this.expReq = new Map<string, number>();
@@ -42,10 +87,23 @@ export class FoodComponent implements OnInit {
     this.calculateRequirements();
   }
 
+  calculateFarmingCosts(){
+    this.selectedDifficulty = this.selectedDifficultyVisual.toLowerCase();
+    let xpGain = this.campaignGains[(this.selectedDifficulty)][this.chapterAndStages[this.selectedChapter - 1]][this.chapterAndStages[this.selectedStage - 1]].xp;
+    if(this.doubleXP){
+      xpGain = xpGain*2;
+    }
+    if(this.raidPass){
+      xpGain = xpGain*1.2;
+    }
+    console.log(xpGain);
+  }
+
   calculateRequirements(){
     this.resetDynamics();
     this.calculateFood();
     this.calculateExperience();
+    this.calculateFarmingCosts();
   }
 
   calculateExperience(){
