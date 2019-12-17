@@ -34,7 +34,7 @@ export class TwitchDetailsComponent implements OnInit {
 
     this.route.params
       .subscribe(params => {
-        this.twitcherId = params['creatorId'];
+        this.twitcherId = params['twitcherId'];
       });
 
     this.twitcherRef = this.db
