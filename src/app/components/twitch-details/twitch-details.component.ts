@@ -38,8 +38,6 @@ export class TwitchDetailsComponent implements OnInit {
         this.twitcherId = params['twitcherId'];
       });
 
-    console.log(this.twitcherId);
-
     this.twitcherRef = this.db
       .collection('twitchers')
       .doc('creators')
