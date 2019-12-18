@@ -22,6 +22,8 @@ export class HomeComponent implements OnInit {
   bluestacksCount: number;
   adActive: boolean;
 
+  selected = 'option2';
+
   constructor(
     private championsService: ChampionsService,
     private localStorage: Storage
