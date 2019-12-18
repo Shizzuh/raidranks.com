@@ -15,13 +15,31 @@
           <iframe frameborder="0" [src]="streamChat" scrolling="yes" height="600" width="100%">
           </iframe>
         </div>
-        <div class="wrap">
-          <ng-container *ngFor="let link of twitcher.links">
-            <a class="socialbuttons" href='{{link.url}}'>{{link.name}}</a>
-            <ng-container *ngIf="link.description">
-              <p>{{link.description}}</p>
-            </ng-container>
-          </ng-container>
+        <div class="container-fluid" *ngIf="twitcher.schedule">
+          <div class="row">
+            <div class="col-12">
+              <div class="link-card">
+                <h3 class="m-0 p-0">Schedule</h3>
+                <ng-container *ngFor="let schedule of twitcher.schedule">
+                  <p>{{schedule}}</p>
+                </ng-container>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 flex-row display-flex">
+              <ng-container *ngFor="let link of twitcher.links">
+                <div class="link-card">
+                  <ng-container *ngIf="link.description">
+                    <p>{{link.description}}</p>
+                  </ng-container>
+                  <a class="btn btn-primary mt-3" href='{{link.url}}'>{{link.name}}</a>
+                </div>
+              </ng-container>
+            </div>
+          </div>
         </div>
       </div>
     </ng-container>
