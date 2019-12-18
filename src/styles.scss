@@ -28,6 +28,7 @@ $rsl-theme: mat-light-theme($rsl-primary, $rsl-accent, $rsl-warn);
 
 /* You can add global styles to this file, and also import other style files */
 @import 'app/styles/index';
+@import 'mat-overides';
 
 html {
   background-image:url('assets/images/rsl-bg.png');
