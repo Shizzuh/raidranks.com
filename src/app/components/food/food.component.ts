@@ -94,6 +94,7 @@ export class FoodComponent implements OnInit {
   calculateFarmingCosts(){
     let selectedStage = this.campaignGains[this.selectedDifficulty][this.chapterAndStages[this.selectedChapter - 1]][this.chapterAndStages[this.selectedStage - 1]]; 
     this.requiredEnergy = 0;
+    this.requiredFarmingRuns = 0;
     this.selectedDifficulty = this.selectedDifficultyVisual.toLowerCase();
     let xpGain = selectedStage.xp;
     if(this.doubleXP){
@@ -112,6 +113,7 @@ export class FoodComponent implements OnInit {
           runsPerRank = Math.ceil(runsPerRank);
         }
         this.requiredEnergy += runsPerRank * selectedStage.energy * Math.max(this.reqStars[key] / (this.champInfo[key].star + 1), 1);
+        this.requiredFarmingRuns += Math.ceil(runsPerRank * Math.max(this.reqStars[key] / (this.champInfo[key].star + 1), 1));
       }
     }
   }
