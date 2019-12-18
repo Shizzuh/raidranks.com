@@ -12,6 +12,10 @@ import { AdsenseModule } from 'ng2-adsense';
 import { NgxInViewportModule } from '@ngx-lite/in-viewport';
 import { NgxPicaModule } from 'ngx-pica';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatSliderModule } from '@angular/material/slider';
+import { MatSelectModule } from '@angular/material/select';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -91,6 +95,10 @@ import { GuideGearingComponent } from './components/guides/guide-gearing/guide-g
     AngularFireStorageModule,
     AngularFireModule,
     AngularFirestoreModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
+    MatSliderModule,
     NgxInViewportModule,
     InfiniteScrollModule,
     AppRoutingModule,

@@ -1,0 +1,17 @@
+@import 'variables';
+
+.mat-form-field-label {
+  color: white !important;
+}
+
+.mat-select-value-text {
+  color: white !important;
+}
+
+.mat-form-field-underline {
+  background: $color-primary !important;
+}
+
+.mat-select-arrow {
+  color: $color-primary !important;
+}
