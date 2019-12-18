@@ -13,6 +13,16 @@
 }
 
 
+.wrap {
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: auto;
+  padding: 10px;
+}
+
 h2 {
     font-size:18px;
     text-align: center;
@@ -50,52 +60,32 @@ h2 {
     padding: 15px;
   }
 
-  .button1 {
-    background-color: transparent;
-    border: none;
-    color: rgba($color-primary, .8);
-    border: 1px solid rgba($color-primary, .75);
-    border-radius: 10px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    padding-top: 10px;
-    margin:auto;
-    display:block;
-  }
-
-  .infobox {
-    border-top: 1px solid rgba($color-primary, .4);
-    border-bottom: 1px solid rgba($color-primary, .4);
-    background-color: rgba(0, 0, 0, 0.397);
-    padding: 30px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-  }
 
   iframe {
     border-radius: 16px;
   }
 
 
-  .socialbuttons {
-    margin: 0 auto;
-    border-radius: 16px;
-    font-size: 32px;
-    color: $color-primary;
-    border: 1px solid rgba($color-primary, .4);
-    background-color: rgba(0, 0, 0, 0.212);
-    height: 90px;
-    text-align: center;
-    padding-right: 30px;
-    padding-left: 30px;
-    margin-right: 46px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    min-width: 340px;
+  .infobox {
+    text-align:center;
+    background-color:transparent;
+    width:100%;
+    color: white;
+    border-radius:4px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
   }
 
+  .socialbuttons {
+    width:48%;
+    margin:10px;
+    text-align:center;
+    padding:0;
+    font-size: 28px;
+    color: rgba($color-primary, .8);
+    border: 1px solid rgba($color-primary, .75);
+    border-radius: 12px;
+    background-color: rgba(26, 11, 84, 0.198);
+  }
