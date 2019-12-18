@@ -10,7 +10,7 @@ import * as campaignInfo from "../../../assets/files/campaign-gains.json"
 })
 export class FoodComponent implements OnInit {
 
-  xpInfo: any;
+  champInfo: any;
 
   campaignGains: any;
 
@@ -30,7 +30,9 @@ export class FoodComponent implements OnInit {
 
   requiredEnergy: number;
   requiredFarmingTime: number;
+  requiredFarmingRuns: number;
   requiredSparringPitTime: number;
+  sparringPitXP: number;
   
   starRank: number;
 
@@ -45,7 +47,7 @@ export class FoodComponent implements OnInit {
   helpOverlayIsActive: boolean;
 
   constructor() {
-    this.xpInfo = rankInfo['default'];
+    this.champInfo = rankInfo['default'];
     this.campaignGains = campaignInfo['default'];
 
     this.campaignDifficulties = Object.keys(this.campaignGains);
@@ -68,7 +70,9 @@ export class FoodComponent implements OnInit {
 
     this.requiredEnergy = 0;
     this.requiredFarmingTime = 0;
+    this.requiredFarmingRuns = 0;
     this.requiredSparringPitTime = 0;
+    this.sparringPitXP = 0;
 
     this.starRank = 6;
     this.reqStars = new Map<string, number>();
@@ -88,15 +92,28 @@ export class FoodComponent implements OnInit {
   }
 
   calculateFarmingCosts(){
+    let selectedStage = this.campaignGains[this.selectedDifficulty][this.chapterAndStages[this.selectedChapter - 1]][this.chapterAndStages[this.selectedStage - 1]]; 
+    this.requiredEnergy = 0;
     this.selectedDifficulty = this.selectedDifficultyVisual.toLowerCase();
-    let xpGain = this.campaignGains[(this.selectedDifficulty)][this.chapterAndStages[this.selectedChapter - 1]][this.chapterAndStages[this.selectedStage - 1]].xp;
+    let xpGain = selectedStage.xp;
     if(this.doubleXP){
-      xpGain = xpGain*2;
+      xpGain = xpGain * 2;
     }
     if(this.raidPass){
-      xpGain = xpGain*1.2;
+      xpGain = xpGain * 1.2;
     }
-    console.log(xpGain);
+    let runsPerRank = 0;
+    for(let key of Object.keys(this.champInfo)){
+      if(this.reqStars[key] > 0){
+        runsPerRank = this.champInfo[key].xpRequired / xpGain;
+        if(this.topOffChamps){
+          runsPerRank = Math.floor(runsPerRank);
+        } else {
+          runsPerRank = Math.ceil(runsPerRank);
+        }
+        this.requiredEnergy += runsPerRank * selectedStage.energy * Math.max(this.reqStars[key] / (this.champInfo[key].star + 1), 1);
+      }
+    }
   }
 
   calculateRequirements(){
@@ -109,39 +126,39 @@ export class FoodComponent implements OnInit {
   calculateExperience(){
     let temp = 0;
     let key: string;
-    for (key of Object.keys(this.xpInfo)){
-      if(this.reqStars[key] <= this.xpInfo[key].star + 1 && this.reqStars[key] > 0 && this.xpInfo[key].star != this.starRank){
-        this.expReq[key] = this.xpInfo[key].xpRequired;
+    for (key of Object.keys(this.champInfo)){
+      if(this.reqStars[key] <= this.champInfo[key].star + 1 && this.reqStars[key] > 0 && this.champInfo[key].star != this.starRank){
+        this.expReq[key] = this.champInfo[key].xpRequired;
       } else {
-        temp = Math.round(this.reqStars[key] / (this.xpInfo[key].star + 1));
+        temp = Math.round(this.reqStars[key] / (this.champInfo[key].star + 1));
         if(temp != 0){
-          this.expReq[key] = this.xpInfo[key].xpRequired * Math.max(temp, 1); 
+          this.expReq[key] = this.champInfo[key].xpRequired * Math.max(temp, 1); 
         }
       }
       this.expReq['total'] += this.expReq[key];
     }
-    for (let key in this.xpInfo){
+    for (let key in this.champInfo){
       this.expReqPerc[key] = Math.round((this.expReq[key] / this.expReq['total']) * 100 * 100) / 100;
     }
   }
 
   calculateFood(){
-    if ( this.starRank == this.xpInfo.six.star ) {
+    if ( this.starRank == this.champInfo.six.star ) {
       this.reqStars['six'] = 1;
-      this.reqStars['five'] = this.reqStars['six'] * this.xpInfo.six.star - this.availableFood['five'];
+      this.reqStars['five'] = this.reqStars['six'] * this.champInfo.six.star - this.availableFood['five'];
     }
-    if ( this.starRank == this.xpInfo.six.star || this.starRank == this.xpInfo.five.star ) {
-      if ( this.starRank == this.xpInfo.five.star ) {
+    if ( this.starRank == this.champInfo.six.star || this.starRank == this.champInfo.five.star ) {
+      if ( this.starRank == this.champInfo.five.star ) {
         this.reqStars['five'] = 1;
       }
-      this.reqStars['four'] = Math.max(this.reqStars['five'] * this.xpInfo.five.star - this.availableFood['four'], 0);
+      this.reqStars['four'] = Math.max(this.reqStars['five'] * this.champInfo.five.star - this.availableFood['four'], 0);
     }
-    if ( this.starRank == this.xpInfo.four.star ) {
+    if ( this.starRank == this.champInfo.four.star ) {
       this.reqStars['four'] = 1;
     }
-    this.reqStars['three'] = Math.max(this.reqStars['four'] * this.xpInfo.four.star - this.availableFood['three'], 0);
-    this.reqStars['two'] = Math.max(this.reqStars['three'] * this.xpInfo.three.star - this.availableFood['two'], 0);
-    this.reqStars['one'] = Math.max(this.reqStars['two'] * this.xpInfo.two.star - this.availableFood['one'], 0);
+    this.reqStars['three'] = Math.max(this.reqStars['four'] * this.champInfo.four.star - this.availableFood['three'], 0);
+    this.reqStars['two'] = Math.max(this.reqStars['three'] * this.champInfo.three.star - this.availableFood['two'], 0);
+    this.reqStars['one'] = Math.max(this.reqStars['two'] * this.champInfo.two.star - this.availableFood['one'], 0);
   }
 
   resetDynamics(){
