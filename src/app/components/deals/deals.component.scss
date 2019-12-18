@@ -55,13 +55,13 @@
   input {
     font-size:5vw;
     margin-top:0;
-    border:1px solid rgba($color-primary, .75);
+    border-bottom:1px solid rgba($color-primary, .75);
     border-radius:10px;
   }
 input:focus {
     outline:none;
-    background-color: black;
-    transition: background-color .9s linear;
+    transition: border-bottom .9s linear;
+    border-bottom:1px solid rgba(255,255,255, .6);
 }
 }
 
