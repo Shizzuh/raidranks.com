@@ -3,7 +3,7 @@
       <ng-container *ngFor="let twitcher of (twitcher|async)">
         <div class="row">
           <div class="col-12">
-            <h2> {{twitcher.username}} On RAIDRANKS.COM</h2>
+            <h2> {{twitcher.username}}</h2>
           </div>
         </div>
         <div class="row">
@@ -17,6 +17,12 @@
               height="600" width="100%">
             </iframe>
           </div>
+          <div class="infobox">
+          <button class="socialbuttons">Donate</button>
+          <button class="socialbuttons">Discord</button>
+          <button class="socialbuttons">Patreon</button>
+          <button class="socialbuttons">Schedule</button>
+        </div>
         </div>
       </ng-container>
     </div>

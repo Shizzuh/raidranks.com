@@ -16,7 +16,7 @@
 h2 {
     font-size:18px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 30px;
     width:100%;
     border-bottom: 1px solid rgba($color-primary, .8);
   }
@@ -67,17 +67,35 @@ h2 {
   }
 
   .infobox {
-    border: 1px solid rgba($color-primary, .4);
+    border-top: 1px solid rgba($color-primary, .4);
+    border-bottom: 1px solid rgba($color-primary, .4);
     background-color: rgba(0, 0, 0, 0.397);
-    border-radius: 40px;
-    padding: 10px 20px;
+    padding: 30px;
     width: 100%;
-    h1 {
-        font-size:18px;
-        text-align: center;
-        margin-top: 10px;
-        padding-bottom: 10px;
-        width:100%;
-        border-bottom: 1px solid rgba($color-primary, .8);
-      }
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
   }
+
+  iframe {
+    border-radius: 16px;
+  }
+
+
+  .socialbuttons {
+    margin: 0 auto;
+    border-radius: 16px;
+    font-size: 32px;
+    color: $color-primary;
+    border: 1px solid rgba($color-primary, .4);
+    background-color: rgba(0, 0, 0, 0.212);
+    height: 90px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 46px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 340px;
+  }
+
