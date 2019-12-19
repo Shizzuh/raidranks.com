@@ -1,6 +1,7 @@
 <button class="btn btn-link mt-3" (click)="helpOverlay()">Need Help?</button>
 
-<div class="score">
+<div class="result">
+  <div class="score">
   <div>
     <div class="rsl-label">Value Score</div>
     <h4>{{ score ? score : '-' }}</h4>
@@ -81,6 +82,8 @@
     <input placeholder="0" type="text" [(ngModel)]="exp" (keyup)="calulateValue()">
   </div>
 </div>
+</div>
+
 
 <div class="overlay" *ngIf="helpOverlayIsActive">
   <div class="help">

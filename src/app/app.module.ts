@@ -79,7 +79,7 @@ import { GuideGearingComponent } from './components/guides/guide-gearing/guide-g
     GuideFarmingComponent,
     ContentcreatorsComponent,
     CreatorDetailsComponent,
-    GuideGearingComponent
+    GuideGearingComponent,
   ],
   imports: [
     ClipboardModule,
