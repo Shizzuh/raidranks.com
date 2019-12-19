@@ -22,7 +22,7 @@ export class FoodComponent implements OnInit {
   selectedChapter: any;
   selectedStage: any;
 
-  averageCompletionTime: number;
+  averageFarmingTime: number;
 
   doubleXP: boolean;
   raidPass: boolean;
@@ -62,7 +62,7 @@ export class FoodComponent implements OnInit {
     this.selectedChapter = "12";
     this.selectedStage = "3";
 
-    this.averageCompletionTime = 0;
+    this.averageFarmingTime = 0;
 
     this.doubleXP = true;
     this.raidPass = false;
@@ -95,6 +95,7 @@ export class FoodComponent implements OnInit {
     let selectedStage = this.campaignGains[this.selectedDifficulty][this.chapterAndStages[this.selectedChapter - 1]][this.chapterAndStages[this.selectedStage - 1]]; 
     this.requiredEnergy = 0;
     this.requiredFarmingRuns = 0;
+    this.requiredSparringPitTime = 0;
     this.selectedDifficulty = this.selectedDifficultyVisual.toLowerCase();
     let xpGain = selectedStage.xp;
     if(this.doubleXP){
@@ -104,11 +105,14 @@ export class FoodComponent implements OnInit {
       xpGain = xpGain * 1.2;
     }
     let runsPerRank = 0;
+    let temp = 0;
     for(let key of Object.keys(this.champInfo)){
       if(this.reqStars[key] > 0){
         runsPerRank = this.champInfo[key].xpRequired / xpGain;
         if(this.topOffChamps){
+          temp = runsPerRank;
           runsPerRank = Math.floor(runsPerRank);
+          this.requiredSparringPitTime += ((temp - runsPerRank) * this.champInfo[key].xpRequired) / (4000 + 100 * (this.champInfo[key].star - 1));
         } else {
           runsPerRank = Math.ceil(runsPerRank);
         }
@@ -116,6 +120,8 @@ export class FoodComponent implements OnInit {
         this.requiredFarmingRuns += Math.ceil(runsPerRank * Math.max(this.reqStars[key] / (this.champInfo[key].star + 1), 1));
       }
     }
+    this.requiredFarmingTime = Math.round((this.requiredFarmingRuns * this.averageFarmingTime) / 36) / 100;
+    this.requiredSparringPitTime = Math.round(this.requiredSparringPitTime * 100) / 100;
   }
 
   calculateRequirements(){

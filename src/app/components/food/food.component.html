@@ -100,8 +100,8 @@
   <input type="checkbox" [(ngModel)]="topOffChamps" ng-true-value="true" ng-false-value="false" (change)="calculateFarmingCosts()">
   
   <div class="result-card">
-    <label> Average Completion Time </label>
-    <input type="text" [(ngModel)]="averageCompletionTime" (keyup)="calculateFarmingCosts()">
+    <label> Average Farming Time (in Seconds) </label>
+    <input type="text" [(ngModel)]="averageFarmingTime" (keyup)="calculateFarmingCosts()">
   </div>
 </div>
 
