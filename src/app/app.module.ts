@@ -78,8 +78,6 @@ import { TwitchDetailsComponent } from './components/twitch-details/twitch-detai
     ContentcreatorsComponent,
     CreatorDetailsComponent,
     GuideGearingComponent,
-    TwitchStreamersComponent,
-    TwitchDetailsComponent
   ],
   imports: [
     ClipboardModule,
