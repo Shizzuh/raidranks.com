@@ -5,7 +5,17 @@
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "**/assets/images/**",
+      "**/assets/images/champions/**",
+      "**/assets/images/faction-banners/**",
+      "**/assets/images/abilities/**",
+      "**/assets/images/all/**",
+      "**/assets/images/backup/**",
+      "**/assets/images/elements/**",
+      "**/assets/images/shards/**",
+      "**/assets/images/tierimg/**",
+      "**/assets/images/youtubers/**"
     ],
     "rewrites": [
       {

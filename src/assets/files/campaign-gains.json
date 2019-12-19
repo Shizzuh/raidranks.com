@@ -1,14 +1,1795 @@
 {
     "normal":{
-        
+        "one":{
+            "one":{
+                "energy": 4,
+                "xp": 320,
+                "silver": 750,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 4,
+                "xp": 800,
+                "silver": 800,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 4,
+                "xp": 803,
+                "silver": 850,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 4,
+                "xp": 1127,
+                "silver": 900,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 4,
+                "xp": 753.5,
+                "silver": 950,
+                "artifactTypes":["chestplate"]
+            },
+            "six":{
+                "energy": 4,
+                "xp": 754.67,
+                "silver": 1000,
+                "artifactTypes":["boots"]
+            },
+            "seven":{
+                "energy": 5,
+                "xp": 541.33,
+                "silver": 800,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops":{
+                "champions": ["Valerie", "Conquerer", "Duelist", "Commander", "Bandit", "Axeman"],
+                "shards": ["mystic"]
+            },
+            "artifactDrops": {
+                "set": ["life"]
+            }
+        },
+        "two":{
+            "one":{
+                "energy": 4,
+                "xp": 572,
+                "silver": 1200,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 4,
+                "xp": 574,
+                "silver": 1250,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 4,
+                "xp": 576,
+                "silver": 1300,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 4,
+                "xp": 580,
+                "silver": 1350,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 4,
+                "xp": 584,
+                "silver": 1400,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 4,
+                "xp": 588,
+                "silver": 1450,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 5,
+                "xp": 421,
+                "silver": 1650,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Skullsworn", "Hardscale", "Skinner", "Death Hound", "Troglodyte"],
+                "shards": ["mystic"]
+            },
+            "set": ["offense"]
+        },
+        "three":{
+            "one":{
+                "energy": 4,
+                "xp": 765,
+                "silver": 1650,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 4,
+                "xp": 774,
+                "silver": 1700,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 4,
+                "xp": 783,
+                "silver": 1750,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 4,
+                "xp": 796,
+                "silver": 1800,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 4,
+                "xp": 802,
+                "silver": 1850,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 4,
+                "xp": 808,
+                "silver": 1900,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 5,
+                "xp": 727,
+                "silver": 2100,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Sorceress", "Skellag", "Skullsquire", "Dhampir"],
+                "shards": ["mystic"]
+            },
+            "set": ["defense"]
+        },
+        "four":{
+            "one":{
+                "energy": 4,
+                "xp": 910,
+                "silver": 2100,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 4,
+                "xp": 914,
+                "silver": 2150,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 4,
+                "xp": 924,
+                "silver": 2200,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 4,
+                "xp": 929,
+                "silver": 2250,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 4,
+                "xp": 929,
+                "silver": 2300,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 4,
+                "xp": 940,
+                "silver": 2350,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 5,
+                "xp": 947,
+                "silver": 2550,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Spirithost", "Graybeard", "Satyr", "Ranger", "Magekiller"],
+                "shards": ["mystic"]
+            },
+            "set": ["criticalRate"]
+        },
+        "five":{
+            "one":{
+                "energy": 4,
+                "xp": 1045,
+                "silver": 2550,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 4,
+                "xp": 1056,
+                "silver": 2600,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 4,
+                "xp": 1062,
+                "silver": 2650,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 4,
+                "xp": 1072,
+                "silver": 2700,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 4,
+                "xp": 1078,
+                "silver": 2750,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 4,
+                "xp": 1088,
+                "silver": 2800,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 5,
+                "xp": 1092,
+                "silver": 3000,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Rocktooth", "Brute"],
+                "shards": ["mystic"]
+            },
+            "set": ["accuracy"]
+        },
+        "six":{
+            "one":{
+                "energy": 4,
+                "xp": 1204,
+                "silver": 3000,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 4,
+                "xp": 1210,
+                "silver": 3050,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 4,
+                "xp": 1218,
+                "silver": 3100,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 4,
+                "xp": 1230,
+                "silver": 3150,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 4,
+                "xp": 1232,
+                "silver": 3200,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 4,
+                "xp": 1236,
+                "silver": 3250,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 5,
+                "xp": 1144,
+                "silver": 3450,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Heiress", "Avenger", "Jaeger", "Elfguard"],
+                "shards": ["mystic"]
+            },
+            "set": ["speed"]
+        },
+        "seven":{
+            "one":{
+                "energy": 4,
+                "xp": 1204,
+                "silver": 3450,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 4,
+                "xp": 1342,
+                "silver": 3500,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 4,
+                "xp": 1284,
+                "silver": 3550,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 4,
+                "xp": 1290,
+                "silver": 3600,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 4,
+                "xp": 1297,
+                "silver": 3650,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 4,
+                "xp": 1308,
+                "silver": 3700,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 5,
+                "xp": 1317,
+                "silver": 3900,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Goremask", "Throatcutter", "Warchanter", "Warboy"],
+                "shards": ["mystic"]
+            },
+            "set": ["resistance"]
+        },
+        "eight":{
+            "one":{
+                "energy": 4,
+                "xp": 1332,
+                "silver": 3900,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 4,
+                "xp": 1342,
+                "silver": 3950,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 4,
+                "xp": 1348,
+                "silver": 4000,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 4,
+                "xp": 1356,
+                "silver": 4050,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 4,
+                "xp": 1368,
+                "silver": 4100,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 4,
+                "xp": 1378,
+                "silver": 4150,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 5,
+                "xp": 1382,
+                "silver": 4350,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Templar", "Sharpshooter", "Militia", "Yeoman"],
+                "shards": ["mystic"]
+            },
+            "set": ["lifesteal"]
+        },
+        "nine":{
+            "one":{
+                "energy": 4,
+                "xp": 1512,
+                "silver": 4350,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 4,
+                "xp": 1520,
+                "silver": 4400,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 4,
+                "xp": 1520,
+                "silver": 4450,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 4,
+                "xp": 1540,
+                "silver": 4500,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 4,
+                "xp": 1550,
+                "silver": 4550,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 4,
+                "xp": 1560,
+                "silver": 4600,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 5,
+                "xp": 1098,
+                "silver": 4800,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Berserker", "Warmaiden", "Shieldguard", "Outrider", "Spiritwalker", "Outlander"],
+                "shards": ["mystic"]
+            },
+            "set": ["destroy"]
+        },
+        "ten":{
+            "one":{
+                "energy": 4,
+                "xp": 1598,
+                "silver": 4800,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 4,
+                "xp": 1608,
+                "silver": 4850,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 4,
+                "xp": 1608,
+                "silver": 4900,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 4,
+                "xp": 1632,
+                "silver": 4950,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 4,
+                "xp": 1642,
+                "silver": 5000,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 4,
+                "xp": 1642,
+                "silver": 5050,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 5,
+                "xp": 1430,
+                "silver": 5250,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Muckstalker", "Flinger", "Saurus", "Stalker"],
+                "shards": ["mystic"]
+            },
+            "set": ["retaliation"]
+        },
+        "eleven":{
+            "one":{
+                "energy": 4,
+                "xp": 1702,
+                "silver": 5250,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 4,
+                "xp": 1712,
+                "silver": 5300,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 4,
+                "xp": 1773,
+                "silver": 5350,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 4,
+                "xp": 1736,
+                "silver": 5400,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 4,
+                "xp": 1746,
+                "silver": 5450,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 4,
+                "xp": 1756,
+                "silver": 5500,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 5,
+                "xp": 1518,
+                "silver": 5700,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Executioner", "Cultist", "Herald", "Admonitor"],
+                "shards": ["mystic"]
+            },
+            "set": ["fury"]
+        },
+        "twelve":{
+            "one":{
+                "energy": 4,
+                "xp": 1770,
+                "silver": 5700,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 4,
+                "xp": 1782,
+                "silver": 5750,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 4,
+                "xp": 1782,
+                "silver": 5800,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 4,
+                "xp": 1810,
+                "silver": 5850,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 4,
+                "xp": 1746,
+                "silver": 5900,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 4,
+                "xp": 1756,
+                "silver": 5950,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 5,
+                "xp": 1518,
+                "silver": 6150,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Hound Spawn", "Diabolist", "Incubus"],
+                "shards": ["mystic"],
+                "accessoires": ["ring"]
+            },            
+            "set": ["curing"]
+        },
+        "artifactDrops":{
+            "star": ["one", "two", "three"],
+            "rarity": ["common", "uncommon"]
+        }
     },
     "hard":{
+        "one":{
+            "one":{
+                "energy": 6,
+                "xp": 1140,
+                "silver": 4500,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 6,
+                "xp": 1146,
+                "silver": 4550,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 6,
+                "xp": 1151.5,
+                "silver": 4600,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 6,
+                "xp": 1156,
+                "silver": 4650,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 6,
+                "xp": 1163.5,
+                "silver": 4700,
+                "artifactTypes":["chestplate"]
+            },
+            "six":{
+                "energy": 6,
+                "xp": 1171,
+                "silver": 4750,
+                "artifactTypes":["boots"]
+            },
+            "seven":{
+                "energy": 7,
+                "xp": 1029,
+                "silver": 4950,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops":{
+                "champions": ["Valerie", "Conquerer", "Duelist", "Commander", "Bandit", "Axeman"],
+                "shards": ["mystic"]
+            },
+            "artifactDrops": {
+                "set": ["life"]
+            }
+        },
+        "two":{
+            "one":{
+                "energy": 6,
+                "xp": 1188,
+                "silver": 4950,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 6,
+                "xp": 1192,
+                "silver": 5000,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 6,
+                "xp": 1192,
+                "silver": 5050,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 6,
+                "xp": 1202,
+                "silver": 5100,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 6,
+                "xp": 1216,
+                "silver": 5150,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 6,
+                "xp": 1216,
+                "silver": 5200,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 7,
+                "xp": 1086,
+                "silver": 5400,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Skullsworn", "Hardscale", "Skinner", "Death Hound", "Troglodyte"],
+                "shards": ["mystic"]
+            },
+            "set": ["offense"]
+        },
+        "three":{
+            "one":{
+                "energy": 6,
+                "xp": 1390,
+                "silver": 5400,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 6,
+                "xp": 1418,
+                "silver": 5450,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 6,
+                "xp": 1418,
+                "silver": 5500,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 6,
+                "xp": 1444,
+                "silver": 5550,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 6,
+                "xp": 1444,
+                "silver": 5600,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 6,
+                "xp": 1454,
+                "silver": 5650,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 7,
+                "xp": 1308,
+                "silver": 5850,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Sorceress", "Skellag", "Skullsquire", "Dhampir"],
+                "shards": ["mystic"]
+            },
+            "set": ["defense"]
+        },
+        "four":{
+            "one":{
+                "energy": 6,
+                "xp": 1644,
+                "silver": 5850,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 6,
+                "xp": 1654,
+                "silver": 5900,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 6,
+                "xp": 1665,
+                "silver": 5950,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 6,
+                "xp": 1666,
+                "silver": 6000,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 6,
+                "xp": 1674,
+                "silver": 6050,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 6,
+                "xp": 1686,
+                "silver": 6100,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 7,
+                "xp": 1689,
+                "silver": 6300,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Spirithost", "Graybeard", "Satyr", "Ranger", "Magekiller"],
+                "shards": ["mystic"]
+            },
+            "set": ["criticalRate"]
+        },
+        "five":{
+            "one":{
+                "energy": 6,
+                "xp": 1864,
+                "silver": 6300,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 6,
+                "xp": 1864,
+                "silver": 6350,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 6,
+                "xp": 1864,
+                "silver": 6400,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 6,
+                "xp": 1889,
+                "silver": 6450,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 6,
+                "xp": 1904,
+                "silver": 6500,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 6,
+                "xp": 1904,
+                "silver": 6550,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 7,
+                "xp": 1896,
+                "silver": 6750,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Rocktooth", "Brute"],
+                "shards": ["mystic"]
+            },
+            "set": ["accuracy"]
+        },
+        "six":{
+            "one":{
+                "energy": 6,
+                "xp": 2112,
+                "silver": 6750,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 6,
+                "xp": 2112,
+                "silver": 6800,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 6,
+                "xp": 2112,
+                "silver": 6850,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 6,
+                "xp": 2144,
+                "silver": 6900,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 6,
+                "xp": 2148,
+                "silver": 6950,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 6,
+                "xp": 2160,
+                "silver": 7000,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 7,
+                "xp": 1972,
+                "silver": 7200,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Heiress", "Avenger", "Jaeger", "Elfguard"],
+                "shards": ["mystic"]
+            },
+            "set": ["speed"]
+        },
+        "seven":{
+            "one":{
+                "energy": 6,
+                "xp": 2196,
+                "silver": 7200,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 6,
+                "xp": 2196,
+                "silver": 7250,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 6,
+                "xp": 2196,
+                "silver": 7300,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 6,
+                "xp": 2200,
+                "silver": 7350,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 6,
+                "xp": 2206,
+                "silver": 7400,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 6,
+                "xp": 2238,
+                "silver": 7450,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 7,
+                "xp": 2232,
+                "silver": 7650,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Goremask", "Throatcutter", "Warchanter", "Warboy"],
+                "shards": ["mystic"]
+            },
+            "set": ["resistance"]
+        },
+        "eight":{
+            "one":{
+                "energy": 6,
+                "xp": 2286,
+                "silver": 7650,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 6,
+                "xp": 2286,
+                "silver": 7700,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 6,
+                "xp": 2286,
+                "silver": 7750,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 6,
+                "xp": 2286,
+                "silver": 7800,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 6,
+                "xp": 2308,
+                "silver": 7850,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 6,
+                "xp": 2326,
+                "silver": 7900,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 7,
+                "xp": 2332,
+                "silver": 8100,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Templar", "Sharpshooter", "Militia", "Yeoman"],
+                "shards": ["mystic"]
+            },
+            "set": ["lifesteal"]
+        },
+        "nine":{
+            "one":{
+                "energy": 6,
+                "xp": 2552,
+                "silver": 8100,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 6,
+                "xp": 2566,
+                "silver": 8150,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 6,
+                "xp": 2566,
+                "silver": 8200,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 6,
+                "xp": 2580,
+                "silver": 8250,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 6,
+                "xp": 2580,
+                "silver": 8300,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 6,
+                "xp": 2580,
+                "silver": 8350,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 7,
+                "xp": 1822,
+                "silver": 8550,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Berserker", "Warmaiden", "Shieldguard", "Outrider", "Spiritwalker", "Outlander"],
+                "shards": ["mystic"]
+            },
+            "set": ["destroy"]
+        },
+        "ten":{
+            "one":{
+                "energy": 6,
+                "xp": 2656,
+                "silver": 8550,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 6,
+                "xp": 2656,
+                "silver": 8600,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 6,
+                "xp": 2674,
+                "silver": 8650,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 6,
+                "xp": 2692,
+                "silver": 8700,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 6,
+                "xp": 2692,
+                "silver": 8750,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 6,
+                "xp": 2692,
+                "silver": 8800,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 7,
+                "xp": 2326,
+                "silver": 9000,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Muckstalker", "Flinger", "Saurus", "Stalker"],
+                "shards": ["mystic"]
+            },
+            "set": ["retaliation"]
+        },
+        "eleven":{
+            "one":{
+                "energy": 6,
+                "xp": 2830,
+                "silver": 9000,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 6,
+                "xp": 2848,
+                "silver": 9050,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 6,
+                "xp": 2848,
+                "silver": 9100,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 6,
+                "xp": 2889,
+                "silver": 9150,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 6,
+                "xp": 2907,
+                "silver": 9200,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 6,
+                "xp": 2925,
+                "silver": 9250,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 7,
+                "xp": 2518,
+                "silver": 9450,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Executioner", "Cultist", "Herald", "Admonitor"],
+                "shards": ["mystic"]
+            },
+            "set": ["fury"]
+        },
+        "twelve":{
+            "one":{
+                "energy": 6,
+                "xp": 2950,
+                "silver": 9450,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 6,
+                "xp": 2950,
+                "silver": 9500,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 6,
+                "xp": 2950,
+                "silver": 9550,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 6,
+                "xp": 2950,
+                "silver": 9600,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 6,
+                "xp": 2950,
+                "silver": 9650,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 6,
+                "xp": 2950,
+                "silver": 9700,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 7,
+                "xp": 2065,
+                "silver": 9850,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Hound Spawn", "Diabolist", "Incubus"],
+                "shards": ["mystic"],
+                "accessoires": ["amulet"]
+            },            
+            "set": ["curing"]
+        },
+        "artifactDrops":{
+            "star": ["two", "three", "four"],
+            "rarity": ["common", "uncommon"]
+        }
 
     },
     "brutal":{
-
-    },
-    "nightmare":{
+        "one":{
+            "one":{
+                "energy": 8,
+                "xp": 2400,
+                "silver": 5500,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 8,
+                "xp": 2400,
+                "silver": 5550,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 8,
+                "xp": 2400,
+                "silver": 5600,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 6,
+                "xp": 2400,
+                "silver": 5650,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 6,
+                "xp": 2400,
+                "silver": 5700,
+                "artifactTypes":["chestplate"]
+            },
+            "six":{
+                "energy": 8,
+                "xp": 2400,
+                "silver": 5750,
+                "artifactTypes":["boots"]
+            },
+            "seven":{
+                "energy": 9,
+                "xp": 2100,
+                "silver": 5950,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops":{
+                "champions": ["Valerie", "Conquerer", "Duelist", "Commander", "Bandit", "Axeman"],
+                "shards": ["mystic"]
+            },
+            "artifactDrops": {
+                "set": ["life"]
+            }
+        },
+        "two":{
+            "one":{
+                "energy": 8,
+                "xp": 2400,
+                "silver": 5950,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 8,
+                "xp": 2400,
+                "silver": 6000,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 8,
+                "xp": 2400,
+                "silver": 6050,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 8,
+                "xp": 2400,
+                "silver": 6100,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 8,
+                "xp": 2400,
+                "silver": 6150,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 8,
+                "xp": 2400,
+                "silver": 6200,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 9,
+                "xp": 2100,
+                "silver": 6400,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Skullsworn", "Hardscale", "Skinner", "Death Hound", "Troglodyte"],
+                "shards": ["mystic"]
+            },
+            "set": ["offense"]
+        },
+        "three":{
+            "one":{
+                "energy": 8,
+                "xp": 2700,
+                "silver": 6400,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 8,
+                "xp": 2700,
+                "silver": 6450,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 8,
+                "xp": 2700,
+                "silver": 6500,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 8,
+                "xp": 2700,
+                "silver": 6550,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 8,
+                "xp": 2700,
+                "silver": 6600,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 8,
+                "xp": 2700,
+                "silver": 6650,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 9,
+                "xp": 2400,
+                "silver": 6850,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Sorceress", "Skellag", "Skullsquire", "Dhampir"],
+                "shards": ["mystic"]
+            },
+            "set": ["defense"]
+        },
+        "four":{
+            "one":{
+                "energy": 8,
+                "xp": 3000,
+                "silver": 6850,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 8,
+                "xp": 3000,
+                "silver": 6900,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 8,
+                "xp": 3000,
+                "silver": 6950,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 8,
+                "xp": 3000,
+                "silver": 7000,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 8,
+                "xp": 3000,
+                "silver": 7050,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 8,
+                "xp": 3000,
+                "silver": 7100,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 9,
+                "xp": 3000,
+                "silver": 7300,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Spirithost", "Graybeard", "Satyr", "Ranger", "Magekiller"],
+                "shards": ["mystic"]
+            },
+            "set": ["criticalRate"]
+        },
+        "five":{
+            "one":{
+                "energy": 8,
+                "xp": 3300,
+                "silver": 7300,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 8,
+                "xp": 3300,
+                "silver": 7350,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 8,
+                "xp": 3300,
+                "silver": 7400,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 8,
+                "xp": 3300,
+                "silver": 7450,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 8,
+                "xp": 3300,
+                "silver": 7500,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 8,
+                "xp": 3300,
+                "silver": 7550,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 9,
+                "xp": 3300,
+                "silver": 7750,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Rocktooth", "Brute"],
+                "shards": ["mystic"]
+            },
+            "set": ["accuracy"]
+        },
+        "six":{
+            "one":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 7750,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 7800,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 7850,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 7900,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 7950,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 8000,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 9,
+                "xp": 3300,
+                "silver": 8200,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Heiress", "Avenger", "Jaeger", "Elfguard"],
+                "shards": ["mystic"]
+            },
+            "set": ["speed"]
+        },
+        "seven":{
+            "one":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 8200,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 8250,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 8300,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 8350,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 8400,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 8450,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 9,
+                "xp": 3600,
+                "silver": 8650,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Goremask", "Throatcutter", "Warchanter", "Warboy"],
+                "shards": ["mystic"]
+            },
+            "set": ["resistance"]
+        },
+        "eight":{
+            "one":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 8650,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 8700,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 8750,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 8800,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 8850,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 8,
+                "xp": 3600,
+                "silver": 8900,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 9,
+                "xp": 3600,
+                "silver": 9100,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Templar", "Sharpshooter", "Militia", "Yeoman"],
+                "shards": ["mystic"]
+            },
+            "set": ["lifesteal"]
+        },
+        "nine":{
+            "one":{
+                "energy": 8,
+                "xp": 3900,
+                "silver": 9100,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 8,
+                "xp": 3900,
+                "silver": 9150,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 8,
+                "xp": 3900,
+                "silver": 9200,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 8,
+                "xp": 3900,
+                "silver": 9250,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 8,
+                "xp": 3900,
+                "silver": 9300,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 8,
+                "xp": 3900,
+                "silver": 9350,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 9,
+                "xp": 2700,
+                "silver": 9550,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Berserker", "Warmaiden", "Shieldguard", "Outrider", "Spiritwalker", "Outlander"],
+                "shards": ["mystic"]
+            },
+            "set": ["destroy"]
+        },
+        "ten":{
+            "one":{
+                "energy": 8,
+                "xp": 3926,
+                "silver": 9550,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 8,
+                "xp": 3946,
+                "silver": 9600,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 8,
+                "xp": 3946,
+                "silver": 9650,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 8,
+                "xp": 3966,
+                "silver": 9700,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 8,
+                "xp": 3966,
+                "silver": 9750,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 8,
+                "xp": 3966,
+                "silver": 9800,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 9,
+                "xp": 3416,
+                "silver": 10000,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Muckstalker", "Flinger", "Saurus", "Stalker"],
+                "shards": ["mystic"]
+            },
+            "set": ["retaliation"]
+        },
+        "eleven":{
+            "one":{
+                "energy": 8,
+                "xp": 4280,
+                "silver": 10000,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 8,
+                "xp": 4292,
+                "silver": 10050,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 8,
+                "xp": 4292,
+                "silver": 10100,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 8,
+                "xp": 4316,
+                "silver": 10150,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 8,
+                "xp": 4326,
+                "silver": 10200,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 8,
+                "xp": 4336,
+                "silver": 10250,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 9,
+                "xp": 3630,
+                "silver": 10450,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Executioner", "Cultist", "Herald", "Admonitor"],
+                "shards": ["mystic"]
+            },
+            "set": ["fury"]
+        },
+        "twelve":{
+            "one":{
+                "energy": 8,
+                "xp": 4292,
+                "silver": 10450,
+                "artifactTypes": ["weapon"]
+            },
+            "two":{
+                "energy": 8,
+                "xp": 4292,
+                "silver": 10500,
+                "artifactTypes": ["helmet"]
+            },
+            "three":{
+                "energy": 8,
+                "xp": 4326,
+                "silver": 10550,
+                "artifactTypes": ["shield"]
+            },
+            "four":{
+                "energy": 8,
+                "xp": 4358,
+                "silver": 10600,
+                "artifactTypes": ["gauntlets"]
+            },
+            "five":{
+                "energy": 8,
+                "xp": 4390,
+                "silver": 10650,
+                "artifactTypes": ["chestplate"]
+            },
+            "six":{
+                "energy": 8,
+                "xp": 4400,
+                "silver": 10700,
+                "artifactTypes": ["boots"]
+            },
+            "seven":{
+                "energy": 9,
+                "xp": 3060,
+                "silver": 10850,
+                "artifactTypes": ["weapon", "helmet", "shield", "gauntlets", "chestplate", "boots"]
+            },
+            "miscDrops": {
+                "champions": ["Hound Spawn", "Diabolist", "Incubus"],
+                "shards": ["mystic"],
+                "accessoires": ["amulet"]
+            },            
+            "set": ["curing"]
+        },
+        "artifactDrops":{
+            "star": ["three", "four", "five"],
+            "rarity": ["common", "uncommon"]
+        }
 
     }
 }

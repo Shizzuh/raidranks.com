@@ -28,6 +28,7 @@ $rsl-theme: mat-light-theme($rsl-primary, $rsl-accent, $rsl-warn);
 
 /* You can add global styles to this file, and also import other style files */
 @import 'app/styles/index';
+@import 'mat-overides';
 
 html {
   background-image:url('assets/images/rsl-bg.png');
@@ -91,6 +92,15 @@ button.btn.btn-circle {
 
 ng-adsense {
   margin-top:25px;
+}
+
+.display-flex {
+  display:flex;
+}
+
+.flex-row {
+  flex-direction:row;
+  flex-wrap: wrap;
 }
 
 .scrollable-content {
@@ -178,3 +188,6 @@ ng-adsense {
   }
 
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

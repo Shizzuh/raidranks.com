@@ -23,7 +23,9 @@ const routes: Routes = [
   { path: 'guide-farming', component: component.GuideFarmingComponent},
   { path: 'guide-gearing', component: component.GuideGearingComponent},
   { path: 'content-creators', component: component.ContentcreatorsComponent },
+  { path: 'twitch-streamers', component: component.TwitchStreamersComponent },
   { path: 'content-creators/:creatorId', component: component.CreatorDetailsComponent },
+  { path: 'twitch-streamers/:twitcherId', component: component.TwitchDetailsComponent },
   { path: '**', redirectTo: '' },
 
 ];
