@@ -68,6 +68,8 @@ import { GuideGearingComponent } from './components/guides/guide-gearing/guide-g
     component.FaqComponent,
     component.ShardsComponent,
     component.RosterShareComponent,
+    component.TwitchDetailsComponent,
+    component.TwitchStreamersComponent,
     CbLeaderboardComponent,
     SubmitScoreComponent,
     ScoreComponent,
