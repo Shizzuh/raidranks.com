@@ -19,8 +19,8 @@ export class FoodComponent implements OnInit {
 
   selectedDifficulty: string;
   selectedDifficultyVisual: string;
-  selectedChapter: number;
-  selectedStage: number;
+  selectedChapter: any;
+  selectedStage: any;
 
   averageCompletionTime: number;
 
@@ -59,8 +59,8 @@ export class FoodComponent implements OnInit {
     
     this.selectedDifficultyVisual = "Brutal";
     this.selectedDifficulty = "brutal";
-    this.selectedChapter = 12;
-    this.selectedStage = 3;
+    this.selectedChapter = "12";
+    this.selectedStage = "3";
 
     this.averageCompletionTime = 0;
 

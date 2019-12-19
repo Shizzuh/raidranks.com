@@ -61,86 +61,37 @@
       <label>{{ reqStars['one'] }}</label>
     </div>
   </div>
-  <div class="result-header">Experience Requirements
-    <div class="result-card">
-      <label>Total EXP</label>
-      <label>{{ expReq['total'] }}</label>
-      <label>100%</label>
-
-    </div>
-    <div class="result-card">
-        <label>Spent on 5 Star</label>
-        <label>{{ expReq['five'] }}</label>
-        <label>{{ expReqPerc['five'] }}%</label>
-
-    </div>
-    <div class="result-card">
-        <label>Spent on 4 Star</label>
-        <label>{{ expReq['four'] }}</label>
-        <label>{{ expReqPerc['four'] }}%</label>
-
-    </div>
-    <div class="result-card">
-        <label>Spent on 3 Star</label>
-        <label>{{ expReq['three'] }}</label>
-        <label>{{ expReqPerc['three'] }}%</label>
-
-    </div>
-    <div class="result-card">
-        <label>Spent on 2 Star</label>
-        <label>{{ expReq['two'] }}</label>
-        <label>{{ expReqPerc['two'] }}%</label>
-    </div>
-    <div class="result-card">
-        <label>Spent on 1 Star</label>
-        <label>{{ expReq['one'] }}</label>
-        <label>{{ expReqPerc['one'] }}%</label>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<mat-form-field>
-  <mat-label>Select an option</mat-label>
-  <mat-select [(value)]="selected">
-    <mat-option>None</mat-option>
-    <mat-option value="option1">Option 1</mat-option>
-    <mat-option value="option2">Option 2</mat-option>
-    <mat-option value="option3">Option 3</mat-option>
-  </mat-select>
-</mat-form-field>
-
-
-
-
+<hr>
+<div class="result-header">Extra Calculator</div>
 <div class="food-selection">
-  <label>Select a Difficulty</label>
   <mat-form-field>
+    <mat-label>Select a Difficulty</mat-label>
     <mat-select [(ngModel)]="selectedDifficultyVisual" (selectionChange)="calculateFarmingCosts()">
       <mat-option *ngFor="let i of campaignDifficulties" value="{{i}}">
         {{ i }}
       </mat-option>
     </mat-select>
   </mat-form-field>
-  <label>Select a Chapter</label>
+
+
   <mat-form-field>
+      <mat-label>Select a Chapter</mat-label>
     <mat-select [(ngModel)]="selectedChapter" (selectionChange)="calculateFarmingCosts()">
       <mat-option *ngFor="let i of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]" value="{{i}}">
         {{ i }}
       </mat-option>
     </mat-select>
   </mat-form-field>
-  <label>Select a Stage</label>
   <mat-form-field>
+    <mat-label>Select a Stage</mat-label>
     <mat-select [(ngModel)]="selectedStage" (selectionChange)="calculateFarmingCosts()">
       <mat-option *ngFor="let i of [1, 2, 3, 4, 5, 6, 7]" value="{{i}}">
         {{ i }}
       </mat-option>
     </mat-select>
   </mat-form-field>
+    </div>
+  <div class="food-selection">
   <label>Double XP</label>
   <input type="checkbox" [(ngModel)]="doubleXP" ng-true-value="true" ng-false-value="false" (change)="calculateFarmingCosts()">
   <label>Raid Pass</label>
@@ -173,6 +124,43 @@
   </div>
 </div>
 
+<div class="result-header">Experience Requirements
+  <div class="result-card">
+    <label>Total EXP</label>
+    <label>{{ expReq['total'] }}</label>
+    <label>100%</label>
+
+  </div>
+  <div class="result-card">
+      <label>Spent on 5 Star</label>
+      <label>{{ expReq['five'] }}</label>
+      <label>{{ expReqPerc['five'] }}%</label>
+
+  </div>
+  <div class="result-card">
+      <label>Spent on 4 Star</label>
+      <label>{{ expReq['four'] }}</label>
+      <label>{{ expReqPerc['four'] }}%</label>
+
+  </div>
+  <div class="result-card">
+      <label>Spent on 3 Star</label>
+      <label>{{ expReq['three'] }}</label>
+      <label>{{ expReqPerc['three'] }}%</label>
+
+  </div>
+  <div class="result-card">
+      <label>Spent on 2 Star</label>
+      <label>{{ expReq['two'] }}</label>
+      <label>{{ expReqPerc['two'] }}%</label>
+  </div>
+  <div class="result-card">
+      <label>Spent on 1 Star</label>
+      <label>{{ expReq['one'] }}</label>
+      <label>{{ expReqPerc['one'] }}%</label>
+  </div>
+</div>
+</div>
 
 
 <div class="overlay" *ngIf="helpOverlayIsActive">
