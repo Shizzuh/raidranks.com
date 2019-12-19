@@ -6,6 +6,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 import { ClipboardService } from 'ngx-clipboard'
 import { TeamBuilderService } from './../../services/team-builder.service';
 import { faCheck } from '@fortawesome/pro-light-svg-icons';
+import { AngularFireStorage } from '@angular/fire/storage';
 
 @Component({
   selector: 'champion-details',
@@ -31,6 +32,10 @@ export class ChampionDetailsComponent implements OnInit, OnDestroy {
   copied: boolean;
   faCheck = faCheck;
   shadowbotName: string;
+  championPortrait: string;
+  screenshot: any;
+  factionBanner: string;
+  factionBannerImg: any;
 
   constructor(
     private clipboardService: ClipboardService,
@@ -38,6 +43,7 @@ export class ChampionDetailsComponent implements OnInit, OnDestroy {
     private route: ActivatedRoute,
     private db: AngularFirestore,
     public sanitizer: DomSanitizer,
+    private storage: AngularFireStorage,
     private teamBuilderService: TeamBuilderService
   ) { }
 
@@ -85,8 +91,15 @@ export class ChampionDetailsComponent implements OnInit, OnDestroy {
           element: data.element
         }
 
-        this.teamBuilderService.setChampion(champ);
+        this.championPortrait = 'champion-portraits/' + data.name.replace(' ', '').replace(' ', '').replace('\'', '´').toLowerCase() + '.jpg';
+        const championPortraitRef = this.storage.ref(this.championPortrait);
+        this.screenshot = championPortraitRef.getDownloadURL();
 
+        this.factionBanner = 'banners/' + data.faction.name + '.png';
+        const factionBannerRef = this.storage.ref(this.factionBanner);
+        this.factionBannerImg = factionBannerRef.getDownloadURL();
+
+        this.teamBuilderService.setChampion(champ);
         this.shadowbotName = '$'+data.name.toLowerCase().replace('-', '').replace('-', '').replace('\'', '')+' info';
 
         this.champFac = data.faction.name;

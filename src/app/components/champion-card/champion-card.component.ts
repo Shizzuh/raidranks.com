@@ -3,6 +3,7 @@ import { Champion, Team } from 'src/app/models/team.model';
 import { faTrashAlt, faShare, faPlus, faUsersMedical, faCheck } from '@fortawesome/pro-light-svg-icons';
 import { TeamBuilderService } from './../../services/team-builder.service';
 import { ChampionsService } from 'src/app/services/champions.service';
+import { AngularFireStorage } from '@angular/fire/storage';
 
 @Component({
   selector: 'champion-card',
@@ -38,8 +39,10 @@ export class ChampionCardComponent implements OnInit {
   faPlus = faPlus;
   faUsersMedical = faUsersMedical;
   faCheck = faCheck;
+  screenshot: any;
 
   constructor(
+    private storage: AngularFireStorage,
     private teamBuilderService: TeamBuilderService,
     private championsService: ChampionsService
   ) { }
@@ -54,7 +57,7 @@ export class ChampionCardComponent implements OnInit {
     this.processing = true;
     this.scrollTarget = document.getElementById('content');
     this.championElementIcon = '../../../assets/images/elements/' + this.champ.element.toLowerCase() + '.png'
-    this.championPortrait = '../../../assets/images/all/' + this.champ.portrait.toLowerCase() + '.png';
+    this.championPortrait = 'champion-portraits/' + this.champ.portrait.toLowerCase() + '.png';
     this.championAddedConfirmation = false;
 
     this.team = this.teamBuilderService.getBuilderTeam();
@@ -74,6 +77,9 @@ export class ChampionCardComponent implements OnInit {
           this.builderActive === false;
         }
       });
+
+    const ref = this.storage.ref(this.championPortrait);
+    this.screenshot = ref.getDownloadURL();
   }
 
   removeChamp() {
