@@ -29,7 +29,7 @@
 </div>
 
 <div class="food-selection">
-  <div class="result-header">Food Requirements
+  <div class="result-header"><h2>Food Requirements</h2>
     <div class="result-card">
       <label>Rank</label>
       <label>Available</label>
@@ -62,7 +62,7 @@
     </div>
   </div>
 <hr>
-<div class="result-header">Extra Calculator</div>
+<div class="result-header"><h2>Extra Calculator</h2></div>
 <div class="food-selection">
   <mat-form-field>
     <mat-label>Select a Difficulty</mat-label>
@@ -91,40 +91,44 @@
     </mat-select>
   </mat-form-field>
     </div>
-  <div class="food-selection">
+    <div class="radiobuttongroup2">
   <label>Double XP</label>
-  <input type="checkbox" [(ngModel)]="doubleXP" ng-true-value="true" ng-false-value="false" (change)="calculateFarmingCosts()">
+  <input class="regular-checkbox" type="checkbox" [(ngModel)]="doubleXP" ng-true-value="true" ng-false-value="false" (change)="calculateFarmingCosts()">
+    </div>
+    <div class="radiobuttongroup2">
   <label>Raid Pass</label>
-  <input type="checkbox" [(ngModel)]="raidPass" ng-true-value="true" ng-false-value="false" (change)="calculateFarmingCosts()">
+  <input class="regular-checkbox" type="checkbox" [(ngModel)]="raidPass" ng-true-value="true" ng-false-value="false" (change)="calculateFarmingCosts()">
+    </div>
+    <div class="radiobuttongroup2">
   <label>Top off in Sparring Pit</label>
-  <input type="checkbox" [(ngModel)]="topOffChamps" ng-true-value="true" ng-false-value="false" (change)="calculateFarmingCosts()">
-  
-  <div class="result-card">
-    <label> Average Farming Time (in Seconds) </label>
-    <input type="text" [(ngModel)]="averageFarmingTime" (keyup)="calculateFarmingCosts()">
-  </div>
+  <input class="regular-checkbox" type="checkbox" [(ngModel)]="topOffChamps" ng-true-value="true" ng-false-value="false" (change)="calculateFarmingCosts()">
 </div>
-
+  <div class="result-card">
+    <label> Average Farming Time</label>
+    <input type="text" [(ngModel)]="averageFarmingTime" (keyup)="calculateFarmingCosts()"> seconds
+  </div>
+    <hr>
 <div class="food-selection">
   <div class="result-card">
     <label>Energy Required</label>
     <label>{{ requiredEnergy }}</label>
   </div>
   <div class="result-card">
-    <label>Farming Time Required</label>
-    <label>{{ requiredFarmingTime }}</label>
-  </div>
-  <div class="result-card">
     <label>Farming Runs Required</label>
     <label>{{ requiredFarmingRuns }}</label>
   </div>
   <div class="result-card">
+    <label>Farming Time Required</label>
+    <label>{{ requiredFarmingTime }} hours</label>
+  </div>
+  <div class="result-card">
     <label>Sparring Pit Time Required</label>
-    <label>{{ requiredSparringPitTime }}</label>
+    <label>{{ requiredSparringPitTime }} hours</label>
   </div>
 </div>
+<hr>
 
-<div class="result-header">Experience Requirements
+<div class="result-header"><h2>Experience Requirements</h2>
   <div class="result-card">
     <label>Total EXP</label>
     <label>{{ expReq['total'] }}</label>
