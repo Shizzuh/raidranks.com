@@ -94,6 +94,15 @@ ng-adsense {
   margin-top:25px;
 }
 
+.display-flex {
+  display:flex;
+}
+
+.flex-row {
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
 .scrollable-content {
   display: flex;
   flex-wrap: wrap;

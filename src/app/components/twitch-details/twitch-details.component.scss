@@ -1,0 +1,95 @@
+@import 'variables';
+
+.wrapper {
+  overflow: auto;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+.container {
+  width: 100%;
+}
+
+.nav-link {
+  color: white;
+  cursor: pointer;
+}
+
+
+.wrap {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  overflow: auto;
+  padding: 10px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+  border-bottom: 1px solid rgba($color-primary, .8);
+}
+
+p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h3 {
+  padding-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.framediv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+
+iframe {
+  border-radius: 16px;
+}
+
+
+.infobox {
+  text-align: center;
+  background-color: transparent;
+  width: 100%;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.link-card {
+  width: 300px;
+  padding: 15px;
+  display: flex;
+  margin: 15px;
+  border-radius: 0 10px 10px 0;
+  flex-direction: column;
+  border-left: 4px solid $color-primary;
+  background: rgba(0, 0, 0, .25);
+}
