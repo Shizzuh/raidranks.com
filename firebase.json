@@ -6,7 +6,8 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**",
-      "**/assets/images/champions/**"
+      "**/assets/images/champions/**",
+      "**/assets/images/faction-banners/**"
     ],
     "rewrites": [
       {

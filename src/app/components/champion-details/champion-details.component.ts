@@ -34,6 +34,8 @@ export class ChampionDetailsComponent implements OnInit, OnDestroy {
   shadowbotName: string;
   championPortrait: string;
   screenshot: any;
+  factionBanner: string;
+  factionBannerImg: any;
 
   constructor(
     private clipboardService: ClipboardService,
@@ -90,11 +92,14 @@ export class ChampionDetailsComponent implements OnInit, OnDestroy {
         }
 
         this.championPortrait = 'champion-portraits/' + data.name.replace(' ', '').replace(' ', '').replace('\'', '´').toLowerCase() + '.jpg';
-        const ref = this.storage.ref(this.championPortrait);
-        this.screenshot = ref.getDownloadURL();
+        const championPortraitRef = this.storage.ref(this.championPortrait);
+        this.screenshot = championPortraitRef.getDownloadURL();
+
+        this.factionBanner = 'banners/' + data.faction.name + '.png';
+        const factionBannerRef = this.storage.ref(this.factionBanner);
+        this.factionBannerImg = factionBannerRef.getDownloadURL();
 
         this.teamBuilderService.setChampion(champ);
-
         this.shadowbotName = '$'+data.name.toLowerCase().replace('-', '').replace('-', '').replace('\'', '')+' info';
 
         this.champFac = data.faction.name;
