@@ -37,8 +37,6 @@ import { GuideFarmingComponent } from './components/guides/guide-farming/guide-f
 import { ContentcreatorsComponent } from './components/contentcreators/contentcreators.component';
 import { CreatorDetailsComponent } from './components/creator-details/creator-details.component';
 import { GuideGearingComponent } from './components/guides/guide-gearing/guide-gearing.component';
-import { TwitchStreamersComponent } from './components/twitch-streamers/twitch-streamers.component';
-import { TwitchDetailsComponent } from './components/twitch-details/twitch-details.component';
 
 @NgModule({
   declarations: [
