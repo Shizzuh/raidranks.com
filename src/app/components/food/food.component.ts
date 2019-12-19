@@ -32,7 +32,7 @@ export class FoodComponent implements OnInit {
   requiredFarmingTime: number;
   requiredFarmingRuns: number;
   requiredSparringPitTime: number;
-  sparringPitXP: number;
+  silverGain: number;
   
   starRank: number;
 
@@ -72,7 +72,7 @@ export class FoodComponent implements OnInit {
     this.requiredFarmingTime = 0;
     this.requiredFarmingRuns = 0;
     this.requiredSparringPitTime = 0;
-    this.sparringPitXP = 0;
+    this.silverGain = 0;
 
     this.starRank = 6;
     this.reqStars = new Map<string, number>();
@@ -122,6 +122,7 @@ export class FoodComponent implements OnInit {
     }
     this.requiredFarmingTime = Math.round((this.requiredFarmingRuns * this.averageFarmingTime) / 36) / 100;
     this.requiredSparringPitTime = Math.round(this.requiredSparringPitTime * 100) / 100;
+    this.silverGain = this.requiredFarmingRuns * selectedStage.silver;
   }
 
   calculateRequirements(){

@@ -110,12 +110,16 @@
     <hr>
 <div class="food-selection">
   <div class="result-card">
+    <label>Silver Gained (without selling artifacts)</label>
+    <label>{{ silverGain | number }}</label>
+  </div>
+  <div class="result-card">
     <label>Energy Required</label>
-    <label>{{ requiredEnergy }}</label>
+    <label>{{ requiredEnergy | number }}</label>
   </div>
   <div class="result-card">
     <label>Farming Runs Required</label>
-    <label>{{ requiredFarmingRuns }}</label>
+    <label>{{ requiredFarmingRuns | number }}</label>
   </div>
   <div class="result-card">
     <label>Farming Time Required</label>
@@ -131,36 +135,36 @@
 <div class="result-header"><h2>Experience Requirements</h2>
   <div class="result-card">
     <label>Total EXP</label>
-    <label>{{ expReq['total'] }}</label>
+    <label>{{ expReq['total'] | number }}</label>
     <label>100%</label>
 
   </div>
   <div class="result-card">
       <label>Spent on 5 Star</label>
-      <label>{{ expReq['five'] }}</label>
+      <label>{{ expReq['five'] | number }}</label>
       <label>{{ expReqPerc['five'] }}%</label>
 
   </div>
   <div class="result-card">
       <label>Spent on 4 Star</label>
-      <label>{{ expReq['four'] }}</label>
+      <label>{{ expReq['four'] | number }}</label>
       <label>{{ expReqPerc['four'] }}%</label>
 
   </div>
   <div class="result-card">
       <label>Spent on 3 Star</label>
-      <label>{{ expReq['three'] }}</label>
+      <label>{{ expReq['three'] | number }}</label>
       <label>{{ expReqPerc['three'] }}%</label>
 
   </div>
   <div class="result-card">
       <label>Spent on 2 Star</label>
-      <label>{{ expReq['two'] }}</label>
+      <label>{{ expReq['two'] | number }}</label>
       <label>{{ expReqPerc['two'] }}%</label>
   </div>
   <div class="result-card">
       <label>Spent on 1 Star</label>
-      <label>{{ expReq['one'] }}</label>
+      <label>{{ expReq['one'] | number }}</label>
       <label>{{ expReqPerc['one'] }}%</label>
   </div>
 </div>
