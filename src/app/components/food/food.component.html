@@ -29,7 +29,7 @@
 </div>
 
 <div class="food-selection">
-  <div class="result-header">Food Requirements
+  <div class="result-header"><h2>Food Requirements</h2>
     <div class="result-card">
       <label>Rank</label>
       <label>Available</label>
@@ -61,43 +61,115 @@
       <label>{{ reqStars['one'] }}</label>
     </div>
   </div>
-  <div class="result-header">Experience Requirements
-    <div class="result-card">
-      <label>Total EXP</label>
-      <label>{{ expReq['total'] }}</label>
-      <label>100%</label>
+<hr>
+<div class="result-header"><h2>Extra Calculator</h2></div>
+<div class="food-selection">
+  <mat-form-field>
+    <mat-label>Select a Difficulty</mat-label>
+    <mat-select [(ngModel)]="selectedDifficultyVisual" (selectionChange)="calculateFarmingCosts()">
+      <mat-option *ngFor="let i of campaignDifficulties" value="{{i}}">
+        {{ i }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
 
-    </div>
-    <div class="result-card">
-        <label>Spent on 5 Star</label>
-        <label>{{ expReq['five'] }}</label>
-        <label>{{ expReqPerc['five'] }}%</label>
 
+  <mat-form-field>
+      <mat-label>Select a Chapter</mat-label>
+    <mat-select [(ngModel)]="selectedChapter" (selectionChange)="calculateFarmingCosts()">
+      <mat-option *ngFor="let i of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]" value="{{i}}">
+        {{ i }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Select a Stage</mat-label>
+    <mat-select [(ngModel)]="selectedStage" (selectionChange)="calculateFarmingCosts()">
+      <mat-option *ngFor="let i of [1, 2, 3, 4, 5, 6, 7]" value="{{i}}">
+        {{ i }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
     </div>
-    <div class="result-card">
-        <label>Spent on 4 Star</label>
-        <label>{{ expReq['four'] }}</label>
-        <label>{{ expReqPerc['four'] }}%</label>
-
+    <div class="radiobuttongroup2">
+  <label>Double XP</label>
+  <input class="regular-checkbox" type="checkbox" [(ngModel)]="doubleXP" ng-true-value="true" ng-false-value="false" (change)="calculateFarmingCosts()">
     </div>
-    <div class="result-card">
-        <label>Spent on 3 Star</label>
-        <label>{{ expReq['three'] }}</label>
-        <label>{{ expReqPerc['three'] }}%</label>
-
+    <div class="radiobuttongroup2">
+  <label>Raid Pass</label>
+  <input class="regular-checkbox" type="checkbox" [(ngModel)]="raidPass" ng-true-value="true" ng-false-value="false" (change)="calculateFarmingCosts()">
     </div>
-    <div class="result-card">
-        <label>Spent on 2 Star</label>
-        <label>{{ expReq['two'] }}</label>
-        <label>{{ expReqPerc['two'] }}%</label>
-    </div>
-    <div class="result-card">
-        <label>Spent on 1 Star</label>
-        <label>{{ expReq['one'] }}</label>
-        <label>{{ expReqPerc['one'] }}%</label>
-    </div>
+    <div class="radiobuttongroup2">
+  <label>Top off in Sparring Pit</label>
+  <input class="regular-checkbox" type="checkbox" [(ngModel)]="topOffChamps" ng-true-value="true" ng-false-value="false" (change)="calculateFarmingCosts()">
+</div>
+  <div class="result-card">
+    <label> Average Farming Time</label>
+    <input type="text" [(ngModel)]="averageFarmingTime" (keyup)="calculateFarmingCosts()"> seconds
+  </div>
+    <hr>
+<div class="food-selection">
+  <div class="result-card">
+    <label>Silver Gained (without selling artifacts)</label>
+    <label>{{ silverGain | number }}</label>
+  </div>
+  <div class="result-card">
+    <label>Energy Required</label>
+    <label>{{ requiredEnergy | number }}</label>
+  </div>
+  <div class="result-card">
+    <label>Farming Runs Required</label>
+    <label>{{ requiredFarmingRuns | number }}</label>
+  </div>
+  <div class="result-card">
+    <label>Farming Time Required</label>
+    <label>{{ requiredFarmingTime }} hours</label>
+  </div>
+  <div class="result-card">
+    <label>Sparring Pit Time Required</label>
+    <label>{{ requiredSparringPitTime }} hours</label>
   </div>
 </div>
+<hr>
+
+<div class="result-header"><h2>Experience Requirements</h2>
+  <div class="result-card">
+    <label>Total EXP</label>
+    <label>{{ expReq['total'] | number }}</label>
+    <label>100%</label>
+
+  </div>
+  <div class="result-card">
+      <label>Spent on 5 Star</label>
+      <label>{{ expReq['five'] | number }}</label>
+      <label>{{ expReqPerc['five'] }}%</label>
+
+  </div>
+  <div class="result-card">
+      <label>Spent on 4 Star</label>
+      <label>{{ expReq['four'] | number }}</label>
+      <label>{{ expReqPerc['four'] }}%</label>
+
+  </div>
+  <div class="result-card">
+      <label>Spent on 3 Star</label>
+      <label>{{ expReq['three'] | number }}</label>
+      <label>{{ expReqPerc['three'] }}%</label>
+
+  </div>
+  <div class="result-card">
+      <label>Spent on 2 Star</label>
+      <label>{{ expReq['two'] | number }}</label>
+      <label>{{ expReqPerc['two'] }}%</label>
+  </div>
+  <div class="result-card">
+      <label>Spent on 1 Star</label>
+      <label>{{ expReq['one'] | number }}</label>
+      <label>{{ expReqPerc['one'] }}%</label>
+  </div>
+</div>
+</div>
+
 
 <div class="overlay" *ngIf="helpOverlayIsActive">
   <div class="help">

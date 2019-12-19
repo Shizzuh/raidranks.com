@@ -1,0 +1,31 @@
+@import 'variables';
+
+.mat-form-field-label {
+  color: white !important;
+  margin-right: 15px;
+  width: 100px;
+}
+
+.mat-select-value-text {
+  color: white !important;
+}
+
+.mat-form-field-underline {
+  background: $color-primary !important;
+}
+
+.mat-select-arrow {
+  color: $color-primary !important;
+}
+
+.mat-option {
+  background: $background-gradient-primary3;
+  color: white;
+  border: 1px solid rgba($color-primary, .75);
+}
+
+.mat-option:hover:not(.mat-option-disabled) {
+  border: 1px solid rgba($color-primary, 1);
+  color: white;
+  background: $background-gradient-primary;
+}
