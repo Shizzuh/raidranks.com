@@ -118,23 +118,29 @@
 
 <div class="food-selection">
   <label>Select a Difficulty</label>
-  <select name="difficultySelector" id="difficultySelector" [(ngModel)]="selectedDifficultyVisual" (change)="calculateFarmingCosts()">
-    <option *ngFor="let i of campaignDifficulties">
-      {{ i }}
-    </option>
-  </select>
+  <mat-form-field>
+    <mat-select [(ngModel)]="selectedDifficultyVisual" (selectionChange)="calculateFarmingCosts()">
+      <mat-option *ngFor="let i of campaignDifficulties" value="{{i}}">
+        {{ i }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
   <label>Select a Chapter</label>
-  <select name="chapterSelector" id="chapterSelector" [(ngModel)]="selectedChapter" (change)="calculateFarmingCosts()">
-    <option *ngFor="let i of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]">
-      {{ i }}
-    </option>
-  </select>
+  <mat-form-field>
+    <mat-select [(ngModel)]="selectedChapter" (selectionChange)="calculateFarmingCosts()">
+      <mat-option *ngFor="let i of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]" value="{{i}}">
+        {{ i }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
   <label>Select a Stage</label>
-  <select name="stageSelector" id="stageSelector" [(ngModel)]="selectedStage" (change)="calculateFarmingCosts()">
-    <option *ngFor="let i of [1, 2, 3, 4, 5, 6, 7]">
-      {{ i }}
-    </option>
-  </select>
+  <mat-form-field>
+    <mat-select [(ngModel)]="selectedStage" (selectionChange)="calculateFarmingCosts()">
+      <mat-option *ngFor="let i of [1, 2, 3, 4, 5, 6, 7]" value="{{i}}">
+        {{ i }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
   <label>Double XP</label>
   <input type="checkbox" [(ngModel)]="doubleXP" ng-true-value="true" ng-false-value="false" (change)="calculateFarmingCosts()">
   <label>Raid Pass</label>
