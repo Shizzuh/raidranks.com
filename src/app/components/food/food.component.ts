@@ -92,11 +92,11 @@ export class FoodComponent implements OnInit {
   }
 
   calculateFarmingCosts(){
+    this.selectedDifficulty = this.selectedDifficultyVisual.toLowerCase();
     let selectedStage = this.campaignGains[this.selectedDifficulty][this.chapterAndStages[this.selectedChapter - 1]][this.chapterAndStages[this.selectedStage - 1]]; 
     this.requiredEnergy = 0;
     this.requiredFarmingRuns = 0;
     this.requiredSparringPitTime = 0;
-    this.selectedDifficulty = this.selectedDifficultyVisual.toLowerCase();
     let xpGain = selectedStage.xp;
     if(this.doubleXP){
       xpGain = xpGain * 2;
@@ -104,6 +104,7 @@ export class FoodComponent implements OnInit {
     if(this.raidPass){
       xpGain = xpGain * 1.2;
     }
+    let totalRuns = 0;
     let runsPerRank = 0;
     let temp = 0;
     for(let key of Object.keys(this.champInfo)){
@@ -115,14 +116,19 @@ export class FoodComponent implements OnInit {
           this.requiredSparringPitTime += ((temp - runsPerRank) * this.champInfo[key].xpRequired) / (4000 + 100 * (this.champInfo[key].star - 1));
         } else {
           runsPerRank = Math.ceil(runsPerRank);
-        }
-        this.requiredEnergy += runsPerRank * selectedStage.energy * Math.max(this.reqStars[key] / (this.champInfo[key].star + 1), 1);
-        this.requiredFarmingRuns += Math.ceil(runsPerRank * Math.max(this.reqStars[key] / (this.champInfo[key].star + 1), 1));
+        } 
+        totalRuns += Math.ceil(runsPerRank * Math.max(this.reqStars[key] / (this.champInfo[key].star + 1), 1));
       }
     }
+    this.requiredFarmingRuns = Math.ceil(totalRuns / 3);
+    this.requiredEnergy = this.requiredFarmingRuns * selectedStage.energy;
     this.requiredFarmingTime = Math.round((this.requiredFarmingRuns * this.averageFarmingTime) / 36) / 100;
-    this.requiredSparringPitTime = Math.round(this.requiredSparringPitTime * 100) / 100;
-    this.silverGain = this.requiredFarmingRuns * selectedStage.silver;
+    this.requiredSparringPitTime = Math.round(this.requiredSparringPitTime / 5 * 100) / 100;
+    if(this.raidPass){
+      this.silverGain = this.requiredFarmingRuns * (selectedStage.silver * 1.2);
+    } else {
+      this.silverGain = this.requiredFarmingRuns * selectedStage.silver;
+    }
   }
 
   calculateRequirements(){
