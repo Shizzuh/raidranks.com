@@ -1,0 +1,26 @@
+[debug] [2019-12-20T20:57:16.727Z] ----------------------------------------------------------------------
+[debug] [2019-12-20T20:57:16.729Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pwsm5\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2019-12-20T20:57:16.729Z] CLI Version:   7.8.1
+[debug] [2019-12-20T20:57:16.729Z] Platform:      win32
+[debug] [2019-12-20T20:57:16.729Z] Node Version:  v10.16.2
+[debug] [2019-12-20T20:57:16.730Z] Time:          Fri Dec 20 2019 14:57:16 GMT-0600 (Central Standard Time)
+[debug] [2019-12-20T20:57:16.730Z] ----------------------------------------------------------------------
+[debug] [2019-12-20T20:57:16.730Z] 
+[debug] [2019-12-20T20:57:16.738Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-20T20:57:16.739Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\rsl
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+

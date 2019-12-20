@@ -1,19 +1,12 @@
 {
-  "projects": {
-    "default": "raidranks"
-  },
   "targets": {
-    "raid-ranks-dev": {
+    "raidranksdev": {
       "hosting": {
-        "raidranks": [
+        "prod": [
           "raidranks"
-        ]
-      }
-    },
-    "raidranks": {
-      "hosting": {
-        "raidranks": [
-          "raidranks"
+        ],
+        "dev": [
+          "raidranksdev"
         ]
       }
     }

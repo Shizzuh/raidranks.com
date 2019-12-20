@@ -3,9 +3,9 @@ $currentDir = Get-Location
 Set-Location -Path ../../ -PassThru
 
 ng build --prod
-mkdir dist\rsl\.well-known
-cp -r assetlinks.json dist\rsl\.well-known
-cp -r ads.txt dist\rsl
-firebase deploy --only hosting:raidranks
+mkdir public\.well-known
+cp -r assetlinks.json public\.well-known
+cp -r ads.txt public
+firebase deploy --only hosting:prod
 
 Set-Location "$currentDir"
