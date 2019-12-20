@@ -92,11 +92,11 @@ export class FoodComponent implements OnInit {
   }
 
   calculateFarmingCosts(){
+    this.selectedDifficulty = this.selectedDifficultyVisual.toLowerCase();
     let selectedStage = this.campaignGains[this.selectedDifficulty][this.chapterAndStages[this.selectedChapter - 1]][this.chapterAndStages[this.selectedStage - 1]]; 
     this.requiredEnergy = 0;
     this.requiredFarmingRuns = 0;
     this.requiredSparringPitTime = 0;
-    this.selectedDifficulty = this.selectedDifficultyVisual.toLowerCase();
     let xpGain = selectedStage.xp;
     if(this.doubleXP){
       xpGain = xpGain * 2;
@@ -122,7 +122,11 @@ export class FoodComponent implements OnInit {
     }
     this.requiredFarmingTime = Math.round((this.requiredFarmingRuns * this.averageFarmingTime) / 36) / 100;
     this.requiredSparringPitTime = Math.round(this.requiredSparringPitTime * 100) / 100;
-    this.silverGain = this.requiredFarmingRuns * selectedStage.silver;
+    if(this.raidPass){
+      this.silverGain = this.requiredFarmingRuns * (selectedStage.silver * 1.2);
+    } else {
+      this.silverGain = this.requiredFarmingRuns * selectedStage.silver;
+    }
   }
 
   calculateRequirements(){
