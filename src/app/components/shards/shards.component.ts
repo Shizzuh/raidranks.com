@@ -13,6 +13,7 @@ export class ShardsComponent implements OnInit {
 
   championsList: Champion[];
   randomChamps: Champion[] = [];
+  legendaryrandomChamps: Champion[] = [];
   legendaryChampions: Champion[];
   epicChampions: Champion[];
   rareChampions: Champion[];
@@ -41,6 +42,128 @@ export class ShardsComponent implements OnInit {
     this.adActive = true;
   }
 
+
+
+
+
+
+
+  summonLeg(shardCount: number, chances: number) {
+    this.bluestacksCount++;
+    localStorage.setItem('bluestacksCount', this.bluestacksCount + '');
+    this.bluestacksCount = +localStorage.getItem('bluestacksCount');
+    if (this.bluestacksCount && this.bluestacksCount === 10) {
+      this.showBluestacks = true;
+      return;
+    } else {
+      this.showBluestacks = false;
+    }
+    this.onCoolDown = true;
+    this.randomChamps = [];
+    for (let i = 1; i <= shardCount; i++ ) {
+      if (this.getRandomNumber() <= 6 * chances) {
+        this.getRandomChampionIndex(this.legendaryChampions);
+      } else  {
+        this.getRandomChampionIndex(this.epicChampions);
+      } 
+    }
+    setTimeout(() => {
+      this.onCoolDown = false;
+    }, 10000);
+    this.adActive = false;
+    setTimeout(() => {
+      this.adActive = true;
+    }, 1);
+  }
+
+  getRandomNumberLeg() {
+    return Math.round(Math.random() * 10000) / 100;
+  }
+
+  getRandomChampionIndexLeg(champions: Champion[]) {
+    let randomIndex =  Math.round(Math.random() * champions.length - 1);
+    randomIndex < 0 ? randomIndex = 0 : randomIndex = randomIndex;
+    if (champions[randomIndex].element === undefined) {
+    }
+    this.randomChamps.push(champions[randomIndex]);
+  }
+
+  closeBluestacksLeg(resetCount: boolean) {
+    this.showBluestacks = false;
+    if (!resetCount) {
+      localStorage.setItem('bluestacksCount', this.bluestacksCount + '');
+      this.bluestacksCount = +localStorage.getItem('bluestacksCount');
+      return;
+    }
+    if (resetCount) {
+      localStorage.setItem('bluestacksCount', '0');
+      this.bluestacksCount = +localStorage.getItem('bluestacksCount');
+    }
+  }
+
+
+  summonVoid(shardCount: number, chances: number) {
+    this.bluestacksCount++;
+    localStorage.setItem('bluestacksCount', this.bluestacksCount + '');
+    this.bluestacksCount = +localStorage.getItem('bluestacksCount');
+    if (this.bluestacksCount && this.bluestacksCount === 10) {
+      this.showBluestacks = true;
+      return;
+    } else {
+      this.showBluestacks = false;
+    }
+    this.onCoolDown = true;
+    this.randomChamps = [];
+    for (let i = 1; i <= shardCount; i++ ) {
+      if (this.getRandomNumber() <= 0.5 * chances) {
+        this.getRandomChampionIndex(this.legendaryChampions);
+      } else if (this.getRandomNumber() <= 8 * chances) {
+        this.getRandomChampionIndex(this.epicChampions);
+      } else {
+        this.getRandomChampionIndex(this.rareChampions);
+      }
+     
+    }
+    setTimeout(() => {
+      this.onCoolDown = false;
+    }, 10000);
+    this.adActive = false;
+    setTimeout(() => {
+      this.adActive = true;
+    }, 1);
+  }
+
+  getRandomNumberVoid() {
+    return Math.round(Math.random() * 10000) / 100;
+  }
+
+  getRandomChampionIndexVoid(champions: Champion[]) {
+    let randomIndex =  Math.round(Math.random() * champions.length - 1);
+    randomIndex < 0 ? randomIndex = 0 : randomIndex = randomIndex;
+    if (champions[randomIndex].element === undefined) {
+    }
+    this.randomChamps.push(champions[randomIndex]);
+  }
+
+  closeBluestacksVoidx(resetCount: boolean) {
+    this.showBluestacks = false;
+    if (!resetCount) {
+      localStorage.setItem('bluestacksCount', this.bluestacksCount + '');
+      this.bluestacksCount = +localStorage.getItem('bluestacksCount');
+      return;
+    }
+    if (resetCount) {
+      localStorage.setItem('bluestacksCount', '0');
+      this.bluestacksCount = +localStorage.getItem('bluestacksCount');
+    }
+  }
+
+
+
+
+
+
+
   summon(shardCount: number, chances: number) {
     this.bluestacksCount++;
     localStorage.setItem('bluestacksCount', this.bluestacksCount + '');
@@ -61,6 +184,7 @@ export class ShardsComponent implements OnInit {
       } else {
         this.getRandomChampionIndex(this.rareChampions);
       }
+     
     }
     setTimeout(() => {
       this.onCoolDown = false;
@@ -95,5 +219,9 @@ export class ShardsComponent implements OnInit {
       this.bluestacksCount = +localStorage.getItem('bluestacksCount');
     }
   }
+
+
+
+
 
 }

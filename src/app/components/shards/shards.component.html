@@ -7,14 +7,18 @@
     </ng-container>
   </div>
   <div class="summon-options">
-    <button [ngClass]="{'inactive': onCoolDown  || showBluestacks}" class="btn btn-outline-primary mr-3" (click)="summon(10, 1)">Summon</button>
-    <button [ngClass]="{'inactive': onCoolDown  || showBluestacks}" class="btn btn-outline-primary" (click)="summon(10, 2)">Summon x2 Rates</button>
+        <h3>Choose your Shards !</h3>
+        <div class="shardsdiv">
+    <button [ngClass]="{'inactive': onCoolDown  || showBluestacks}" class="btn" (click)="summon(10, 1)"><img src="../../../assets/images/shards/ancient.png" alt="Ancient Shard"> </button>
+    <button [ngClass]="{'inactive': onCoolDown  || showBluestacks}" class="btn" (click)="summonVoid(10, 1)"><img src="../../../assets/images/shards/void.png" alt="void Shard"> </button>
+    <button [ngClass]="{'inactive': onCoolDown  || showBluestacks}" class="btn" (click)="summonLeg(10, 1)"><img src="../../../assets/images/shards/sacred.png" alt="sacred Shard"> </button>
   </div>
-  <p class="mt-5">
+  <p>
     Try your luck! The odds used here are the exact odds used to summon certain rarities within Raid.
     Feeling that itch, but don't have the <span class="text-primary">$$$</span> to throw away on a long shot? Cool. This is <span class="text-primary">free</span>.
   </p>
   <p class="mb-5 rsl-label">These summons include <span class="text-primary">VOID</span> champions.</p>
+</div>
 
   <ng-adsense
     *ngIf="adActive"
@@ -23,8 +27,9 @@
   </ng-adsense>
 </div>
 
+
 <ng-template #noSummons>
-  <img src="../../../assets/images/shards/ancient.png" alt="Ancient Shard">
+  <img src="../../../assets/images/logo.png" alt="Ancient Shard">
 </ng-template>
 
 <ng-container *ngIf="showBluestacks">

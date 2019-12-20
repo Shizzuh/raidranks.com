@@ -21,18 +21,34 @@
   }
 }
 
-.btn {
-  margin-top: 25px;
+.shardsdiv {
+  display: block;
+  width: 480px;
+  margin: 0 auto;
+  padding: 15px;
+}
 
-  &.inactive {
-    opacity: .5;
-    pointer-events: none;
-  }
+
+h3 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+p {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 5px;
+  background-color: transparent;
+  outline: none;
+  text-decoration: none;
+  border: 0;
 }
 
 img {
   margin-bottom: 25px;
-  width: 150px;
+  width: 120px;
   height: auto;
 }
 
