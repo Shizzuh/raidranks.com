@@ -123,7 +123,7 @@ export class FoodComponent implements OnInit {
     this.requiredFarmingRuns = Math.ceil(totalRuns / 3);
     this.requiredEnergy = this.requiredFarmingRuns * selectedStage.energy;
     this.requiredFarmingTime = Math.round((this.requiredFarmingRuns * this.averageFarmingTime) / 36) / 100;
-    this.requiredSparringPitTime = Math.round(this.requiredSparringPitTime * 100) / 100;
+    this.requiredSparringPitTime = Math.round(this.requiredSparringPitTime / 5 * 100) / 100;
     if(this.raidPass){
       this.silverGain = this.requiredFarmingRuns * (selectedStage.silver * 1.2);
     } else {
