@@ -15,9 +15,11 @@ import {
   faBoxingGlove,
   faArchway,
   faTools,
-  faBook, 
+  faBook,
   faPlay,
   faFlask,
+  faCaretDown,
+  faCaretUp,
   faHamburger
 } from '@fortawesome/pro-light-svg-icons';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
@@ -41,6 +43,8 @@ export class NavigationComponent implements OnInit {
   faTimes = faTimes;
   faGem = faGem;
   faQuestion = faQuestion;
+  faCaretDown = faCaretDown;
+  faCaretUp = faCaretUp;
   faDrumstick = faDrumstick;
   faUsers = faUsers;
   faBoxingGlove = faBoxingGlove;
@@ -56,6 +60,7 @@ export class NavigationComponent implements OnInit {
   rosterPage: boolean;
   removeMode: boolean;
   orderObj: any;
+  dropdownActive: string;
 
   constructor(
     private localStorage: Storage,
@@ -66,6 +71,7 @@ export class NavigationComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.dropdownActive = '';
 
     this.route.queryParamMap.subscribe(params => {
       this.orderObj = { ...params.keys, ...params };
@@ -90,7 +96,7 @@ export class NavigationComponent implements OnInit {
   }
 
   toggleNav() {
-    this.navigationActive ? this.navigationActive = false : this.navigationActive = true;
+    this.navigationActive = !this.navigationActive;
   }
 
   exitRosterMode() {
@@ -116,6 +122,18 @@ export class NavigationComponent implements OnInit {
 
   shareRoster() {
     this.rosterService.shareLink();
+  }
+
+  openDropdown(dropdown: string) {
+    if (this.dropdownActive === dropdown) {
+      this.dropdownActive = '';
+      return;
+    }
+
+    if (this.dropdownActive !== dropdown) {
+      this.dropdownActive = dropdown;
+    }
+
   }
 
 }

@@ -1,48 +1,64 @@
 <div class="navigation" [ngClass]="{'is-active': navigationActive}">
+
+  <img src="../../../assets/images/logo.png" alt="">
+
   <team-builder></team-builder>
-
-
-
-
-  <a href="/home" target="_self"><button class="dropbtn"><fa-icon [icon]="faArchway"></fa-icon>Home</button></a>
-  <a href="/champions" target="_self"><button class="dropbtn"><fa-icon [icon]="faSwords"></fa-icon>Champions</button></a>
-
-  
-  <div class="dropdown">
-    <button class="dropbtn" ><fa-icon [icon]="faTools"></fa-icon>RR: Collections</button>
-    <div class="dropdown-content">
-      <a href="/teams" target="_self"><button class="dropbtn"><fa-icon [icon]="faUsersMedical"></fa-icon>Team Builder</button></a>
-      <a href="/roster" target="_self"><button class="dropbtn"><fa-icon [icon]="faUsers"></fa-icon>Roster</button></a>
-    </div>
+  <a [routerLink]="['/home']">
+      <fa-icon [icon]="faArchway"></fa-icon>Home
+  </a>
+  <a [routerLink]="['/champions']">
+      <fa-icon [icon]="faSwords"></fa-icon>Champions
+  </a>
+  <span (click)="openDropdown('collections')">
+    <fa-icon [icon]="faTools"></fa-icon>Collections
+    <fa-icon *ngIf="dropdownActive !== 'collections'" [icon]="faCaretDown"></fa-icon>
+    <fa-icon *ngIf="dropdownActive === 'collections'" [icon]="faCaretUp"></fa-icon>
+  </span>
+  <div class="dropdown" [ngClass]="{'active': dropdownActive === 'collections'}">
+    <a [routerLink]="['/teams']">
+        <fa-icon [icon]="faUsersMedical"></fa-icon>Team Builder
+    </a>
+    <a [routerLink]="['/roster']">
+        <fa-icon [icon]="faUsers"></fa-icon>Roster
+    </a>
   </div>
-
-    <div class="dropdown">
-      <button class="dropbtn"><fa-icon [icon]="faTools"></fa-icon>RR: Tools</button>
-      <div class="dropdown-content">
-        <a href="/deals" target="_self"><button class="dropbtn"><fa-icon [icon]="faUsdCircle"></fa-icon>Deal Value Calculator</button></a>
-        <a href="/food" target="_self"><button class="dropbtn"><fa-icon [icon]="faHamburger"></fa-icon>Food Calculator</button></a>
-        <a href="/ascension-calc" target="_self"><button class="dropbtn"><fa-icon [icon]="faFlask"></fa-icon>Ascension Calculator</button></a>
-
-      </div>
-    </div>
-
-    <a href="/guides" target="_self"><button class="dropbtn"><fa-icon [icon]="faBook"></fa-icon>RR: Tutorials</button></a>
-    <a href="/leaderboards" target="_self"><button class="dropbtn"><fa-icon [icon]="faBoxingGlove"></fa-icon>Clan Boss Leaderboards</button></a>
-    <a href="/shards" target="_self"><button class="dropbtn"><fa-icon [icon]="faGem"></fa-icon>Shards Simulator</button></a>
-
-    <a href="/content-creators" target="_self"><button class="dropbtn"><fa-icon [icon]="faPlay"></fa-icon>Content Creators</button></a>
-    <a href="/twitch-streamers" target="_self"><button class="dropbtn"><fa-icon [icon]="faPlay"></fa-icon>Twitch Streamers</button></a>
-
-    <a href="https://www.patreon.com/bePatron?u=26302038" data-patreon-widget-type="become-patron-button"><button class="dropbtn"><fa-icon [icon]="faUsdCircle"></fa-icon>Become a Patron!</button></a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
-    <a href="/faq" target="_self"><button class="dropbtn"><fa-icon [icon]="faQuestion"></fa-icon>Info & FAQ</button></a>
-
-
-
-
-
-
-
-
+  <span (click)="openDropdown('tools')">
+    <fa-icon [icon]="faTools"></fa-icon>Tools
+    <fa-icon  *ngIf="dropdownActive !== 'tools'" [icon]="faCaretDown"></fa-icon>
+    <fa-icon  *ngIf="dropdownActive === 'tools'" [icon]="faCaretUp"></fa-icon>
+  </span>
+  <div class="dropdown" [ngClass]="{'active': dropdownActive === 'tools'}">
+    <a [routerLink]="['/deals']">
+        <fa-icon [icon]="faUsdCircle"></fa-icon>Deal Value Calculator
+    </a>
+    <a [routerLink]="['/food']">
+        <fa-icon [icon]="faHamburger"></fa-icon>Food Calculator
+    </a>
+    <a [routerLink]="['/ascension-calc']">
+        <fa-icon [icon]="faFlask"></fa-icon>Ascension Calculator
+    </a>
+  </div>
+  <a [routerLink]="['/guides']">
+      <fa-icon [icon]="faBook"></fa-icon>Tutorials
+  </a>
+  <a [routerLink]="['/leaderboards']">
+      <fa-icon [icon]="faBoxingGlove"></fa-icon>Clan Boss Leaderboards
+  </a>
+  <a [routerLink]="['/shards']">
+      <fa-icon [icon]="faGem"></fa-icon>Shards Simulator
+  </a>
+  <a [routerLink]="['/content-creators']">
+      <fa-icon [icon]="faPlay"></fa-icon>Content Creators
+  </a>
+  <a [routerLink]="['/twitch-streamers']">
+      <fa-icon [icon]="faPlay"></fa-icon>Twitch Streamers
+  </a>
+  <a href="https://www.patreon.com/bePatron?u=26302038" data-patreon-widget-type="become-patron-button" target="_blank">
+      <fa-icon [icon]="faUsdCircle"></fa-icon>Become a Patron!
+  </a>
+  <a [routerLink]="['/faq']">
+      <fa-icon [icon]="faQuestion"></fa-icon>Info & FAQ
+  </a>
 
   <div *ngIf="rosterPage" class="roster">
     <button class="btn btn-outline-primary btn-block mt-3" (click)="addChampionsToRoster()">
@@ -57,11 +73,12 @@
 
   <div *ngIf="rosterMode" class="roster-mode">
     <h5>Roster Mode Active</h5>
-    <button class="btn btn-outline-danger" (click)="exitRosterMode()">Exit</button>
   </div>
 
   <div class="nav-toggle" (click)="toggleNav()">
     <fa-icon *ngIf="!navigationActive" [icon]="faBars"></fa-icon>
     <fa-icon *ngIf="navigationActive" [icon]="faTimes"></fa-icon>
   </div>
+
 </div>
+

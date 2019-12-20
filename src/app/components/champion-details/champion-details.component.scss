@@ -3,7 +3,8 @@
 .container-fluid {
   padding:70px 15px 32vw;
   height:100%;
-  overflow:auto;
+  overflow: auto;
+  overflow-x:hidden;
   h2 {
     margin:0 0 50px;
     color:$color-primary;
