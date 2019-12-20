@@ -25,12 +25,20 @@
     margin: 25px auto;
     opacity: 0.5;
     transition: ease-in-out .8s;
+    border: 0;
+    outline: none;
+    text-decoration: none;
   }
 
+
+  
   img:hover {
     opacity: 1;
     transition: ease-in-out .8s;
     cursor: pointer;
+    border: 0;
+    outline: none;
+    text-decoration: none;
   }
 
 
