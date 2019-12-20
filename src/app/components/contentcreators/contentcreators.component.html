@@ -18,25 +18,19 @@
       </div>
     </ng-container>
   </div>
+  <div class="container">
+    <button class="helpbutton" (click)="helpOverlay()">Want to displayed here?</button>
+  </div>
 </div>
 
-<!-- <div class="wrapper">
-    <div class="container">
-        <h2>RR: Content Creators</h2>
-        <div class="infopart">
-           <a href="https://www.youtube.com/channel/UCvYc0Q57Sxah8Nutq2vTjZQ"><img src="../../../assets/images/youtubers/jgigs.png"/></a>
-            <h3>JGigs</h3><br>
-            <p>description needs to be writen by content creator</p>
-        </div>
-        <div class="infopart">
-            <a href="https://www.youtube.com/channel/UCvYc0Q57Sxah8Nutq2vTjZQ"><img src="../../../assets/images/youtubers/coldbrew.jpg"/></a>
-             <h3>Cold Brew Gaming</h3><br>
-             <p>I love cold brew coffee <br> Also I love games so grab your favorite cup of coffee and join me in gaming reviews, guides, tutorials and gameplay!</p>
-         </div>
-        <div class="infopart">
-            <a href="https://www.youtube.com/channel/UCvYc0Q57Sxah8Nutq2vTjZQ"><img src="../../../assets/images/logo.png"/></a>
-             <h3>Your youtube here?</h3><br>
-             <p>If you want your youtube here feel free to message me on Discord : <span class="text-primary">Benn#2599</span></p>
-         </div>
-    </div>
-  </div> -->
+<div class="overlay" *ngIf="helpOverlayIsActive">
+  <div class="help">
+    <div class="btn btn-outline-primary mb-5" (click)="helpOverlay()">Close</div>
+    <h4>Want your content in here? </h4>
+    <p><span class="text-primary">We provide this service for free.</span></p>
+    <p>The best way to send in an application for review is into our discord : <span class="text-primary">https://discord.gg/CXC2SP3</span></p>
+    <p>You wanna send <span class="text-primary">Benn#2599</span>, who will run through a conversation with you.</p>
+    <p>He will ask you several questions that are needed before approvement.</p>
+    <p>After you will geta approvement you will be published into this section.</p>
+  </div>
+</div>

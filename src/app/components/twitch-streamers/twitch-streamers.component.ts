@@ -9,10 +9,15 @@ import { map } from 'rxjs/operators';
 })
 export class TwitchStreamersComponent implements OnInit {
   twitchers: any;
+  helpOverlayIsActive: boolean;
+ 
 
   constructor(
     private db: AngularFirestore
-  ) { }
+    
+  ) {
+    this.helpOverlayIsActive = false;
+   }
 
   ngOnInit() {
     this.twitchers = this.db.collection('twitchers');
@@ -26,4 +31,7 @@ export class TwitchStreamersComponent implements OnInit {
       );
   }
 
+  helpOverlay() {
+    this.helpOverlayIsActive ? this.helpOverlayIsActive = false : this.helpOverlayIsActive = true;
+  }
 }
