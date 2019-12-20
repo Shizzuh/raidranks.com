@@ -1,11 +1,11 @@
 <div class="navigation" [ngClass]="{'is-active': navigationActive}">
 
-  <img src="../../../assets/images/logo.png" alt="">
+  <img src="../../../assets/images/logo.png" alt="" [routerLink]="['/home']">
 
   <team-builder></team-builder>
-  <a [routerLink]="['/home']">
+  <!-- <a [routerLink]="['/home']">
       <fa-icon [icon]="faArchway"></fa-icon>Home
-  </a>
+  </a> -->
   <a [routerLink]="['/champions']">
       <fa-icon [icon]="faSwords"></fa-icon>Champions
   </a>
