@@ -104,6 +104,7 @@ export class FoodComponent implements OnInit {
     if(this.raidPass){
       xpGain = xpGain * 1.2;
     }
+    let totalRuns = 0;
     let runsPerRank = 0;
     let temp = 0;
     for(let key of Object.keys(this.champInfo)){
@@ -115,11 +116,12 @@ export class FoodComponent implements OnInit {
           this.requiredSparringPitTime += ((temp - runsPerRank) * this.champInfo[key].xpRequired) / (4000 + 100 * (this.champInfo[key].star - 1));
         } else {
           runsPerRank = Math.ceil(runsPerRank);
-        }
-        this.requiredEnergy += runsPerRank * selectedStage.energy * Math.max(this.reqStars[key] / (this.champInfo[key].star + 1), 1);
-        this.requiredFarmingRuns += Math.ceil(runsPerRank * Math.max(this.reqStars[key] / (this.champInfo[key].star + 1), 1));
+        } 
+        totalRuns += Math.ceil(runsPerRank * Math.max(this.reqStars[key] / (this.champInfo[key].star + 1), 1));
       }
     }
+    this.requiredFarmingRuns = Math.ceil(totalRuns / 3);
+    this.requiredEnergy = this.requiredFarmingRuns * selectedStage.energy;
     this.requiredFarmingTime = Math.round((this.requiredFarmingRuns * this.averageFarmingTime) / 36) / 100;
     this.requiredSparringPitTime = Math.round(this.requiredSparringPitTime * 100) / 100;
     if(this.raidPass){
