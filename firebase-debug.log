@@ -1,0 +1,34 @@
+[debug] [2019-12-20T19:31:55.378Z] ----------------------------------------------------------------------
+[debug] [2019-12-20T19:31:55.380Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pwsm5\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:raid-ranks-dev
+[debug] [2019-12-20T19:31:55.380Z] CLI Version:   7.8.1
+[debug] [2019-12-20T19:31:55.380Z] Platform:      win32
+[debug] [2019-12-20T19:31:55.380Z] Node Version:  v10.16.2
+[debug] [2019-12-20T19:31:55.381Z] Time:          Fri Dec 20 2019 13:31:55 GMT-0600 (Central Standard Time)
+[debug] [2019-12-20T19:31:55.382Z] ----------------------------------------------------------------------
+[debug] [2019-12-20T19:31:55.382Z] 
+[debug] [2019-12-20T19:31:55.395Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-20T19:31:55.396Z] > authorizing via signed-in user
+[debug] [2019-12-20T19:31:55.397Z] [iam] checking project raid-ranks-dev for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-12-20T19:31:55.398Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-20T19:31:55.398Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-20T19:31:55.588Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-20T19:31:55.594Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/raid-ranks-dev:testIamPermissions  
+
+[debug] [2019-12-20T19:31:55.794Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-20T19:31:55.794Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/raid-ranks-dev  
+ 
+[debug] [2019-12-20T19:31:56.032Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'raid-ranks-dev'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/raid-ranks-dev/overview
+[debug] [2019-12-20T19:31:56.407Z] TypeError: Cannot read property 'deploys' of undefined
+    at C:\Users\pwsm5\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:84:36
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
