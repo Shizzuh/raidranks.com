@@ -19,22 +19,25 @@
     }
   }
 
+  .logo-link {
+    display:block;
+    margin:0 auto;
+    border:none;
+  }
+
   img {
     width:100%;
     max-width:150px;
     margin: 25px auto;
     opacity: 0.5;
-    transition: ease-in-out .8s;
+    transition: ease-in-out .25s;
     border: 0;
     outline: none;
     text-decoration: none;
   }
 
-
-  
   img:hover {
     opacity: 1;
-    transition: ease-in-out .8s;
     cursor: pointer;
     border: 0;
     outline: none;
