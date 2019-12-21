@@ -5,7 +5,11 @@
       "ignore": [
         "firebase.json",
         "**/.*",
-        "**/node_modules/**"
+        "**/node_modules/**",
+        "**/assets/images/all/**",
+        "**/assets/images/abilities/**",
+        "**/assets/images/champions/**",
+        "**/assets/images/faction-banners/**"
       ],
       "rewrites": [
         {
@@ -13,13 +17,37 @@
           "destination": "/index.html"
         }
       ]
-    },{
+    },
+    {
       "public": "public",
       "target": "dev",
       "ignore": [
         "firebase.json",
         "**/.*",
-        "**/node_modules/**"
+        "**/node_modules/**",
+        "**/assets/images/all/**",
+        "**/assets/images/abilities/**",
+        "**/assets/images/champions/**",
+        "**/assets/images/faction-banners/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
+      "public": "public",
+      "target": "qa",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**",
+        "**/assets/images/all/**",
+        "**/assets/images/abilities/**",
+        "**/assets/images/champions/**",
+        "**/assets/images/faction-banners/**"
       ],
       "rewrites": [
         {
