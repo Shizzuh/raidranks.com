@@ -1,8 +1,4 @@
-import { Storage } from './../../services/store.service';
-import { ChampionsService } from 'src/app/services/champions.service';
 import { Component, OnInit } from '@angular/core';
-import { Champion } from 'src/app/models/team.model';
-import * as _ from 'lodash';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { map } from 'rxjs/operators';
 
@@ -13,11 +9,6 @@ import { map } from 'rxjs/operators';
 })
 export class HomeComponent implements OnInit {
 
-  championsList: Champion[];
-  randomChamps: Champion[] = [];
-  legendaryChampions: Champion[];
-  epicChampions: Champion[];
-  rareChampions: Champion[];
   onCoolDown: boolean;
   numberOfSummons: number;
   showBluestacks: boolean;
@@ -32,7 +23,7 @@ export class HomeComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.news = this.db.collection('newsthumb');
+    this.news = this.db.collection('news');
     this.news = this.news.snapshotChanges()
       .pipe(
         map((actions: any) => actions.map(a => {
