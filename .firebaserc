@@ -26,5 +26,8 @@
         ]
       }
     }
+  },
+  "projects": {
+    "default": "raidranksdev"
   }
 }

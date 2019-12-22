@@ -1,5 +1,6 @@
 {
-  "hosting": [{
+  "hosting": [
+    {
       "public": "public",
       "target": "prod",
       "ignore": [
@@ -55,7 +56,8 @@
           "destination": "/index.html"
         }
       ]
-    }],
+    }
+  ],
   "database": {
     "rules": "database.rules.json"
   }
