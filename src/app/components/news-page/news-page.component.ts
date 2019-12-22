@@ -14,6 +14,7 @@ export class NewsPageComponent implements OnInit {
   newsId: any;
   newsRef: any;
   news: any;
+  new: any;
 
 
   constructor(
@@ -41,7 +42,7 @@ export class NewsPageComponent implements OnInit {
       .doc('new')
       .collection('new', ref => ref.where('slug', '==', this.newsId));
 
-    this.news = this.newsRef.snapshotChanges().pipe(
+    this.new = this.newsRef.snapshotChanges().pipe(
       map((actions: any) => actions.map(a => {
 
         const data = a.payload.doc.data();

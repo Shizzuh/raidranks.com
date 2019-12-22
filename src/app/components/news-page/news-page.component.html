@@ -1,1 +1,13 @@
-<p>news-page works!</p>
+<div class="wrapper">
+    <div class="container-fluid">
+        <ng-container *ngFor="let new of new|async">
+            <div class="row">
+                <div class="shortdesc">
+                    <h3>{{new.title}}</h3>
+                    <p>{{new.summary}}</p>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+  </div>
+  

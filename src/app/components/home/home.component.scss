@@ -165,14 +165,16 @@ champion-card {
   img {
     width: 100%;
     height: 250px;
-    border-radius: 16px;
-
+    border-radius: 16px 0px 0px 16px;
   }
 }
 
 .thumbright {
   float: right;
   width: 70%;
+  border-left: 4px solid rgba($color-primary, 1);
+  min-height: 250px;
+
 }
 
 .thumb {
@@ -181,9 +183,11 @@ champion-card {
   margin-bottom:22px;
   margin-left: 22px;
   background: $background-gradient-primary3;
-  border: 1px solid rgba($color-primary, .8);
+  border-right: 6px solid rgba($color-primary, 1);
+  border-top: 1px solid rgba($color-primary, .8);
+  border-bottom: 1px solid rgba($color-primary, .8);
   border-radius: 16px;
-float:right;
+  float:left;
   h3 {
     font-size:18px;
     text-align: center;
