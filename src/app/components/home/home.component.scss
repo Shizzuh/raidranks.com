@@ -78,16 +78,6 @@ a:link {
     margin-left: auto;
     margin-right: auto }
 
-img {
-  width:100%;
-  max-width:300px;
-  margin:0 auto;
-  display:block;
-  border-radius: 50%;
-  border: 4px solid rgba(#841CE8, .75);
-  box-shadow: 0 5px 30px rgba(#841CE8, .75);
-  margin-bottom: 40px;
-}
 
 @import 'variables';
 
@@ -110,6 +100,17 @@ img {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+  
+img {
+  width:100%;
+  max-width:300px;
+  margin:0 auto;
+  display:block;
+  border-radius: 50%;
+  border: 4px solid rgba(#841CE8, .75);
+  box-shadow: 0 5px 30px rgba(#841CE8, .75);
+  margin-bottom: 40px;
+}
 }
 
 .btn {
@@ -155,4 +156,46 @@ champion-card {
     height: 100px !important;
     width: 100px !important;
   }
+}
+
+
+.thumbleft {
+  float: left;
+  width:30%;
+  img {
+    width: 100%;
+    height: 250px;
+    border-radius: 16px;
+
+  }
+}
+
+.thumbright {
+  float: right;
+  width: 70%;
+}
+
+.thumb {
+  width: 100%;
+  max-width: 520px;
+  margin-bottom:22px;
+  margin-left: 22px;
+  background: $background-gradient-primary3;
+  border: 1px solid rgba($color-primary, .8);
+  border-radius: 16px;
+float:right;
+  h3 {
+    font-size:18px;
+    text-align: center;
+    width:100%;
+    color: $color-primary;
+    border-bottom: 1px solid rgba($color-primary, .8);
+  }
+
+  p {
+    text-align: left;
+    padding-left: 10px;
+  }
+
+
 }

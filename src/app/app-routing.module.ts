@@ -26,6 +26,8 @@ const routes: Routes = [
   { path: 'twitch-streamers', component: component.TwitchStreamersComponent },
   { path: 'content-creators/:creatorId', component: component.CreatorDetailsComponent },
   { path: 'twitch-streamers/:twitcherId', component: component.TwitchDetailsComponent },
+  { path: 'news-page', component: component.NewsPageComponent },
+  { path: 'news-page/newsId', component: component.NewsPageComponent },
   { path: '**', redirectTo: '' },
 
 ];

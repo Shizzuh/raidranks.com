@@ -41,6 +41,7 @@ import { GuideFarmingComponent } from './components/guides/guide-farming/guide-f
 import { ContentcreatorsComponent } from './components/contentcreators/contentcreators.component';
 import { CreatorDetailsComponent } from './components/creator-details/creator-details.component';
 import { GuideGearingComponent } from './components/guides/guide-gearing/guide-gearing.component';
+import { NewsPageComponent } from './components/news-page/news-page.component';
 
 @NgModule({
   declarations: [
@@ -82,6 +83,7 @@ import { GuideGearingComponent } from './components/guides/guide-gearing/guide-g
     ContentcreatorsComponent,
     CreatorDetailsComponent,
     GuideGearingComponent,
+    NewsPageComponent,
   ],
   imports: [
     ClipboardModule,

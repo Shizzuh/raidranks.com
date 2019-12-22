@@ -7,18 +7,16 @@
         <p>Juliana is is godly in CB.<br>She will burn him with her HP Burn and get that 5% poisons up!</p>
 <a href="/champion-details/the-sacred-order/juliana">  <img [src]="['../../../assets/images/tierimg/juliana.png']" alt=""></a>
         <p class="mb-5 rsl-label"> This change on weekly updates.</p>
- 
-        
-
-        <ng-container *ngFor="let news of (news|async)">
-          <div class="row" *ngFor="let news of news.newsthumb">
-              <h3>{{newsthumb.title}}</h3>
-            </div>
-            <div class="col-12">
-              <p>{{newsthumb.shortdesc}}</p>
-            </div>
-        </ng-container>
-
-
     </div>
+    <ng-container *ngFor="let news of (news|async)">
+      <div class="thumb" *ngFor="let news of news.newsthumb">
+        <div class="thumbleft">
+          <a [routerLink]="['/news-page', news.slug]"> <img src="../../../assets/images/thumbs/{{news.thumb}}.png" alt=""></a>
+        </div>
+        <div class="thumbright">
+          <h3>{{news.title}}</h3>
+          <p>{{news.shortdesc}}<a [routerLink]="['/news-page', news.slug]"><span class="color-primary">read more...</span></a></p>
+        </div>
+      </div>
+    </ng-container>
   </div>
