@@ -15,14 +15,21 @@ export class ScoreComponent implements OnInit {
   screenshot: Observable<string | null>;
   moreDetails: boolean;
   damage: string;
+  championPortrait: string;
 
-  constructor(private storage: AngularFireStorage) { }
+  constructor(
+    private storage: AngularFireStorage
+  ) { }
 
   ngOnInit() {
     const ref = this.storage.ref('cb-leaderboards/'+this.score.id);
     this.screenshot = ref.getDownloadURL();
     this.damage = this.score.damage + '';
     this.damage.match(/[Mm]/g) ? this.damage : this.damage+'m';
+
+    this.championPortrait = 'champion-portraits/' + this.champion.portrait.toLowerCase() + '.png';
+    const championPortraitRef = this.storage.ref(this.championPortrait);
+    this.screenshot = championPortraitRef.getDownloadURL();
   }
 
   showDetails() {
