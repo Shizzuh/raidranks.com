@@ -16,7 +16,9 @@
 h2 {
     font-size:18px;
     text-align: center;
-    margin-top: 80px;
+    margin-bottom: 20px;
+
+    margin-top: 20px;
     width:100%;
     border-bottom: 1px solid rgba($color-primary, .8);
   }
@@ -28,13 +30,14 @@ h2 {
     width:100%;
  }
 
-  h4 {
+  h1 {
     font-size:18px;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
     width:100%;
     color: $color-primary;
+    border-bottom: 1px solid rgba($color-primary, .8);
   }
 
   p {
@@ -159,35 +162,20 @@ champion-card {
 }
 
 
-.thumbleft {
-  float: left;
-  width:30%;
-  img {
-    width: 100%;
-    height: 250px;
-    border-radius: 16px 0px 0px 16px;
-  }
-}
 
-.thumbright {
-  float: right;
-  width: 70%;
-  border-left: 4px solid rgba($color-primary, 1);
-  min-height: 250px;
-
-}
 
 .thumb {
   width: 100%;
-  max-width: 520px;
+  max-width: 768px;
+  min-height:200px;
   margin-bottom:22px;
-  margin-left: 22px;
   background: $background-gradient-primary3;
   border-right: 6px solid rgba($color-primary, 1);
   border-top: 1px solid rgba($color-primary, .8);
   border-bottom: 1px solid rgba($color-primary, .8);
   border-radius: 16px;
-  float:left;
+  margin: 0 auto;
+  display: block;
   h3 {
     font-size:18px;
     text-align: center;
@@ -199,7 +187,25 @@ champion-card {
   p {
     text-align: left;
     padding-left: 10px;
+
+  }
+  .thumbleft {
+    float: left;
+    width:20%;
+    img {
+      width: 100%;
+      height: 200px;
+      border-radius: 16px 0px 0px 16px;
+    }
+  }
+  
+  .thumbright {
+    float: right;
+    width: 80%;
+    border-left: 4px solid rgba($color-primary, 1);
+    min-height: 200px;
+  
   }
 
-
 }
+

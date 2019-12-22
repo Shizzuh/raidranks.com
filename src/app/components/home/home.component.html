@@ -8,6 +8,8 @@
 <a href="/champion-details/the-sacred-order/juliana">  <img [src]="['../../../assets/images/tierimg/juliana.png']" alt=""></a>
         <p class="mb-5 rsl-label"> This change on weekly updates.</p>
     </div>
+    <div class="containernews">
+      <h2>Latest News</h2>
     <ng-container *ngFor="let news of (news|async)">
       <div class="thumb" *ngFor="let news of news.newsthumb">
         <div class="thumbleft">
@@ -19,4 +21,5 @@
         </div>
       </div>
     </ng-container>
+  </div>
   </div>
