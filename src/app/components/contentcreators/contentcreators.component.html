@@ -21,6 +21,10 @@
   <div class="container">
     <button class="helpbutton" (click)="helpOverlay()">Want to be featured here?</button>
   </div>
+  <ng-adsense
+  [adClient]="'ca-pub-2485646423395791'"
+  [adSlot]="8957264011">
+  </ng-adsense>
 </div>
 
 <div class="overlay" *ngIf="helpOverlayIsActive">
