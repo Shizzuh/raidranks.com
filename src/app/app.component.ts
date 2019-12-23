@@ -9,7 +9,7 @@ declare let ga: Function;
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Raid Ranks';
+  title = 'Raidranks.com | RAID: Shadow Legends';
 
   constructor(public router: Router) {
     this.router.events.subscribe(event => {
