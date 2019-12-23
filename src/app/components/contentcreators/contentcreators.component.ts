@@ -9,10 +9,15 @@ import { map } from 'rxjs/operators';
 })
 export class ContentcreatorsComponent implements OnInit {
   creators: any;
+  helpOverlayIsActive: boolean;
+ 
 
   constructor(
     private db: AngularFirestore
-  ) { }
+    
+  ) {
+    this.helpOverlayIsActive = false;
+   }
 
   ngOnInit() {
     this.creators = this.db.collection('creators');
@@ -25,5 +30,7 @@ export class ContentcreatorsComponent implements OnInit {
         }))
       );
   }
-
+  helpOverlay() {
+    this.helpOverlayIsActive ? this.helpOverlayIsActive = false : this.helpOverlayIsActive = true;
+  }
 }
