@@ -1,5 +1,12 @@
 @import 'variables';
-
+.wrapper {
+  overflow: auto;
+  height: 100%;
+  padding-bottom:100px;
+}
+.container {
+  width:100%;
+}
 .navigation {
   height: 100%;
   width: 100%;
@@ -27,8 +34,7 @@
 
   img {
     width:100%;
-    max-width:150px;
-    margin: 25px auto;
+    max-width:45px;
     opacity: 0.5;
     transition: ease-in-out .25s;
     border: 0;
