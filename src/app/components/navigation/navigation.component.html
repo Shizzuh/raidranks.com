@@ -73,6 +73,7 @@
 
   <div *ngIf="rosterMode" class="roster-mode">
     <h5>Roster Mode Active</h5>
+    <button class="btn btn-outline-danger" (click)="exitRosterMode()">Exit</button>
   </div>
 
   <div class="nav-toggle" (click)="toggleNav()">
